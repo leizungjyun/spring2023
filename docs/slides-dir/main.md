@@ -1,33 +1,56 @@
-## Meta-Writing
+## Music & Culture
 
-Wheels for Scientific Writing with $\LaTeX$
-
-  <pre><code data-trim data-noescape class="language-latex">
-  % preamble
-  \usepackage{metawriting/metawriting}
-  \ours{SBGCS-Net}
-  \usepackage{metawriting/sciabbr}
-  </code></pre>
+Jazz, Blues and Popular Music in the American Culture
 
 
-LI Shaun, 2021-12-22
+
+LI Shaun, 2023-02-27
 <!-- .element: style="font-size:20pt" -->
 
 === 
 
-## Example
+![shaun-lecture](docs/slides-dir/images/shaun-lecturer.jpeg) <!-- .element: width="400"  --> 
 
+Teacher: 李颂元, LI Shaun
 
+Website: leizungjyun.github.io/spring2023/
 
-  <pre><code data-trim data-noescape class="language-latex">
-  % document
-  $\mathbb{R}$
-  % document
-  </code></pre>
-$\mathbb{R}$
+leizungjyun#(ZJUers would know)
 
 
 ==
+
+![shaun-piano](docs/slides-dir/images/shaun-piano.jpeg) <!-- .element: width="600"  --> 
+
+Keyboard playing since 1994
+
+
+== 
+
+![shaun-guitar](docs/slides-dir/images/shaun-guitar.jpeg) <!-- .element: height="500"  --> 
+
+Guitar playing since 2003
+
+==
+![shaun-cello](docs/slides-dir/images/shaun-cello.jpeg) <!-- .element: width="600"  --> 
+
+Cello playing since 2018
+
+
+==
+
+Classical background but popular teachers?
+
+Chen Xi, Wendy, Michael Campbell
+<!-- .element: style="font-size:20pt" -->
+
+===
+
+Jazz, Blues and Popular Music in the American Culture
+
+Spring 2023
+<!-- .element: style="font-size:20pt" -->
+
 
 $\LaTeX$ Macros
 <!-- .element: style="font-size:40pt" -->
@@ -103,7 +126,7 @@ Don't Repeat Yourself
 $\LaTeX$ packages for scientific writing
 ==
 
-![gitlab](slides-dir/images/metawriting-gitlab.png) <!-- .element: width="800"  --> 
+![gitlab](docs/slides-dir/images/metawriting-gitlab.png) <!-- .element: width="800"  --> 
 
 Gitlab repo
 
