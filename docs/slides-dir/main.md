@@ -58,8 +58,8 @@ Towards a broad and critical perspective on
 American Popular Music
 <!-- .element: style="font-size:20pt" -->
 
-=== 
-## Grading
+===
+## Grading 
 
 | Events   |      Points   |
 |----------|:-------------:|
@@ -68,7 +68,7 @@ American Popular Music
 | Participation/Discussions | 75|
 | Quizzes | 45 |
 
-Total Possible Points = 320 
+Total possible points = 320
 
 ===
 
