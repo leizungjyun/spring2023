@@ -14,7 +14,9 @@ LI Shaun, 2023-02-27
 
 ![shaun-lecture](docs/slides-dir/images/shaun-lecturer.jpeg) <!-- .element: width="400"  --> 
 
-- Teacher: LI Shaun (李颂元) 
+
+- Teachers: Shaun (李颂元) & Wendy 
+- Time: 9:00am-11:15am, Mon & Fri
 
 - Website: https://leizungjyun.github.io/spring2023/
 
@@ -72,11 +74,11 @@ Total possible points = 320
 
 ===
 
-## Textbook
+### Textbook
 
-![textbook](https://www.google.com.hk/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FPopular-Music-America-Beat-Goes%2Fdp%2F1337560375&psig=AOvVaw3MZdAkV94I5GxYUf5MUAkF&ust=1677526908413000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKD6m-_4s_0CFQAAAAAdAAAAABAD)
+![textbook](https://ebookplan.com/wp-content/uploads/2021/01/51BGOHvDl8L.jpg)
 
-“Popular Music in America” 5th Edition, by Michael Campbell
+*Popular Music in America* 5e, Michael Campbell
 
 ===
 
