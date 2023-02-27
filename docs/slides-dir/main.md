@@ -17,11 +17,9 @@ LI Shaun, 2023-02-27
 
 - Teachers: Shaun (李颂元) & Wendy 
 - Time: 9:00am-11:15am, Mon & Fri
-
 - Website: https://leizungjyun.github.io/spring2023/
-
 - E-mail: leizungjyun#(ZJUers would know)
-
+<!-- .slide: style="font-size:20pt" -->
 
 ==
 
@@ -79,6 +77,8 @@ Total possible points = 320
 ![textbook](https://ebookplan.com/wp-content/uploads/2021/01/51BGOHvDl8L.jpg)
 
 *Popular Music in America* 5e, Michael Campbell
+<!-- .slide: style="font-size:20pt" -->
+
 
 ===
 
