@@ -1,165 +1,221 @@
 
-[rock mucis](https://twitter.com/i/status/1631006358597259275)
 
-## Music & Culture
+## Melody, Rhythm, and Sound
+<!-- .element: style="color: deepskyblue" -->
 
-
-Jazz, Blues and Popular Music in the American Culture
-
+Understanding the essential features of popular music
 
 
-LI Shaun, 2023-02-27
-<!-- .element: style="font-size:20pt" -->
+LI Shaun, 2023-03-06
+<!-- .element: style="font-size:24pt" -->
 
-=== 
+===
 
+## the Website
+https://leizungjyun.github.io/posts/music_and_culture/
 
-### Self Intro
+===
+Participation
 
-![shaun-lecture](week01_images/shaun-lecturer.jpeg) <!-- .element: width="400"  --> 
+===
 
+<span style="font-size: 40pt" >Melody</span><span style="color: gray">, Rhythm, Sound</span>
 
-- Teachers: Shaun (李颂元) & Wendy 
-- Time: 9:00am-11:15am, Mon & Fri
-- Website: https://leizungjyun.github.io/spring2023/
-- E-mail: leizungjyun#(ZJUers would know)
+the essential musical elements
+<!-- .element: style="color: yellow" -->
+
+==
+<iframe width="966" height="543" src="https://www.youtube.com/embed/uQjGlyRm8ek" title="Old Folks at Home, by Stephen C. Foster, 1851." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*Old Folks at Home* (1851), Stephen C. Foster 
+==
+
+![Foster](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Stephen_Foster.jpg/440px-Stephen_Foster.jpg) <!-- .element: width="300"  --> \
+Stephen Collins Foster (1826–1864)
+<!-- .element: style="font-size:24pt" -->
+==
+![blackface](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Minstrel_PosterBillyVanWare_edit.jpg/440px-Minstrel_PosterBillyVanWare_edit.jpg)\
+blackface transformation from white to "black" (1900)
+<!-- .element: style="font-size:24pt" -->
+Further reading: Minstrelsy (Chapter 8)
+<!-- .element: style="font-size:24pt; color: yellow" -->
+==
+Original lyrics by Stephen Foster, 1851
+<!-- .element: style="font-size:30pt;color:deepskyblue" -->
+
+Way down upon de Swanee Ribber,\
+Far, far away,\
+Dere's wha my heart is turning ebber,\
+Dere's wha de old folks stay.
+
+All up and down de whole creation\
+Sadly I roam,\
+Still longing for de old plantation,\
+And for de old folks at home.
+
+All de world am sad and dreary,\
+Eb-rywhere I roam;\
+Oh, darkeys, how my heart grows weary,\
+Far from de old folks at home!\
+...
 <!-- .slide: style="font-size:20pt" -->
+An example of the ABAB rhyme scheme
+<!-- .element: style="font-size:30pt; color: yellow" -->
+==
+State Song of Florida, as revised in 2008
+<!-- .element: style="font-size:30pt; color: deepskyblue" -->
+Way down upon the Suwannee River,\
+Far, far away,\
+There's where my heart is turning ever,\
+There's where the old folks stay.
+
+All up and down the whole creation,\
+Sadly I roam,\
+Still longing for my childhood station,\
+And for the old folks at home.
+
+All the world is sad and dreary\
+Everywhere I roam.\
+O dear ones, how my heart grows weary,\
+Far from the old folks at home.\
+...
+<!-- .slide: style="font-size:20pt" -->
+==
+<iframe width="966" height="543" src="https://www.youtube.com/embed/09pssl5urg8" title="Old Folks at Home - Beijing Queer Chorus (故乡的亲人 - 北京酷儿合唱团)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Which musical element differs?
+
+== 
+*Auld Lang Syne*
+<!-- .slide: style="font-size:24pt" -->
+<iframe width="966" height="483" src="https://www.youtube.com/embed/W_6Vs8pADrQ" title="Auld Lang Syne - The Choral Scholars of University College Dublin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+European influence, verse-chorus form
+==
+<iframe width="950" height="534" src="https://www.youtube.com/embed/qSIj17xbAyk" title="Stephen Foster&#39;s OH! SUSANNA - Original 1848 Lyrics - Tom Roush" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*Oh! Susanna* (1848), Stephen C. Foster 
+==
+Nonsense verse
+<!-- .element: style="font-size:30pt; color: deepskyblue" -->
+It rain'd all night the day I left\
+The weather it was dry, \
+The sun so hot I froze to death\
+Susanna, don’t you cry.
+<!-- .slide: style="font-size:24pt" -->
+
+==
+Racism
+<!-- .element: style="font-size:30pt; color: deepskyblue" -->
+I jumped aboard de telegraph,\
+And trabbelled down de riber,\
+De Lectric fluid magnified,\
+And Killed five Hundred Nigger
+<!-- .slide: style="font-size:24pt" -->
+===
+
+## Riff
+a melodic fragment that is **short, separated, and often syncopated**
+<!-- .element: style="font-size:24pt; color: yellow" -->
+Riffs exemplify a shift from melody to rhythm
+<!-- .element: style="font-size:24pt;" -->
+==
+Example
+
+Listen to my clapping and identify the song
+
+==
+<iframe width="778" height="580" src="https://www.youtube.com/embed/75RiHJGfyUE" title="Chuck Berry - Maybellene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*Maybellene* (1955), Chuck Berry
+
+==
+Melody was the dominant element throughout the 19th century
+<!-- .element: style="font-size:26pt;color:deepskyblue" -->
+
+- European influence
+- the easiest element to transmit via sheet music and singers
+- African Americans were on the margins of American society
+<!-- .slide: style="font-size:24pt" -->
+
+
+===
+<span style="color: gray" >Melody,</span> <span style="font-size: 40pt">Rhythm</span><span style="color:gray">, Sound</span>
+
+the essential musical elements
+<!-- .element: style="color: yellow" -->
 
 ==
 
-![shaun-piano](week01_images/shaun-piano.jpeg) <!-- .element: width="600"  --> 
+![Paper](week02_images/paper.png) <!-- .element: width="600"  --> 
 
-Keyboard playing since 1994
+==
+![miq](https://www.themusiclab.org/dist/2fff31b535af1a314a94b8b3c1ea25f0.png)
+[Music IQ](https://www.themusiclab.org/quizzes/miq)
+==
+Major conclusion
+<!-- .element: style="font-size:26pt;color:deepskyblue" -->
+
+- Native speakers of tonal languages have an improved ability to discriminate musical melodies. 
+- Relative to speakers of pitch-accented or non-tonal languages, tonal language speakers are also worse at processing the musical beat.
+
+<!-- .element: style="font-size:24pt" -->
+
+==
+
+![Participants](week02_images/participants.png) <!-- .element: width="800"  --> 
+Participants
+==
+
+![Main Results](week02_images/main-results.png) <!-- .element: width="800"  --> 
+
+Main Results
+
+==
+
+![My Result](week02_images/my-result.jpeg) <!-- .element: width="400"  --> \
+My Result
+
+==
+<iframe width="966" height="543" src="https://www.youtube.com/embed/drnBMAEA3AM" title="&quot;Do-Re-Mi&quot; - THE SOUND OF MUSIC (1965)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Do-Re-Mi (1965)
+
+==
+Doe: a deer, a female deer\
+Ray: a drop of golden sun\
+Me: a name I call myself\
+Far: a long, long way to run\
+Sew: a needle pulling thread\
+La: a note to follow sol\
+Tea: a drink with jam and bread
+
+An example of trochee
+<!-- .element: style="color: yellow" -->
 
 
 == 
 
-![shaun-guitar](week01_images/shaun-guitar.jpeg) <!-- .element: height="500"  --> 
+<iframe width="966" height="543" src="https://www.youtube.com/embed/fnlGWpR3rXs" title="What is the &quot;Backbeat&quot;?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Guitar playing since 2003
+Backbeat, 4:08
+==
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/AA4GtsZHJR0" title="What is the &quot;Offbeat&quot;?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Offbeat, 1:31
+
+==
+
+Rhythm: the dominant element throughout almost all the 20th century
+<!-- .element: style="font-size:24pt;color:yellow" -->
+
+=== 
+
+<span style="color: gray" >Melody, Rhythm,</span><span style="font-size: 40pt"> Sound</span>
+
+the essential musical elements
+<!-- .element: style="color: yellow" -->
+==
+Since the 1990s, the search for distinctive sounds and sound combinations has come to the forefront
 
 Note:
-What kind of guitar?
-
-==
-![shaun-cello](week01_images/shaun-cello.jpeg) <!-- .element: width="600"  --> 
-
-Cello playing since 2018
-
-
-==
-
-Classically trained but teaching popular?
-
-Chen Xi, Wendy, Michael Campbell
-<!-- .element: style="font-size:20pt" -->
-
-===
-
-Jazz, Blues and Popular Music in the American Culture
-
-Towards a broad and critical perspective on
-American Popular Music
-<!-- .element: style="font-size:20pt" -->
-
-===
-## Grading 
-
-| Events   |      Points   |
-|----------|:-------------:|
-| Final Exam |  100 |
-| Performance Paper |    100   |
-| Participation/Discussions | 75|
-| Quizzes | 45 |
-
-Total possible points = 320
-
-===
-
-### Textbook
-
-![textbook](https://ebookplan.com/wp-content/uploads/2021/01/51BGOHvDl8L.jpg)
-
-*Popular Music in America* 5e, Michael Campbell
-<!-- .slide: style="font-size:20pt" -->
-
-
-===
-
-Learning Objectives
-
-- Describe and explain the emergence of popular music in the United States since 1950, listing major trends and artists.
-<!-- .element: style="font-size:20pt" -->
-
-- <p class="fragment">  Compare and contrast Rhythm and Blues, Blues, Country, and Rock and Roll, and their impact on the current trends and categories in popular music.
-</p>
-<!-- .element: style="font-size:20pt" -->
-
-- <p class="fragment">
-  Identify the structure of the early Rhythm and Blues and assess the influences of musicians/artists such as Louis Jordan, Chuck Berry, Muddy Waters and Little Richard on the evolution of American popular music since the 1950’s.
-<!-- .element: style="font-size:20pt" -->
-</p>
-
-===
-## Assignments
-Chapter Response Quizzes (estimated bi-weekly)
-
-== 
- Music Performance Review
-
-- Observe a video performance, reflecting one of the styles discussed during the course of the semester. 
-<!-- .element: style="font-size:20pt" -->
-- <p class="fragment"> Write a paper (minimum 3 pages) on your chosen performance. 
-</p>
-<!-- .element: style="font-size:20pt" -->
-- <p class="fragment">
- List musicians by first and last name, their instruments, the venue of performance, and your description and opinion of the performance based on the criteria discussed in class. 
- </p>
-<!-- .element: style="font-size:20pt" -->
--  <p class="fragment">
- This assignment will be due May 12, 2023.
- </p>
-<!-- .element: style="font-size:20pt" -->
-
-== 
-
-ChatGPT?
-
-===
-
-Performance Review Practice
-
-==
-
-<iframe width="773" height="580" src="https://www.youtube.com/embed/AyLQGDIrGcI" title="Keith Jarrett - Over the Rainbow (Tokyo 1984) [Restored]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-==
-
-<iframe width="950" height="534" src="https://www.youtube.com/embed/APFSsFBw6a0?list=PLNQeK7G-fCqYQtJdXyTn901s34_xBSGy9" title="&quot;Cameron hums...!&quot; An improvisation by Gabriela Montero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-==
-
-<iframe width="711" height="580" src="https://www.youtube.com/embed/0BsIntS_Io4" title="Empty Bed Blues Bessie Smith" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-==
-
-
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/Wxf8mHkxgoA" title="Lecture 7. Harmony: Chords and How to Build Them" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-15:25 [Lyrics](https://genius.com/Phyllis-boyens-the-last-old-shovel-lyrics)
-
-==
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/zhHF8ofcrgg" title="The Hillbilly Gypsies. Last Ol&#39; Shovel.6.18.2011 SCJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-=== 
-# Rock and Roll
-Alliteration
-<!-- .element: style="font-size:20pt" -->
-
-==
-
-<iframe width="773" height="580" src="https://www.youtube.com/embed/v124f0i0Xh4" title="Chuck Berry - Maybellene (live 1958)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[rock mucis](https://twitter.com/i/status/1631006358597259275)
