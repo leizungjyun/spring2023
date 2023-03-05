@@ -17,7 +17,7 @@ LI Shaun, 2023-02-27
 
 - Teachers: Shaun (李颂元) & Wendy 
 - Time: 9:00am-11:15am, Mon & Fri
-- Website: https://leizungjyun.github.io/spring2023/
+- Website: https://leizungjyun.github.io/posts/music_and_culture/
 - E-mail: leizungjyun#(ZJUers would know)
 <!-- .slide: style="font-size:20pt" -->
 
