@@ -152,7 +152,7 @@ the essential musical elements
 ![miq](https://www.themusiclab.org/dist/2fff31b535af1a314a94b8b3c1ea25f0.png)
 [Music IQ](https://www.themusiclab.org/quizzes/miq)
 ==
-Major conclusion
+Major Conclusions
 <!-- .element: style="font-size:26pt;color:deepskyblue" -->
 
 - Native speakers of tonal languages have an improved ability to discriminate musical melodies. 
@@ -186,13 +186,19 @@ Me: a name I call myself\
 Far: a long, long way to run\
 Sew: a needle pulling thread\
 La: a note to follow sol\
-Tea: a drink with jam and bread
+Tea: a drink with jam and bread\
+That will bring us back to doh
 
 An example of trochee
 <!-- .element: style="color: yellow" -->
 
 
-== 
+===
+  ## Rhythm Basics
+
+  Downbeat, Upbeat, Backbeat, Offbeat
+
+==
 
 <iframe width="966" height="543" src="https://www.youtube.com/embed/fnlGWpR3rXs" title="What is the &quot;Backbeat&quot;?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
