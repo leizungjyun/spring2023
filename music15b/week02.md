@@ -133,7 +133,7 @@ Melody was the dominant element throughout the 19th century
 <!-- .element: style="font-size:26pt;color:deepskyblue" -->
 
 - European influence
-- the easiest element to transmit via sheet music and singers
+- the easiest element to transmit via sheet music and songsters 
 - African Americans were on the margins of American society
 <!-- .slide: style="font-size:24pt" -->
 
@@ -200,14 +200,14 @@ An example of trochee
 
 ==
 
-<iframe width="966" height="543" src="https://www.youtube.com/embed/fnlGWpR3rXs" title="What is the &quot;Backbeat&quot;?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="966" height="543" src="https://www.youtube.com/embed/fnlGWpR3rXs?start=248" title="What is the &quot;Backbeat&quot;?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Backbeat, 4:08
+Backbeat, 04:08
 ==
 
-<iframe width="966" height="543" src="https://www.youtube.com/embed/AA4GtsZHJR0" title="What is the &quot;Offbeat&quot;?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="966" height="543" src="https://www.youtube.com/embed/AA4GtsZHJR0?start=92" title="What is the &quot;Offbeat&quot;?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Offbeat, 1:31
+Offbeat, 01:32
 
 ==
 
