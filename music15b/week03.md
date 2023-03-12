@@ -27,13 +27,17 @@ Sources of Instrumental Sounds
 
 ===
 
-## Inherited Instruments
+Inherited Instruments
+<!-- .element: style="color: deepskyblue" -->
+
 Note: from classical, folk and black
 
 ==
 
-## The Parlor Song
+The Parlor Song
+
 voice and piano
+<!-- .element: style="font-size:24pt" -->
 
 
 ==
@@ -69,7 +73,6 @@ Note: which form?
 ### form
 <!-- .element: style="color: deepskyblue" -->
 
-*Jeanie with the Light Brown Hair*
 
 $\mathrm{A\ A_1\ B\ A_2}$
 
@@ -79,7 +82,7 @@ Cf. Verse/Chorus Form
 Note: Sentimental
 ==
 
-## Waltz Songs at the Turn of the 20th Century
+Waltz Songs at the Turn of the 20th Century
 ==
 <pre data-id="code-animation">
 <code class="txt" data-trim data-line-numbers="1-8|10-17|19-26">
@@ -180,19 +183,27 @@ Cf. Orchestra
 <iframe width="1150" height="500" src="https://www.youtube.com/embed/a-7XWhyvIpE?start=4" title="SOUSA The Stars and Stripes Forever - &quot;The President&#39;s Own&quot; U.S. Marine Band" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 *The Stars and Stripes Forever* (1897), John Philip Sousa
-<!-- .element: style="font-size:24pt" -->
+<!-- .element: style="font-size:24pt"  -->
 
 
 ==
-<iframe width="1150" height="500" src="https://www.youtube.com/embed/ojNghRTBV90?start=134" title="(HD) Beethoven Concerto pour piano No.3  Alice Sara Ott Orchestre philharmonique de Radio France" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/Yiei8i1rftk" title="Lang Lang-The Stars and Stripes Forever (encore)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-*Piano Concerto in C minor* (1800), Beethoven 
+Lang Lang
 
-Note: What's the difference?
+
+==
+
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/Ybg2BEy_pu0?start=12" title="TCHAIKOVSKY ~ Piano Concerto No. 1 in B-flat minor - LANG LANG / Järvi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+What's the difference between a concert band and an orchestra?
+<!-- .element: style="font-size:24pt"  -->
 
 ===
 
-## New Ways of Playing Inherited Instruments
+New Ways of Playing Inherited Instruments
+<!-- .element: style="color: deepskyblue" -->
 
 ==
 
@@ -213,11 +224,10 @@ Inherited Instruments but New Ways of Playing
 
 *Autumn Leaves*
 ===
-## New Instruments for Popular Music 
-Probably the most familiar parts
+New Instruments for Popular Music 
+<!-- .element: style="color: deepskyblue" -->
 
-but let's learn something new
-<!-- .element: style="font-size:24pt;color:yellow" -->
+No *Maybellene* this time
 
 ==
 
@@ -227,35 +237,37 @@ but let's learn something new
 
 
 ===
- ## Sound Modification
- ==
+ Sound Modification
+<!-- .element: style="color: deepskyblue" -->
 
- <iframe width="1440" height="627" src="https://www.youtube.com/embed/ocPa8w0UHks" title="Ed Sheeran - Shape of You (Live on the Honda Stage at the iHeartRadio Theater NY)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+==
+
+ <iframe width="1150" height="500" src="https://www.youtube.com/embed/ocPa8w0UHks" title="Ed Sheeran - Shape of You (Live on the Honda Stage at the iHeartRadio Theater NY)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 *Shape of You*, Ed Sheeran
 
 ===
 
-## Use of Found Instruments
-Created from materials close at hand 
+Use of Found Instruments
+<!-- .element: style="color: deepskyblue" -->
 
+Created from materials close at hand \
 but intended for other uses or for no use at all
+<!-- .element: style="font-size:24pt" -->
 ==
-
-<iframe width="1150" height="500" src="https://www.youtube.com/embed/tZ7aYQtIldg" title="Stomp Live -  Part 1 - Brooms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-Brooms, Stomp
-
-
-
-==
-
 <iframe width="1150" height="500" src="https://www.youtube.com/embed/SnE50Ho7RYM?start=91" title="How to Play the Shekere | African Drums" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 Example: Shekere
 
 ==
+<iframe width="1150" height="500" src="https://www.youtube.com/embed/tZ7aYQtIldg" title="Stomp Live -  Part 1 - Brooms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Minstrelsy 
-Black Influences
+*Brooms*, Stomp
+
+==
+
+Minstrelsy 
+
+
 
 ==
 
