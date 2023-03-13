@@ -39,6 +39,8 @@ The Parlor Song
 voice and piano
 <!-- .element: style="font-size:24pt" -->
 
+Further Reading: Chapter 7
+<!-- .element: style="font-size:24pt; color: yellow" -->
 
 ==
 
@@ -83,6 +85,9 @@ Note: Sentimental
 ==
 
 Waltz Songs at the Turn of the 20th Century
+
+Further Reading: Chapter 9
+<!-- .element: style="font-size:24pt; color: yellow" -->
 ==
 <pre data-id="code-animation">
 <code class="txt" data-trim data-line-numbers="1-8|10-17|19-26">
@@ -176,8 +181,9 @@ Note: Tin Pan Alley, Waltz Songs, simple language; jaunty music
 ## The Concert Band
 a.k.a. the Wind Band
 
-Cf. Orchestra
-<!-- .element: style="font-size:24pt;color: yellow" -->
+Further Reading: Chapter 10
+<!-- .element: style="font-size:24pt; color: yellow" -->
+
 ==
 
 <iframe width="1150" height="500" src="https://www.youtube.com/embed/a-7XWhyvIpE?start=4" title="SOUSA The Stars and Stripes Forever - &quot;The President&#39;s Own&quot; U.S. Marine Band" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -267,6 +273,8 @@ Example: Shekere
 
 Minstrelsy 
 
+Further Reading: Chapter 8
+<!-- .element: style="font-size:24pt; color: yellow" -->
 
 
 ==
