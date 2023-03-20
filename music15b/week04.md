@@ -93,20 +93,25 @@ K: C
 *Tutti Frutti* (1956)
 
 ==
+
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/WId0K_X0MHc?start=10" title="什麼是「12 小節藍調」？（12-bar blues）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+==
+
 <iframe width="966" height="543" src="https://www.youtube.com/embed/k3U_ss2g-98?start=195" title="What&#39;s the Difference Between Jazz and Blues?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 "12-bar jazz"
 
-
-
 ==
-<iframe width="966" height="543" src="https://www.youtube.com/embed/WId0K_X0MHc?start=10" title="什麼是「12 小節藍調」？（12-bar blues）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<iframe width="950" height="534" src="https://www.youtube.com/embed/_PC6jwoHyOk" title="21 Songs that use Pachelbel&#39;s Canon chord progression" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+Canon Progression
 
 ===
 Intermission
-<iframe width="966" height="543" src="https://www.youtube.com/embed/m3XKthImI7g" title="Campsite Jam 5 - Foggy Mtn Special, Jerry&#39;s Breakdown - Grey Fox 2013" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="966" height="543" src="https://www.youtube.com/embed/m3XKthImI7g?start=2" title="Campsite Jam 5 - Foggy Mtn Special, Jerry&#39;s Breakdown - Grey Fox 2013" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ===
 
@@ -317,7 +322,12 @@ Vertical vs Horizontal
 ===
 
 ## Form
-Structural View
+A Structural View
+
+==
+- Blues Form
+- Verse/Chorus Form
+
 
 
 <section data-visibility="hidden">
