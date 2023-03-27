@@ -1,335 +1,238 @@
 
-<iframe width="966" height="543" src="https://www.youtube.com/embed/RxnI1nUTzKA" title="Autumn Leaves - Yohan Kim &amp; Friends Concert Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="966" height="543" src="https://www.youtube.com/embed/jcR_CAryZCo" title="Monday Jazz - Happy Morning Relaxing Jazz Music for Wake up, Work, Studying" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-"Prelude"
+Happy Monday Morning
 
 ===
-## Behind the Scenes
+## Musical Style
 <!-- .element: style="color: deepskyblue" -->
 
-Harmony, Texture, and Form
 
 
-LI Shaun, 2023-03-20
+LI Shaun, 2023-03-27
 <!-- .element: style="font-size:24pt" -->
 
 ===
 
-(Last Two Weeks)
-<!-- .element: style="font-size:24pt;color: gray" -->
+<iframe width="966" height="543" src="https://www.youtube.com/embed/82klALTYpNs" title="Marmottes FR3 - Compilations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Melody, Rhythm, Sound
+Musical Styles
+
+===
+Musical Style
 <!-- .element: style="color: deepskyblue; font-size:40pt" -->
+- Melody, Rhythm, Sound (Week 2,3)
+- Harmony, Texture, Form (Week 4)
 
-A **Listener's** Perspective <!-- .element: style="color: yellow" -->
+How do they shape American Poplar Music?
 
-
-==
-Harmony, Texture, Form
-<!-- .element: style="color: deepskyblue; font-size:40pt" -->
-
-A **Musician's** Perspective <!-- .element: style="color: yellow" -->
 
 ===
 
-
-
-
-## Harmony
-
-A Vertical View
-==
-
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/k3U_ss2g-98?start=159" title="What&#39;s the Difference Between Jazz and Blues?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-12-bar blues 
-
-==
-
-Chords Progression
-<pre style="margin:0 auto">
-                    | I7  | IV7 | I7 | V7  |
-                    | IV7 | IV7 | I7 | I7  |
-                    | V7  | IV7 | I7 | V7 :||
-</pre>
-
-==
-
-Diatonic Chords: Triads and Sevenths
+Sources of American Popular Music
 <!-- .element: style="color: deepskyblue; font-size:40pt" -->
-(Look at the whiteboard)
+- African Influences
+- Folk Music from British Isles
+- Urban European Music
 
+Sources to Synthesis
 
-
-
-==
-
-<section>
-<textarea style="margin: 0 auto" name="abc" id="abc" cols="60" rows="10">
-X: 1
-T: 12-Bar Blues in C major
-M: 4/4
-L: 1/4
-Q: 1/4=120
-K: C
-"C7" C C C C | "C7" C C C C | "C7" C C C C | "C7" C C C C |
-"F7" F F F F | "F7" F F F F | "C7" C C C C | "C7" C C C C |
-"G7" G G G G | "F7" F F F F | "C7" C C C C | "C7" C C C C ||
-</textarea>
-
-<hr />
-<div style="margin: 0 auto" id="audio"></div>
-<div id="warnings"></div>
-<div style="margin: 0 auto" id="paper0" class="paper"></div>
-<div id="selection"></div>
-
-</section>
-
-==
-
-<iframe width="950" height="534" src="https://www.youtube.com/embed/Cj059o9OwqY" title="Little Richard - Tutti Frutti (1956)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Tutti Frutti* (1956)
-
-==
-
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/WId0K_X0MHc?start=10" title="什麼是「12 小節藍調」？（12-bar blues）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-==
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/k3U_ss2g-98?start=195" title="What&#39;s the Difference Between Jazz and Blues?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-"12-bar jazz"
-
-==
-
-<iframe width="950" height="534" src="https://www.youtube.com/embed/_PC6jwoHyOk" title="21 Songs that use Pachelbel&#39;s Canon chord progression" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-Canon Progression
-
-===
-Intermission
-<iframe width="966" height="543" src="https://www.youtube.com/embed/m3XKthImI7g?start=2" title="Campsite Jam 5 - Foggy Mtn Special, Jerry&#39;s Breakdown - Grey Fox 2013" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ===
 
-
-
-
-<section data-visibility="hidden">
-<textarea style="margin: 0 auto" name="abc" id="abc" cols="60" rows="10">
-X: 1
-T: Chords Basics
-M: 4/4
-L: 4/4
-Q: 1/4=120
-K: C
-"C7" [CEG_B] | "C7" [CEG_B] | "C7" [CEG_B] | "C7" [CEG_B] |
-"F7" [FAc_e] | "F7" [FAc_e] | "C7" [CEG_B] | "C7" [CEG_B] |
-"G7" [GBdf]  | "F7" [FAc_e] | "C7" [CEG_B] | "C7" [CEG_B] :||
-</textarea>
-
-<hr />
-<div style="margin: 0 auto" id="audio"></div>
-<div id="warnings"></div>
-<div style="margin: 0 auto" id="paper0" class="paper"></div>
-<div id="selection"></div>
-
-</section>
-
-
-## Texture
-
-A Horizontal View
-==
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/A6s49OKp6aE?start=9" title="Debussy, First Arabesque, Piano Solo (animation ver. 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Arabesque No.1*, Debussy
-
+### African Influences
 
 ==
 
 
-<iframe width="966" height="543" src="https://www.youtube.com/embed/G1u93qnMyKk" title="Debussy Arabesque No. 1 with score" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="966" height="543" src="https://www.youtube.com/embed/JkODhmxCTRk" title="26 FAMOUS AFRICAN MUSICAL INSTRUMENTS / GRADE 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-==
-<iframe width="966" height="543" src="https://www.youtube.com/embed/yRpmKclsfyA?start=4" title="Bach, Prelude and Fugue in A-flat major, WTC I, BWV 862" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Prelude and Fugue in A-flat major*, Bach
-==
-
-Texture = text- + -ure
-<!-- .element: style="color: deepskyblue; font-size:40pt" -->
-
-How the voices/parts woven together
-
-
-==
-
-Texture Taxonomy
-- Monophonic
-- Biphonic
-- Homophonic
-- Polyphonic
-- Heterophonic*
-
-==
-
-Monophonic = Mono- Phone- ic
-<!-- .element: style="color: deepskyblue; font-size:40pt" -->
-
-A Single Sound
-
-==
-
-<!-- .slide: style="font-size:24pt" -->
-<iframe width="966" height="483" src="https://www.youtube.com/embed/W_6Vs8pADrQ?start=2" title="Auld Lang Syne - The Choral Scholars of University College Dublin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Auld Lang Syne*
-==
-
-<iframe width="950" height="534" src="https://www.youtube.com/embed/VmFmAvwO1pE" title="Chopin Ballade No.1 in G minor, Op. 23 / Krystian Zimerman (with Score)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Ballade No.1*, Chopin
-
-
-==
-Biphonic = Bi- Phone- ic
-<!-- .element: style="color: deepskyblue; font-size:40pt" -->
-
-Two sounds, but not really
-
-==
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/PIS76X17Mf8" title="Bach Prelude and Fugue No.6 (Moderate Tempo) Well Tempered Clavier, Book 1 with Harmonic Pedal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Prelude in D minor*, Bach
-
-
-
-==
-
-<iframe width="966" height="483" src="https://www.youtube.com/embed/W_6Vs8pADrQ?start=53" title="Auld Lang Syne - The Choral Scholars of University College Dublin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Auld Lang Syne*
-
-==
-Homophonic = Homo- phone- ic
-<!-- .element: style="color: deepskyblue; font-size:40pt" -->
-
-Same Sound
-
-==
-
-Homophonic
-<!-- .element: style="color: deepskyblue; font-size:40pt" -->
-
-- Melody + Accompaniment
-- Four-part harmony
-
-==
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/inGgpJuJHUc" title="Michael Cleveland &amp; Flamekeeper - The Road to Columbus [Live at WAMU&#39;s Bluegrass Country]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*The Road to Columbus*
-
-==
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/N2LkvLnBAIc" title="Della Mae - The Road to Columbus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*The Road to Columbus*
-
-==
-
-<iframe width="966" height="483" src="https://www.youtube.com/embed/W_6Vs8pADrQ?start=27" title="Auld Lang Syne - The Choral Scholars of University College Dublin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Auld Lang Syne*
+African Musical Instruments
 
 ==
 <iframe width="966" height="543" src="https://www.youtube.com/embed/PCa8RxaOPW8" title="Baba Yetu - Stellenbosch University Choir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Can you identify the African instruments?
 
-*Baba Yetu*
+==
+<iframe width="773" height="580" src="https://www.youtube.com/embed/34py78DFqsI" title="Night Club 1960 - Fernando Suarez Paz &amp; Odair Assad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Rasp-like Sound at 2:30
 
 ==
 
-Polyphonic = Poly- phone- ic
-<!-- .element: style="color: deepskyblue; font-size:40pt" -->
-
-Many Sounds
-
-==
-Polyphonic
-<!-- .element: style="color: deepskyblue; font-size:40pt" -->
-
-- Round
-- Canon
-- Fugue
-
+The debt of popular music to African music
+- An unvarying beat or other regular rhythm 
+- Syncopation
+- Percussion instruments and percussive playing techniques  
+- Riff-like melodic ideas  
 
 ==
 
-<iframe width="966" height="543" src="https://www.youtube.com/embed/Pa2_oWshsRM" title="Mundwerk - a cappella - Frère Jacques" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Frère Jacques*
-
-==
- 
- <iframe width="966" height="543" src="https://www.youtube.com/embed/JvNQLJ1_HQ0" title="Pachelbel Canon in D Major - the original and best version." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
- *Canon in D Major*, Pachelbel
+<iframe width="966" height="543" src="https://www.youtube.com/embed/pDEK4gJBKW0" title="The American Civil War: Every Day" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+The Civil War
 
 ==
 
-<iframe width="966" height="543" src="https://www.youtube.com/embed/yRpmKclsfyA?start=96" title="Bach, Prelude and Fugue in A-flat major, WTC I, BWV 862" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="966" height="543" src="https://www.youtube.com/embed/O2ziA1dXtV4" title="The History of Civil Rights in the US and Canada: Every Year" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-*Fugue in A-flat major*, Bach
+The History of Civil Rights
+==
+
+
+<iframe width="773" height="580" src="https://www.youtube.com/embed/PYrlKGYUcBM" title="Ragtime piano : The Entertainer (Scott Joplin, 1902)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+The Entertainer, Scott Joplin (1902)
 
 ==
 
-<iframe width="966" height="543" src="https://www.youtube.com/embed/PCa8RxaOPW8?start=47" title="Baba Yetu - Stellenbosch University Choir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="846" height="580" src="https://www.youtube.com/embed/pMAtL7n_-rc" title="Maple Leaf Rag Played by Scott Joplin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-*Baba Yetu*
+Maple Leaf Rag, Scott Joplin
+
+==
+<iframe width="966" height="543" src="https://www.youtube.com/embed/FvTEcarrHTk" title="Castle House Rag (James Reese Europe)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Castle House Rag (1914)
+
+Note: Syncopated dance music
+
+==
+<iframe width="773" height="580" src="https://www.youtube.com/embed/Mc7RQCQAtKU" title="Bessie Smith-Empty Bed Blues" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Empty Bed Blues, Bessie Smith
+
+Note: Call and Response
+
+==
+<iframe width="773" height="580" src="https://www.youtube.com/embed/PwpriGltf9g" title="King Oliver&#39;s Creole Jazz Band - Dipper Mouth Blues (1923)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Dippermouth Blues (1923)
+
+Note: New Orleans
+==
+![The Prohibition](https://cdn.britannica.com/63/116463-050-27BE2871/John-A-Leach-New-York-City-agents-1920.jpg) <!-- .element: width="600"  --> 
+
+
+The Prohibition (1920-1933) and Speakeasies
 
 ==
 
-Putting it all together
-
-Which textures are present?
-
-==
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/NbRvSfeifE4?start=829" title="Franz Schubert - Piano Sonata in B Major, D.575" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Scherzo, Piano Sonata in B Major*, Schubert
-
-==
-
-<iframe width="966" height="543" src="https://www.youtube.com/embed/YvLgFVRxZzI" title="Pachelbel&#39;s Canon (Jazz Version)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-==
-<iframe width="966" height="543" src="https://www.youtube.com/embed/lpc1lEJ-SRc" title="canon in D but it keeps getting jazzier" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-===
-
-### Harmony vs Texture
-Vertical vs Horizontal
-
-(Look at the whiteboard)
-
-===
-
-## Form
-A Structural View
-
-==
-- Blues Form
-- Verse/Chorus Form
-
-
-
-<section data-visibility="hidden">
 <iframe width="773" height="580" src="https://www.youtube.com/embed/-wcAaXcC87w" title="Wynton Marsallis - Dipper Mouth Blues - Original Liberty Brass Jazz Band (Official)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</section>
+Dippermouth Blues 
+
+==
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/bGiPJZ-wRb4" title="What is Swing? Swing Explained in 2 Minutes (Music Theory)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+What is Swing?
+
+==
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/31JgwfP15kw" title="Jazz Fundamentals: What Is Swing?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Again, What is Swing?
+
+==
+<iframe width="966" height="543" src="https://www.youtube.com/embed/vIGoV2XRPI0?start=32" title="好和弦教你如何 Swing！" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+How to Swing?
+
+
+===
+## Music from British Isles
+
+==
+<iframe width="773" height="580" src="https://www.youtube.com/embed/vJ6KMHEV9hY" title="Fiddlin John Carson Fare You Well Old Joe Clark" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Fare You Well Old Joe Clark
+==
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/3FybVapyAts?start=36" title="Hillary Klug - Fire on the Mountain -Traditional Appalachian Fiddle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Fire on the Mountain
+
+==
+<iframe width="773" height="580" src="https://www.youtube.com/embed/Xu9d3OWj1EQ?start=75" title="Hillbilly Gypsies OATS 2009 07 02 2001 2 songs 08:39" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*Foggy Mountain Top*, *West Virginia My Home*
+==
+<iframe width="799" height="580" src="https://www.youtube.com/embed/OPdodGScsMk?start=12" title="EAGLES - Take it easy (live Washington 1977)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Take it Easy, Eagles (country rock)
+
+===
+## Urban European Music 
+(NOT classical music, but similar musical language)
+
+Harmony, Harmony, Harmony
+
+==
+
+
+<pre data-id="code-animation">
+<code class="txt" data-trim data-line-numbers="1-4|5-8|9-12|13-16|17-20|21-24">
+Woodman, spare that tree!
+Touch not a single bough!
+In youth it sheltered me,
+And I'll protect it now.
+'Twas my forefather's hand
+That placed it near his cot:
+There, woodman, let it stand,
+Thy axe shall harm it not!
+That old familiar tree,
+Whose glory and renown
+Are spread o'er land and sea,
+And wouldst thou hew it down?
+Woodman, forbear thy stroke!
+Cut not its earth-bound ties;
+Oh, spare that aged oak,
+Now towering to the skies!
+When but an idle boy
+I sought its grateful shade;
+In all their gushing joy
+Here too my sisters played.
+My mother kissed me here;
+My father pressed my hand
+Forgive this foolish tear,
+But let that old oak stand!
+</code>
+</pre>
+
+<iframe width="773" height="50" src="https://www.youtube.com/embed/MjyD5wZjZ-U" title="woodman spare that tree (1837) The first environmental song?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Woodman Spare That Tree (1837)
+
+
+==
+<iframe width="966" height="543" src="https://www.youtube.com/embed/Lcmmc-_bfGo" title="Mozart: Variations on &quot;Ah vous dirai-je, Maman,&quot; K. 265/300e; Magdalena Baczewska, piano" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Classical music was the popular music in ancient time?
+===
+
+Sources of American Popular Music
+<!-- .element: style="color: deepskyblue; font-size:40pt" -->
+- African Influences
+- Folk Music from British Isles
+- Urban European Music
+
+Popular Music Arises from Synthesis
+
+==
+<iframe width="966" height="543" src="https://www.youtube.com/embed/82klALTYpNs" title="Marmottes FR3 - Compilations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Musical Styles, Again
+
+
+===
+
+Style Evolution of American Popular Music
+
+- Melody was the dominant element throughout the 19th century
+<!-- .element: style="font-size:24pt" -->
+- Rhythm: the dominant element throughout almost all the 20th century
+<!-- .element: style="font-size:24pt" -->
+- Since the 1990s, the search for distinctive sounds and sound combinations has come to the forefront
+<!-- .element: style="font-size:24pt" -->
+
+==
+
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/5qm8PH4xAss" title="50 Cent - In Da Club (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
