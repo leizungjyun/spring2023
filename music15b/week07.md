@@ -62,8 +62,7 @@ History of Jazz
 - Bebop
 - Cool Jazz
 - Modern Jazz = Jazz
-- Free Jazz
-
+- Misc: Third-stream music, Free Jazz, ...
 
 
 
@@ -100,14 +99,15 @@ Dance Music
 ==
 
 <iframe width="1424" height="627" src="https://www.youtube.com/embed/aME0qvhZ37o" title="Glenn Miller - In The Mood | Colorized (1941) 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-*In the Mood*(1939), Glenn Miller
+
+*In the Mood* (1939), Glenn Miller
 
 == 
 <iframe width="966" height="543" src="https://www.youtube.com/embed/yYQ8P7nOygE" title="When Big Bands Were Dance Bands" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Big Bang Swing
 
-==
+===
 
 ### Bebop
 A music of liberation
@@ -144,7 +144,7 @@ Bebop grew organically out of Swing. However,
  *Anthropology (Thrivin' on a Riff)*(1949), Charlie Parker and Dizzy Gillespie
 
 
-==
+===
 
 ### Cool Jazz
 
@@ -156,31 +156,18 @@ The first post-bop style to emerge was “cool”, which kept the intricacy of b
 
 *Take Five*, Dave Brubeck
 
-==
+===
 
 ### Modern Jazz Quartet
-
 Jazz as Concert Music
 
+==
+<iframe width="1424" height="627" src="https://www.youtube.com/embed/ncMmN90fYFY" title="John Lewis - Django (Live, Berlin Piano Workshop,1965)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+*Django*
 
 ==
 
-<iframe width="966" height="523" src="https://www.youtube.com/embed/wnChwmKWt5E?start=88" title="The Terminal (2004) - The Best Scene &quot;I always keep my promises&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Terminal* (2004)
-
-
-==
-
-![Harlem1958](https://i.guim.co.uk/img/media/5de59b1f97159de3d2552addd6154cca1d266e8a/210_140_2492_1641/master/2492.jpg?width=1010&quality=45&auto=format&fit=max&dpr=2&s=fd5d5d1f1e15e06b83cbfafa9d59bb41)
-
-
-==
-<iframe width="966" height="543" src="https://www.youtube.com/embed/ixlb7ae3P4o?start=220" title="I&#39;m Going Home - The Terminal 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-===
 ![GreenBook](https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_.jpg) <!-- .element: height="500"  --> 
 
 *Happy Talk* @ 46:45 
@@ -194,8 +181,45 @@ Jazz as Concert Music
 <iframe width="806" height="453" src="https://www.youtube.com/embed/JXgmQDFhPjo" title="&quot;Happy Talk&quot; from SOUTH PACIFIC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 *Happy Talk* from *South Pacific*
+==
+
+
+<iframe width="966" height="523" src="https://www.youtube.com/embed/wnChwmKWt5E?start=88" title="The Terminal (2004) - The Best Scene &quot;I always keep my promises&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*Terminal* (2004)
+
 
 ==
+
+![Harlem1958](https://i.guim.co.uk/img/media/5de59b1f97159de3d2552addd6154cca1d266e8a/210_140_2492_1641/master/2492.jpg?width=1010&quality=45&auto=format&fit=max&dpr=2&s=fd5d5d1f1e15e06b83cbfafa9d59bb41)
+
+==
+<iframe width="966" height="543" src="https://www.youtube.com/embed/ixlb7ae3P4o?start=220" title="I&#39;m Going Home - The Terminal 2004" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Cameo: Benny Golson
+
+===
+
+### Other Streams of Jazz
+
+==
+### The Third Stream Music
+
+
+==
+
+<iframe width="966" height="580" src="https://www.youtube.com/embed/8Wo_5D-Bg44" title="Modern Jazz Quartet &amp; Guests, The - Third Stream Music - 1960" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+The Third Stream Music
+
+==
+
+### Free Jazz
+
+
+==
+
 <iframe width="966" height="543" src="https://www.youtube.com/embed/hXf7wtX4vWk" title="Jazz Fundamentals: What Is Free Jazz?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Free Jazz 
+
