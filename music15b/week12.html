@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Week 12</title>
+
+		<link rel="stylesheet" href="../dist/reset.css">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../dist/abcjs-audio.css">
+
+		<style>
+			.abcjs-inline-audio {
+				max-width: 770px;
+			}
+			@media print {
+				h1, p, textarea, #selection, #audio, #warnings, hr {
+					display: none;
+				}
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="week12.md"
+				data-separator="^==="
+				data-separator-vertical="^=="
+				data-separator-notes="^Note:"
+				data-charset="UTF-8">
+		   <!--
+			   Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+			   For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+		   -->
+				</section>
+			</div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/zoom/zoom.js"></script>
+		<script src="../plugin/search/search.js"></script>
+		<script src="../plugin/notes/notes.js"></script>
+		<script src="../plugin/markdown/markdown.js"></script>
+		<script src="../plugin/highlight/highlight.js"></script>
+        <script src="../plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealSearch, RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+		</script>
+        <script src="../dist/abcjs-basic-min.js"></script>
+		<script type="text/javascript">
+			function selectionCallback(abcelem) {
+				var note = {};
+				for (var key in abcelem) {
+					if (abcelem.hasOwnProperty(key) && key !== "abselem")
+						note[key] = abcelem[key];
+				}
+				console.log(abcelem);
+				var el = document.getElementById("selection");
+				el.innerHTML = "<b>selectionCallback parameter:</b><br>" + JSON.stringify(note);
+			}
+		
+			function initEditor() {
+				new ABCJS.Editor("abc", { paper_id: "paper0",
+					synth: {
+						el: "#audio",
+						options: { displayLoop: true, displayRestart: true, displayPlay: true, displayProgress: true, displayWarp: true }
+					},
+					generate_warnings: true,
+					warnings_id:"warnings",
+					abcjsParams: {
+						generateDownload: true,
+						clickListener: selectionCallback
+					}
+				});
+			}
+		
+			window.addEventListener("load", initEditor, false);
+		</script>
+	</body>
+</html>
