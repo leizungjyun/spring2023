@@ -1,0 +1,301 @@
+{
+  "catalog": [
+    {
+      "id": "2023-04-21-coding-with-copilot",
+      "slides": 21,
+      "hasContent": true
+    },
+    {
+      "id": "2023-09-29-embodied-intelligence",
+      "slides": 45,
+      "hasContent": true
+    },
+    {
+      "id": "2024-05-15-kolmogorov-arnold-networks",
+      "slides": 40,
+      "hasContent": true
+    },
+    {
+      "id": "2024-05-31-sdem-kickoff",
+      "slides": 27,
+      "hasContent": true
+    },
+    {
+      "id": "2024-06-05-research-and-delivery-discussion",
+      "slides": 8,
+      "hasContent": true
+    },
+    {
+      "id": "2024-06-14-meta-seminar",
+      "slides": 28,
+      "hasContent": true
+    },
+    {
+      "id": "2024-07-11-ornithopter",
+      "slides": 35,
+      "hasContent": true
+    },
+    {
+      "id": "2024-07-24-applied-math-review",
+      "slides": 2,
+      "hasContent": true
+    },
+    {
+      "id": "2024-09-14-semester-opening",
+      "slides": 52,
+      "hasContent": true
+    },
+    {
+      "id": "2024-10-19-brain-inspired-embodied-intelligence",
+      "slides": 10,
+      "hasContent": true
+    },
+    {
+      "id": "2024-11-07-brain-inspired-navigation",
+      "slides": 15,
+      "hasContent": true
+    },
+    {
+      "id": "2024-12-09-brain-inspired-spatial-intelligence",
+      "slides": 96,
+      "hasContent": true
+    },
+    {
+      "id": "2025-01-16-recap",
+      "slides": 10,
+      "hasContent": true
+    },
+    {
+      "id": "2026-09-10-ai-group-gathering",
+      "slides": 40,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week01",
+      "slides": 21,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week02",
+      "slides": 33,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week03",
+      "slides": 31,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week04",
+      "slides": 46,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week05",
+      "slides": 34,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week06",
+      "slides": 17,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week07",
+      "slides": 34,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week10",
+      "slides": 36,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week11",
+      "slides": 9,
+      "hasContent": true
+    },
+    {
+      "id": "music15b-week12",
+      "slides": 26,
+      "hasContent": true
+    },
+    {
+      "id": "d2l-lesson01",
+      "slides": 7,
+      "hasContent": true
+    },
+    {
+      "id": "verbal-for-science-lesson01",
+      "slides": 72,
+      "hasContent": true
+    },
+    {
+      "id": "verbal-for-science-lesson02",
+      "slides": 62,
+      "hasContent": true
+    },
+    {
+      "id": "2023-12-02-papillons",
+      "slides": 16,
+      "hasContent": true
+    },
+    {
+      "id": "concert-program",
+      "slides": 1,
+      "hasContent": true
+    },
+    {
+      "id": "neuromorphic-kickoff",
+      "slides": 45,
+      "hasContent": true
+    }
+  ],
+  "redirects": [
+    "lectures/2023-04-21-copilot.html",
+    "lectures/2023-09-29-embodied.html",
+    "lectures/2024-05-15-KAN.html",
+    "lectures/2024.5.31-sdem-kickoff.html",
+    "lectures/2024.6.5-discuss.html",
+    "lectures/metaseminar/2024-06-14-meta-seminar.html",
+    "lectures/2024-07-11-SDEM/2024-07-11-sdem.html",
+    "lectures/2024-07-24-paper/2024-07-24-paper.html",
+    "lectures/2024-09-14-KAN2/2024-09-14-KAN2.html",
+    "lectures/2024-10-19-KJW/2024-10-19.html",
+    "lectures/2024-11-07-brain-inspired/2024-11-07.html",
+    "lectures/2024-12-09.html",
+    "lectures/2025-01-16-recap/main.html",
+    "lectures/2026-09-10-AI-group-gathering/main.html",
+    "lectures/2026-09-10-AI-group-gathering/acceptance-chart.html",
+    "music15b/week01.html",
+    "music15b/week07.html",
+    "music15b/week11.html",
+    "music15b/week10.html",
+    "music15b/week06.html",
+    "music15b/week05.html",
+    "music15b/week04.html",
+    "music15b/week12.html",
+    "music15b/week03.html",
+    "music15b/week02.html",
+    "lectures/d2l/2024-06-07-d2l-01.html",
+    "lectures/2024-09-sci-verbal/2024-09-sci-verbal.html",
+    "lectures/2024-09-sci-verbal/2024-09-sci-verbal02.html",
+    "piano-group/papillons.html",
+    "piano-group/concert-program.html",
+    "collections/projects/2025-01-15-neuromorphic-kickoff/index.html"
+  ],
+  "localFailures": [
+    {
+      "url": "http://localhost:8017/favicon.ico",
+      "status": 404
+    },
+    {
+      "url": "http://localhost:8017/lectures/2025-01-16-recap/neuro.md",
+      "status": 404
+    },
+    {
+      "url": "http://localhost:8017/lectures/2025-01-16-recap/semiconductor.md",
+      "status": 404
+    },
+    {
+      "url": "http://localhost:8017/favicon.ico",
+      "status": 404
+    }
+  ],
+  "consoleErrors": [
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/collections/teaching/music15b/week04.html:79:5)",
+    "Event",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/collections/teaching/music15b/week05.html:79:5)",
+    "Event",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/collections/teaching/music15b/week06.html:79:5)",
+    "Event",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/collections/teaching/music15b/week07.html:79:5)",
+    "Event",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/collections/teaching/music15b/week10.html:79:5)",
+    "Event",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/collections/teaching/music15b/week11.html:79:5)",
+    "Event",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/collections/teaching/music15b/week12.html:79:5)",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event",
+    "Event"
+  ],
+  "portal": {
+    "entries": 30,
+    "combinedFilters": true,
+    "queryPersistence": true,
+    "courseOrder": true,
+    "mobileNoOverflow": true
+  },
+  "latest": {
+    "hover": [
+      {
+        "width": 1024,
+        "height": 768,
+        "correct": true
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "correct": true
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "correct": true
+      }
+    ],
+    "escapeOverview": true,
+    "videos": [
+      {
+        "src": "http://localhost:8017/collections/group-meetings/2026-09-10-ai-group-gathering/videos/bingo-workflow-browser.mp4",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "wrapped": true
+      },
+      {
+        "src": "http://localhost:8017/collections/group-meetings/2026-09-10-ai-group-gathering/videos/neuro-car-browser.mp4",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "wrapped": true
+      },
+      {
+        "src": "http://localhost:8017/collections/group-meetings/2026-09-10-ai-group-gathering/videos/jk-demo-browser.mp4",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "wrapped": true
+      }
+    ],
+    "userEdits": {
+      "newStudent": true,
+      "progressText": "Progress\nPapers · Engineering · Funding"
+    }
+  },
+  "externalResources": "Blocked during validation; remote media availability was not checked.",
+  "unexpectedLocalFailures": [],
+  "unexpectedConsoleErrors": [],
+  "passed": true
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "theme": "black",
+    "slide": 3,
+    "title": "虚实迁移：在仿真中训练，在实车上验证",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "overviewOpened": true,
+    "overviewClosed": true
+  },
+  {
+    "theme": "white",
+    "slide": 3,
+    "title": "虚实迁移：在仿真中训练，在实车上验证",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "overviewOpened": true,
+    "overviewClosed": true
+  }
+]

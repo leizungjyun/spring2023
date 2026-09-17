@@ -1,0 +1,136 @@
+{
+  "slides": [
+    {
+      "title": "面向高速边缘智能的模拟 AI 芯片",
+      "images": [],
+      "overflow": []
+    },
+    {
+      "title": "边缘智能：算得快，也要搬得少",
+      "images": [
+        {
+          "src": "images/separated.svg",
+          "loaded": true
+        },
+        {
+          "src": "images/pentium-die-righto.jpg",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "让部分计算靠近存储，缩短数据路径",
+      "images": [
+        {
+          "src": "images/coupling.svg",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "神经网络提供容错空间，具体收益仍需验证",
+      "images": [
+        {
+          "src": "images/error-params.png",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "以器件非线性，减少对数字非线性环节的依赖",
+      "images": [
+        {
+          "src": "images/nonlinearity.svg",
+          "loaded": true
+        },
+        {
+          "src": "images/kanalogue-compute.png",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "已有板级原型，并完成线跟随闭环演示",
+      "images": [
+        {
+          "src": "images/pcb.jpg",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "从 PCB 到芯片与模块，逐级验证系统价值",
+      "images": [
+        {
+          "src": "images/product-roadmap.svg",
+          "loaded": true
+        },
+        {
+          "src": "images/ti-microsil-package.png",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "高速自动对焦：先验证计算环节的价值",
+      "images": [
+        {
+          "src": "images/autofocus.svg",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "只有同任务、同质量的比较，才有商业意义",
+      "images": [],
+      "overflow": []
+    },
+    {
+      "title": "先做成一个场景，再复用到相邻任务",
+      "images": [],
+      "overflow": []
+    },
+    {
+      "title": "已有跨层研究积累，产品化能力仍需补齐",
+      "images": [],
+      "overflow": []
+    },
+    {
+      "title": "这笔投资，将完成哪些可验收的里程碑？",
+      "images": [],
+      "overflow": []
+    }
+  ],
+  "errors": [],
+  "mediaInterruptions": [
+    "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22"
+  ],
+  "escapeOverview": true,
+  "video": {
+    "started": true,
+    "muted": true,
+    "loop": true,
+    "wrapped": true
+  },
+  "overviewThumbnail": true,
+  "viewports": [
+    {
+      "width": 1024,
+      "height": 768,
+      "fits": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "fits": true
+    }
+  ],
+  "passed": true
+}

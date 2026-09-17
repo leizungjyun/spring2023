@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img" aria-labelledby="title"><title id="title">消费级相机与高速公路监控摄像头</title>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="17" fill="#f5f7fa"><text x="18" y="25">消费级相机</text><text x="18" y="168">高速公路监控</text></g>
+<g fill="none" stroke="#42affa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M18 142H342" stroke="#3b4750"/>
+<rect x="93" y="48" width="145" height="77" rx="10" fill="#263946"/><path d="M112 48L124 34H160L173 48" fill="#263946"/><circle cx="168" cy="86" r="32" fill="#151e25"/><circle cx="168" cy="86" r="21" stroke="#ffbf69"/><path d="M109 62H122"/>
+<path d="M252 64V52H266M286 64V52H272M252 109V121H266M286 109V121H272" stroke="#ffbf69"/>
+<path d="M38 288L114 184M162 288L177 184" stroke="#3b4750"/><path d="M94 286L133 209" stroke="#aab7c3" stroke-dasharray="8 9"/>
+<path d="M283 281V220L261 209"/><path d="M243 185L306 202L294 224L232 207Z" fill="#263946"/><path d="M233 185L309 201"/><ellipse cx="238" cy="198" rx="6" ry="11" transform="rotate(25 238 198)" fill="#ffbf69" stroke="#ffbf69"/>
+<path d="M229 204L152 229M234 214L175 266" stroke="#ffbf69" stroke-dasharray="4 7" opacity=".6"/>
+<path d="M121 248L130 231H156L166 248V271H120Z" fill="#263946"/><path d="M126 248H161M126 265H130M155 265H160"/><rect x="135" y="264" width="15" height="4" fill="#ffbf69" stroke="none"/>
+</g></svg>

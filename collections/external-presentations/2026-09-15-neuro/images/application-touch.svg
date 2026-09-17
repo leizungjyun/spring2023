@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img" aria-labelledby="title"><title id="title">触觉感知与柔性机械臂控制两个子图</title>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="17" fill="#f5f7fa"><text x="18" y="25">触觉</text><text x="18" y="168">柔性机械臂控制</text></g>
+<g fill="none" stroke="#42affa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M18 142H342" stroke="#3b4750"/>
+<path d="M84 96L200 77L271 108L155 129Z" fill="#263946"/><path d="M84 96V107L155 140L271 119V108M155 129V140"/><path d="M112 92L183 123M142 87L213 118M172 82L243 113M108 107L224 88M132 118L248 100" stroke="#3b4750" stroke-width="2"/>
+<path d="M158 35V73Q158 88 174 88Q188 88 188 74V35" fill="#263946"/><ellipse cx="174" cy="94" rx="21" ry="7" stroke="#ffbf69"/><path d="M144 82L136 77M203 82L211 77M174 104V114" stroke="#ffbf69"/>
+<rect x="71" y="269" width="73" height="17" rx="4" fill="#263946"/>
+<path d="M92 266C70 225 100 185 142 195C181 205 183 248 214 239C236 233 232 209 218 198L235 181C263 207 261 251 222 262C169 276 163 226 137 220C114 214 109 240 117 266Z" fill="#263946"/>
+<path d="M89 247L112 244M89 225L113 229M99 206L121 220M123 195L131 219M150 199L140 222M169 214L153 233M181 238L166 253M198 244L190 268M220 238L225 261M232 224L254 233M227 204L248 195" stroke-width="2" opacity=".7"/>
+<path d="M216 198L208 184L219 171M235 181L228 166L237 154" stroke="#ffbf69"/><circle cx="213" cy="160" r="11" fill="#3c3328" stroke="#ffbf69"/>
+<path d="M274 265Q305 216 278 180" stroke="#ffbf69" stroke-dasharray="5 7"/><path d="M278 180L277 195M278 180L292 186" stroke="#ffbf69"/>
+</g></svg>

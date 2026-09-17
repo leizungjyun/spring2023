@@ -282,7 +282,10 @@ gulp.task('package', gulp.series('default', () =>
 
 ))
 
-gulp.task('reload', () => gulp.src(['*.html', '*.md'])
+// Watch content only; shared framework build tasks remain unchanged.
+const libraryContent = ['*.html', '*.md', 'portal/**/*', 'collections/**/*', 'assets/presentations/**/*', 'templates/**/*', 'lectures/**/*', '!**/.git/**'];
+
+gulp.task('reload', () => gulp.src(['index.html'])
     .pipe(connect.reload()));
 
 gulp.task('serve', () => {
@@ -291,14 +294,14 @@ gulp.task('serve', () => {
         root: root,
         port: port,
         host: host,
-        livereload: true
+        livereload: { port: yargs.argv['livereload-port'] || 35729 }
     })
 
-    gulp.watch(['*.html', '*.md'], gulp.series('reload'))
+    gulp.watch(libraryContent, gulp.series('reload'))
 
-    gulp.watch(['js/**'], gulp.series('js', 'reload', 'eslint'))
+    gulp.watch(['js/**', 'plugin/annotations/plugin.js'], gulp.series('js', 'reload', 'eslint'))
 
-    gulp.watch(['plugin/**/plugin.js'], gulp.series('plugins', 'reload'))
+    gulp.watch(['plugin/**/plugin.js', '!plugin/annotations/plugin.js'], gulp.series('plugins', 'reload'))
 
     gulp.watch([
         'css/theme/source/*.{sass,scss}',

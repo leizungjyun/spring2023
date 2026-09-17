@@ -1,0 +1,13 @@
+{
+  "originalUserEdits": "Preserved exactly except relocated URLs: Progress subtitle and undergraduate student list.",
+  "gitIndexUnchanged": true,
+  "submodule": {
+    "path": "lectures/neuralmorphic_kickoff",
+    "commit": "6acca4d2ae92696ebf5a9da31eb07a445855e5d0",
+    "workingTree": "clean before and after",
+    "configuration": "unchanged; collection launcher redirects into registered submodule"
+  },
+  "frameworkAndDependencyFilesUnchanged": true,
+  "originalFileHashes": "All 393 snapshot files matched pre-migration audit hashes; all 394 audit outputs matched recorded after hashes (includes archived root starter).",
+  "noCommitPushOrDeployment": true
+}

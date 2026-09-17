@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img">
+<title>制导应用：迫击炮与高超音速导弹</title>
+<desc>应用类别示意。量大与高端为拟议定位，不表示已核实的市场数量或性能。</desc>
+<g fill="none" stroke="#42affa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M20 150H340" stroke="#3b4750"/>
+<!-- Mortar silhouette and repeated abstract ammunition icons: no design details. -->
+<path d="M35 125H107L118 133H24Z" fill="#263946"/>
+<path d="M61 121L91 40L108 46L77 127Z" fill="#263946"/>
+<path d="M87 85L126 128M89 85L104 128M116 128H136"/>
+<path d="M138 98V116H148V98Q143 86 138 98ZM155 98V116H165V98Q160 86 155 98ZM172 98V116H182V98Q177 86 172 98Z" stroke="#ffbf69" stroke-width="2"/>
+<!-- Hypersonic missile: abstract external silhouette only. -->
+<g transform="translate(7 24) rotate(-20 103 208)">
+<path d="M44 199H139Q159 202 180 209Q159 216 139 219H44Z" fill="#263946"/>
+<path d="M80 199L64 177H91L113 199M80 219L64 241H91L113 219" fill="#263946"/>
+<path d="M48 200L30 187H48L65 200M48 218L30 231H48L65 218" fill="#263946"/>
+<path d="M42 204L18 209L42 214" stroke="#ffbf69"/>
+</g>
+<path d="M162 187Q178 196 185 210M169 178Q190 190 196 207" stroke="#ffbf69" stroke-width="2"/>
+</g>
+<g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+<text x="212" y="64" fill="#f5f7fa" font-size="23">迫击炮</text>
+<text x="212" y="101" fill="#ffbf69" font-size="24" font-weight="600">量大</text>
+<text x="212" y="205" fill="#f5f7fa" font-size="21">高超音速</text>
+<text x="212" y="232" fill="#f5f7fa" font-size="21">导弹</text>
+<text x="212" y="269" fill="#ffbf69" font-size="24" font-weight="600">高端</text>
+</g></svg>

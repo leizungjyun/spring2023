@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 244" role="img" aria-labelledby="title description">
+<title id="title">同一突触的存储状态直接参与信号处理</title>
+<desc id="description">三条突触前轴突通过橙色、不同大小的突触连接同一段树突。蓝色信号箭头穿过同一组橙色突触，表示可保持的连接强度调制输入响应；树突汇聚后连接神经元胞体。概念示意，不代表解剖比例。</desc>
+<defs>
+<marker id="signal-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M1 1L9 5L1 9Z" fill="#42affa"/></marker>
+</defs>
+<rect x="1" y="1" width="1118" height="242" rx="14" fill="#20272d"/>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif">
+<g font-size="18" fill="#aab7c3"><text x="28" y="30">三条突触前轴突</text><text x="342" y="30">同一段树突</text></g>
+<!-- Slender presynaptic axons converge on three distinct contacts. -->
+<g fill="none" stroke-linecap="round">
+<g stroke="#aab7c3" stroke-width="4" opacity=".6"><path d="M30 65C101 65 174 58 260 75"/><path d="M30 126H257"/><path d="M30 189C112 189 179 197 257 180"/></g>
+<g stroke="#42affa" stroke-width="2.5" marker-end="url(#signal-arrow)"><path d="M106 64C142 62 179 62 213 67"/><path d="M105 126H214"/><path d="M106 191C147 193 181 193 215 188"/></g>
+</g>
+<!-- The orange state and blue transmission occupy the same synapse. -->
+<g fill="#ffbf69"><circle cx="279" cy="78" r="15" opacity=".09"/><circle cx="279" cy="127" r="21" opacity=".11"/><circle cx="279" cy="179" r="27" opacity=".13"/></g>
+<g fill="#3c3328" stroke="#ffbf69" stroke-width="2"><circle cx="279" cy="78" r="8"/><circle cx="279" cy="127" r="12"/><circle cx="279" cy="179" r="16"/></g>
+<g fill="#ffbf69"><circle cx="279" cy="78" r="3"/><circle cx="279" cy="127" r="5"/><circle cx="279" cy="179" r="8"/></g>
+<!-- Soft, continuous dendrite tapering into a soma rather than a pipe junction. -->
+<path d="M361 51C365 78 359 97 365 115C372 128 406 127 445 117L451 139C408 134 381 135 373 148C365 163 365 183 363 203L352 203C350 181 351 163 357 144C359 137 359 127 354 118C349 98 355 75 351 53Z" fill="#263946" stroke="#aab7c3" stroke-width="1.6"/>
+<g fill="none" stroke="#aab7c3" stroke-width="5" stroke-linecap="round"><path d="M318 80C337 78 344 85 356 88"/><path d="M322 127C337 127 345 127 360 130"/><path d="M324 176C342 179 348 171 358 167"/></g>
+<path d="M445 118C448 95 462 78 485 78C509 78 526 96 529 118C531 128 540 130 558 130L558 136C539 136 531 137 527 148C520 168 501 180 480 176C455 173 442 154 445 134Z" fill="#263946" stroke="#aab7c3" stroke-width="2"/>
+<ellipse cx="486" cy="127" rx="17" ry="19" fill="#3b4750"/>
+<ellipse cx="490" cy="123" rx="6" ry="7" fill="#aab7c3" opacity=".22"/>
+<g fill="none" stroke="#42affa" stroke-width="2.7" stroke-linecap="round" marker-end="url(#signal-arrow)"><path d="M264 78H331"/><path d="M262 127H335"/><path d="M260 179Q293 180 336 176"/><path d="M358 98Q357 110 366 119"/><path d="M358 156Q360 145 369 139"/><path d="M387 130H435"/></g>
+<g font-size="18" fill="#f5f7fa"><text x="446" y="211">神经元胞体</text><text x="306" y="232" fill="#42affa">突触输入整合</text></g>
+<path d="M583 45V216" stroke="#3b4750" stroke-width="1"/>
+<!-- Restrained typographic hierarchy, aligned to a shared left edge. -->
+<rect x="615" y="57" width="4" height="31" rx="2" fill="#ffbf69"/>
+<text x="637" y="80" font-size="24" fill="#ffbf69">记忆：突触的存在与强度</text>
+<rect x="615" y="116" width="4" height="31" rx="2" fill="#42affa"/>
+<text x="637" y="139" font-size="24" fill="#42affa">计算：突触整合</text>
+<rect x="610" y="169" width="477" height="49" rx="8" fill="#263946"/>
+<text x="632" y="201" font-size="25" font-weight="600" fill="#f5f7fa">存储状态直接参与信号处理</text>
+</g></svg>

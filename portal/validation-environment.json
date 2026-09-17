@@ -1,0 +1,19 @@
+{
+  "liveReload": [
+    "collections/group-meetings/2026-09-10-ai-group-gathering/slides.md",
+    "portal/portal.css"
+  ],
+  "staticSubdirectory": {
+    "portal": true,
+    "presentation": true
+  },
+  "originalMusicErrors": [
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/music15b/week04.html:79:5)",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/music15b/week05.html:79:5)",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/music15b/week06.html:79:5)",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/music15b/week07.html:79:5)",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/music15b/week10.html:79:5)",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/music15b/week11.html:79:5)",
+    "TypeError: Cannot read properties of null (reading 'value')\n    at new r (http://localhost:8017/dist/abcjs-basic-min.js:3:27061)\n    at new c (http://localhost:8017/dist/abcjs-basic-min.js:3:28914)\n    at initEditor (http://localhost:8017/music15b/week12.html:79:5)"
+  ]
+}

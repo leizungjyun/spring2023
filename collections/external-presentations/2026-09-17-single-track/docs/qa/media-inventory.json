@@ -1,0 +1,138 @@
+[
+  {
+    "file": "L2.mp4",
+    "codec": "h264",
+    "w": 1920,
+    "h": 1080,
+    "duration": 90.0,
+    "sizeMB": 109.4
+  },
+  {
+    "file": "LEQI.mp4",
+    "codec": "h264",
+    "w": 1280,
+    "h": 720,
+    "duration": 14.0,
+    "sizeMB": 2.2
+  },
+  {
+    "file": "e-bike-man.mp4",
+    "codec": "h264",
+    "w": 960,
+    "h": 540,
+    "duration": 62.9,
+    "sizeMB": 15.6
+  },
+  {
+    "file": "e-motor-man.mp4",
+    "codec": "h264",
+    "w": 1920,
+    "h": 1080,
+    "duration": 24.6,
+    "sizeMB": 19.3
+  },
+  {
+    "file": "e-motor-offroad.mp4",
+    "codec": "h264",
+    "w": 848,
+    "h": 480,
+    "duration": 9.1,
+    "sizeMB": 3.1
+  },
+  {
+    "file": "e-motor-onroad.mp4",
+    "codec": "h264",
+    "w": 848,
+    "h": 480,
+    "duration": 20.2,
+    "sizeMB": 6.6
+  },
+  {
+    "file": "ebike.mp4",
+    "codec": "h264",
+    "w": 1280,
+    "h": 720,
+    "duration": 34.1,
+    "sizeMB": 6.9
+  },
+  {
+    "file": "road.mp4",
+    "codec": "h264",
+    "w": 848,
+    "h": 480,
+    "duration": 8.0,
+    "sizeMB": 2.8
+  },
+  {
+    "file": "sim-台阶.mp4",
+    "codec": "h264",
+    "w": 854,
+    "h": 480,
+    "duration": 6.0,
+    "sizeMB": 2.6
+  },
+  {
+    "file": "sim-平坦.mp4",
+    "codec": "h264",
+    "w": 854,
+    "h": 480,
+    "duration": 6.0,
+    "sizeMB": 2.7
+  },
+  {
+    "file": "台阶.mp4",
+    "codec": "h264",
+    "w": 848,
+    "h": 480,
+    "duration": 10.0,
+    "sizeMB": 3.5
+  },
+  {
+    "file": "坡道.mp4",
+    "codec": "h264",
+    "w": 848,
+    "h": 480,
+    "duration": 10.0,
+    "sizeMB": 3.3
+  },
+  {
+    "file": "小论文视频.mp4",
+    "codec": "h264",
+    "w": 1920,
+    "h": 1080,
+    "duration": 195.2,
+    "sizeMB": 231.5
+  },
+  {
+    "file": "砾石.mp4",
+    "codec": "h264",
+    "w": 848,
+    "h": 480,
+    "duration": 10.0,
+    "sizeMB": 3.4
+  },
+  {
+    "file": "科交会.mp4",
+    "codec": "h264",
+    "w": 1920,
+    "h": 1080,
+    "duration": 150.2,
+    "sizeMB": 179.8
+  },
+  {
+    "file": "草地.mp4",
+    "codec": "h264",
+    "w": 848,
+    "h": 480,
+    "duration": 13.0,
+    "sizeMB": 4.4
+  },
+  {
+    "file": "负载.mp4",
+    "codec": "h264",
+    "w": 848,
+    "h": 480,
+    "duration": 12.0,
+    "sizeMB": 4.1
+  }
+]

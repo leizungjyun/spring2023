@@ -1,0 +1,140 @@
+{
+  "slides": [
+    {
+      "title": "面向高速边缘智能的模拟 AI 芯片",
+      "images": [],
+      "overflow": []
+    },
+    {
+      "title": "边缘智能：低时延、低功耗",
+      "images": [
+        {
+          "src": "images/separated.svg",
+          "loaded": true
+        },
+        {
+          "src": "images/gb202-die-annotated.jpg",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "脑启发存内计算：数据存储与计算位于同一阵列",
+      "images": [
+        {
+          "src": "images/brain-inspired.svg",
+          "loaded": true
+        },
+        {
+          "src": "images/coupling.svg",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "神经网络容错性：适用条件与验证需求",
+      "images": [
+        {
+          "src": "images/error-params.png",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "器件非线性：模拟域函数实现",
+      "images": [
+        {
+          "src": "images/nonlinearity.svg",
+          "loaded": true
+        },
+        {
+          "src": "images/kanalogue-compute.png",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "板级原型与线跟随闭环演示",
+      "images": [
+        {
+          "src": "images/pcb.jpg",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "产品路线：PCB、芯片与模块",
+      "images": [
+        {
+          "src": "images/product-roadmap.svg",
+          "loaded": true
+        },
+        {
+          "src": "images/ti-microsil-package.png",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "高速自动对焦：计算性能与系统验证",
+      "images": [
+        {
+          "src": "images/autofocus.svg",
+          "loaded": true
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "title": "客户价值评估：同任务、同质量基准",
+      "images": [],
+      "overflow": []
+    },
+    {
+      "title": "市场拓展：首发场景与相邻应用",
+      "images": [],
+      "overflow": []
+    },
+    {
+      "title": "团队基础与产品化能力建设",
+      "images": [],
+      "overflow": []
+    },
+    {
+      "title": "融资用途与商业化验收里程碑",
+      "images": [],
+      "overflow": []
+    }
+  ],
+  "errors": [],
+  "mediaInterruptions": [
+    "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22"
+  ],
+  "escapeOverview": true,
+  "video": {
+    "started": true,
+    "muted": true,
+    "loop": true,
+    "wrapped": true
+  },
+  "overviewThumbnail": true,
+  "viewports": [
+    {
+      "width": 1024,
+      "height": 768,
+      "fits": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "fits": true
+    }
+  ],
+  "passed": true
+}

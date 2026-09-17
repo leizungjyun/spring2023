@@ -1,0 +1,17 @@
+{
+  "reason": "Root cleanup requested after migration; these old URLs are intentionally retired.",
+  "paths": [
+    "music15b/week01.html",
+    "music15b/week02.html",
+    "music15b/week03.html",
+    "music15b/week04.html",
+    "music15b/week05.html",
+    "music15b/week06.html",
+    "music15b/week07.html",
+    "music15b/week10.html",
+    "music15b/week11.html",
+    "music15b/week12.html",
+    "piano-group/concert-program.html",
+    "piano-group/papillons.html"
+  ]
+}

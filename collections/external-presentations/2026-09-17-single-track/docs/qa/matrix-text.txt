@@ -1,0 +1,58 @@
+Bicycle
+
+E-Bike
+
+Bicycle
+
+–
+
+99.99
+
+99.99
+
+99.61
+
+E-Bike
+
+86.12
+
+–
+
+98.77
+
+99.80
+
+99.22
+
+99.99
+
+–
+
+99.99
+
+99.07
+
+99.99
+
+99.99
+
+–
+
+E-Motorcycle E-Scooter
+100
+
+95
+
+90
+
+85
+
+Success Rate (%)
+
+E-Scooter E-Motorcycle
+
+Single-Source Training
+
+Zero-Shot Transfer
+
+

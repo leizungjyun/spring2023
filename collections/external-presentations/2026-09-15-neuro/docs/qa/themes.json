@@ -1,0 +1,78 @@
+{
+  "themes": [
+    {
+      "theme": "white",
+      "tone": "light",
+      "issues": [],
+      "minContrast": 6.201120509622224
+    },
+    {
+      "theme": "serif",
+      "tone": "light",
+      "issues": [],
+      "minContrast": 5.458995051458633
+    },
+    {
+      "theme": "simple",
+      "tone": "light",
+      "issues": [],
+      "minContrast": 6.201120509622224
+    },
+    {
+      "theme": "beige",
+      "tone": "light",
+      "issues": [],
+      "minContrast": 5.560294799470734
+    },
+    {
+      "theme": "sky",
+      "tone": "light",
+      "issues": [],
+      "minContrast": 5.952886247672259
+    },
+    {
+      "theme": "solarized",
+      "tone": "light",
+      "issues": [],
+      "minContrast": 5.748747725721623
+    },
+    {
+      "theme": "black",
+      "tone": "dark",
+      "issues": [],
+      "minContrast": 7.320735337830626
+    },
+    {
+      "theme": "league",
+      "tone": "dark",
+      "issues": [],
+      "minContrast": 5.895593098365467
+    },
+    {
+      "theme": "night",
+      "tone": "dark",
+      "issues": [],
+      "minContrast": 7.862604925243097
+    },
+    {
+      "theme": "blood",
+      "tone": "dark",
+      "issues": [],
+      "minContrast": 6.624663352427225
+    },
+    {
+      "theme": "moon",
+      "tone": "dark",
+      "issues": [],
+      "minContrast": 6.251032935768484
+    }
+  ],
+  "errors": [],
+  "escapeOverview": true,
+  "video": {
+    "muted": true,
+    "loop": true,
+    "playing": true
+  },
+  "passed": true
+}

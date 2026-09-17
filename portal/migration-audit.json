@@ -1,0 +1,2760 @@
+[
+  {
+    "old": "lectures/2023-04-21-copilot.html",
+    "new": "collections/teaching/2023-04-21-coding-with-copilot/index.html",
+    "before": "a3dd6044df7ea62395a8e56f014453fe04bba7ba337de6dfbc0d8f548b03581e",
+    "after": "0f40663cbe0daf730f40baf68fc6aaca0c17277dee4a10c0706b63f1a0a61d02",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2023-04-21-copilot.md",
+    "new": "collections/teaching/2023-04-21-coding-with-copilot/slides.md",
+    "before": "dd6dd8faa34468834ee1b7bbaf0ac68bebf6302fc4fb89d7b1b73bf3bf30f653",
+    "after": "dd6dd8faa34468834ee1b7bbaf0ac68bebf6302fc4fb89d7b1b73bf3bf30f653",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2023-09-29-embodied.html",
+    "new": "collections/research-talks/2023-09-29-embodied-intelligence/index.html",
+    "before": "54654e2ff16a0d6b270bda613f17836a45953e06d8be7a262e07ae123f0e632b",
+    "after": "6e202f299c057f82616eb0e5e37a0110aac9dbe75a7d8d11f36376ac1abe8a6a",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2023-09-29-embodied.md",
+    "new": "collections/research-talks/2023-09-29-embodied-intelligence/slides.md",
+    "before": "61af893376c26c08f1054f4124ce581469c849f61d15175de356ece48469ed8b",
+    "after": "0438d2b922aa0c538484e2c0baf500f7de14001ba7a46b128aff00e4338ab86f",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-05-15-KAN.html",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/index.html",
+    "before": "dc843f91ed40923d9a8582d828034742775a2242fb7a75d8bd822c9d8e563ede",
+    "after": "bcdf94cd6694f9a114edc1b711fcdc84c770c6726d41a482d51d6fe5d3c5a690",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-05-15-KAN.md",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/slides.md",
+    "before": "4c57007e9ce28b0b623f2c3ec99391017fdf035801c8695cff3154b57db38d1b",
+    "after": "ce2796df603358d53597c5189a3a0f6cf07a6792049c73d13027aa6a559ca572",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/ziming-songyuan.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/ziming-songyuan.png",
+    "before": "6df7864b09f68d073581fbb2ffd9630bfde03377451d9466e4e0c2b83de7439e",
+    "after": "6df7864b09f68d073581fbb2ffd9630bfde03377451d9466e4e0c2b83de7439e",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/compare-shallow.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/compare-shallow.png",
+    "before": "2c2043e63ef298eb1c2d8fd7b68b38fc628331af2acce869acb90a66424f3895",
+    "after": "2c2043e63ef298eb1c2d8fd7b68b38fc628331af2acce869acb90a66424f3895",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/shallow-kan.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/shallow-kan.png",
+    "before": "a5a3e0c848207eacc916b1c3c9cf4db24a363a4123e2fb6a4b9c2443c05d746e",
+    "after": "a5a3e0c848207eacc916b1c3c9cf4db24a363a4123e2fb6a4b9c2443c05d746e",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/b-splines.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/b-splines.png",
+    "before": "d2c996650acce24af70b8e1a18f63db7bccc7a04b9e191cda8d31336db80a560",
+    "after": "d2c996650acce24af70b8e1a18f63db7bccc7a04b9e191cda8d31336db80a560",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/KAN-arxiv.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/KAN-arxiv.png",
+    "before": "a2228b9cb0fcd820030d987adb733f3ffc6e4ed99d8ad7008df7afc6379e37fd",
+    "after": "a2228b9cb0fcd820030d987adb733f3ffc6e4ed99d8ad7008df7afc6379e37fd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/interpretable.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/interpretable.png",
+    "before": "698a35d990e650ce8ddaf0cbc66cb8159d6f51c56550fbc0d7524645bf83f8d0",
+    "after": "698a35d990e650ce8ddaf0cbc66cb8159d6f51c56550fbc0d7524645bf83f8d0",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/symbolic-formulas.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/symbolic-formulas.png",
+    "before": "e0ce40db8ef9324f64e9626f24791ec111c90bd6946df3a51cc3cd07390fda2d",
+    "after": "e0ce40db8ef9324f64e9626f24791ec111c90bd6946df3a51cc3cd07390fda2d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/mlp-kan.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/mlp-kan.png",
+    "before": "6429922975556d3f0ca0967453027a404268ec4d4a71fcd9a8623194fbc3ca43",
+    "after": "6429922975556d3f0ca0967453027a404268ec4d4a71fcd9a8623194fbc3ca43",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/datawhale.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/datawhale.png",
+    "before": "3946fed5467a9d4396f019b6286a44054f1d020d9a94d7c921762a8aef44dc19",
+    "after": "3946fed5467a9d4396f019b6286a44054f1d020d9a94d7c921762a8aef44dc19",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/controversial-opinion.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/controversial-opinion.png",
+    "before": "bdd92b737ba8c5b985bd68e27a9a8aa780e8c7d0003e8d26565d9bdc25aab15b",
+    "after": "bdd92b737ba8c5b985bd68e27a9a8aa780e8c7d0003e8d26565d9bdc25aab15b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/reductionism-holism.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/reductionism-holism.png",
+    "before": "ee2ad5f400b4e8330499d17cb36bd6e8adf4675a68df37eca2789665f63be158",
+    "after": "ee2ad5f400b4e8330499d17cb36bd6e8adf4675a68df37eca2789665f63be158",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/history.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/history.png",
+    "before": "ec563e6a8a0d42425d2817836258fc9c072f8102eca3dece4a05fd3ca6b5a4da",
+    "after": "ec563e6a8a0d42425d2817836258fc9c072f8102eca3dece4a05fd3ca6b5a4da",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/deep-mlp.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/deep-mlp.png",
+    "before": "19727ad96c89ab97e060e2b09c11eec8fc14d618d9bdd8dfdcb19c31ad8b6fc5",
+    "after": "19727ad96c89ab97e060e2b09c11eec8fc14d618d9bdd8dfdcb19c31ad8b6fc5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/xzy.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/xzy.png",
+    "before": "31c60f3cd24921d42502859be25432366e500ee3bf05f5b911acfc520a59d552",
+    "after": "31c60f3cd24921d42502859be25432366e500ee3bf05f5b911acfc520a59d552",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/gpt4.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/gpt4.png",
+    "before": "60b8abde098e57fba855a93dc8cccc7f041602194b6cbf6545b0695c0e94c0d2",
+    "after": "60b8abde098e57fba855a93dc8cccc7f041602194b6cbf6545b0695c0e94c0d2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/shallow-mlp.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/shallow-mlp.png",
+    "before": "62d538bd2969fbb0105ee1698a4bc8aaeb4408841f2e04fb2b521aa142e32380",
+    "after": "62d538bd2969fbb0105ee1698a4bc8aaeb4408841f2e04fb2b521aa142e32380",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/kart-to-kan.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/kart-to-kan.png",
+    "before": "ede02c52271e0b086335afdaea84a19fdb4420aeaadf6d0665d0f48abb50871c",
+    "after": "ede02c52271e0b086335afdaea84a19fdb4420aeaadf6d0665d0f48abb50871c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/wechat.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/wechat.png",
+    "before": "dc6dc9b09589563048ff0a39abec800511bf4391d5cae29d59d45cf861de3efb",
+    "after": "dc6dc9b09589563048ff0a39abec800511bf4391d5cae29d59d45cf861de3efb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/lzw.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/lzw.png",
+    "before": "64d21bf78db860dad740b8c9e3fda46b1d5ef0a22f5c210ea29e3398064cca6b",
+    "after": "64d21bf78db860dad740b8c9e3fda46b1d5ef0a22f5c210ea29e3398064cca6b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/deepkan.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/deepkan.png",
+    "before": "532e2c0458cb99f2683e4b55baa157f11aa68710046a2e08c0c0d7d87dfab5cf",
+    "after": "532e2c0458cb99f2683e4b55baa157f11aa68710046a2e08c0c0d7d87dfab5cf",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/gpt-4o.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/gpt-4o.png",
+    "before": "e3ceaa518f90557a31a63477a0d712fe3cc8cdada457a353e2bd554ee75827ec",
+    "after": "e3ceaa518f90557a31a63477a0d712fe3cc8cdada457a353e2bd554ee75827ec",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-05-15-KAN/ziming.png",
+    "new": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/images/ziming.png",
+    "before": "1bae1f4a00fa79abc8bb5065309943779afb24d52f40081f88e757b44c41ef4b",
+    "after": "1bae1f4a00fa79abc8bb5065309943779afb24d52f40081f88e757b44c41ef4b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem-kickoff.html",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/index.html",
+    "before": "114d2b86e8594f9c25eb0dd098c37aa9c7bc6a735b7bb5571f248b43e4bc24ff",
+    "after": "d9895f26ed4205a5709af4ee31c406ab87bf3ca6c0b9e5fac3762af113f278d3",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024.5.31-sdem-kickoff.md",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/slides.md",
+    "before": "cb7fe90588a725c6afcf114cd4a077462a716289c4d7461d7bf8132d088d5113",
+    "after": "12aeb6a153541e45c130082c76cf01f6eeb67818bb91f2b25fdcc907a0872b7f",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/tech_sdem2.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/tech_sdem2.png",
+    "before": "c9eb9a975925ac9f4fe277a7c0beb2953e039c780cb5a26cb04edcf32edd1a52",
+    "after": "c9eb9a975925ac9f4fe277a7c0beb2953e039c780cb5a26cb04edcf32edd1a52",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/演示文稿1.pptx",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/docs/演示文稿1.pptx",
+    "before": "0bf11f73a0ecc5889f6f2f7650adde4e414faaebfe2f809a1e3b2fa1cd1deaf2",
+    "after": "0bf11f73a0ecc5889f6f2f7650adde4e414faaebfe2f809a1e3b2fa1cd1deaf2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/f_mechanism_2pie.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/f_mechanism_2pie.png",
+    "before": "97f1420e6d9f64cf43253e57c099a02df51cc450f1c64408b8d749f9ec929523",
+    "after": "97f1420e6d9f64cf43253e57c099a02df51cc450f1c64408b8d749f9ec929523",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/Antarctic_expedition_map_(Amundsen_-_Scott)-en-crop.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/Antarctic_expedition_map_(Amundsen_-_Scott)-en-crop.png",
+    "before": "7cc97ca86d42a77be668f5e5c38af51a420fd14f2258e6fc3f16fa03a8a21311",
+    "after": "7cc97ca86d42a77be668f5e5c38af51a420fd14f2258e6fc3f16fa03a8a21311",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/Road_of_south_polar_exploration.jpg",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/Road_of_south_polar_exploration.jpg",
+    "before": "dddf3800e6b178ac3106cb626255732689f33316f759c907858144d9f152280d",
+    "after": "dddf3800e6b178ac3106cb626255732689f33316f759c907858144d9f152280d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/f_mechanism2.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/f_mechanism2.png",
+    "before": "7c0b504ca25c332e6635bdc707b5a09f163023e753728983642f93f4785ab78b",
+    "after": "7c0b504ca25c332e6635bdc707b5a09f163023e753728983642f93f4785ab78b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/tech_embodied.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/tech_embodied.png",
+    "before": "67961290cd510a28c9e97044fac650b50403bad6f5bec00a003b8aced6eb18ec",
+    "after": "67961290cd510a28c9e97044fac650b50403bad6f5bec00a003b8aced6eb18ec",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/f_mechanism_pie.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/f_mechanism_pie.png",
+    "before": "6702b3bca7be7577ed31fd12f658ae1d14d1f1d9a6cf9a4f02704d6ad9733e92",
+    "after": "6702b3bca7be7577ed31fd12f658ae1d14d1f1d9a6cf9a4f02704d6ad9733e92",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/ai_on_robotics2.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/ai_on_robotics2.png",
+    "before": "4b4ceee00039187cee62f48552399c1ceb51c1ccff2f41fea56f848b3675eac9",
+    "after": "4b4ceee00039187cee62f48552399c1ceb51c1ccff2f41fea56f848b3675eac9",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/ai_applications.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/ai_applications.png",
+    "before": "c39f12a2b54547a50fca770c39673fee8e44e8925a242ab7c5c5541a439754aa",
+    "after": "c39f12a2b54547a50fca770c39673fee8e44e8925a242ab7c5c5541a439754aa",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/kejie_alphaGo.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/kejie_alphaGo.png",
+    "before": "ae23e346b74f5d2d2594fc4cefaf8b3903e0da6c889c0471b727f5141d49c552",
+    "after": "ae23e346b74f5d2d2594fc4cefaf8b3903e0da6c889c0471b727f5141d49c552",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/Control_Map_ver5.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/Control_Map_ver5.png",
+    "before": "ae8a5c35f8f0a2c8b6f0b74142263f3496748e6b8108bf8de74b06c6d9e70b56",
+    "after": "ae8a5c35f8f0a2c8b6f0b74142263f3496748e6b8108bf8de74b06c6d9e70b56",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/tech_map.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/tech_map.png",
+    "before": "72d89886e61a2e66781bfc9d58c51a1e98a45f26adf623bc80d258c6cfff347d",
+    "after": "72d89886e61a2e66781bfc9d58c51a1e98a45f26adf623bc80d258c6cfff347d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/ai_on_robotics1.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/ai_on_robotics1.png",
+    "before": "9d7c3031aca7bae832d19bc293388fef0b5e816c03c7740b9c29750ae826bdbe",
+    "after": "9d7c3031aca7bae832d19bc293388fef0b5e816c03c7740b9c29750ae826bdbe",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/examples_drone_1.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/examples_drone_1.png",
+    "before": "4c23da8f9a3f5a72e4274b0c916a1002e934c212fdb6f2c42e89595ca76c9c71",
+    "after": "4c23da8f9a3f5a72e4274b0c916a1002e934c212fdb6f2c42e89595ca76c9c71",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/sdem_answer2.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/sdem_answer2.png",
+    "before": "2f85896e40e36f82c68ce1eee0d14f75078d5e3542a966b8632c9f0dd00d00e6",
+    "after": "2f85896e40e36f82c68ce1eee0d14f75078d5e3542a966b8632c9f0dd00d00e6",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/examples_drone_2.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/examples_drone_2.png",
+    "before": "173aa1780324760ccecbb432ceda56985981d8e91f5ffe21739ff25f7e19ef9d",
+    "after": "173aa1780324760ccecbb432ceda56985981d8e91f5ffe21739ff25f7e19ef9d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/f_mechanism.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/f_mechanism.png",
+    "before": "cdda92ec21b6229297c984c15f4f67cc643e7d628665a24f3ef02ba2601fb2c1",
+    "after": "cdda92ec21b6229297c984c15f4f67cc643e7d628665a24f3ef02ba2601fb2c1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/sdem_answer1.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/sdem_answer1.png",
+    "before": "86538431e89aac6d3d993b8bd21fbccc0fb3c091454c4ab388d321dece39f60b",
+    "after": "86538431e89aac6d3d993b8bd21fbccc0fb3c091454c4ab388d321dece39f60b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/sdem_engineered.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/sdem_engineered.png",
+    "before": "96f0b41cf539a275e8477ef6185557cc3c777c7c1f17226c90298840a9788f8e",
+    "after": "96f0b41cf539a275e8477ef6185557cc3c777c7c1f17226c90298840a9788f8e",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/sdem_logo.jpg",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/sdem_logo.jpg",
+    "before": "04dff2b8af82bbb31c833602b6097cb07f6bc747e143938955d84256e1b8f27b",
+    "after": "04dff2b8af82bbb31c833602b6097cb07f6bc747e143938955d84256e1b8f27b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/tech_sdem.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/tech_sdem.png",
+    "before": "d69df9db6a6db7efd514ebabe7ec8aeadeb98125d14f7648d200f4f0a9f367bb",
+    "after": "d69df9db6a6db7efd514ebabe7ec8aeadeb98125d14f7648d200f4f0a9f367bb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.5.31-sdem/sdem_concepture.png",
+    "new": "collections/projects/2024-05-31-sdem-kickoff/images/sdem_concepture.png",
+    "before": "b271db5e9de3d0fdd9e04b221672af9e94efb2b0e642f39e456bb12a6a88c33b",
+    "after": "b271db5e9de3d0fdd9e04b221672af9e94efb2b0e642f39e456bb12a6a88c33b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.6.5-discuss.html",
+    "new": "collections/group-meetings/2024-06-05-research-and-delivery-discussion/index.html",
+    "before": "268b840f794c3516a4292928d7305c9c44fc7ebf80740f7ba4186d70d57303cb",
+    "after": "a53fbe5e8bab7f9c0321ffe62168f8b2319a82103fc684eed6fde3552fdae823",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024.6.5-discuss.md",
+    "new": "collections/group-meetings/2024-06-05-research-and-delivery-discussion/slides.md",
+    "before": "9010f425e9eab6448c68e4f2bd6dc7d633495c674f1f2e197fd8e79e0aee7e2b",
+    "after": "b06dfa0bc29df9f6088a42eca51131ab11c00e60491258e3b78e87858e2f27ac",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024.6.5-discuss/新建 PPTX 演示文稿.pptx",
+    "new": "collections/group-meetings/2024-06-05-research-and-delivery-discussion/docs/新建 PPTX 演示文稿.pptx",
+    "before": "ca3a0a006d640fe4155a67c996956692fdad76fdb5e7633f5ea9756f316e1b43",
+    "after": "ca3a0a006d640fe4155a67c996956692fdad76fdb5e7633f5ea9756f316e1b43",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.6.5-discuss/release1.png",
+    "new": "collections/group-meetings/2024-06-05-research-and-delivery-discussion/images/release1.png",
+    "before": "b42fe9a5ff265dbe3d9e8ce06170fa25ad028f2786290b698d82df15ba5909f5",
+    "after": "b42fe9a5ff265dbe3d9e8ce06170fa25ad028f2786290b698d82df15ba5909f5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024.6.5-discuss/navi.png",
+    "new": "collections/group-meetings/2024-06-05-research-and-delivery-discussion/images/navi.png",
+    "before": "72ad546b68ee9702a21009f36cdbfc093a9f0b32e3ffa1867af402a825750e6c",
+    "after": "72ad546b68ee9702a21009f36cdbfc093a9f0b32e3ffa1867af402a825750e6c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/metaseminar/2024-06-14-meta-seminar.html",
+    "new": "collections/teaching/scientific-communication/2024-06-14-meta-seminar/index.html",
+    "before": "f377e2f10ba6093aa4c7abb2c1c021296cc032af1d2596833eaed70a467f3fcf",
+    "after": "a7a422b2f8b1536f84d96076c023d14ef69ebc204686a9f030c2a9955da5ecfe",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/metaseminar/2024-06-14-meta-seminar.md",
+    "new": "collections/teaching/scientific-communication/2024-06-14-meta-seminar/slides.md",
+    "before": "c0da7ff0982a96794d08ca9d34f657e322395ac398713c9a35f889cd1f05cfaf",
+    "after": "cb563b96f2d076eb1d7596ab209789f9d9be5c23d78fe00d6cee8a02bf02c2df",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/metaseminar/lifecycle.drawio",
+    "new": "collections/teaching/scientific-communication/2024-06-14-meta-seminar/docs/lifecycle.drawio",
+    "before": "df040b8c49a1325638c4641582d8b38a4751435364bc2cd6d10feb0cadad66ce",
+    "after": "df040b8c49a1325638c4641582d8b38a4751435364bc2cd6d10feb0cadad66ce",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/metaseminar/drawio.png",
+    "new": "collections/teaching/scientific-communication/2024-06-14-meta-seminar/images/drawio.png",
+    "before": "4a7da9fd4bda1470ce36367b2fef875e91858b4be708312423ab825f21e474b2",
+    "after": "4a7da9fd4bda1470ce36367b2fef875e91858b4be708312423ab825f21e474b2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/metaseminar/2-1.png",
+    "new": "collections/teaching/scientific-communication/2024-06-14-meta-seminar/images/2-1.png",
+    "before": "ad84ce0ce4fd47b850447dc69ec1f633f7ef8bd84954aed0e1fc32f212201741",
+    "after": "ad84ce0ce4fd47b850447dc69ec1f633f7ef8bd84954aed0e1fc32f212201741",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/metaseminar/2-2.png",
+    "new": "collections/teaching/scientific-communication/2024-06-14-meta-seminar/images/2-2.png",
+    "before": "5e73a44da4f265018969c9094137b7c793c8a7f5c98fb254466818b630e2e8e9",
+    "after": "5e73a44da4f265018969c9094137b7c793c8a7f5c98fb254466818b630e2e8e9",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/metaseminar/2.png",
+    "new": "collections/teaching/scientific-communication/2024-06-14-meta-seminar/images/2.png",
+    "before": "7f9444798967df5bb66e83a97898a362ba2c0281c3b3e763fcc43794ad7d4067",
+    "after": "7f9444798967df5bb66e83a97898a362ba2c0281c3b3e763fcc43794ad7d4067",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/metaseminar/.vscode/ltex.hiddenFalsePositives.en-US.txt",
+    "new": "collections/teaching/scientific-communication/2024-06-14-meta-seminar/.vscode/ltex.hiddenFalsePositives.en-US.txt",
+    "before": "60f592f62ae82b6693d4098b7160a2c9b7ffa44ae325f26458e76a7735d278e0",
+    "after": "60f592f62ae82b6693d4098b7160a2c9b7ffa44ae325f26458e76a7735d278e0",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/2024-07-11-sdem.html",
+    "new": "collections/projects/2024-07-11-ornithopter/index.html",
+    "before": "ffae8d97ac5e1b541086573114cc9b7a787d29a2ef2b7fcb833cb4d59df9966c",
+    "after": "383d697cad90e88bbe5894f5423ecc536ff1f01ad825dbacc38e9fc96d064e9e",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/2024-07-11-sdem.md",
+    "new": "collections/projects/2024-07-11-ornithopter/slides.md",
+    "before": "c20247dcfb2b8471105580214055ef0194708db38d4d289b11158a7230514c28",
+    "after": "c20247dcfb2b8471105580214055ef0194708db38d4d289b11158a7230514c28",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/.DS_Store",
+    "new": "collections/projects/2024-07-11-ornithopter/.DS_Store",
+    "before": "cc6409787a6a97aa71a72037dee188d204df42366427884ab47c9ad4cc0599e1",
+    "after": "cc6409787a6a97aa71a72037dee188d204df42366427884ab47c9ad4cc0599e1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/evolutionstate.jpg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/evolutionstate.jpg",
+    "before": "243b7045adcd8a050627d8b4638235664f624d544d46b4cf4b6da963c81920e3",
+    "after": "243b7045adcd8a050627d8b4638235664f624d544d46b4cf4b6da963c81920e3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/演示文稿1.pptx",
+    "new": "collections/projects/2024-07-11-ornithopter/images/演示文稿1.pptx",
+    "before": "0f3b988ccff4bdf398af77a4f7836454f93daf6464ff23763b078e7dc31d22d2",
+    "after": "0f3b988ccff4bdf398af77a4f7836454f93daf6464ff23763b078e7dc31d22d2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/current_ornith.png",
+    "new": "collections/projects/2024-07-11-ornithopter/images/current_ornith.png",
+    "before": "619a4b2c82720c6db0de448590d22330e66daa362a77d65f11331e7251670192",
+    "after": "619a4b2c82720c6db0de448590d22330e66daa362a77d65f11331e7251670192",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/multiaxis.jpg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/multiaxis.jpg",
+    "before": "2e6f06e09e7a1edf658e765c3f8727d3a79c0e21e2b6d47f6d57bb624968e2f9",
+    "after": "2e6f06e09e7a1edf658e765c3f8727d3a79c0e21e2b6d47f6d57bb624968e2f9",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/.DS_Store",
+    "new": "collections/projects/2024-07-11-ornithopter/images/.DS_Store",
+    "before": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "after": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/ornith_concept.jpg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/ornith_concept.jpg",
+    "before": "04d75d06d54742827594319c1b288eea593682c6bea648ac46fd9b5a7ced1e7c",
+    "after": "04d75d06d54742827594319c1b288eea593682c6bea648ac46fd9b5a7ced1e7c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/current_design.svg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/current_design.svg",
+    "before": "615cd9fcd46662a2588881e05594301adc9f3c60c4493485c6ebc3a68ef69c21",
+    "after": "615cd9fcd46662a2588881e05594301adc9f3c60c4493485c6ebc3a68ef69c21",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/training.svg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/training.svg",
+    "before": "5be86e4d40c4a90a200f921d07c250cd9fa02d8ae8b4046162d1978037b4a680",
+    "after": "5be86e4d40c4a90a200f921d07c250cd9fa02d8ae8b4046162d1978037b4a680",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/pretraining.svg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/pretraining.svg",
+    "before": "c6335acc48ff02bb5c52c176a68b7d2f809839efe4528cf6c31f09dca71f0067",
+    "after": "c6335acc48ff02bb5c52c176a68b7d2f809839efe4528cf6c31f09dca71f0067",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/singleaxis.jpg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/singleaxis.jpg",
+    "before": "3516d7c4e621fbe3c3ca441bb2962a41bf19a3fbc69fdbf203e7d27cccd33437",
+    "after": "3516d7c4e621fbe3c3ca441bb2962a41bf19a3fbc69fdbf203e7d27cccd33437",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/our_design.png",
+    "new": "collections/projects/2024-07-11-ornithopter/images/our_design.png",
+    "before": "22c48369d4b8ea57b9f0d6d83bf980436ffc258cb3ae87f243086adf55d3675a",
+    "after": "22c48369d4b8ea57b9f0d6d83bf980436ffc258cb3ae87f243086adf55d3675a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/pteronsaurs.jpg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/pteronsaurs.jpg",
+    "before": "94e38068a43842a4ca8098d27416c8b6dadc9aae66289e20cb790b8813ab0481",
+    "after": "94e38068a43842a4ca8098d27416c8b6dadc9aae66289e20cb790b8813ab0481",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/wingtechmap.jpg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/wingtechmap.jpg",
+    "before": "e75bb8bd12f76df38245f1d1e0d7588cc721052aa43e45a286fe91817d3e85bd",
+    "after": "e75bb8bd12f76df38245f1d1e0d7588cc721052aa43e45a286fe91817d3e85bd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/wingshape.jpg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/wingshape.jpg",
+    "before": "c6bb86a6c691c551278859c4493cbb7278f518fab57d739e9bcae2c48daa0efe",
+    "after": "c6bb86a6c691c551278859c4493cbb7278f518fab57d739e9bcae2c48daa0efe",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/images/statetransition.jpg",
+    "new": "collections/projects/2024-07-11-ornithopter/images/statetransition.jpg",
+    "before": "9ebd85a893cc43ac973335d927adb970800910d05cad7bba29360222fa72bbd1",
+    "after": "9ebd85a893cc43ac973335d927adb970800910d05cad7bba29360222fa72bbd1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-11-SDEM/.vscode/ltex.hiddenFalsePositives.en-US.txt",
+    "new": "collections/projects/2024-07-11-ornithopter/.vscode/ltex.hiddenFalsePositives.en-US.txt",
+    "before": "60f592f62ae82b6693d4098b7160a2c9b7ffa44ae325f26458e76a7735d278e0",
+    "after": "60f592f62ae82b6693d4098b7160a2c9b7ffa44ae325f26458e76a7735d278e0",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-24-paper/2024-07-24-paper.html",
+    "new": "collections/teaching/deep-learning/2024-07-24-applied-math-review/index.html",
+    "before": "c9ed665555c06c1d4b78a8fd037aa6aa30f4ffa2c6522777331000c20b61b668",
+    "after": "fd694dcb3f3816170d422fada8acbb7c0c256f97165986016d4019d0d949f560",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-07-24-paper/2024-07-24-paper.md",
+    "new": "collections/teaching/deep-learning/2024-07-24-applied-math-review/slides.md",
+    "before": "b5b61fd3f465c1f3cd86cb8de617dfbc84ed455c169f838b67b42976e2f0d88a",
+    "after": "b5b61fd3f465c1f3cd86cb8de617dfbc84ed455c169f838b67b42976e2f0d88a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-24-paper/.DS_Store",
+    "new": "collections/teaching/deep-learning/2024-07-24-applied-math-review/.DS_Store",
+    "before": "cc6409787a6a97aa71a72037dee188d204df42366427884ab47c9ad4cc0599e1",
+    "after": "cc6409787a6a97aa71a72037dee188d204df42366427884ab47c9ad4cc0599e1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-24-paper/images/.DS_Store",
+    "new": "collections/teaching/deep-learning/2024-07-24-applied-math-review/images/.DS_Store",
+    "before": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "after": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-24-paper/images/cover.png",
+    "new": "collections/teaching/deep-learning/2024-07-24-applied-math-review/images/cover.png",
+    "before": "91a4c8cdf95b0df8f240a57010ae79b76ce2f18b0a9b862081d151c874af8cf3",
+    "after": "91a4c8cdf95b0df8f240a57010ae79b76ce2f18b0a9b862081d151c874af8cf3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-07-24-paper/.vscode/ltex.hiddenFalsePositives.en-US.txt",
+    "new": "collections/teaching/deep-learning/2024-07-24-applied-math-review/.vscode/ltex.hiddenFalsePositives.en-US.txt",
+    "before": "60f592f62ae82b6693d4098b7160a2c9b7ffa44ae325f26458e76a7735d278e0",
+    "after": "60f592f62ae82b6693d4098b7160a2c9b7ffa44ae325f26458e76a7735d278e0",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/2024-09-14-KAN2.html",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/index.html",
+    "before": "eda685a3c606e1bb82d6fedb449e37a040099826e4ececba9b04e2f43ab8ddc8",
+    "after": "bcdf94cd6694f9a114edc1b711fcdc84c770c6726d41a482d51d6fe5d3c5a690",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/2024-09-14-KAN2.md",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/slides.md",
+    "before": "83302f16d184c2debebcd39bffb304e00880d6be7375c37bb9051656925e10b8",
+    "after": "83302f16d184c2debebcd39bffb304e00880d6be7375c37bb9051656925e10b8",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/ziming-songyuan.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/ziming-songyuan.png",
+    "before": "6df7864b09f68d073581fbb2ffd9630bfde03377451d9466e4e0c2b83de7439e",
+    "after": "6df7864b09f68d073581fbb2ffd9630bfde03377451d9466e4e0c2b83de7439e",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/compare-shallow.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/compare-shallow.png",
+    "before": "2c2043e63ef298eb1c2d8fd7b68b38fc628331af2acce869acb90a66424f3895",
+    "after": "2c2043e63ef298eb1c2d8fd7b68b38fc628331af2acce869acb90a66424f3895",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/shallow-kan.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/shallow-kan.png",
+    "before": "a5a3e0c848207eacc916b1c3c9cf4db24a363a4123e2fb6a4b9c2443c05d746e",
+    "after": "a5a3e0c848207eacc916b1c3c9cf4db24a363a4123e2fb6a4b9c2443c05d746e",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/b-splines.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/b-splines.png",
+    "before": "d2c996650acce24af70b8e1a18f63db7bccc7a04b9e191cda8d31336db80a560",
+    "after": "d2c996650acce24af70b8e1a18f63db7bccc7a04b9e191cda8d31336db80a560",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/KAN-arxiv.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/KAN-arxiv.png",
+    "before": "a2228b9cb0fcd820030d987adb733f3ffc6e4ed99d8ad7008df7afc6379e37fd",
+    "after": "a2228b9cb0fcd820030d987adb733f3ffc6e4ed99d8ad7008df7afc6379e37fd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/decision_tree.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/decision_tree.png",
+    "before": "e1f7d6aafc24ec2f858a49ded81cf968e9549411248ce57d7a717eb8793e5ce1",
+    "after": "e1f7d6aafc24ec2f858a49ded81cf968e9549411248ce57d7a717eb8793e5ce1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/interpretable.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/interpretable.png",
+    "before": "698a35d990e650ce8ddaf0cbc66cb8159d6f51c56550fbc0d7524645bf83f8d0",
+    "after": "698a35d990e650ce8ddaf0cbc66cb8159d6f51c56550fbc0d7524645bf83f8d0",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/toy_interpretability_evolution.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/toy_interpretability_evolution.png",
+    "before": "8bc22437f1c36ac91d72f8d5ad6e5baeb5cb8fd26b9b0fa11ebdaf5910fd90db",
+    "after": "8bc22437f1c36ac91d72f8d5ad6e5baeb5cb8fd26b9b0fa11ebdaf5910fd90db",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/interpretable_examples_short.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/interpretable_examples_short.png",
+    "before": "2f74e211de576eed860de936d2d9d52190091734142c22d23694ae69a0aabb07",
+    "after": "2f74e211de576eed860de936d2d9d52190091734142c22d23694ae69a0aabb07",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/symbolic-formulas.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/symbolic-formulas.png",
+    "before": "e0ce40db8ef9324f64e9626f24791ec111c90bd6946df3a51cc3cd07390fda2d",
+    "after": "e0ce40db8ef9324f64e9626f24791ec111c90bd6946df3a51cc3cd07390fda2d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/mlp-kan.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/mlp-kan.png",
+    "before": "6429922975556d3f0ca0967453027a404268ec4d4a71fcd9a8623194fbc3ca43",
+    "after": "6429922975556d3f0ca0967453027a404268ec4d4a71fcd9a8623194fbc3ca43",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/datawhale.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/datawhale.png",
+    "before": "3946fed5467a9d4396f019b6286a44054f1d020d9a94d7c921762a8aef44dc19",
+    "after": "3946fed5467a9d4396f019b6286a44054f1d020d9a94d7c921762a8aef44dc19",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/controversial-opinion.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/controversial-opinion.png",
+    "before": "bdd92b737ba8c5b985bd68e27a9a8aa780e8c7d0003e8d26565d9bdc25aab15b",
+    "after": "bdd92b737ba8c5b985bd68e27a9a8aa780e8c7d0003e8d26565d9bdc25aab15b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/build_structure.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/build_structure.png",
+    "before": "f76c7d5d9a5bdd8a8ee5bf112d24a901dbcdd860581558b36debc5261a93cbfd",
+    "after": "f76c7d5d9a5bdd8a8ee5bf112d24a901dbcdd860581558b36debc5261a93cbfd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/reductionism-holism.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/reductionism-holism.png",
+    "before": "ee2ad5f400b4e8330499d17cb36bd6e8adf4675a68df37eca2789665f63be158",
+    "after": "ee2ad5f400b4e8330499d17cb36bd6e8adf4675a68df37eca2789665f63be158",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/compile_feynman.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/compile_feynman.png",
+    "before": "3cf3a438a0a55760c3645ff18063a762678a41427bcc79032debb04e63323c46",
+    "after": "3cf3a438a0a55760c3645ff18063a762678a41427bcc79032debb04e63323c46",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/compare_interp.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/compare_interp.png",
+    "before": "d2b8c4548ccaf0384ee936d6112ce4a40ee7cf699528c92ac3f4ec46819fb1ce",
+    "after": "d2b8c4548ccaf0384ee936d6112ce4a40ee7cf699528c92ac3f4ec46819fb1ce",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/history.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/history.png",
+    "before": "ec563e6a8a0d42425d2817836258fc9c072f8102eca3dece4a05fd3ca6b5a4da",
+    "after": "ec563e6a8a0d42425d2817836258fc9c072f8102eca3dece4a05fd3ca6b5a4da",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/cpnt_logo.jpg",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/cpnt_logo.jpg",
+    "before": "5bdef899f16086e194c97b60c95acf23662093cec4743290543f25a986badc24",
+    "after": "5bdef899f16086e194c97b60c95acf23662093cec4743290543f25a986badc24",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/spline_notation.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/spline_notation.png",
+    "before": "6866b55201bec04880edd15b9e5b8f3d10174b47547108bd4faaed2fecef37fa",
+    "after": "6866b55201bec04880edd15b9e5b8f3d10174b47547108bd4faaed2fecef37fa",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/deep-mlp.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/deep-mlp.png",
+    "before": "19727ad96c89ab97e060e2b09c11eec8fc14d618d9bdd8dfdcb19c31ad8b6fc5",
+    "after": "19727ad96c89ab97e060e2b09c11eec8fc14d618d9bdd8dfdcb19c31ad8b6fc5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/outline.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/outline.png",
+    "before": "f312f5ad4bca1d63818af8219c8bca0be1f4264933b35759e70f1a90a83611eb",
+    "after": "f312f5ad4bca1d63818af8219c8bca0be1f4264933b35759e70f1a90a83611eb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/xzy.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/xzy.png",
+    "before": "31c60f3cd24921d42502859be25432366e500ee3bf05f5b911acfc520a59d552",
+    "after": "31c60f3cd24921d42502859be25432366e500ee3bf05f5b911acfc520a59d552",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/gpt4.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/gpt4.png",
+    "before": "60b8abde098e57fba855a93dc8cccc7f041602194b6cbf6545b0695c0e94c0d2",
+    "after": "60b8abde098e57fba855a93dc8cccc7f041602194b6cbf6545b0695c0e94c0d2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/shallow-mlp.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/shallow-mlp.png",
+    "before": "62d538bd2969fbb0105ee1698a4bc8aaeb4408841f2e04fb2b521aa142e32380",
+    "after": "62d538bd2969fbb0105ee1698a4bc8aaeb4408841f2e04fb2b521aa142e32380",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/induction.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/induction.png",
+    "before": "74b1b824a681c16a2fe3da18f9b11b3096b4b0a1294c23ee62f07197dab98964",
+    "after": "74b1b824a681c16a2fe3da18f9b11b3096b4b0a1294c23ee62f07197dab98964",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/kart-to-kan.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/kart-to-kan.png",
+    "before": "ede02c52271e0b086335afdaea84a19fdb4420aeaadf6d0665d0f48abb50871c",
+    "after": "ede02c52271e0b086335afdaea84a19fdb4420aeaadf6d0665d0f48abb50871c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/publications.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/publications.png",
+    "before": "ab3cb1f7f3041a96ea4895a33446ce0a02577b4368097599718f422628479aca",
+    "after": "ab3cb1f7f3041a96ea4895a33446ce0a02577b4368097599718f422628479aca",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/wechat.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/wechat.png",
+    "before": "dc6dc9b09589563048ff0a39abec800511bf4391d5cae29d59d45cf861de3efb",
+    "after": "dc6dc9b09589563048ff0a39abec800511bf4391d5cae29d59d45cf861de3efb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/aux_var.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/aux_var.png",
+    "before": "06bfe85c8d25a55b414f743d552368f5c9e54779e9d8a335ae19cbb22639f160",
+    "after": "06bfe85c8d25a55b414f743d552368f5c9e54779e9d8a335ae19cbb22639f160",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/lzw.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/lzw.png",
+    "before": "64d21bf78db860dad740b8c9e3fda46b1d5ef0a22f5c210ea29e3398064cca6b",
+    "after": "64d21bf78db860dad740b8c9e3fda46b1d5ef0a22f5c210ea29e3398064cca6b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/deepkan.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/deepkan.png",
+    "before": "532e2c0458cb99f2683e4b55baa157f11aa68710046a2e08c0c0d7d87dfab5cf",
+    "after": "532e2c0458cb99f2683e4b55baa157f11aa68710046a2e08c0c0d7d87dfab5cf",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/multkan_diagram.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/multkan_diagram.png",
+    "before": "4f5b34fe6c9bd8afdbc49ccd5b5dc74ead7e2ac47a8d8be9fc517abd0e942f32",
+    "after": "4f5b34fe6c9bd8afdbc49ccd5b5dc74ead7e2ac47a8d8be9fc517abd0e942f32",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/gpt-4o.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/gpt-4o.png",
+    "before": "e3ceaa518f90557a31a63477a0d712fe3cc8cdada457a353e2bd554ee75827ec",
+    "after": "e3ceaa518f90557a31a63477a0d712fe3cc8cdada457a353e2bd554ee75827ec",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/software.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/software.png",
+    "before": "73aa5d61237cc00c0e8d174fd568f51a09306324805faa4d8132e00a58d670b4",
+    "after": "73aa5d61237cc00c0e8d174fd568f51a09306324805faa4d8132e00a58d670b4",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-14-KAN2/images/ziming.png",
+    "new": "collections/group-meetings/2024-09-14-semester-opening/images/ziming.png",
+    "before": "1bae1f4a00fa79abc8bb5065309943779afb24d52f40081f88e757b44c41ef4b",
+    "after": "1bae1f4a00fa79abc8bb5065309943779afb24d52f40081f88e757b44c41ef4b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/2024-10-19.html",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/index.html",
+    "before": "d915d57afbb7243dc9aba9b81d2813794a06ac52e28d3c8f9e59c82773392998",
+    "after": "cc2df99b05e93958aa79c4ec5f4d55d4e5a5c7b92ccad4063dcd7901ff5665d2",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/2024-10-19.md",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/slides.md",
+    "before": "f92a46d709d8188297bf2f9794e0e996970bd3fe5ae0924a8d046f2eab24a18a",
+    "after": "331dc2b6d3c78156c88c60f18520129c3aba0310da7f8c9fbb725c6cd5343dd2",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/golgi.png",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/images/golgi.png",
+    "before": "0894c3672b8430cac61be909123197723e3ce6f42b6699e1abc47492dff9f933",
+    "after": "0894c3672b8430cac61be909123197723e3ce6f42b6699e1abc47492dff9f933",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/.DS_Store",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/.DS_Store",
+    "before": "70fc1de81810addf376fcaea0419b55a41e7e05afaf539a8c08fafc0649532a5",
+    "after": "70fc1de81810addf376fcaea0419b55a41e7e05afaf539a8c08fafc0649532a5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/electron-microscope.png",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/images/electron-microscope.png",
+    "before": "7bf7b787f03365c839e7a6c7a24e1ece1213721cfe0c40e96d8feb76e61d5552",
+    "after": "7bf7b787f03365c839e7a6c7a24e1ece1213721cfe0c40e96d8feb76e61d5552",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/nissl.png",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/images/nissl.png",
+    "before": "f929d959ad4ba6df615ca8c32d1124e489e19edccadcd8917278246a8bb52d4d",
+    "after": "f929d959ad4ba6df615ca8c32d1124e489e19edccadcd8917278246a8bb52d4d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/image-1.png",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/images/image-1.png",
+    "before": "a048d19f08996c4920a7c1405e90afbda955cf7c5f9ef7510a7124911dbac32d",
+    "after": "a048d19f08996c4920a7c1405e90afbda955cf7c5f9ef7510a7124911dbac32d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/image-3.png",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/images/image-3.png",
+    "before": "f010dcd5b4d89b33f792fdaaff65cb456708f53029cc6320d37c4f50948bc2d9",
+    "after": "f010dcd5b4d89b33f792fdaaff65cb456708f53029cc6320d37c4f50948bc2d9",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/image-2.png",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/images/image-2.png",
+    "before": "cfde63f1e6d08bef658bb565c44664afb47bcc0940b03e0270e91cc5e3ccbfbd",
+    "after": "cfde63f1e6d08bef658bb565c44664afb47bcc0940b03e0270e91cc5e3ccbfbd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/image.png",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/images/image.png",
+    "before": "a048d19f08996c4920a7c1405e90afbda955cf7c5f9ef7510a7124911dbac32d",
+    "after": "a048d19f08996c4920a7c1405e90afbda955cf7c5f9ef7510a7124911dbac32d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-10-19-KJW/images/.DS_Store",
+    "new": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/images/.DS_Store",
+    "before": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "after": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/2024-11-07.html",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/index.html",
+    "before": "7489186331e00048e7677b342f333f27f0d58046d2b33e48f181b4ac917566f0",
+    "after": "15d0df0dabe2c31ebca54aef3189408d06094af8a6158a875c2c599de00c078c",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/2024-11-07.md",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/slides.md",
+    "before": "c6229ee49f249060ad856a113f4c697e928b8b7dc7996652af418827c14070a1",
+    "after": "2fc8fed5b7a64a061bc7b6de1fc12acb3db47868a67e0b7842b9250034780567",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/golgi.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/golgi.png",
+    "before": "0894c3672b8430cac61be909123197723e3ce6f42b6699e1abc47492dff9f933",
+    "after": "0894c3672b8430cac61be909123197723e3ce6f42b6699e1abc47492dff9f933",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/.DS_Store",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/.DS_Store",
+    "before": "70fc1de81810addf376fcaea0419b55a41e7e05afaf539a8c08fafc0649532a5",
+    "after": "70fc1de81810addf376fcaea0419b55a41e7e05afaf539a8c08fafc0649532a5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/electron-microscope.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/electron-microscope.png",
+    "before": "7bf7b787f03365c839e7a6c7a24e1ece1213721cfe0c40e96d8feb76e61d5552",
+    "after": "7bf7b787f03365c839e7a6c7a24e1ece1213721cfe0c40e96d8feb76e61d5552",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/nissl.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/nissl.png",
+    "before": "f929d959ad4ba6df615ca8c32d1124e489e19edccadcd8917278246a8bb52d4d",
+    "after": "f929d959ad4ba6df615ca8c32d1124e489e19edccadcd8917278246a8bb52d4d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/image-1.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/image-1.png",
+    "before": "a048d19f08996c4920a7c1405e90afbda955cf7c5f9ef7510a7124911dbac32d",
+    "after": "a048d19f08996c4920a7c1405e90afbda955cf7c5f9ef7510a7124911dbac32d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/image-3.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/image-3.png",
+    "before": "f010dcd5b4d89b33f792fdaaff65cb456708f53029cc6320d37c4f50948bc2d9",
+    "after": "f010dcd5b4d89b33f792fdaaff65cb456708f53029cc6320d37c4f50948bc2d9",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/image-2.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/image-2.png",
+    "before": "cfde63f1e6d08bef658bb565c44664afb47bcc0940b03e0270e91cc5e3ccbfbd",
+    "after": "cfde63f1e6d08bef658bb565c44664afb47bcc0940b03e0270e91cc5e3ccbfbd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/image-6.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/image-6.png",
+    "before": "99494d2224b6dcbe78849580d186d077c5ed4c2835f23eb1f56f1047932e736c",
+    "after": "99494d2224b6dcbe78849580d186d077c5ed4c2835f23eb1f56f1047932e736c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/image.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/image.png",
+    "before": "a048d19f08996c4920a7c1405e90afbda955cf7c5f9ef7510a7124911dbac32d",
+    "after": "a048d19f08996c4920a7c1405e90afbda955cf7c5f9ef7510a7124911dbac32d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/image-5.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/image-5.png",
+    "before": "1106296ea0c2a3b3cea0587f653a411a9b8e8119c0bd04f7c33a1fbff5045e3d",
+    "after": "1106296ea0c2a3b3cea0587f653a411a9b8e8119c0bd04f7c33a1fbff5045e3d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/image-4.png",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/image-4.png",
+    "before": "8be2aa66bc810cd8b6c4ccc78ae8c10e2752583bec4a66f2c56babfc6ed1ae99",
+    "after": "8be2aa66bc810cd8b6c4ccc78ae8c10e2752583bec4a66f2c56babfc6ed1ae99",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-11-07-brain-inspired/images/.DS_Store",
+    "new": "collections/research-talks/2024-11-07-brain-inspired-navigation/images/.DS_Store",
+    "before": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "after": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09.html",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/index.html",
+    "before": "3ffcad0c3568382568d35609318a3213d0bfb85bc61ef0a29440ed01c4cfa231",
+    "after": "da6a98b5dd12ea0f0c8c68ae0da36b445c34b0ec2cf9f484758293c700d1b403",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-12-09.md",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/slides.md",
+    "before": "cb1b1e835db69b725dd80a1e1c1150f838667d175e145d8df5b7db718853ddce",
+    "after": "caab1f86f518c178d980c7320551b4e631c055c21571a8b42dc0b6dc6e695e42",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/g-protein-modulation.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/g-protein-modulation.png",
+    "before": "e1117b3fe17aa55f0f23081e1dd4b1e80e1ce478120be6bb673580a11b7c05a9",
+    "after": "e1117b3fe17aa55f0f23081e1dd4b1e80e1ce478120be6bb673580a11b7c05a9",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/cannoboid.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/cannoboid.png",
+    "before": "f010dcd5b4d89b33f792fdaaff65cb456708f53029cc6320d37c4f50948bc2d9",
+    "after": "f010dcd5b4d89b33f792fdaaff65cb456708f53029cc6320d37c4f50948bc2d9",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/cells.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/cells.png",
+    "before": "6792dfae3536c45a8778c878721d4bf2693a1f11b93bade31dd5af3171ded4fd",
+    "after": "6792dfae3536c45a8778c878721d4bf2693a1f11b93bade31dd5af3171ded4fd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/levels.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/levels.png",
+    "before": "e30346262fcf66d16c47f66d075764c1e16a2be55db283f0eacb69c05c42c6ed",
+    "after": "e30346262fcf66d16c47f66d075764c1e16a2be55db283f0eacb69c05c42c6ed",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/golgi.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/golgi.png",
+    "before": "0894c3672b8430cac61be909123197723e3ce6f42b6699e1abc47492dff9f933",
+    "after": "0894c3672b8430cac61be909123197723e3ce6f42b6699e1abc47492dff9f933",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/cells-neurons.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/cells-neurons.png",
+    "before": "133ba40cfc8fce84846c64fafa4f9f8783bd6f7f4b5a7b61b58b1dbfbe0cca20",
+    "after": "133ba40cfc8fce84846c64fafa4f9f8783bd6f7f4b5a7b61b58b1dbfbe0cca20",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/binocular.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/binocular.png",
+    "before": "11ef8fc911ac4f8ef793d864d745c89be8dfbd2778ab96f590eaa0a7694c33d4",
+    "after": "11ef8fc911ac4f8ef793d864d745c89be8dfbd2778ab96f590eaa0a7694c33d4",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/rest-potential2.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/rest-potential2.png",
+    "before": "dd06972d48eb6af17904cfbdf8951656a66c1d94f85ab9eecc7dae3509b6aba7",
+    "after": "dd06972d48eb6af17904cfbdf8951656a66c1d94f85ab9eecc7dae3509b6aba7",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/rotation.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/rotation.png",
+    "before": "e8acd2d03cc4e001d66490616c895edb9c9c38edea21ed5cae836814a1eb13a9",
+    "after": "e8acd2d03cc4e001d66490616c895edb9c9c38edea21ed5cae836814a1eb13a9",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/.DS_Store",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/.DS_Store",
+    "before": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "after": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/animals.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/animals.png",
+    "before": "9b40180ec18b83b87b206a8c7084cf4714e2a949596c9092bbc95123a5d30fc3",
+    "after": "9b40180ec18b83b87b206a8c7084cf4714e2a949596c9092bbc95123a5d30fc3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/electron-microscope.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/electron-microscope.png",
+    "before": "7bf7b787f03365c839e7a6c7a24e1ece1213721cfe0c40e96d8feb76e61d5552",
+    "after": "7bf7b787f03365c839e7a6c7a24e1ece1213721cfe0c40e96d8feb76e61d5552",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/neuroai.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/neuroai.png",
+    "before": "23b789d609367c50280370b1492c35bbc901a5433775442f1072b2681a524512",
+    "after": "23b789d609367c50280370b1492c35bbc901a5433775442f1072b2681a524512",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/chengjiang.jpg",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/chengjiang.jpg",
+    "before": "94138a8df6c78184cd6ccb0048ef033dca228e1c89b0b3cdaa04edfe5b74ede3",
+    "after": "94138a8df6c78184cd6ccb0048ef033dca228e1c89b0b3cdaa04edfe5b74ede3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/nissl.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/nissl.png",
+    "before": "f929d959ad4ba6df615ca8c32d1124e489e19edccadcd8917278246a8bb52d4d",
+    "after": "f929d959ad4ba6df615ca8c32d1124e489e19edccadcd8917278246a8bb52d4d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/neuraltube.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/neuraltube.png",
+    "before": "7c53cdfa3d7ddcc80bf148a43ba390adc57030b31763966f76893c785a1777ca",
+    "after": "7c53cdfa3d7ddcc80bf148a43ba390adc57030b31763966f76893c785a1777ca",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/VBN.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/VBN.png",
+    "before": "ae3e5902101d0a0c904adeb0a50a8c8727d3badadb0779b4fe9ce4cd391b3c73",
+    "after": "ae3e5902101d0a0c904adeb0a50a8c8727d3badadb0779b4fe9ce4cd391b3c73",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/rest-potential.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/rest-potential.png",
+    "before": "8eabdbe08050f92f6166d4e5d4d158953daf69ffc426ac92f4d6f2a7bc7eabd7",
+    "after": "8eabdbe08050f92f6166d4e5d4d158953daf69ffc426ac92f4d6f2a7bc7eabd7",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/neocortex.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/neocortex.png",
+    "before": "cfde63f1e6d08bef658bb565c44664afb47bcc0940b03e0270e91cc5e3ccbfbd",
+    "after": "cfde63f1e6d08bef658bb565c44664afb47bcc0940b03e0270e91cc5e3ccbfbd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/yu-etal.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/yu-etal.png",
+    "before": "43ac69ac4225a3652df631134ec33433c2fe1cc3deb5c61c1a281e73d319c504",
+    "after": "43ac69ac4225a3652df631134ec33433c2fe1cc3deb5c61c1a281e73d319c504",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/hippocampus.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/hippocampus.png",
+    "before": "39c1f5fb501858ad1a2ee2c467c45e7bab13edcd7ba45ff7759315b5a6b066c5",
+    "after": "39c1f5fb501858ad1a2ee2c467c45e7bab13edcd7ba45ff7759315b5a6b066c5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/EPSP.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/EPSP.png",
+    "before": "821a4d40249c93f7edc9d2108a3e7c38380ee5c4edb8cdce788e3a55a19a6d02",
+    "after": "821a4d40249c93f7edc9d2108a3e7c38380ee5c4edb8cdce788e3a55a19a6d02",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/IPSP.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/IPSP.png",
+    "before": "d106633f069416c0db75d820485f82ffdde1ef5da1a8a91d9f71b5a0313759f2",
+    "after": "d106633f069416c0db75d820485f82ffdde1ef5da1a8a91d9f71b5a0313759f2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/crossbar.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/crossbar.png",
+    "before": "0bfdb394004c19ed887e7e1e2a91028c97c4b7d46acfdfd63516b6c96f5ac5bc",
+    "after": "0bfdb394004c19ed887e7e1e2a91028c97c4b7d46acfdfd63516b6c96f5ac5bc",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/e-turing-test.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/e-turing-test.png",
+    "before": "9e3a120897f6e525629270868982c1451e44de30d0ed18a50c31588cca8d32e1",
+    "after": "9e3a120897f6e525629270868982c1451e44de30d0ed18a50c31588cca8d32e1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/rosenblatt.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/rosenblatt.png",
+    "before": "824ae5bdae01b1a150eac0e0e44f919fac9f9f14ba7e97b9a1bc2da5308d3368",
+    "after": "824ae5bdae01b1a150eac0e0e44f919fac9f9f14ba7e97b9a1bc2da5308d3368",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/insect-behavior.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/insect-behavior.png",
+    "before": "c134956c7a15bbc84ef5bd3a9870b2991e8fa1a20030c87c997859f660e382ae",
+    "after": "c134956c7a15bbc84ef5bd3a9870b2991e8fa1a20030c87c997859f660e382ae",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/synaptic-integration.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/synaptic-integration.png",
+    "before": "b76f18d03437c584500723726820f8f82b6030a98c6968c03ac7b5918bf8f796",
+    "after": "b76f18d03437c584500723726820f8f82b6030a98c6968c03ac7b5918bf8f796",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/synapse.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/synapse.png",
+    "before": "7fa45a384c65882c45b4cbe3ef47f998a708e238340a3f17c13cbeaadc33a409",
+    "after": "7fa45a384c65882c45b4cbe3ef47f998a708e238340a3f17c13cbeaadc33a409",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/stairs.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/stairs.png",
+    "before": "6c80e3569a328976fc576b904571d0135c57df0674bba4a5085fe64b144580f1",
+    "after": "6c80e3569a328976fc576b904571d0135c57df0674bba4a5085fe64b144580f1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/action-potential.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/action-potential.png",
+    "before": "bf127b2bad2b07ac3d8ee6feb55b964acd8c83451280e09fe94185b80f0d11fa",
+    "after": "bf127b2bad2b07ac3d8ee6feb55b964acd8c83451280e09fe94185b80f0d11fa",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/extension.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/extension.png",
+    "before": "e5f8eabcf8f1b1b05d993eec43ec624664cd7d265769dbf1b802c4af04a65302",
+    "after": "e5f8eabcf8f1b1b05d993eec43ec624664cd7d265769dbf1b802c4af04a65302",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/event-camera.jpeg",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/event-camera.jpeg",
+    "before": "1f825a35acc3f12362300bb5e81b658bc0fd5ff21958749834cec3f49e8bfe0c",
+    "after": "1f825a35acc3f12362300bb5e81b658bc0fd5ff21958749834cec3f49e8bfe0c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/thumbtack.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/thumbtack.png",
+    "before": "71dcce72d21aebe0505d6ccbb79caac79bc869e07213232edde11c89fc20b5a3",
+    "after": "71dcce72d21aebe0505d6ccbb79caac79bc869e07213232edde11c89fc20b5a3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/spiking-neuron.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/spiking-neuron.png",
+    "before": "feccdf09c8db1a26b4d1f3d9960659d7e46637963cc922f0c7d29dedf5d95a26",
+    "after": "feccdf09c8db1a26b4d1f3d9960659d7e46637963cc922f0c7d29dedf5d95a26",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-12-09-brain-inspired/navgpt.png",
+    "new": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/images/navgpt.png",
+    "before": "f17391772e95f864b8c083504617cf659048877ed125b58a2a9d1fb0a1f10291",
+    "after": "f17391772e95f864b8c083504617cf659048877ed125b58a2a9d1fb0a1f10291",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2025-01-16-recap/main.html",
+    "new": "collections/group-meetings/2025-01-16-recap/index.html",
+    "before": "2515e5e5a65fa37be3d780ea226219a255a140a746c7a1b77e92004d20364a3c",
+    "after": "b7c6808034ae2ebc3d02db1dffced56a545d6b48d03f7dac8376c53df22cb504",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2025-01-16-recap/main.md",
+    "new": "collections/group-meetings/2025-01-16-recap/slides.md",
+    "before": "e1eda2933f557b230e7c15167256ece87b007594d03d8f59eb8623bc3d38cc0b",
+    "after": "e18935d1e0a924d98730479e3d48762edaef4fecadb92a770b847c5ca4df782c",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2025-01-16-recap/image-1.png",
+    "new": "collections/group-meetings/2025-01-16-recap/images/image-1.png",
+    "before": "05cc877f902f47379229d88acd159fc7281111ca18205873bffe3577a81b9004",
+    "after": "05cc877f902f47379229d88acd159fc7281111ca18205873bffe3577a81b9004",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2025-01-16-recap/image-3.png",
+    "new": "collections/group-meetings/2025-01-16-recap/images/image-3.png",
+    "before": "cdebf3292c2eda7b447ac8561c69d45395c380069c8d130e16f85f0e17ada6b5",
+    "after": "cdebf3292c2eda7b447ac8561c69d45395c380069c8d130e16f85f0e17ada6b5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2025-01-16-recap/image-2.png",
+    "new": "collections/group-meetings/2025-01-16-recap/images/image-2.png",
+    "before": "13e1e96b42fa5f7a338cf8431cd21c89b4a9c6cfcf70f652df39dce30f39ddc7",
+    "after": "13e1e96b42fa5f7a338cf8431cd21c89b4a9c6cfcf70f652df39dce30f39ddc7",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2025-01-16-recap/image.png",
+    "new": "collections/group-meetings/2025-01-16-recap/images/image.png",
+    "before": "1fe2395075f09fed0bd4d0fca39a9348aa45b918c11f1afd5984f9670250a408",
+    "after": "1fe2395075f09fed0bd4d0fca39a9348aa45b918c11f1afd5984f9670250a408",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/main.html",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/index.html",
+    "before": "5e72df70a5e1bc34257cd666e6b102a13a7e23b6e20197cf5700dbca784a0007",
+    "after": "aa0fa16c70b7ad1388749e01af3bc69059f4df512dbbaf50d4560cfb6c8e6de1",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/main.md",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/slides.md",
+    "before": "31784bfbdbb8ae4fb98ac7203174aecdc5d16dc8b2268f0ba3816f3769b33683",
+    "after": "31784bfbdbb8ae4fb98ac7203174aecdc5d16dc8b2268f0ba3816f3769b33683",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/presentation.css",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/presentation.css",
+    "before": "e97d18b333a6b3545f124e939fa50d145499e75ed60d6790906f0b126ba0f153",
+    "after": "e97d18b333a6b3545f124e939fa50d145499e75ed60d6790906f0b126ba0f153",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/.DS_Store",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/.DS_Store",
+    "before": "4b8680e6abab27ebc2c98411490d7717122400dbb0e8d8aec8e696fd825fdee3",
+    "after": "4b8680e6abab27ebc2c98411490d7717122400dbb0e8d8aec8e696fd825fdee3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/plotly.min.js",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/plotly.min.js",
+    "before": "6d21266ce1bd7d9e5ab4e115989c70c20de0382fd973a8f26ab58619eba4d603",
+    "after": "6d21266ce1bd7d9e5ab4e115989c70c20de0382fd973a8f26ab58619eba4d603",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/acceptance-chart.js",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/acceptance-chart.js",
+    "before": "0dd57ee40718d4565a64e78a153343bd22ce8e73fa789054778dd5bd63cd4062",
+    "after": "0dd57ee40718d4565a64e78a153343bd22ce8e73fa789054778dd5bd63cd4062",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/promts.md",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/docs/promts.md",
+    "before": "f50690dd9be0ce810c218bdfd1491f77461e7c5fbe31290a40b384a64c097df7",
+    "after": "f50690dd9be0ce810c218bdfd1491f77461e7c5fbe31290a40b384a64c097df7",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/acceptance-chart.html",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/acceptance-chart.html",
+    "before": "8c718e443e456306d4950a3d1b0d2e4846e7fdf67947e69a24e39275b72662a3",
+    "after": "8c718e443e456306d4950a3d1b0d2e4846e7fdf67947e69a24e39275b72662a3",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/presentation.js",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/presentation.js",
+    "before": "0d9890694418e6f809ac75634e3df63c2e97917aef481c408e8e97cd087a9244",
+    "after": "0d9890694418e6f809ac75634e3df63c2e97917aef481c408e8e97cd087a9244",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/INMMiC-teaser.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/INMMiC-teaser.png",
+    "before": "cb78e2cf0e2095f44ee7435be4c43f26433b48417ef0bd699ccc2c19ee4a929a",
+    "after": "cb78e2cf0e2095f44ee7435be4c43f26433b48417ef0bd699ccc2c19ee4a929a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/nsfc-approval.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/nsfc-approval.jpg",
+    "before": "0d7728771afd7d7a3a3ce7a2b73e2d765e53a6ef902d0758a020b08157e7308a",
+    "after": "0d7728771afd7d7a3a3ce7a2b73e2d765e53a6ef902d0758a020b08157e7308a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/Prototype.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/Prototype.png",
+    "before": "5e5098b5b2f637cc2108bc2659d6e466e7c5790097e7324a8de547e404be1adf",
+    "after": "5e5098b5b2f637cc2108bc2659d6e466e7c5790097e7324a8de547e404be1adf",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/shihang.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/shihang.jpg",
+    "before": "9d70935f9391212f8c93ca6b025e0656b1e0721439894e302db670c79ab77823",
+    "after": "9d70935f9391212f8c93ca6b025e0656b1e0721439894e302db670c79ab77823",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/宇航学报-teaser.pdf",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/宇航学报-teaser.pdf",
+    "before": "7b330fc314f916d55deaac1959cb083e8beb06887c813cf92b301bc206a1d2da",
+    "after": "7b330fc314f916d55deaac1959cb083e8beb06887c813cf92b301bc206a1d2da",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/宇航学报-teaser.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/宇航学报-teaser.png",
+    "before": "7b318f8bebb8c5447c1ab151647a3c03cb39e87ad0f091e1f07c04286f6719ee",
+    "after": "7b318f8bebb8c5447c1ab151647a3c03cb39e87ad0f091e1f07c04286f6719ee",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/suat-swimming-pool.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/suat-swimming-pool.jpg",
+    "before": "e5358c0c4fcd357b4ff2ba9c5f818144d03cfd9dfe5c6c39dbd7c842f16e7c37",
+    "after": "e5358c0c4fcd357b4ff2ba9c5f818144d03cfd9dfe5c6c39dbd7c842f16e7c37",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/Calliphase-teaser.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/Calliphase-teaser.jpg",
+    "before": "7dc27d2d25f956776ae910879f0e22acaeef02c681298ec2e4bafbaec4a7ae0e",
+    "after": "7dc27d2d25f956776ae910879f0e22acaeef02c681298ec2e4bafbaec4a7ae0e",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/1-min.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/1-min.jpg",
+    "before": "fe81973f17ac5aa999cced0bafa0da69efa84c66ef313095520e4d192cfd053d",
+    "after": "fe81973f17ac5aa999cced0bafa0da69efa84c66ef313095520e4d192cfd053d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/cyclex-engin-result.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/cyclex-engin-result.png",
+    "before": "56c013828b67071a4d766667086518b28cd4b9ea5202b2b3bb4e717e58dbb9a2",
+    "after": "56c013828b67071a4d766667086518b28cd4b9ea5202b2b3bb4e717e58dbb9a2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/pcb-validation.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/pcb-validation.jpg",
+    "before": "0f3f6151ed53c33b760e4da23115e012b5215f22ef3c08dfdc03760bf2a16dd7",
+    "after": "0f3f6151ed53c33b760e4da23115e012b5215f22ef3c08dfdc03760bf2a16dd7",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/calli-engin-result.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/calli-engin-result.png",
+    "before": "15e10d308b924503f6ddce6a21b1e1675dae44ce40d4944590fad33bdcd3a1cb",
+    "after": "15e10d308b924503f6ddce6a21b1e1675dae44ce40d4944590fad33bdcd3a1cb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/kelvin-teaser.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/kelvin-teaser.png",
+    "before": "f35b16494a66ea01b21c01ff8d8ed61cbaf27624658d536d7f168d9d94b870f5",
+    "after": "f35b16494a66ea01b21c01ff8d8ed61cbaf27624658d536d7f168d9d94b870f5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/ending.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/ending.jpg",
+    "before": "02d2efef9b914fa6d66c8b6501a42f74ef3a42017cc9a06338d3b9bceb4d9276",
+    "after": "02d2efef9b914fa6d66c8b6501a42f74ef3a42017cc9a06338d3b9bceb4d9276",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/kelvin-teaser.pdf",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/kelvin-teaser.pdf",
+    "before": "a400aa990c76ba143afbe50ea5cff5be933963c4db472949748c890971636278",
+    "after": "a400aa990c76ba143afbe50ea5cff5be933963c4db472949748c890971636278",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/smartrat-teaser2.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/smartrat-teaser2.png",
+    "before": "947b42cf40c8f9ec54a8c1b3fedfc3cc9ce1a4e4fc4732f29f8a42f69afedc43",
+    "after": "947b42cf40c8f9ec54a8c1b3fedfc3cc9ce1a4e4fc4732f29f8a42f69afedc43",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/KANalogue-teaser.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/KANalogue-teaser.png",
+    "before": "566c214bb07dfaf8a6f1e02032f088f7a69bec87687617f1c01accf5a73aff37",
+    "after": "566c214bb07dfaf8a6f1e02032f088f7a69bec87687617f1c01accf5a73aff37",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/smartrat-teaser3.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/smartrat-teaser3.png",
+    "before": "7ba82f78017a5570419f64d5ba8c733a3254efea1747756d71cb88c587a11618",
+    "after": "7ba82f78017a5570419f64d5ba8c733a3254efea1747756d71cb88c587a11618",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/smartrat-teaser1.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/smartrat-teaser1.png",
+    "before": "b9e4c3f72ca71481959f4be240574d76eb5089686923a4e4102b2830d98a4d64",
+    "after": "b9e4c3f72ca71481959f4be240574d76eb5089686923a4e4102b2830d98a4d64",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/smartrat-teaser3.pdf",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/smartrat-teaser3.pdf",
+    "before": "7aeebb94dd5c002dbc80189577992a322bb8555c94dfbae812d7a216b5577e65",
+    "after": "7aeebb94dd5c002dbc80189577992a322bb8555c94dfbae812d7a216b5577e65",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/KANalogue-teaser.pdf",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/KANalogue-teaser.pdf",
+    "before": "aff7fca84f6ff6b22936c382b9e17e336911a69a5e325a0dac7dd54cbfd69fbf",
+    "after": "aff7fca84f6ff6b22936c382b9e17e336911a69a5e325a0dac7dd54cbfd69fbf",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/smartrat-teaser4.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/smartrat-teaser4.png",
+    "before": "7c248c5813703772ab59d5749643b1fd28e8456506665a3b9cff04d9ef38a7c0",
+    "after": "7c248c5813703772ab59d5749643b1fd28e8456506665a3b9cff04d9ef38a7c0",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/e-motor.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/e-motor.jpg",
+    "before": "f2302dabd74bf0e9bc358a171edda44bbdcd8001d186ec3fa9497793a71e3d3c",
+    "after": "f2302dabd74bf0e9bc358a171edda44bbdcd8001d186ec3fa9497793a71e3d3c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/100%.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/100%.jpg",
+    "before": "d2a7998da6a88bfa19f260eec6ab0937061b7e15958441917c494c503d8322b0",
+    "after": "d2a7998da6a88bfa19f260eec6ab0937061b7e15958441917c494c503d8322b0",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/spin_uv-teaser.png",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/spin_uv-teaser.png",
+    "before": "56d26bc64199fe35fd80814435612ca38d4336a3c213b2e745876fa574ca406a",
+    "after": "56d26bc64199fe35fd80814435612ca38d4336a3c213b2e745876fa574ca406a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/lcc.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/lcc.jpg",
+    "before": "b4b6d6c61a66c55444b5a8f0a50dff4cf7c512be29da7848f43b90511035ea84",
+    "after": "b4b6d6c61a66c55444b5a8f0a50dff4cf7c512be29da7848f43b90511035ea84",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/offroad.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/offroad.jpg",
+    "before": "2d12ce8d41d9f43857b66ef38fa88134357c890ac49efa80c6d9efe82e0251d1",
+    "after": "2d12ce8d41d9f43857b66ef38fa88134357c890ac49efa80c6d9efe82e0251d1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/spin_uv-teaser.pdf",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/spin_uv-teaser.pdf",
+    "before": "178265fc9c0adaac93ba8a824ab347e60b78a37b64c76e2ac26f00883c89760a",
+    "after": "178265fc9c0adaac93ba8a824ab347e60b78a37b64c76e2ac26f00883c89760a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/pcb-val",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/pcb-val",
+    "before": "0f3f6151ed53c33b760e4da23115e012b5215f22ef3c08dfdc03760bf2a16dd7",
+    "after": "0f3f6151ed53c33b760e4da23115e012b5215f22ef3c08dfdc03760bf2a16dd7",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/images/smartrat-teaser4.pdf",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/images/smartrat-teaser4.pdf",
+    "before": "89ab30f612de4ea005a4f5856e70ce269659f54023bb0353ae625f3d8ba6564c",
+    "after": "89ab30f612de4ea005a4f5856e70ce269659f54023bb0353ae625f3d8ba6564c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/docs/面上项目-正文-2026.pdf",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/docs/面上项目-正文-2026.pdf",
+    "before": "b63d183d9eb2b3606eee1b817c9fecfa4e85bb490a6423c0c95f198dd36a6f99",
+    "after": "b63d183d9eb2b3606eee1b817c9fecfa4e85bb490a6423c0c95f198dd36a6f99",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/docs/review_full.pdf",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/docs/review_full.pdf",
+    "before": "d35ffc4130dba00937dd624f86eee465cfd8269f98e40ee6b37b7ebb747ddae5",
+    "after": "d35ffc4130dba00937dd624f86eee465cfd8269f98e40ee6b37b7ebb747ddae5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/videos/bingo-workflow-browser.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/videos/bingo-workflow-browser.jpg",
+    "before": "58d0f428b24cfb49f197f7b0ee8c693c4d3a63a435c448e0f1231e7bae2985f1",
+    "after": "58d0f428b24cfb49f197f7b0ee8c693c4d3a63a435c448e0f1231e7bae2985f1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/videos/neuro-car-browser.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/videos/neuro-car-browser.jpg",
+    "before": "22763477c957201f43ed42d62bce576581903ae252e1251cbb66235d52016910",
+    "after": "22763477c957201f43ed42d62bce576581903ae252e1251cbb66235d52016910",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/videos/jk-demo.mp4",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/videos/jk-demo.mp4",
+    "before": "a7e6b65efc82223db80ad8f09f344417acfc139e8736f6e6b413c86cf19c7588",
+    "after": "a7e6b65efc82223db80ad8f09f344417acfc139e8736f6e6b413c86cf19c7588",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/videos/neuro小车.mov",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/videos/neuro小车.mov",
+    "before": "291fedc087bcc9936ab234f9a9b6702535d3694ca09b6d1f1fcb568cfed500b7",
+    "after": "291fedc087bcc9936ab234f9a9b6702535d3694ca09b6d1f1fcb568cfed500b7",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/videos/jk-demo-browser.jpg",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/videos/jk-demo-browser.jpg",
+    "before": "6929957572069706ade8aa196b3c539795d61c6535519872a1e653f3ac348b72",
+    "after": "6929957572069706ade8aa196b3c539795d61c6535519872a1e653f3ac348b72",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/videos/jk-demo-browser.mp4",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/videos/jk-demo-browser.mp4",
+    "before": "77ec92b062c4b7a645b80282f52365e0c78580465e7cba1b282be138b9ab1a72",
+    "after": "77ec92b062c4b7a645b80282f52365e0c78580465e7cba1b282be138b9ab1a72",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/videos/bingo-workflow-browser.mp4",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/videos/bingo-workflow-browser.mp4",
+    "before": "85570a1a969b1da207cc0d2cfa5acc3bfc66421f4a5e6e6821c264845fa2f105",
+    "after": "85570a1a969b1da207cc0d2cfa5acc3bfc66421f4a5e6e6821c264845fa2f105",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/videos/neuro-car-browser.mp4",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/videos/neuro-car-browser.mp4",
+    "before": "4c60e82cd9e76bd1d9bc36efae7666d34335895078f8b6802d333ae4d7eede83",
+    "after": "4c60e82cd9e76bd1d9bc36efae7666d34335895078f8b6802d333ae4d7eede83",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2026-09-10-AI-group-gathering/videos/bingo-all-in-one-workflow-demo.mov",
+    "new": "collections/group-meetings/2026-09-10-ai-group-gathering/videos/bingo-all-in-one-workflow-demo.mov",
+    "before": "d482f8a115cf76ff34000a71f80c55d95c3864a7300708041c3ff12f9fb404fa",
+    "after": "d482f8a115cf76ff34000a71f80c55d95c3864a7300708041c3ff12f9fb404fa",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week01.html",
+    "new": "collections/teaching/music15b/week01.html",
+    "before": "89dfa0824daf1d6ed3f8f89de9ddae257db6deb7366ce1792b7bd99e6d6fd83b",
+    "after": "989ad55df5a6453dbed9d3dde2965953a255ea1f5543cd33a9d920df025efff2",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/.DS_Store",
+    "new": "collections/teaching/music15b/.DS_Store",
+    "before": "4819c92fc381d3212c5a705c0a3fdd9aa24b109f074a7cfbacd63ef7da456028",
+    "after": "4819c92fc381d3212c5a705c0a3fdd9aa24b109f074a7cfbacd63ef7da456028",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week03.md",
+    "new": "collections/teaching/music15b/week03.md",
+    "before": "155dda0b94d2c9f73c3e0bb74c9549bc18cabe5c54086a451cbe397bb4b5742f",
+    "after": "155dda0b94d2c9f73c3e0bb74c9549bc18cabe5c54086a451cbe397bb4b5742f",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week07.md",
+    "new": "collections/teaching/music15b/week07.md",
+    "before": "3fea31dd70e62d1a79b54905a909f1ea48b37d80235cf6df2e1e13a856782473",
+    "after": "3fea31dd70e62d1a79b54905a909f1ea48b37d80235cf6df2e1e13a856782473",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week07.html",
+    "new": "collections/teaching/music15b/week07.html",
+    "before": "ae885d0b132804fad3157be7b327a0636bc7dc82ce29a6eeaa022a6d7f74c64c",
+    "after": "a5061a01e9f9cbdf56b89523869062ab8e8503767efb0075ac62f2426eb2717b",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/week11.html",
+    "new": "collections/teaching/music15b/week11.html",
+    "before": "0ae030296f73b2ce4dd650c45d5435ebf66c043928e7abd4ac2c303f6aab5ac2",
+    "after": "a981a9bc33da11eb80b189425c00dd1845150cb19a48618a6c76f1ff1e399835",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/week10.html",
+    "new": "collections/teaching/music15b/week10.html",
+    "before": "82145376940900b6c05cf212bc5fbd9f11ebc0042167d7f8ff84201760b0ba86",
+    "after": "83aa0054c8e5f75d4940d7e2efe44c7a1346a005e3dc3d8f3cc7dcc8491f1e62",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/week06.md",
+    "new": "collections/teaching/music15b/week06.md",
+    "before": "bde48b2177d3e21691fbfbacafc43781190b8619d01fb06df1594fde334dc3a1",
+    "after": "bde48b2177d3e21691fbfbacafc43781190b8619d01fb06df1594fde334dc3a1",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week06.html",
+    "new": "collections/teaching/music15b/week06.html",
+    "before": "518aeed0dfb434544d7d5b90c7a82ae3d7e1fde715f9511235792f5ac71531ec",
+    "after": "37b5ee6d4dbfc271106d9d7034a15bf0faf6f9a5fe077409a9b6a8a8db81cb26",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/week02.md",
+    "new": "collections/teaching/music15b/week02.md",
+    "before": "2993b4040dcb73404c9495f558e2c504d7d13a4477298fb80988ad450c5d7cc4",
+    "after": "2993b4040dcb73404c9495f558e2c504d7d13a4477298fb80988ad450c5d7cc4",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week12.md",
+    "new": "collections/teaching/music15b/week12.md",
+    "before": "ef201c3bc3f89ed361f4e8cefeef8b54da87234461208ca176f37d52afc25a17",
+    "after": "ef201c3bc3f89ed361f4e8cefeef8b54da87234461208ca176f37d52afc25a17",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week05.md",
+    "new": "collections/teaching/music15b/week05.md",
+    "before": "f2b9901d68a730a9f1ac7d16ff57a768d9a2538ef245a67b53735fcb0f85622b",
+    "after": "f2b9901d68a730a9f1ac7d16ff57a768d9a2538ef245a67b53735fcb0f85622b",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week05.html",
+    "new": "collections/teaching/music15b/week05.html",
+    "before": "42c83be5a2304be2dcb71687215956b6e7641a5d46fb969525f58b0d1c52c34a",
+    "after": "afbe4e58b0fa9d44b12a14f08c43eab0d9540a527f64c2d7321bdc9a5478cf84",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/week01.md",
+    "new": "collections/teaching/music15b/week01.md",
+    "before": "98e44dd4c91dc4b168ed51053de91c5ea4ad761634ceabba5f4955f8cd8b7cf1",
+    "after": "98e44dd4c91dc4b168ed51053de91c5ea4ad761634ceabba5f4955f8cd8b7cf1",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week11.md",
+    "new": "collections/teaching/music15b/week11.md",
+    "before": "33ea5b12ffb0d34be9ffa999d5dc680a24b39fa231bcf0ace94846c8f36b2dfb",
+    "after": "33ea5b12ffb0d34be9ffa999d5dc680a24b39fa231bcf0ace94846c8f36b2dfb",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week10.md",
+    "new": "collections/teaching/music15b/week10.md",
+    "before": "ac6b626797196a8a6397abaaa8fb46b004d828677bcc71ba6399e6b569401d9b",
+    "after": "ac6b626797196a8a6397abaaa8fb46b004d828677bcc71ba6399e6b569401d9b",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week04.html",
+    "new": "collections/teaching/music15b/week04.html",
+    "before": "65a405345e8f2c029382813503eb72e52b7dd376a1febc586a2ea727c92bb842",
+    "after": "7d9c74d933d683402b11becd61c1d56c75413440918905f0c7724a830afbf9ad",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/week12.html",
+    "new": "collections/teaching/music15b/week12.html",
+    "before": "ed4259601ca517cfd641d3d96b0ba9f9c24629a5b8a9927d35d535d9e5749646",
+    "after": "cae1f8c9c57ffcc221e18aa220359ef4bb031c294e21d8e3c0a9e66e40343b6b",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/week04.md",
+    "new": "collections/teaching/music15b/week04.md",
+    "before": "f0547b9db3d68e767d3b6c7137cb4adac8fc1955be1017084623308c9900977b",
+    "after": "f0547b9db3d68e767d3b6c7137cb4adac8fc1955be1017084623308c9900977b",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week03.html",
+    "new": "collections/teaching/music15b/week03.html",
+    "before": "badaf23791c45527691ba07cab1b4dff550c870aba13a594c7c067af6bab1cd5",
+    "after": "1055ebbf2d6fcbe72b47a887322a4447b2050ffd1ab7874b5bc5ca671082f4b5",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/week02.html",
+    "new": "collections/teaching/music15b/week02.html",
+    "before": "d4a22816034931eb52618a1201b5f260e1e3997261fa4172dd189e7b3c2a6f3f",
+    "after": "20b01f2b2f998d55dca0515844a530178eee94ca80b3f1e45b234192b45b3881",
+    "referenceChanges": true
+  },
+  {
+    "old": "music15b/week02_images/paper.png",
+    "new": "collections/teaching/music15b/week02_images/paper.png",
+    "before": "5f0c738feed1ba6736d7417d42d87d205633813d339138f0d297a053d413f8bf",
+    "after": "5f0c738feed1ba6736d7417d42d87d205633813d339138f0d297a053d413f8bf",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week02_images/my-result.jpeg",
+    "new": "collections/teaching/music15b/week02_images/my-result.jpeg",
+    "before": "bb9722aa37e6babe051a9bf6f0317dcfe6f59910955d265827b0dbdf80237dff",
+    "after": "bb9722aa37e6babe051a9bf6f0317dcfe6f59910955d265827b0dbdf80237dff",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week02_images/main-results.png",
+    "new": "collections/teaching/music15b/week02_images/main-results.png",
+    "before": "fa14609b1ce61899a47a5e88b1e3c13290c488b29d794840024294dbae962837",
+    "after": "fa14609b1ce61899a47a5e88b1e3c13290c488b29d794840024294dbae962837",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week02_images/participants.png",
+    "new": "collections/teaching/music15b/week02_images/participants.png",
+    "before": "523b1cb4d1bcd5048464a4ec8c717be114606d40b6221b48493556191c4a47b2",
+    "after": "523b1cb4d1bcd5048464a4ec8c717be114606d40b6221b48493556191c4a47b2",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week01_images/shaun-cello.jpeg",
+    "new": "collections/teaching/music15b/week01_images/shaun-cello.jpeg",
+    "before": "36e8b776bd943035b966e306cc8493565ec75bbeec54329ad5f435cf2c3dab8a",
+    "after": "36e8b776bd943035b966e306cc8493565ec75bbeec54329ad5f435cf2c3dab8a",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week01_images/.DS_Store",
+    "new": "collections/teaching/music15b/week01_images/.DS_Store",
+    "before": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "after": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week01_images/shaun-guitar.jpeg",
+    "new": "collections/teaching/music15b/week01_images/shaun-guitar.jpeg",
+    "before": "195e0404ffb5f2a524aaccd57380613544396847fa01392b44193df67e8e1994",
+    "after": "195e0404ffb5f2a524aaccd57380613544396847fa01392b44193df67e8e1994",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week01_images/shaun-piano.jpeg",
+    "new": "collections/teaching/music15b/week01_images/shaun-piano.jpeg",
+    "before": "e51ef2d67285d067e8ecdd921207d7f1beaa74142365eb1da213a9ed837a76c3",
+    "after": "e51ef2d67285d067e8ecdd921207d7f1beaa74142365eb1da213a9ed837a76c3",
+    "referenceChanges": false
+  },
+  {
+    "old": "music15b/week01_images/shaun-lecturer.jpeg",
+    "new": "collections/teaching/music15b/week01_images/shaun-lecturer.jpeg",
+    "before": "9c6a6f61b351c8182842cb117de8dfc20eee0be89e275f096fa28f9487f47d59",
+    "after": "9c6a6f61b351c8182842cb117de8dfc20eee0be89e275f096fa28f9487f47d59",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/d2l/2024-06-07-d2l-01.html",
+    "new": "collections/teaching/deep-learning/dive-into-deep-learning/lesson01.html",
+    "before": "3d4ac23e2a39d554c11eb79ea2617ef73d2317fd094bf1843b3a88d20c97d077",
+    "after": "bccfe8c7a78bc84c158261d04fe8248b174d2ab4cdfd54dacfa8fb408faa8bae",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/d2l/2024-06-07-d2l-01.md",
+    "new": "collections/teaching/deep-learning/dive-into-deep-learning/lesson01.md",
+    "before": "72d357596cb359971d3dc3c936e48a5584023c7aa001c30ce330caf1c38eb5fa",
+    "after": "72d357596cb359971d3dc3c936e48a5584023c7aa001c30ce330caf1c38eb5fa",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/2024-09-sci-verbal.html",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/lesson01.html",
+    "before": "eb5bee2f64ef62c78f9d5ba2ecda7f03f67cd4f518b65b5d5a0cfa207df6b77e",
+    "after": "64a61f8442551662760a96a9cd27fd55f041960e168cd7d9edfd2995a8abbd11",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/2024-09-sci-verbal.md",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/lesson01.md",
+    "before": "cfa618b45146ac387f6d644fdca61651ae029660a2fa74e10b9144b014c63ea2",
+    "after": "cfa618b45146ac387f6d644fdca61651ae029660a2fa74e10b9144b014c63ea2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/2024-09-sci-verbal02.html",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/lesson02.html",
+    "before": "afd418c78282f05f33bb63922692b0e1d0854fa4a8bce938a5394ba116485040",
+    "after": "4df2acc844d772aede6eafa44574872946cfc8a8803344a587507b7f09303dbd",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/2024-09-sci-verbal02.md",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/lesson02.md",
+    "before": "dc565d98079e0286819af4c89d4e2517dc825848ff542f07e71d296deb31c94a",
+    "after": "dc565d98079e0286819af4c89d4e2517dc825848ff542f07e71d296deb31c94a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/.DS_Store",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/.DS_Store",
+    "before": "70fc1de81810addf376fcaea0419b55a41e7e05afaf539a8c08fafc0649532a5",
+    "after": "70fc1de81810addf376fcaea0419b55a41e7e05afaf539a8c08fafc0649532a5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/image-1.png",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/image-1.png",
+    "before": "8088651f37ccdb17981d6c3728d998a30cfcd562d0396fe21b38bf9a21a5ab97",
+    "after": "8088651f37ccdb17981d6c3728d998a30cfcd562d0396fe21b38bf9a21a5ab97",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/image-3.png",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/image-3.png",
+    "before": "2cf77e6dc63468cb502161cc3aa7d710af69f3cc06c4846da183494eda94e67b",
+    "after": "2cf77e6dc63468cb502161cc3aa7d710af69f3cc06c4846da183494eda94e67b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/image-2.png",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/image-2.png",
+    "before": "7f23c96b68e26947fe95afb19af9da8962a570f758e2a407a5d45396ee7e7540",
+    "after": "7f23c96b68e26947fe95afb19af9da8962a570f758e2a407a5d45396ee7e7540",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/2024-09-sci-verbal03.md",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/2024-09-sci-verbal03.md",
+    "before": "e2ce336d2b2578a4e10499d388469ba7bea5bddda6efdd6e959ab86e2032bb68",
+    "after": "e2ce336d2b2578a4e10499d388469ba7bea5bddda6efdd6e959ab86e2032bb68",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/image.png",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/image.png",
+    "before": "4b2535077f5113e0f6e492b192c5330f22d884a74ea09776f04e4e85fefe4fac",
+    "after": "4b2535077f5113e0f6e492b192c5330f22d884a74ea09776f04e4e85fefe4fac",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/image-4.png",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/image-4.png",
+    "before": "1f64e1ff2d5838b8d06354fc35716b87e0b0db0e9896383fb902fb293ff1cc4e",
+    "after": "1f64e1ff2d5838b8d06354fc35716b87e0b0db0e9896383fb902fb293ff1cc4e",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/images/.DS_Store",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/images/.DS_Store",
+    "before": "1d63902e46a76ab010a1001c659f9c8e0ce8049dc8157f017edfb8917c695c41",
+    "after": "1d63902e46a76ab010a1001c659f9c8e0ce8049dc8157f017edfb8917c695c41",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/images/raju.mp4",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/images/raju.mp4",
+    "before": "e0f8e8a8d42b205056501240b20e8cb5ce434da7c1184a2736d2294560b45b51",
+    "after": "e0f8e8a8d42b205056501240b20e8cb5ce434da7c1184a2736d2294560b45b51",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/2024-09-sci-verbal/images/languages.png",
+    "new": "collections/teaching/scientific-communication/verbal-for-science/images/languages.png",
+    "before": "168a72b6312c29fa78b7356cbcad484e936b9c9043e33cb910d1f8f516f9068a",
+    "after": "168a72b6312c29fa78b7356cbcad484e936b9c9043e33cb910d1f8f516f9068a",
+    "referenceChanges": false
+  },
+  {
+    "old": "piano-group/papillons.html",
+    "new": "collections/music/2023-12-02-papillons/index.html",
+    "before": "cbfd7c7b736e695122fa95f34022867ed2f8d70a7b66fa7006e6a5ff2a3a1da3",
+    "after": "3b94285a6232ef463f8a5110fd2146d7b8ef46ed34588d97f389393267c17e50",
+    "referenceChanges": true
+  },
+  {
+    "old": "piano-group/papillons.md",
+    "new": "collections/music/2023-12-02-papillons/slides.md",
+    "before": "64d1db23485c96a7ff9c6409e85feed2dd6070708353699f5fac357b57ef93db",
+    "after": "6eabcfab5febee1297606e3a276e4d6e52a3eb62256eb6753af0b81ae52642f3",
+    "referenceChanges": true
+  },
+  {
+    "old": "piano-group/concert-program.html",
+    "new": "collections/music/concert-program/index.html",
+    "before": "90aea0030a861b966c71c0c112316b665ff502e3526e088d09161408360f8481",
+    "after": "454ced94978492d16280e442ff2f9c2c7183a949eb04890c11bb77cfbf72dc8f",
+    "referenceChanges": true
+  },
+  {
+    "old": "piano-group/concert-program.md",
+    "new": "collections/music/concert-program/slides.md",
+    "before": "e81fa016a32667b2ef4aee171546d935af37e3c8fe486b4a35b551fac91c227f",
+    "after": "e81fa016a32667b2ef4aee171546d935af37e3c8fe486b4a35b551fac91c227f",
+    "referenceChanges": false
+  },
+  {
+    "old": "piano-group/.DS_Store",
+    "new": "collections/music/_shared/.DS_Store",
+    "before": "a8d053112c3c67c4bd5b45df7193af3ffac1fdb5706576fff3b9aef68ea8dc48",
+    "after": "a8d053112c3c67c4bd5b45df7193af3ffac1fdb5706576fff3b9aef68ea8dc48",
+    "referenceChanges": false
+  },
+  {
+    "old": "piano-group/img/schumann.gif",
+    "new": "collections/music/_shared/img/schumann.gif",
+    "before": "de8428ed84c2a9b7aeba1a27b07df900de56d4e9daff577ae5e0b1f059187331",
+    "after": "de8428ed84c2a9b7aeba1a27b07df900de56d4e9daff577ae5e0b1f059187331",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/fei-fei.pdf",
+    "new": "assets/presentations/lectures-images/fei-fei.pdf",
+    "before": "1fcac999dea817959c7eb7d42c57c51fa1576aabe6a43986d7ae59b44a1b3423",
+    "after": "1fcac999dea817959c7eb7d42c57c51fa1576aabe6a43986d7ae59b44a1b3423",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/.DS_Store",
+    "new": "assets/presentations/lectures-images/.DS_Store",
+    "before": "5c4d9acc3e7a309f43dbb773f9185720611c171b5aee681dfba0d9751e4f6337",
+    "after": "5c4d9acc3e7a309f43dbb773f9185720611c171b5aee681dfba0d9751e4f6337",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/gpu-model.png",
+    "new": "assets/presentations/lectures-images/gpu-model.png",
+    "before": "a84b90fb51328e5e047bd9b990631c0655d2bb90bf8832bc59956eab74dcbbb2",
+    "after": "a84b90fb51328e5e047bd9b990631c0655d2bb90bf8832bc59956eab74dcbbb2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/fei-fei.png",
+    "new": "assets/presentations/lectures-images/fei-fei.png",
+    "before": "ad8f7bff74f85d680fc3d513a590f7a90decf9d9a11ac3d440f13a75670327ae",
+    "after": "ad8f7bff74f85d680fc3d513a590f7a90decf9d9a11ac3d440f13a75670327ae",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/wechat1.jpeg",
+    "new": "assets/presentations/lectures-images/wechat1.jpeg",
+    "before": "6119aa5f688c22a64e3744e5ac4ae0fdc4d3ce4807fac30fb574c52a26ec11bb",
+    "after": "6119aa5f688c22a64e3744e5ac4ae0fdc4d3ce4807fac30fb574c52a26ec11bb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/inter.png",
+    "new": "assets/presentations/lectures-images/inter.png",
+    "before": "adea0ba4031cf4c0a623f55d503746b13240f69e460e3d49fe1c7c6e32ec7d78",
+    "after": "adea0ba4031cf4c0a623f55d503746b13240f69e460e3d49fe1c7c6e32ec7d78",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/wechat2.jpeg",
+    "new": "assets/presentations/lectures-images/wechat2.jpeg",
+    "before": "ff500f5e125edd9102f4c052ee54669400680e5819c061358d569644f7c630fb",
+    "after": "ff500f5e125edd9102f4c052ee54669400680e5819c061358d569644f7c630fb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/self-supervised.png",
+    "new": "assets/presentations/lectures-images/self-supervised.png",
+    "before": "9a29345cabababc044c1d9861d42f835d6647b6ca6176253aee4ecbafeec498a",
+    "after": "9a29345cabababc044c1d9861d42f835d6647b6ca6176253aee4ecbafeec498a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/painter.png",
+    "new": "assets/presentations/lectures-images/painter.png",
+    "before": "4bdd22966d2f1384342a4a0fa95b5159b6216a2c2a3642c27470f22b035231c6",
+    "after": "4bdd22966d2f1384342a4a0fa95b5159b6216a2c2a3642c27470f22b035231c6",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/e-turing-test.png",
+    "new": "assets/presentations/lectures-images/e-turing-test.png",
+    "before": "9e3a120897f6e525629270868982c1451e44de30d0ed18a50c31588cca8d32e1",
+    "after": "9e3a120897f6e525629270868982c1451e44de30d0ed18a50c31588cca8d32e1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/stayreal.png",
+    "new": "assets/presentations/lectures-images/stayreal.png",
+    "before": "7ab82dbb5df18919eadb1b16dbffea1985108785305c1009b6de99378355e775",
+    "after": "7ab82dbb5df18919eadb1b16dbffea1985108785305c1009b6de99378355e775",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/complex-ref1.png",
+    "new": "assets/presentations/lectures-images/complex-ref1.png",
+    "before": "4ea08b219b8721315957579e7ee6fe3641091979a88cfac8f04a12c6aa62a4dc",
+    "after": "4ea08b219b8721315957579e7ee6fe3641091979a88cfac8f04a12c6aa62a4dc",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/images/complex-ref2.png",
+    "new": "assets/presentations/lectures-images/complex-ref2.png",
+    "before": "30980fcbf8903aa55365e6f4cbb67866484caeee19295ee2a33a3556622fa9b2",
+    "after": "30980fcbf8903aa55365e6f4cbb67866484caeee19295ee2a33a3556622fa9b2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-9.png",
+    "new": "lectures/neuralmorphic_kickoff/image-9.png",
+    "before": "0dfd52030fa4b78cedc2809b5e5e50e5a1dea37997de488d853e420bf8d6488b",
+    "after": "0dfd52030fa4b78cedc2809b5e5e50e5a1dea37997de488d853e420bf8d6488b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-8.png",
+    "new": "lectures/neuralmorphic_kickoff/image-8.png",
+    "before": "cb2018871161ba5370ef46e9bb192e21fb1fd270b2e83cac13035317b7148a24",
+    "after": "cb2018871161ba5370ef46e9bb192e21fb1fd270b2e83cac13035317b7148a24",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/neuro.md",
+    "new": "lectures/neuralmorphic_kickoff/neuro.md",
+    "before": "923b5022926de90f0f95d732ea582c079d6e55cb5a8c0b5f09060dc1363341fd",
+    "after": "923b5022926de90f0f95d732ea582c079d6e55cb5a8c0b5f09060dc1363341fd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-18.png",
+    "new": "lectures/neuralmorphic_kickoff/image-18.png",
+    "before": "0d7b63359eae6f16a3a016a66393b8e6742601aab455b1d267de62b2bc8d12e5",
+    "after": "0d7b63359eae6f16a3a016a66393b8e6742601aab455b1d267de62b2bc8d12e5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/75b46677780e19d2af31d823ab7191f.png",
+    "new": "lectures/neuralmorphic_kickoff/75b46677780e19d2af31d823ab7191f.png",
+    "before": "60f5f80484748ea715b01c15b6fc6b150acb9de28c3cfcc23d984e7446fd8bfd",
+    "after": "60f5f80484748ea715b01c15b6fc6b150acb9de28c3cfcc23d984e7446fd8bfd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/main.md",
+    "new": "lectures/neuralmorphic_kickoff/main.md",
+    "before": "c73cbfbe4c633def16edcd1015694bf3ae127040faf4fa2f27004b0825d5bcab",
+    "after": "c73cbfbe4c633def16edcd1015694bf3ae127040faf4fa2f27004b0825d5bcab",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-10.png",
+    "new": "lectures/neuralmorphic_kickoff/image-10.png",
+    "before": "f16405a07bbf770d5c841819d617225ca39d03ce79c1f3f850b9451825f12f4d",
+    "after": "f16405a07bbf770d5c841819d617225ca39d03ce79c1f3f850b9451825f12f4d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-11.png",
+    "new": "lectures/neuralmorphic_kickoff/image-11.png",
+    "before": "7395b3f5691c1012d99437c8fe01f623ad79382a9309025e0e4e2bcd0af1ee07",
+    "after": "7395b3f5691c1012d99437c8fe01f623ad79382a9309025e0e4e2bcd0af1ee07",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-13.png",
+    "new": "lectures/neuralmorphic_kickoff/image-13.png",
+    "before": "9cb61dcca38c3ab60e63b7091781c9248361e336204e966ac363f12426026e96",
+    "after": "9cb61dcca38c3ab60e63b7091781c9248361e336204e966ac363f12426026e96",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-12.png",
+    "new": "lectures/neuralmorphic_kickoff/image-12.png",
+    "before": "c1c366740309d5cabfe6d4c1db0a6bb467e53a1895d660d66a08574730cc1ceb",
+    "after": "c1c366740309d5cabfe6d4c1db0a6bb467e53a1895d660d66a08574730cc1ceb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-16.png",
+    "new": "lectures/neuralmorphic_kickoff/image-16.png",
+    "before": "b327872537bc79a4a3a9f0a4adbec74d726427b0111f5e764018bfa4834d904a",
+    "after": "b327872537bc79a4a3a9f0a4adbec74d726427b0111f5e764018bfa4834d904a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/main.html",
+    "new": "lectures/neuralmorphic_kickoff/main.html",
+    "before": "8ec08f1eaa449376e8c5590329677648b206006776bb10fc61628820a32c81d7",
+    "after": "8ec08f1eaa449376e8c5590329677648b206006776bb10fc61628820a32c81d7",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-17.png",
+    "new": "lectures/neuralmorphic_kickoff/image-17.png",
+    "before": "d23057b53ac6717facbf552afe25782519b41ca92a48b13b3cca14848e02946d",
+    "after": "d23057b53ac6717facbf552afe25782519b41ca92a48b13b3cca14848e02946d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/semiconductor.md",
+    "new": "lectures/neuralmorphic_kickoff/semiconductor.md",
+    "before": "d1207d08ba1de7e141d365f47ceca8a8711c2943ba5fd45615c57666f4e44a3a",
+    "after": "d1207d08ba1de7e141d365f47ceca8a8711c2943ba5fd45615c57666f4e44a3a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-15.png",
+    "new": "lectures/neuralmorphic_kickoff/image-15.png",
+    "before": "e614c366c6f71e5060ee4bd1478cd20b871545f927db6717b953c0a875559f74",
+    "after": "e614c366c6f71e5060ee4bd1478cd20b871545f927db6717b953c0a875559f74",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-14.png",
+    "new": "lectures/neuralmorphic_kickoff/image-14.png",
+    "before": "696695aaa0f1ce3bddbcb52c6154c4c431ffcdbc9aed7f5539975ef5d8cbc839",
+    "after": "696695aaa0f1ce3bddbcb52c6154c4c431ffcdbc9aed7f5539975ef5d8cbc839",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-1.png",
+    "new": "lectures/neuralmorphic_kickoff/image-1.png",
+    "before": "009d487d31208ee9c8664f9b0ac449a0c95cc0cc4721f8cbd497b42c775717ea",
+    "after": "009d487d31208ee9c8664f9b0ac449a0c95cc0cc4721f8cbd497b42c775717ea",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/.git",
+    "new": "lectures/neuralmorphic_kickoff/.git",
+    "before": "b75b8617e6ceb34123a49d1adad5fbe8d0b0ec1e6ab59717324f1cf4e26f9d11",
+    "after": "b75b8617e6ceb34123a49d1adad5fbe8d0b0ec1e6ab59717324f1cf4e26f9d11",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-3.png",
+    "new": "lectures/neuralmorphic_kickoff/image-3.png",
+    "before": "ba25f1f9401b36c64a4324fc37996be2cee4bf8757dffd08b31c10595ac5b7cf",
+    "after": "ba25f1f9401b36c64a4324fc37996be2cee4bf8757dffd08b31c10595ac5b7cf",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-2.png",
+    "new": "lectures/neuralmorphic_kickoff/image-2.png",
+    "before": "d891914f742ff7684e8e38c48c4456580caba26650fefbde8e0db6de06112f1a",
+    "after": "d891914f742ff7684e8e38c48c4456580caba26650fefbde8e0db6de06112f1a",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-6.png",
+    "new": "lectures/neuralmorphic_kickoff/image-6.png",
+    "before": "5f3054b959dae896ab6727bf7c06cd160817614cb2c8224ac5cd139d4957980b",
+    "after": "5f3054b959dae896ab6727bf7c06cd160817614cb2c8224ac5cd139d4957980b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-7.png",
+    "new": "lectures/neuralmorphic_kickoff/image-7.png",
+    "before": "b3822d75a032d64d52e289bda137642e8129ab8af856205803f02d125b39f489",
+    "after": "b3822d75a032d64d52e289bda137642e8129ab8af856205803f02d125b39f489",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/fa4a24355eda43e32ac1d7feaa70098.jpg",
+    "new": "lectures/neuralmorphic_kickoff/fa4a24355eda43e32ac1d7feaa70098.jpg",
+    "before": "fac3663c9f1e1ad9fc5f3ba440d943c027cb607dc234993d337cc7169a594158",
+    "after": "fac3663c9f1e1ad9fc5f3ba440d943c027cb607dc234993d337cc7169a594158",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image.png",
+    "new": "lectures/neuralmorphic_kickoff/image.png",
+    "before": "93f5344a2d19f79390e3913bcd01ed18ac5107d34ef3c6bdf6ed579d183a9e9d",
+    "after": "93f5344a2d19f79390e3913bcd01ed18ac5107d34ef3c6bdf6ed579d183a9e9d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-5.png",
+    "new": "lectures/neuralmorphic_kickoff/image-5.png",
+    "before": "c7a71f42c2a10d561fff505d292b921fb4b17842b65c98f4351c1c264180cf15",
+    "after": "c7a71f42c2a10d561fff505d292b921fb4b17842b65c98f4351c1c264180cf15",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/image-4.png",
+    "new": "lectures/neuralmorphic_kickoff/image-4.png",
+    "before": "575bea2f7702283a4640bfde48e23bfef32d33be73dbb3e28b8d625ace24093b",
+    "after": "575bea2f7702283a4640bfde48e23bfef32d33be73dbb3e28b8d625ace24093b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/g-protein-modulation.png",
+    "new": "lectures/neuralmorphic_kickoff/images/g-protein-modulation.png",
+    "before": "e1117b3fe17aa55f0f23081e1dd4b1e80e1ce478120be6bb673580a11b7c05a9",
+    "after": "e1117b3fe17aa55f0f23081e1dd4b1e80e1ce478120be6bb673580a11b7c05a9",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/ziming-songyuan.png",
+    "new": "lectures/neuralmorphic_kickoff/images/ziming-songyuan.png",
+    "before": "6df7864b09f68d073581fbb2ffd9630bfde03377451d9466e4e0c2b83de7439e",
+    "after": "6df7864b09f68d073581fbb2ffd9630bfde03377451d9466e4e0c2b83de7439e",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/compare-shallow.png",
+    "new": "lectures/neuralmorphic_kickoff/images/compare-shallow.png",
+    "before": "2c2043e63ef298eb1c2d8fd7b68b38fc628331af2acce869acb90a66424f3895",
+    "after": "2c2043e63ef298eb1c2d8fd7b68b38fc628331af2acce869acb90a66424f3895",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/pn-forward.png",
+    "new": "lectures/neuralmorphic_kickoff/images/pn-forward.png",
+    "before": "9e8e81b4d7e6d9eb2dc73cc052e26f9a3552cb0d1f3a0b5b874bed1b71976b16",
+    "after": "9e8e81b4d7e6d9eb2dc73cc052e26f9a3552cb0d1f3a0b5b874bed1b71976b16",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/shallow-kan.png",
+    "new": "lectures/neuralmorphic_kickoff/images/shallow-kan.png",
+    "before": "a5a3e0c848207eacc916b1c3c9cf4db24a363a4123e2fb6a4b9c2443c05d746e",
+    "after": "a5a3e0c848207eacc916b1c3c9cf4db24a363a4123e2fb6a4b9c2443c05d746e",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/b-splines.png",
+    "new": "lectures/neuralmorphic_kickoff/images/b-splines.png",
+    "before": "d2c996650acce24af70b8e1a18f63db7bccc7a04b9e191cda8d31336db80a560",
+    "after": "d2c996650acce24af70b8e1a18f63db7bccc7a04b9e191cda8d31336db80a560",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/KAN-arxiv.png",
+    "new": "lectures/neuralmorphic_kickoff/images/KAN-arxiv.png",
+    "before": "a2228b9cb0fcd820030d987adb733f3ffc6e4ed99d8ad7008df7afc6379e37fd",
+    "after": "a2228b9cb0fcd820030d987adb733f3ffc6e4ed99d8ad7008df7afc6379e37fd",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/interpretable.png",
+    "new": "lectures/neuralmorphic_kickoff/images/interpretable.png",
+    "before": "698a35d990e650ce8ddaf0cbc66cb8159d6f51c56550fbc0d7524645bf83f8d0",
+    "after": "698a35d990e650ce8ddaf0cbc66cb8159d6f51c56550fbc0d7524645bf83f8d0",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/symbolic-formulas.png",
+    "new": "lectures/neuralmorphic_kickoff/images/symbolic-formulas.png",
+    "before": "e0ce40db8ef9324f64e9626f24791ec111c90bd6946df3a51cc3cd07390fda2d",
+    "after": "e0ce40db8ef9324f64e9626f24791ec111c90bd6946df3a51cc3cd07390fda2d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/ptn-peak.png",
+    "new": "lectures/neuralmorphic_kickoff/images/ptn-peak.png",
+    "before": "b108f912a74adc22eb82d87b1bf6c42a70e51daf06d20dd8c6dcdf9260bf7975",
+    "after": "b108f912a74adc22eb82d87b1bf6c42a70e51daf06d20dd8c6dcdf9260bf7975",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/pn-reverse.png",
+    "new": "lectures/neuralmorphic_kickoff/images/pn-reverse.png",
+    "before": "f386675485931bbfc29336aed6c4ef011754732d5415db96dbc3dfe8ae7fdb78",
+    "after": "f386675485931bbfc29336aed6c4ef011754732d5415db96dbc3dfe8ae7fdb78",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/60d928e339a9d369809b74e35f1a254.png",
+    "new": "lectures/neuralmorphic_kickoff/images/60d928e339a9d369809b74e35f1a254.png",
+    "before": "7f4c77dca200587b01772d5ca33aa9158ff1c658ba23d72e5935c551cb35c7cf",
+    "after": "7f4c77dca200587b01772d5ca33aa9158ff1c658ba23d72e5935c551cb35c7cf",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/mlp-kan.png",
+    "new": "lectures/neuralmorphic_kickoff/images/mlp-kan.png",
+    "before": "6429922975556d3f0ca0967453027a404268ec4d4a71fcd9a8623194fbc3ca43",
+    "after": "6429922975556d3f0ca0967453027a404268ec4d4a71fcd9a8623194fbc3ca43",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/pn-forward-rel.png",
+    "new": "lectures/neuralmorphic_kickoff/images/pn-forward-rel.png",
+    "before": "834d2b2cfc13a6d923d1b8dcac33e1785c8b4b5f6567f91b7f2fd5c396618ced",
+    "after": "834d2b2cfc13a6d923d1b8dcac33e1785c8b4b5f6567f91b7f2fd5c396618ced",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/hole.png",
+    "new": "lectures/neuralmorphic_kickoff/images/hole.png",
+    "before": "6420218fd69ec346ebb5964527d8a136f55a209ef18aabe67859f0a187450dc4",
+    "after": "6420218fd69ec346ebb5964527d8a136f55a209ef18aabe67859f0a187450dc4",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/pn.png",
+    "new": "lectures/neuralmorphic_kickoff/images/pn.png",
+    "before": "18214791743f7c6a0d382f99a48f26897ae10a1d81c5b9b3b8c27f776748d961",
+    "after": "18214791743f7c6a0d382f99a48f26897ae10a1d81c5b9b3b8c27f776748d961",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/tunnel-curve.png",
+    "new": "lectures/neuralmorphic_kickoff/images/tunnel-curve.png",
+    "before": "1468316e7287fbe902bc70ffba632ffec55527ec3828cd8229e5c44934e249e5",
+    "after": "1468316e7287fbe902bc70ffba632ffec55527ec3828cd8229e5c44934e249e5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/ptn-injection.png",
+    "new": "lectures/neuralmorphic_kickoff/images/ptn-injection.png",
+    "before": "261355390b057c0d5b8ab23c06cf827b24fea0cdd5cd51ec0952744dcf91982c",
+    "after": "261355390b057c0d5b8ab23c06cf827b24fea0cdd5cd51ec0952744dcf91982c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/datawhale.png",
+    "new": "lectures/neuralmorphic_kickoff/images/datawhale.png",
+    "before": "3946fed5467a9d4396f019b6286a44054f1d020d9a94d7c921762a8aef44dc19",
+    "after": "3946fed5467a9d4396f019b6286a44054f1d020d9a94d7c921762a8aef44dc19",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/controversial-opinion.png",
+    "new": "lectures/neuralmorphic_kickoff/images/controversial-opinion.png",
+    "before": "bdd92b737ba8c5b985bd68e27a9a8aa780e8c7d0003e8d26565d9bdc25aab15b",
+    "after": "bdd92b737ba8c5b985bd68e27a9a8aa780e8c7d0003e8d26565d9bdc25aab15b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/reductionism-holism.png",
+    "new": "lectures/neuralmorphic_kickoff/images/reductionism-holism.png",
+    "before": "ee2ad5f400b4e8330499d17cb36bd6e8adf4675a68df37eca2789665f63be158",
+    "after": "ee2ad5f400b4e8330499d17cb36bd6e8adf4675a68df37eca2789665f63be158",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/ptn-reverse.png",
+    "new": "lectures/neuralmorphic_kickoff/images/ptn-reverse.png",
+    "before": "e41454df85f1409466f28a01034bb240b204f874d2ab5a05e2a9097e057e0f58",
+    "after": "e41454df85f1409466f28a01034bb240b204f874d2ab5a05e2a9097e057e0f58",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/history.png",
+    "new": "lectures/neuralmorphic_kickoff/images/history.png",
+    "before": "ec563e6a8a0d42425d2817836258fc9c072f8102eca3dece4a05fd3ca6b5a4da",
+    "after": "ec563e6a8a0d42425d2817836258fc9c072f8102eca3dece4a05fd3ca6b5a4da",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/cpnt_logo.jpg",
+    "new": "lectures/neuralmorphic_kickoff/images/cpnt_logo.jpg",
+    "before": "5bdef899f16086e194c97b60c95acf23662093cec4743290543f25a986badc24",
+    "after": "5bdef899f16086e194c97b60c95acf23662093cec4743290543f25a986badc24",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/deep-mlp.png",
+    "new": "lectures/neuralmorphic_kickoff/images/deep-mlp.png",
+    "before": "19727ad96c89ab97e060e2b09c11eec8fc14d618d9bdd8dfdcb19c31ad8b6fc5",
+    "after": "19727ad96c89ab97e060e2b09c11eec8fc14d618d9bdd8dfdcb19c31ad8b6fc5",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/crystal.png",
+    "new": "lectures/neuralmorphic_kickoff/images/crystal.png",
+    "before": "852f48341eb9a6a7c026d7e2b7f7132386b4e00a8f09ccd990d87ed709ce5fe7",
+    "after": "852f48341eb9a6a7c026d7e2b7f7132386b4e00a8f09ccd990d87ed709ce5fe7",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/n-type.png",
+    "new": "lectures/neuralmorphic_kickoff/images/n-type.png",
+    "before": "280147e3e09c9253efa7de3badd02a3ca1721580ea8452c58e9638c3f3474344",
+    "after": "280147e3e09c9253efa7de3badd02a3ca1721580ea8452c58e9638c3f3474344",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/tunnel-diodes.png",
+    "new": "lectures/neuralmorphic_kickoff/images/tunnel-diodes.png",
+    "before": "d26bba1e66ed0eb847d4522a8810aece344b65426f670780048bb22e0c74cd54",
+    "after": "d26bba1e66ed0eb847d4522a8810aece344b65426f670780048bb22e0c74cd54",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/pn-rel.png",
+    "new": "lectures/neuralmorphic_kickoff/images/pn-rel.png",
+    "before": "3974e03c43568d5d60ae26e6da68d71e919ffac42354f4f703ba565379d59709",
+    "after": "3974e03c43568d5d60ae26e6da68d71e919ffac42354f4f703ba565379d59709",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/p-type.png",
+    "new": "lectures/neuralmorphic_kickoff/images/p-type.png",
+    "before": "73b8cb16d1c3a8075995da0c412509ee58905a6b7076655d82679ed90f34294c",
+    "after": "73b8cb16d1c3a8075995da0c412509ee58905a6b7076655d82679ed90f34294c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/ptn.png",
+    "new": "lectures/neuralmorphic_kickoff/images/ptn.png",
+    "before": "d3bd832ddbff37abd3da77ab7a555e99699d63c0eb1ea9cdcaab0034122ce023",
+    "after": "d3bd832ddbff37abd3da77ab7a555e99699d63c0eb1ea9cdcaab0034122ce023",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/EPSP.png",
+    "new": "lectures/neuralmorphic_kickoff/images/EPSP.png",
+    "before": "821a4d40249c93f7edc9d2108a3e7c38380ee5c4edb8cdce788e3a55a19a6d02",
+    "after": "821a4d40249c93f7edc9d2108a3e7c38380ee5c4edb8cdce788e3a55a19a6d02",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/amount-of-doping.png",
+    "new": "lectures/neuralmorphic_kickoff/images/amount-of-doping.png",
+    "before": "47993d36c213fbde96f661526b0b25179336e183db4c4ca3fa6aa5d7ed4561e1",
+    "after": "47993d36c213fbde96f661526b0b25179336e183db4c4ca3fa6aa5d7ed4561e1",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/IPSP.png",
+    "new": "lectures/neuralmorphic_kickoff/images/IPSP.png",
+    "before": "d106633f069416c0db75d820485f82ffdde1ef5da1a8a91d9f71b5a0313759f2",
+    "after": "d106633f069416c0db75d820485f82ffdde1ef5da1a8a91d9f71b5a0313759f2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/ptn-valley.png",
+    "new": "lectures/neuralmorphic_kickoff/images/ptn-valley.png",
+    "before": "82e01fbb1c9f737fa598b1593c15d95445a5de311dbfefb5bf1877b0a044790c",
+    "after": "82e01fbb1c9f737fa598b1593c15d95445a5de311dbfefb5bf1877b0a044790c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/outline.png",
+    "new": "lectures/neuralmorphic_kickoff/images/outline.png",
+    "before": "f312f5ad4bca1d63818af8219c8bca0be1f4264933b35759e70f1a90a83611eb",
+    "after": "f312f5ad4bca1d63818af8219c8bca0be1f4264933b35759e70f1a90a83611eb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/xzy.png",
+    "new": "lectures/neuralmorphic_kickoff/images/xzy.png",
+    "before": "31c60f3cd24921d42502859be25432366e500ee3bf05f5b911acfc520a59d552",
+    "after": "31c60f3cd24921d42502859be25432366e500ee3bf05f5b911acfc520a59d552",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/gpt4.png",
+    "new": "lectures/neuralmorphic_kickoff/images/gpt4.png",
+    "before": "60b8abde098e57fba855a93dc8cccc7f041602194b6cbf6545b0695c0e94c0d2",
+    "after": "60b8abde098e57fba855a93dc8cccc7f041602194b6cbf6545b0695c0e94c0d2",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/shallow-mlp.png",
+    "new": "lectures/neuralmorphic_kickoff/images/shallow-mlp.png",
+    "before": "62d538bd2969fbb0105ee1698a4bc8aaeb4408841f2e04fb2b521aa142e32380",
+    "after": "62d538bd2969fbb0105ee1698a4bc8aaeb4408841f2e04fb2b521aa142e32380",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/conductance.png",
+    "new": "lectures/neuralmorphic_kickoff/images/conductance.png",
+    "before": "74baec706c1eb1552e8d0c39d007dc04cb507190c41ba37cd5c1ccec26978608",
+    "after": "74baec706c1eb1552e8d0c39d007dc04cb507190c41ba37cd5c1ccec26978608",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/synaptic-integration.png",
+    "new": "lectures/neuralmorphic_kickoff/images/synaptic-integration.png",
+    "before": "b76f18d03437c584500723726820f8f82b6030a98c6968c03ac7b5918bf8f796",
+    "after": "b76f18d03437c584500723726820f8f82b6030a98c6968c03ac7b5918bf8f796",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/synapse.png",
+    "new": "lectures/neuralmorphic_kickoff/images/synapse.png",
+    "before": "7fa45a384c65882c45b4cbe3ef47f998a708e238340a3f17c13cbeaadc33a409",
+    "after": "7fa45a384c65882c45b4cbe3ef47f998a708e238340a3f17c13cbeaadc33a409",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/induction.png",
+    "new": "lectures/neuralmorphic_kickoff/images/induction.png",
+    "before": "74b1b824a681c16a2fe3da18f9b11b3096b4b0a1294c23ee62f07197dab98964",
+    "after": "74b1b824a681c16a2fe3da18f9b11b3096b4b0a1294c23ee62f07197dab98964",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/kart-to-kan.png",
+    "new": "lectures/neuralmorphic_kickoff/images/kart-to-kan.png",
+    "before": "ede02c52271e0b086335afdaea84a19fdb4420aeaadf6d0665d0f48abb50871c",
+    "after": "ede02c52271e0b086335afdaea84a19fdb4420aeaadf6d0665d0f48abb50871c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/publications.png",
+    "new": "lectures/neuralmorphic_kickoff/images/publications.png",
+    "before": "ab3cb1f7f3041a96ea4895a33446ce0a02577b4368097599718f422628479aca",
+    "after": "ab3cb1f7f3041a96ea4895a33446ce0a02577b4368097599718f422628479aca",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/analog.png",
+    "new": "lectures/neuralmorphic_kickoff/images/analog.png",
+    "before": "cec55661dbe37785de11110d15f3f344112261fe109cf9484031b2516adbff21",
+    "after": "cec55661dbe37785de11110d15f3f344112261fe109cf9484031b2516adbff21",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/wechat.png",
+    "new": "lectures/neuralmorphic_kickoff/images/wechat.png",
+    "before": "dc6dc9b09589563048ff0a39abec800511bf4391d5cae29d59d45cf861de3efb",
+    "after": "dc6dc9b09589563048ff0a39abec800511bf4391d5cae29d59d45cf861de3efb",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/lzw.png",
+    "new": "lectures/neuralmorphic_kickoff/images/lzw.png",
+    "before": "64d21bf78db860dad740b8c9e3fda46b1d5ef0a22f5c210ea29e3398064cca6b",
+    "after": "64d21bf78db860dad740b8c9e3fda46b1d5ef0a22f5c210ea29e3398064cca6b",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/deepkan.png",
+    "new": "lectures/neuralmorphic_kickoff/images/deepkan.png",
+    "before": "532e2c0458cb99f2683e4b55baa157f11aa68710046a2e08c0c0d7d87dfab5cf",
+    "after": "532e2c0458cb99f2683e4b55baa157f11aa68710046a2e08c0c0d7d87dfab5cf",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/pn-reverse-rel.png",
+    "new": "lectures/neuralmorphic_kickoff/images/pn-reverse-rel.png",
+    "before": "bd4917e6ea17587414855f9ea434661ea85195438cdd03e93c6ec93baeb21c8c",
+    "after": "bd4917e6ea17587414855f9ea434661ea85195438cdd03e93c6ec93baeb21c8c",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/structure_of_atoms.png",
+    "new": "lectures/neuralmorphic_kickoff/images/structure_of_atoms.png",
+    "before": "86e0b105fa36f48fc5a32b5802f6ded5aaba4a10005635b44e9ebbcbf191843d",
+    "after": "86e0b105fa36f48fc5a32b5802f6ded5aaba4a10005635b44e9ebbcbf191843d",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/gpt-4o.png",
+    "new": "lectures/neuralmorphic_kickoff/images/gpt-4o.png",
+    "before": "e3ceaa518f90557a31a63477a0d712fe3cc8cdada457a353e2bd554ee75827ec",
+    "after": "e3ceaa518f90557a31a63477a0d712fe3cc8cdada457a353e2bd554ee75827ec",
+    "referenceChanges": false
+  },
+  {
+    "old": "lectures/neuralmorphic_kickoff/images/ziming.png",
+    "new": "lectures/neuralmorphic_kickoff/images/ziming.png",
+    "before": "1bae1f4a00fa79abc8bb5065309943779afb24d52f40081f88e757b44c41ef4b",
+    "after": "1bae1f4a00fa79abc8bb5065309943779afb24d52f40081f88e757b44c41ef4b",
+    "referenceChanges": false
+  },
+  {
+    "old": "index.html.bak",
+    "new": "templates/reveal-starter/index.html.bak",
+    "before": "4f7f9a440acfd6e4b690138cd71d4daab56cd3489df69a8f68864cbc1f829938",
+    "after": "9bcda1a661814c9de8a206cc6d41806734d46207926886c15cf1e8e36c6486f0",
+    "referenceChanges": true
+  },
+  {
+    "old": "lectures/.DS_Store",
+    "new": "assets/presentations/legacy-metadata/lectures/.DS_Store",
+    "before": "b692e2544fd4c488c3b42f149660240671b97e53d3ee97862cac7f94d8f62eeb",
+    "after": "b692e2544fd4c488c3b42f149660240671b97e53d3ee97862cac7f94d8f62eeb",
+    "referenceChanges": false
+  }
+]

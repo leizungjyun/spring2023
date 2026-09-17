@@ -28,12 +28,12 @@ export default class Keyboard {
 
 		if( config.navigationMode === 'linear' ) {
 			this.shortcuts['&#8594;  ,  &#8595;  ,  SPACE  ,  N  ,  L  ,  J'] = 'Next slide';
-			this.shortcuts['&#8592;  ,  &#8593;  ,  P  ,  H  ,  K']           = 'Previous slide';
+			this.shortcuts['&#8592;  ,  &#8593;  ,  P  ,  K']           = 'Previous slide';
 		}
 		else {
 			this.shortcuts['N  ,  SPACE']   = 'Next slide';
 			this.shortcuts['P  ,  Shift SPACE']             = 'Previous slide';
-			this.shortcuts['&#8592;  ,  H'] = 'Navigate left';
+			this.shortcuts['&#8592;'] = 'Navigate left';
 			this.shortcuts['&#8594;  ,  L'] = 'Navigate right';
 			this.shortcuts['&#8593;  ,  K'] = 'Navigate up';
 			this.shortcuts['&#8595;  ,  J'] = 'Navigate down';

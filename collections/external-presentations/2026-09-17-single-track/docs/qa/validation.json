@@ -1,0 +1,374 @@
+[
+  {
+    "theme": "black",
+    "slide": 1,
+    "title": "面向自主导航的\n纵置二轮车自动驾驶技术",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "slide": 2,
+    "title": "强化学习自平衡：多地形与负载验证",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "slide": 3,
+    "title": "虚实迁移：在仿真中训练，在实车上验证",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "slide": 4,
+    "title": "从自行车扩展至 E-bike 与电摩",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "slide": 5,
+    "title": "CycleX：单一源载具训练，冻结策略迁移",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "slide": 6,
+    "title": "CycleX：比较源载具的迁移表现",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "slide": 7,
+    "title": "从自平衡走向视觉车道保持",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "slide": 8,
+    "title": "团队基础与产品化能力建设",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "slide": 9,
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "black",
+    "overviewOpened": true,
+    "overviewClosed": true
+  },
+  {
+    "theme": "white",
+    "slide": 1,
+    "title": "面向自主导航的\n纵置二轮车自动驾驶技术",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "slide": 2,
+    "title": "强化学习自平衡：多地形与负载验证",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "slide": 3,
+    "title": "虚实迁移：在仿真中训练，在实车上验证",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "slide": 4,
+    "title": "从自行车扩展至 E-bike 与电摩",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      },
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "slide": 5,
+    "title": "CycleX：单一源载具训练，冻结策略迁移",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "slide": 6,
+    "title": "CycleX：比较源载具的迁移表现",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "slide": 7,
+    "title": "从自平衡走向视觉车道保持",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "slide": 8,
+    "title": "团队基础与产品化能力建设",
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "slide": 9,
+    "overflow": [],
+    "brokenImages": [],
+    "videos": [
+      {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "ready": 4
+      }
+    ],
+    "offslidePlaying": 0
+  },
+  {
+    "theme": "white",
+    "overviewOpened": true,
+    "overviewClosed": true
+  }
+]

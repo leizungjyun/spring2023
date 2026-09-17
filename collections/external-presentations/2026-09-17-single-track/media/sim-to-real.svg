@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 144" role="img" aria-labelledby="title description">
+  <title id="title">构建仿真环境、训练控制策略、部署至实车</title>
+  <desc id="description">三个等高模块以前向箭头连接。部署至实车后，从下方返回构建仿真环境，反馈标注为实测反馈与仿真修正，表示研发迭代。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#42affa"/></marker>
+  </defs>
+  <g font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">
+    <g fill="#20272d" stroke-width="2">
+      <rect x="10" y="4" width="340" height="74" rx="8" stroke="#42affa"/>
+      <rect x="390" y="4" width="340" height="74" rx="8" stroke="#ffbf69"/>
+      <rect x="770" y="4" width="340" height="74" rx="8" stroke="#42affa"/>
+    </g>
+    <g fill="#f5f7fa" font-size="23">
+      <text x="180" y="34">构建仿真环境</text>
+      <text x="560" y="34">训练控制策略</text>
+      <text x="940" y="34">部署至实车</text>
+    </g>
+    <g fill="#aab7c3" font-size="18">
+      <text x="180" y="62">地形与工况</text>
+      <text x="560" y="62">强化学习</text>
+      <text x="940" y="62">转向与驱动</text>
+    </g>
+    <g fill="none" stroke="#42affa" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M355 41H384"/>
+      <path d="M735 41H764"/>
+      <path d="M940 79V103Q940 112 931 112H189Q180 112 180 103V81"/>
+    </g>
+    <text x="560" y="138" fill="#aab7c3" font-size="18">实测反馈与仿真修正</text>
+  </g>
+</svg>

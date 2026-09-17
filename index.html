@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A library of research talks, group meetings, project reports, courses, and music presentations.">
+  <title>Presentation Library</title>
+  <link rel="stylesheet" href="portal/portal.css">
+  <script src="portal/portal.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#library">Skip to presentations</a>
+  <header class="site-header"><a class="wordmark" href="index.html">LI SHAUN <span>/ PRESENTATIONS</span></a><nav aria-label="Page"><a href="#recent">Recent</a><a href="#library">Browse library</a></nav></header>
+  <main>
+    <section class="intro" aria-labelledby="page-title"><p class="eyebrow">Ideas, conversations &amp; work in progress</p><h1 id="page-title">Presentation library<span>.</span></h1><p class="lede">Research, teaching, and music.<br>A place to revisit what we have shared.</p><p id="library-stats" class="muted">Loading the library…</p></section>
+    <section id="recent" class="recent" aria-labelledby="recent-title"><div class="section-heading"><h2 id="recent-title">Recently shared</h2><a href="#library">Explore the collection ↓</a></div><div id="recent-list" class="card-grid"></div></section>
+    <section id="library" aria-labelledby="browse-title">
+      <div class="section-heading"><h2 id="browse-title">Browse the library</h2><span class="muted">Find a subject. Follow an idea.</span></div>
+      <nav id="collections" class="collection-nav" aria-label="Collections"></nav>
+      <form id="filters" role="search">
+        <label class="search-label">Search<input id="search" type="search" name="q" placeholder="Title, subject, or series…" autocomplete="off"></label>
+        <label>Year<select id="year" name="year"><option value="">All years</option></select></label>
+        <label>Topic<select id="topic" name="topic"><option value="">All topics</option></select></label>
+        <button id="clear" class="clear-button" type="button">Clear filters</button>
+      </form>
+      <p id="result-count" class="muted" role="status" aria-live="polite"></p>
+      <div id="results"></div>
+      <p id="empty-state" hidden>No presentations match these filters. Try another subject or clear the filters.</p>
+      <p id="load-error" role="alert" hidden>The catalog could not be loaded. Serve this repository with <code>npm start</code> and open this page through the local server.</p>
+      <noscript><p>Enable JavaScript to search the library. Presentation links and metadata are also listed in <a href="portal/catalog.json">the catalog</a>.</p></noscript>
+    </section>
+  </main>
+  <footer><p>Progress · People · Possibilities</p><a href="portal/catalog.json">Presentation catalog ↗</a></footer>
+</body>
+</html>

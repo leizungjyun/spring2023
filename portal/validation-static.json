@@ -1,0 +1,18 @@
+{
+  "presentations": 31,
+  "referencesChecked": 631,
+  "filesPreserved": 394,
+  "knownMissingReferences": [
+    {
+      "source": "collections/group-meetings/2025-01-16-recap/index.html",
+      "url": "../../../lectures/2025-01-16-recap/neuro.md",
+      "target": "lectures/2025-01-16-recap/neuro.md"
+    },
+    {
+      "source": "collections/group-meetings/2025-01-16-recap/index.html",
+      "url": "../../../lectures/2025-01-16-recap/semiconductor.md",
+      "target": "lectures/2025-01-16-recap/semiconductor.md"
+    }
+  ],
+  "errors": []
+}

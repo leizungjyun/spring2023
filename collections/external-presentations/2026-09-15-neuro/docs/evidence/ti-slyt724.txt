@@ -1,0 +1,303 @@
+Analog Applications Journal                                                                                     Communications
+
+
+
+Improving the thermal performance of a
+MicroSiP™ power module
+By Sandra Horton, Semiconductor Packaging Group, Packaging Technology Development Engineer
+Chris Glaser, Member Group Technical Staff, Senior Applications Engineer, Low Power DC DC
+
+Introduction                                                        Figure 1. TPS82130 MicroSiL power module
+Power modules are quickly gaining in popularity because
+of their high integration, which enables faster design time,
+ease of use and a smaller printed circuit board (PCB).
+                                                                                                 EN 1                   8   SS/TR
+These characteristics are important in the industrial                                                    Exp
+market, but especially important in the communications                                                  The osed
+                                                                                                VIN 2                   7   PG
+                                                                                                           rma
+equipment market (base stations, small cells, remote radio                                     GND 3           l Pa     6   FB
+units and active antenna arrays), where channel count and                                                           d
+                                                                                              VOUT 4                    5   VOUT
+data throughput increase constantly. Due to the increasing
+channels and data and their associated electronics, there
+is less available space for the power supply. Thus, a
+smaller power supply is required, while more time is
+needed to design the radio-frequency (RF) circuits                    Semiconductor packages, including the MicroSiP
+instead of the power supply.                                       package for power modules, are designed to transfer heat
+   A common challenge with power modules, or any other             to the PCB as a means of cooling the device. In most semi-
+device that must provide the same functionality in a               conductor packages, 80% to 95% of the heat transfers to
+smaller space, is thermal performance. Can a smaller               the PCB as the primary way to cool the device. Only the
+power module deliver the required power in the applica-            remaining 5% to 20% of the heat dissipates directly into
+tion environment without overheating? Power-module data            the ambient air. For this reason, good PCB thermal design
+sheets usually state their thermal-performance properties,         is critical to the device’s overall thermal performance. To
+but they are frequently based on a Joint Electron Devices          improve PCB thermal design, you can connect copper to
+Engineering Council (JEDEC) standard PCB, which                    the device for cooling purposes by adding ground planes,
+generally does not match what is possible in the actual            increasing the copper area or growing the overall PCB
+application. This article explains JEDEC’s PCB design and          size, but size constraints often make these options impos-
+compares it to various real-world PCB designs that                 sible. Thicker copper layers within the PCB also improve
+demonstrate the impact of PCB design on the thermal                the thermal dissipation of the device with the same size
+performance of a MicroSiP™ power module.                           board area.
+                                                                      A very effective way to improve the thermal perfor-
+PCB design for thermal performance                                 mance of a device with an exposed thermal pad is to add
+Different power modules integrate different components,            thermal vias underneath the device, which tie the device’s
+such as power MOSFETs, power inductors and loop                    exposed thermal pad to buried layers within the PCB, as
+compensation. Within the MicroSiP family of power                  well as to the PCB’s backside copper layer. The impact of
+modules, MicroSiL devices incorporate these three items.           adding thermal vias reaches diminishing returns after
+Some MicroSiPs even incorporate input and output capaci-           adding an optimum number of vias. Going from no thermal
+tors to provide a single-component solution that requires          vias to a few thermal vias provides a very nice reduction in
+no external components.                                            overall device temperature, but doubling the number of
+   Figure 1 shows the TPS82130, a MicroSiL power module            vias does not necessarily provide an additional reduction
+that accepts up to a 17-V input voltage and delivers up to         of the same magnitude. Paying careful attention to PCB
+3 A of output current in a tiny 2.8- by 3-mm package that          layout, board construction and device mounting greatly
+is only 1.5-mm tall. Such a wide input-voltage range is            affects the thermal performance of power applications.
+very useful for communications equipment, which often
+uses input voltages around 12 V, but also down to 5-V              The JEDEC standard
+levels. MicroSiL power modules have an exposed thermal             A semiconductor manufacturer has little control over the
+pad on their bottom side to improve thermal performance.           system in which their parts are used; however, the system
+Since this thermal pad is connected to ground potential,           in which the integrated circuit (IC) is mounted is critical
+using vias to internal ground layers in the PCB removes            to the device’s performance. An industry-wide standard
+heat and decreases the power-module temperature.                   helps guide customers to understand how a particular
+                                                                   device functions thermally and provides a normalized
+
+
+
+Texas Instruments                                              1                                                            AAJ 3Q 2017
+Analog Applications Journal                                                                          Communications
+
+
+point of comparison between various package types. Texas
+                                                                   Figure 2. Comparison of top copper routing for
+Instruments uses JEDEC thermal standards to define the
+                                                                    JEDEC and EVM PCBs (copper is purple color)
+thermal performance of a particular device.
+   JEDEC defines a certain PCB to use for thermal model-
+ing in order to obtain the thermal metrics. The junction-
+to-ambient thermal resistance (RqJA) is a common thermal
+metric, but often misused to estimate thermal perfor-
+mance of the device in every situation since the system’s
+PCB is not the same as JEDEC’s PCB. RqJA is a measure of
+the thermal performance of an IC mounted on a specific
+test PCB. But as stated, both the device itself and the PCB
+on which it is mounted impact device thermal perfor-
+mance. Therefore, you must have an accurate PCB design
+in order to estimate thermal performance in a specific
+application.
+   The JEDEC 51-7 PCB standard specifies the JEDEC
+thermal test PCB used to publish RqJA values, while
+JEDEC 51-5 gives details on thermal vias. To summarize,
+the JEDEC PCB’s dimensions are 76 × 114 × 1.6 mm. It
+has four layers, with an available copper area of 74.2 ×
+74.2 mm. Small traces connect to the power-module’s pins                             (a) JEDEC PCB
+on the top layer, layers two and three are 80% ground
+planes, and layer four is 20% ground plane. The copper
+thickness is 2 oz (0.072 mm) for the top and bottom layers
+and 1 oz (0.036 mm) for the interior layers. Thermal vias
+are located under the exposed pad with a 0.3-mm drilled
+via, plated with 0.025-mm thick copper and a 1.2-mm
+pitch between vias.
+   While the JEDEC PCB is a defined platform for compar-
+ing the relative thermal performance of different devices,
+it does not accurately represent the PCB design of
+communications equipment systems. TI’s TPS82130 evalu-
+ation module (EVM) better represents the final applica-
+tion of such a system, with its dimensions of 55.8 × 40.6 ×
+1 mm (smaller but thinner) and four copper layers occu-
+pying the entire layer. All layers use 2-oz copper and three
+vias that are located under the exposed thermal pad. Most                              (b) EVM PCB
+importantly, the EVM’s PCB uses power routing with wide
+planes connecting to the pins, compared to the thin traces
+used in the JEDEC PCB.
+   Figure 2 shows both the top copper layer of the JEDEC
+and EVM PCBs, which is used for thermal modeling. The
+purple elements represent copper planes on the top layer.
+The JEDEC PCB has much less copper on the top layer,
+which decreases the thermal performance.
+   In both the JEDEC and EVM PCBs, the three thermal
+vias are placed at a slightly smaller pitch in order to fit
+entirely beneath the exposed thermal pad. This design
+results in better thermal performance compared to a via
+spacing which pushes some of the vias under the solder
+mask.
+
+
+
+
+Texas Instruments                                              2                                           AAJ 3Q 2017
+Analog Applications Journal                                                                                                                    Communications
+
+
+TPS82130 thermal performance                                                                           present in 12- or 16- layer communications equipment
+The TPS82130 data sheet has two sets of thermal values:                                                PCBs, do not significantly improve thermal performance.
+one from the JEDEC PCB with thermal vias and the other                                                 Once the PCB design is optimized (with four layers and
+from the EVM. The EVM is designed for good thermal                                                     six vias), a 200-LFM airflow across the PCB dramatically
+performance and more closely matches the PCB design of                                                 improves the package’s thermal capability by using the
+typical end applications.                                                                              ambient air to dissipate excess heat.
+   Table 1 compares the simulated thermal performance of                                               TPS82130 derating
+various PCB designs. The EVM data in Table 1 refers to
+                                                                                                       Figure 3 shows the TPS82130’s derating curves for the
+the TPS82130EVM-720 and its construction, as previously
+                                                                                                       same 12-V input, 1.8-V output system. The EVM design
+described. From this basic design and routing, modifying
+                                                                                                       provides more current capability than the JEDEC PCB,
+the vias, copper layers and airflow helps assess the
+                                                                                                       and the addition of airflow dramatically increases the
+thermal impact of each. Table 1 also shows the end goal of
+                                                                                                       output current.
+improving thermal performance: a lower operating
+temperature. The operating temperature is based on the                                                 Conclusion
+TPS82130’s 77% efficiency when operating at 12-V input,                                                Good PCB design is critical to good thermal performance
+1.8-V output and full 3-A load. Just through PCB design,                                               in an application. The use of thermal vias, additional
+the operating temperature drops more than 20°C compared                                                copper layers and especially copper connected to the
+to a JEDEC PCB that was not thermally optimized. Adding                                                power module’s pins improves thermal performance
+airflow enables an additional 25°C reduction.                                                          compared to the JEDEC reference PCB. A good thermal
+Table 1. Thermal-performance comparison of different PCB designs                                       design in the application reduces temperature rise in a
+                              JEDEC                                           EVM                      power module, enabling it to provide higher currents in
+Vias                                               3             0      3       3    6      6
+                                                                                                       the densest communications-equipment systems.
+Layers                                             4             4      4       6    4      4          Related Web sites
+200 linear-feet-per-minute                                                                             Product information:
+                                        No                      No      No     No    No    Yes
+(LFM) airflow
+                                                                                                       TPS82130
+θJA (°C/W)                          58.2                        51.4   46.1    44.6 43.8 28.3          MicroSiP™ and MicroSiL DC/DC Power Modules
+Module temperature (°C)                                                                                TPS82130EVM-720 Evaluation Module
+                               118.7                            107.8 99.22 96.8 95.5 70.6
+at full load
+                                                                                                       Application reports:
+  Table 1 shows a significant improvement when using                                                   “Design Summary for MicroSiP™-enabled
+thermal vias under the device, but a smaller improvement                                                 TPS8267xSiP,” Texas Instruments (SLIB006)
+as the number of these vias increases from three to six.                                               “Semiconductor and IC Package Thermal Metrics,”
+Additional copper layers beyond four, which are typically                                                Texas Instruments (SPRA953C), April 2016
+
+                             Figure 3. Derating comparison of different PCB designs
+
+                                                       3
+
+
+
+
+                                                                                                                    θJA = 28.3 °C/W
+
+
+
+
+                              Output Current (A)
+                                                       2
+                                                                  θJA = 58.2 °C/W
+
+
+                                                                                          θJA = 46.1 °C/W
+                                                       1
+
+
+
+
+                                                       0
+                                                           45          55       65         75         85     95      105       115    125
+                                                                                         Ambient Temperature (°C)
+
+
+
+
+Texas Instruments                                                                                 3                                                  AAJ 3Q 2017
+Analog Applications Journal
+
+
+
+
+TI Worldwide Technical Support
+                    TI Support
+                    Thank you for your business. Find the answer to your support need or get in
+                    touch with our support center at
+                               www.ti.com/support
+                    China:     http://www.ti.com.cn/guidedsupport/cn/docs/supporthome.tsp
+                    Japan:     http://www.tij.co.jp/guidedsupport/jp/docs/supporthome.tsp
+
+
+                    Technical support forums
+                    Search through millions of technical questions and answers at TI’s E2E™
+                    Community (engineer-to-engineer) at
+                               e2e.ti.com
+                    China:     http://www.deyisupport.com/
+                    Japan:     http://e2e.ti.com/group/jp/
+
+
+                    TI Training
+                    From technology fundamentals to advanced implementation, we offer
+                    on-demand and live training to help bring your next-generation designs to life.
+                    Get started now at
+                               training.ti.com
+                    China:     http://www.ti.com.cn/general/cn/docs/gencontent.tsp?contentId=71968
+                    Japan:     https://training.ti.com/jp
+
+
+                     Important Notice: The products and services of Texas Instruments Incorporated and its
+                     subsidiaries described herein are sold subject to TI’s standard terms and conditions of sale.
+                     Customers are advised to obtain the most current and complete information about TI products and
+                     services before placing orders. TI assumes no liability for applications assistance, customer’s
+                     applications or product designs, software performance, or infringement of patents. The publication
+                     of information regarding any other company’s products or services does not constitute TI’s approval,
+                     warranty or endorsement thereof.
+
+                                                                                                                 A011617
+
+
+
+
+E2E and MicroSiP are trademarks of Texas
+Instruments. All other trademarks are the
+­property of their respective owners.
+
+© 2017 Texas Instruments Incorporated.
+All rights reserved.                                                                                                          SLYT724
+
+
+Texas Instruments                                                      4                                                    AAJ 3Q 2017
+                          IMPORTANT NOTICE FOR TI DESIGN INFORMATION AND RESOURCES
+
+Texas Instruments Incorporated (‘TI”) technical, application or other design advice, services or information, including, but not limited to,
+reference designs and materials relating to evaluation modules, (collectively, “TI Resources”) are intended to assist designers who are
+developing applications that incorporate TI products; by downloading, accessing or using any particular TI Resource in any way, you
+(individually or, if you are acting on behalf of a company, your company) agree to use it solely for this purpose and subject to the terms of
+this Notice.
+TI’s provision of TI Resources does not expand or otherwise alter TI’s applicable published warranties or warranty disclaimers for TI
+products, and no additional obligations or liabilities arise from TI providing such TI Resources. TI reserves the right to make corrections,
+enhancements, improvements and other changes to its TI Resources.
+You understand and agree that you remain responsible for using your independent analysis, evaluation and judgment in designing your
+applications and that you have full and exclusive responsibility to assure the safety of your applications and compliance of your applications
+(and of all TI products used in or for your applications) with all applicable regulations, laws and other applicable requirements. You
+represent that, with respect to your applications, you have all the necessary expertise to create and implement safeguards that (1)
+anticipate dangerous consequences of failures, (2) monitor failures and their consequences, and (3) lessen the likelihood of failures that
+might cause harm and take appropriate actions. You agree that prior to using or distributing any applications that include TI products, you
+will thoroughly test such applications and the functionality of such TI products as used in such applications. TI has not conducted any
+testing other than that specifically described in the published documentation for a particular TI Resource.
+You are authorized to use, copy and modify any individual TI Resource only in connection with the development of applications that include
+the TI product(s) identified in such TI Resource. NO OTHER LICENSE, EXPRESS OR IMPLIED, BY ESTOPPEL OR OTHERWISE TO
+ANY OTHER TI INTELLECTUAL PROPERTY RIGHT, AND NO LICENSE TO ANY TECHNOLOGY OR INTELLECTUAL PROPERTY
+RIGHT OF TI OR ANY THIRD PARTY IS GRANTED HEREIN, including but not limited to any patent right, copyright, mask work right, or
+other intellectual property right relating to any combination, machine, or process in which TI products or services are used. Information
+regarding or referencing third-party products or services does not constitute a license to use such products or services, or a warranty or
+endorsement thereof. Use of TI Resources may require a license from a third party under the patents or other intellectual property of the
+third party, or a license from TI under the patents or other intellectual property of TI.
+TI RESOURCES ARE PROVIDED “AS IS” AND WITH ALL FAULTS. TI DISCLAIMS ALL OTHER WARRANTIES OR
+REPRESENTATIONS, EXPRESS OR IMPLIED, REGARDING TI RESOURCES OR USE THEREOF, INCLUDING BUT NOT LIMITED TO
+ACCURACY OR COMPLETENESS, TITLE, ANY EPIDEMIC FAILURE WARRANTY AND ANY IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF ANY THIRD PARTY INTELLECTUAL
+PROPERTY RIGHTS.
+TI SHALL NOT BE LIABLE FOR AND SHALL NOT DEFEND OR INDEMNIFY YOU AGAINST ANY CLAIM, INCLUDING BUT NOT
+LIMITED TO ANY INFRINGEMENT CLAIM THAT RELATES TO OR IS BASED ON ANY COMBINATION OF PRODUCTS EVEN IF
+DESCRIBED IN TI RESOURCES OR OTHERWISE. IN NO EVENT SHALL TI BE LIABLE FOR ANY ACTUAL, DIRECT, SPECIAL,
+COLLATERAL, INDIRECT, PUNITIVE, INCIDENTAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES IN CONNECTION WITH OR
+ARISING OUT OF TI RESOURCES OR USE THEREOF, AND REGARDLESS OF WHETHER TI HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+You agree to fully indemnify TI and its representatives against any damages, costs, losses, and/or liabilities arising out of your non-
+compliance with the terms and provisions of this Notice.
+This Notice applies to TI Resources. Additional terms apply to the use and purchase of certain types of materials, TI products and services.
+These include; without limitation, TI’s standard terms for semiconductor products http://www.ti.com/sc/docs/stdterms.htm), evaluation
+modules, and samples (http://www.ti.com/sc/docs/sampterms.htm).
+
+
+                             Mailing Address: Texas Instruments, Post Office Box 655303, Dallas, Texas 75265
+                                            Copyright © 2017, Texas Instruments Incorporated
+

@@ -1,0 +1,529 @@
+{
+  "version": 1,
+  "presentations": [
+    {
+      "id": "2023-04-21-coding-with-copilot",
+      "title": "Coding with Copilot",
+      "collection": "teaching",
+      "tags": [
+        "AI",
+        "programming"
+      ],
+      "date": "2023-04-21",
+      "dateSource": "content",
+      "path": "collections/teaching/2023-04-21-coding-with-copilot/index.html",
+      "legacyPaths": [
+        "lectures/2023-04-21-copilot.html"
+      ],
+      "classificationReason": "Programming-practice tutorial with setup and live demo."
+    },
+    {
+      "id": "2023-09-29-embodied-intelligence",
+      "title": "Embodied Intelligence with Foundation Models",
+      "collection": "research-talks",
+      "tags": [
+        "AI",
+        "robotics"
+      ],
+      "date": "2023-09-29",
+      "dateSource": "filename",
+      "path": "collections/research-talks/2023-09-29-embodied-intelligence/index.html",
+      "legacyPaths": [
+        "lectures/2023-09-29-embodied.html"
+      ],
+      "classificationReason": "Webinar explaining foundation models and embodied cognition."
+    },
+    {
+      "id": "2024-05-15-kolmogorov-arnold-networks",
+      "title": "On Kolmogorov–Arnold Networks",
+      "collection": "research-talks",
+      "tags": [
+        "AI",
+        "mathematics"
+      ],
+      "date": "2024-05-17",
+      "dateSource": "content",
+      "path": "collections/research-talks/2024-05-15-kolmogorov-arnold-networks/index.html",
+      "legacyPaths": [
+        "lectures/2024-05-15-KAN.html"
+      ],
+      "classificationReason": "Research architecture explanation and discussion.",
+      "reviewNote": "Title slide says 2024-05-17; historical filename and folder date 2024-05-15 retained."
+    },
+    {
+      "id": "2024-05-31-sdem-kickoff",
+      "title": "SDEM: From Controlling to Riding",
+      "collection": "projects",
+      "tags": [
+        "AI",
+        "robotics"
+      ],
+      "date": "2024-05-31",
+      "dateSource": "content",
+      "path": "collections/projects/2024-05-31-sdem-kickoff/index.html",
+      "legacyPaths": [
+        "lectures/2024.5.31-sdem-kickoff.html"
+      ],
+      "classificationReason": "Explicit project introduction, technical map and roadmap."
+    },
+    {
+      "id": "2024-06-05-research-and-delivery-discussion",
+      "title": "Research and Project Delivery Discussion",
+      "collection": "group-meetings",
+      "tags": [
+        "brain-inspired computing",
+        "robotics"
+      ],
+      "date": "2024-06-05",
+      "dateSource": "content",
+      "path": "collections/group-meetings/2024-06-05-research-and-delivery-discussion/index.html",
+      "legacyPaths": [
+        "lectures/2024.6.5-discuss.html"
+      ],
+      "classificationReason": "Internal discussion of research tasks and project releases."
+    },
+    {
+      "id": "2024-06-14-meta-seminar",
+      "title": "Meta-Seminar: How to Present and Discuss",
+      "collection": "teaching",
+      "tags": [
+        "academic skills",
+        "communication"
+      ],
+      "date": "2024-06-14",
+      "dateSource": "content",
+      "path": "collections/teaching/scientific-communication/2024-06-14-meta-seminar/index.html",
+      "legacyPaths": [
+        "lectures/metaseminar/2024-06-14-meta-seminar.html"
+      ],
+      "classificationReason": "Teaches seminar preparation, presentation and discussion."
+    },
+    {
+      "id": "2024-07-11-ornithopter",
+      "title": "Ornithopter: Design and Implementation",
+      "collection": "projects",
+      "tags": [
+        "robotics",
+        "AI"
+      ],
+      "date": "2024-07-11",
+      "dateSource": "content",
+      "path": "collections/projects/2024-07-11-ornithopter/index.html",
+      "legacyPaths": [
+        "lectures/2024-07-11-SDEM/2024-07-11-sdem.html"
+      ],
+      "classificationReason": "Engineering targets, design procedure and training roadmap.",
+      "reviewNote": "Includes a topic survey; Projects chosen because design targets and implementation dominate."
+    },
+    {
+      "id": "2024-07-24-applied-math-review",
+      "title": "Applied Math and Machine Learning: Test Review",
+      "collection": "teaching",
+      "tags": [
+        "AI",
+        "mathematics"
+      ],
+      "date": "2024-07-22",
+      "dateSource": "content",
+      "path": "collections/teaching/deep-learning/2024-07-24-applied-math-review/index.html",
+      "legacyPaths": [
+        "lectures/2024-07-24-paper/2024-07-24-paper.html"
+      ],
+      "classificationReason": "Explicit review for a July test; not a paper presentation.",
+      "reviewNote": "Content dates this 2024-07-22; original folder says 2024-07-24. Folder date retained, catalog uses the title-slide date."
+    },
+    {
+      "id": "2024-09-14-semester-opening",
+      "title": "Semester Opening and KAN 2.0",
+      "collection": "group-meetings",
+      "tags": [
+        "AI",
+        "mathematics",
+        "group planning"
+      ],
+      "date": "2024-09-14",
+      "dateSource": "content",
+      "path": "collections/group-meetings/2024-09-14-semester-opening/index.html",
+      "legacyPaths": [
+        "lectures/2024-09-14-KAN2/2024-09-14-KAN2.html"
+      ],
+      "classificationReason": "Orientation, onboarding and semester strategy precede a KAN 2.0 discussion.",
+      "reviewNote": "Mixed group meeting and research talk; filed by its opening purpose and strategy content."
+    },
+    {
+      "id": "2024-10-19-brain-inspired-embodied-intelligence",
+      "title": "类脑的时空具身智能概述",
+      "collection": "research-talks",
+      "tags": [
+        "AI",
+        "brain-inspired computing",
+        "robotics"
+      ],
+      "date": "2024-10-19",
+      "dateSource": "content",
+      "path": "collections/research-talks/2024-10-19-brain-inspired-embodied-intelligence/index.html",
+      "legacyPaths": [
+        "lectures/2024-10-19-KJW/2024-10-19.html"
+      ],
+      "classificationReason": "Topic overview linking neuroscience and embodied intelligence."
+    },
+    {
+      "id": "2024-11-07-brain-inspired-navigation",
+      "title": "Brain-Inspired Navigation: CNS Review",
+      "collection": "research-talks",
+      "tags": [
+        "brain-inspired computing",
+        "robotics"
+      ],
+      "date": "2024-11-07",
+      "dateSource": "content",
+      "path": "collections/research-talks/2024-11-07-brain-inspired-navigation/index.html",
+      "legacyPaths": [
+        "lectures/2024-11-07-brain-inspired/2024-11-07.html"
+      ],
+      "classificationReason": "Topic review of brain-inspired navigation and spatial intelligence."
+    },
+    {
+      "id": "2024-12-09-brain-inspired-spatial-intelligence",
+      "title": "Brain-Inspired Navigation and Spatial Intelligence",
+      "collection": "research-talks",
+      "tags": [
+        "AI",
+        "brain-inspired computing",
+        "robotics"
+      ],
+      "date": "2024-12-09",
+      "dateSource": "content",
+      "path": "collections/research-talks/2024-12-09-brain-inspired-spatial-intelligence/index.html",
+      "legacyPaths": [
+        "lectures/2024-12-09.html"
+      ],
+      "classificationReason": "Extended research topic talk, including a second session.",
+      "reviewNote": "Contains title slides dated 2024-12-09 and 2024-12-16. Kept as one deck with its first date."
+    },
+    {
+      "id": "2025-01-16-recap",
+      "title": "Group Recap: Time, Seminars and Reading Groups",
+      "collection": "group-meetings",
+      "tags": [
+        "group planning"
+      ],
+      "date": "2025-01-16",
+      "dateSource": "folder",
+      "path": "collections/group-meetings/2025-01-16-recap/index.html",
+      "legacyPaths": [
+        "lectures/2025-01-16-recap/main.html"
+      ],
+      "classificationReason": "Internal recap and discussion of academic gathering formats."
+    },
+    {
+      "id": "2026-09-10-ai-group-gathering",
+      "title": "AI Group Gathering: Progress · People · Possibilities",
+      "collection": "group-meetings",
+      "tags": [
+        "AI",
+        "brain-inspired computing",
+        "robotics",
+        "hardware"
+      ],
+      "date": "2026-09-11",
+      "dateSource": "content",
+      "path": "collections/group-meetings/2026-09-10-ai-group-gathering/index.html",
+      "legacyPaths": [
+        "lectures/2026-09-10-AI-group-gathering/main.html"
+      ],
+      "classificationReason": "Explicit internal gathering with progress, membership and future plans.",
+      "reviewNote": "Title slide says 2026-09-11; historical directory date 2026-09-10 retained."
+    },
+    {
+      "id": "music15b-week01",
+      "title": "Music & Culture",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-02-27",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week01.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 1,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "music15b-week02",
+      "title": "Melody, Rhythm, and Sound",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-03-06",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week02.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 2,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "music15b-week03",
+      "title": "Instrumentation",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-03-13",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week03.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 3,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "music15b-week04",
+      "title": "Behind the Scenes: Harmony, Texture, and Form",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-03-20",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week04.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 4,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "music15b-week05",
+      "title": "Musical Style",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-03-27",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week05.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 5,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "music15b-week06",
+      "title": "Musical Theater",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-04-02",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week06.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 6,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "music15b-week07",
+      "title": "Modern Jazz",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-04-10",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week07.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 7,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "music15b-week10",
+      "title": "The Rock Revolution",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-05-08",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week10.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 10,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "music15b-week11",
+      "title": "San Francisco and the Diversity of Rock",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-05-15",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week11.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 11,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "music15b-week12",
+      "title": "New Trends of the Late 1970s",
+      "collection": "teaching",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "date": "2023-05-22",
+      "dateSource": "content",
+      "path": "collections/teaching/music15b/week12.html",
+      "legacyPaths": [],
+      "series": "Music 15B",
+      "lessonOrder": 12,
+      "classificationReason": "Weekly Music & Culture course lesson."
+    },
+    {
+      "id": "d2l-lesson01",
+      "title": "Dive into Deep Learning: Python and PyTorch",
+      "collection": "teaching",
+      "tags": [
+        "AI",
+        "programming"
+      ],
+      "date": "2024-06-07",
+      "dateSource": "content",
+      "path": "collections/teaching/deep-learning/dive-into-deep-learning/lesson01.html",
+      "legacyPaths": [
+        "lectures/d2l/2024-06-07-d2l-01.html"
+      ],
+      "series": "Dive into Deep Learning",
+      "lessonOrder": 1,
+      "classificationReason": "Course introduction and development environment tutorial."
+    },
+    {
+      "id": "verbal-for-science-lesson01",
+      "title": "Verbal for Science: English and Communication",
+      "collection": "teaching",
+      "tags": [
+        "communication",
+        "academic skills"
+      ],
+      "date": "2024-09-25",
+      "dateSource": "content",
+      "path": "collections/teaching/scientific-communication/verbal-for-science/lesson01.html",
+      "legacyPaths": [
+        "lectures/2024-09-sci-verbal/2024-09-sci-verbal.html"
+      ],
+      "series": "Verbal for Science",
+      "lessonOrder": 1,
+      "classificationReason": "Academic English and communication lesson."
+    },
+    {
+      "id": "verbal-for-science-lesson02",
+      "title": "Verbal for Science: Vocabulary",
+      "collection": "teaching",
+      "tags": [
+        "communication",
+        "academic skills"
+      ],
+      "date": "2024-10-30",
+      "dateSource": "content",
+      "path": "collections/teaching/scientific-communication/verbal-for-science/lesson02.html",
+      "legacyPaths": [
+        "lectures/2024-09-sci-verbal/2024-09-sci-verbal02.html"
+      ],
+      "series": "Verbal for Science",
+      "lessonOrder": 2,
+      "classificationReason": "Academic English and communication lesson."
+    },
+    {
+      "id": "2023-12-02-papillons",
+      "title": "Schumann: Papillons",
+      "collection": "music",
+      "tags": [
+        "music",
+        "piano"
+      ],
+      "date": "2023-12-02",
+      "dateSource": "content",
+      "path": "collections/music/2023-12-02-papillons/index.html",
+      "legacyPaths": [],
+      "classificationReason": "Piano-group work presentation."
+    },
+    {
+      "id": "concert-program",
+      "title": "Schumann Piano Concerto: Concert Program",
+      "collection": "music",
+      "tags": [
+        "music",
+        "piano"
+      ],
+      "date": null,
+      "dateSource": null,
+      "path": "collections/music/concert-program/index.html",
+      "legacyPaths": [],
+      "classificationReason": "Concert program; no presentation date in the supplied material."
+    },
+    {
+      "id": "neuromorphic-kickoff",
+      "title": "Neuromorphic Computing: Research Kick-off",
+      "collection": "projects",
+      "tags": [
+        "AI",
+        "brain-inspired computing",
+        "hardware"
+      ],
+      "date": "2025-01-15",
+      "dateSource": "content",
+      "path": "collections/projects/2025-01-15-neuromorphic-kickoff/index.html",
+      "legacyPaths": [
+        "lectures/neuralmorphic_kickoff/main.html"
+      ],
+      "submodule": "lectures/neuralmorphic_kickoff",
+      "classificationReason": "Explicit research kickoff, scientific questions and eNN roadmap."
+    },
+    {
+      "id": "2026-09-15-neuro",
+      "title": "Neuro",
+      "collection": "external-presentations",
+      "tags": [
+        "brain-inspired computing"
+      ],
+      "date": "2026-09-15",
+      "dateSource": "folder",
+      "path": "collections/external-presentations/2026-09-15-neuro/index.html",
+      "legacyPaths": [],
+      "status": "draft",
+      "classificationReason": "External presentation, as designated by the owner.",
+      "reviewNote": "Blank deck template; content has not been added yet."
+    },
+    {
+      "id": "2026-09-17-single-track",
+      "title": "面向自主导航的纵置二轮车自动驾驶技术",
+      "collection": "external-presentations",
+      "tags": [
+        "AI",
+        "robotics",
+        "hardware"
+      ],
+      "date": "2026-09-17",
+      "dateSource": "content",
+      "path": "collections/external-presentations/2026-09-17-single-track/index.html",
+      "legacyPaths": [],
+      "classificationReason": "Chinese technical presentation for prospective industry partners on single-track vehicle balance, cross-platform transfer and lane keeping."
+    }
+  ]
+}
