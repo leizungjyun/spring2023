@@ -121,6 +121,7 @@ gulp.task('js', gulp.parallel('js-es5', 'js-es6'));
 // built-in plugins
 gulp.task('plugins', () => {
     return Promise.all([
+        { name: 'RevealAnnotations', input: './plugin/annotations/plugin.js', output: './plugin/annotations/annotations' },
         { name: 'RevealHighlight', input: './plugin/highlight/plugin.js', output: './plugin/highlight/highlight' },
         { name: 'RevealMarkdown', input: './plugin/markdown/plugin.js', output: './plugin/markdown/markdown' },
         { name: 'RevealSearch', input: './plugin/search/plugin.js', output: './plugin/search/search' },
@@ -299,9 +300,9 @@ gulp.task('serve', () => {
 
     gulp.watch(libraryContent, gulp.series('reload'))
 
-    gulp.watch(['js/**', 'plugin/annotations/plugin.js'], gulp.series('js', 'reload', 'eslint'))
+    gulp.watch(['js/**'], gulp.series('js', 'reload', 'eslint'))
 
-    gulp.watch(['plugin/**/plugin.js', '!plugin/annotations/plugin.js'], gulp.series('plugins', 'reload'))
+    gulp.watch(['plugin/**/plugin.js'], gulp.series('plugins', 'reload'))
 
     gulp.watch([
         'css/theme/source/*.{sass,scss}',

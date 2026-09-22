@@ -9,7 +9,7 @@ import ObjectiveC
 let context = CIContext(options: [.useSoftwareRenderer: false])
 let directory = URL(fileURLWithPath: CommandLine.arguments[1])
 for (name, ext) in [("翟春磊", "png")] {
-    let input = directory.appendingPathComponent(name + "." + ext)
+    let input = directory.appendingPathComponent("originals").appendingPathComponent(name + "." + ext)
     guard let source = CIImage(contentsOf: input) else { fatalError("Cannot load portrait") }
     // Runtime lookup supports Macs whose installed SDK predates this Vision API.
     guard let requestClass = NSClassFromString("VNGeneratePersonSegmentationRequest") else { fatalError("Person segmentation unavailable") }

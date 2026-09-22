@@ -1,0 +1,150 @@
+{
+  "scope": "Unused assets in this deck media directory; README retained as maintenance documentation.",
+  "removed": [
+    {
+      "path": "media/.DS_Store",
+      "bytes": 8196,
+      "sha256": "1f4c04c29e1764a080a72ae6529acd1341fbc13272e1c58152a52268854580f1"
+    },
+    {
+      "path": "media/awards/.DS_Store",
+      "bytes": 6148,
+      "sha256": "c9e4300eff6ba4cf896056f98367908fe05041e90e9ef672c7fdb53a7ed0310b"
+    },
+    {
+      "path": "media/figures/.DS_Store",
+      "bytes": 6148,
+      "sha256": "5d579f8a8909a464de43a957a71452e9dfa1929dfe80cfafc7fcaacb6880ca12"
+    },
+    {
+      "path": "media/images/.DS_Store",
+      "bytes": 6148,
+      "sha256": "7cc025ee9b16e18b660439f1ae1ade902be5947ac200d36b8fe3e4b0fa8d1620"
+    },
+    {
+      "path": "media/images/reference/图片1.png",
+      "bytes": 2022708,
+      "sha256": "d4740ea772b7a35a16977d8d2c5454e979bc212d1d021fd812e35e707fd33c89"
+    },
+    {
+      "path": "media/images/reference/图片2.png",
+      "bytes": 2178630,
+      "sha256": "e69748647f128800ed2461dbde61c56c917688d0a6d322908a35e5ea0860d2d8"
+    },
+    {
+      "path": "media/images/reference/图片3.png",
+      "bytes": 1485292,
+      "sha256": "b5b85fe4be536fe74f8c0b3e4a5c8a1d087fa5068e4c50902e2fbfba777b3b34"
+    },
+    {
+      "path": "media/images/reference/图片4.png",
+      "bytes": 3359062,
+      "sha256": "19b733daabc622c7c3dc89a2266064ed370f05ac1a8e6efc4471474a1b7644bb"
+    },
+    {
+      "path": "media/images/reference/图片5.png",
+      "bytes": 3092619,
+      "sha256": "8b74a527ff8d8a6bcdeea1fb8cd5c50c9a44b2d6eda13cbb3b0e003550fc4ee7"
+    },
+    {
+      "path": "media/images/reference/图片6.png",
+      "bytes": 2177058,
+      "sha256": "a989adda8617e830eadd8f1c80a1b8159841bac873765f367acfb39d187d3bc4"
+    },
+    {
+      "path": "media/images/showcase/科交会1.png",
+      "bytes": 5703216,
+      "sha256": "2058821c3474e7d81874685ed6cafccba38d93417eab22b70cfd0a0253f4e4ca"
+    },
+    {
+      "path": "media/images/showcase/科交会2.jpg",
+      "bytes": 173598,
+      "sha256": "7c2ca1e91e73d1a6332e8264623722cc41374652acab091c82c08cda3033f953"
+    },
+    {
+      "path": "media/patents/.DS_Store",
+      "bytes": 6148,
+      "sha256": "c01dc3e3248ea755842fb28903512c7eb9f3fa09ebae71f59f12b7a434de17ab"
+    },
+    {
+      "path": "media/patents/documents/一种可零样本迁移的自平衡自行车软件控制方法及系统.pdf",
+      "bytes": 627938,
+      "sha256": "bcd1415dcf4aac6f0c10e96bb7e474b9dd3ff19b6754830d5777f3c98a79dc17"
+    },
+    {
+      "path": "media/patents/documents/一种基于域随机化的自行车控制策略仿真训练方法和系统.pdf",
+      "bytes": 701236,
+      "sha256": "4cb15808b37e778e99e969c99dd76215775d323743ea28502d350829d6cb01aa"
+    },
+    {
+      "path": "media/patents/documents/一种用于自平衡与转向控制的低成本自行车硬件装置.pdf",
+      "bytes": 551662,
+      "sha256": "eae39d72d1c728134f8078aa67aeabb8575b0c7755c8b686b089b7e5dae91980"
+    },
+    {
+      "path": "media/patents/documents/基于多目标奖励函数的自行车控制策略强化学习训练方法.pdf",
+      "bytes": 701394,
+      "sha256": "19363f4349639135f658dc2f74b5776858634b80b787fcc6f6b4a6f4935c82b9"
+    },
+    {
+      "path": "media/posters/.DS_Store",
+      "bytes": 6148,
+      "sha256": "98332f29c3163bfae0d41c2091f825ddc9f5ea1186606db24aadc91717f1a9ed"
+    },
+    {
+      "path": "media/posters/platforms/ebike.jpg",
+      "bytes": 12680,
+      "sha256": "261bad8b777767bec64052e4e1c517891260565a53bf784703725575297e0ac8"
+    },
+    {
+      "path": "media/posters/research/小论文视频.jpg",
+      "bytes": 32883,
+      "sha256": "f1bb9fa3cb2c77402cb15816e217dc45e35e055d0b7fff53616998e636edaf01"
+    },
+    {
+      "path": "media/profiles/originals/朱祥维.png",
+      "bytes": 237818,
+      "sha256": "b67013115315a7f496a0a60aa7d587d5fa322e8210238104b36f4ab490bd7290"
+    },
+    {
+      "path": "media/profiles/originals/李颂元.jpeg",
+      "bytes": 102063,
+      "sha256": "10f8e33409f56243b6ed4fa6779d800183d409d51b00e1a04afe18d0750a0552"
+    },
+    {
+      "path": "media/profiles/originals/王腾.jpeg",
+      "bytes": 62761,
+      "sha256": "cc86ff8f8947022f3bad7d9a6a488a90be06191a81af03554c6d0aeb56c1b67e"
+    },
+    {
+      "path": "media/profiles/originals/翟春磊.png",
+      "bytes": 1873585,
+      "sha256": "6a736fd0185508d0fa3893ae93b16d2e0604f847ab125da48261c664872f9c90"
+    },
+    {
+      "path": "media/videos/.DS_Store",
+      "bytes": 8196,
+      "sha256": "6ed173085a2067c8a344dce72f9e87c6fb146f2879d80280a7ad09dbea936170"
+    },
+    {
+      "path": "media/videos/originals/LEQI-original.mp4",
+      "bytes": 2209816,
+      "sha256": "f225c686196773714c00fdd86412af4fa5eb7c2aa4bb6629e4082bb8cca66ea2"
+    },
+    {
+      "path": "media/videos/originals/LEQI.mov",
+      "bytes": 3219489,
+      "sha256": "daea4c169261c04f629a7dbcc0ddccb5d1a7cf10a071cb239f97c6fed32f4c8d"
+    },
+    {
+      "path": "media/videos/platforms/ebike.mp4",
+      "bytes": 6874987,
+      "sha256": "4fce58ba310d31c7a2a6815c2609d68985640b37497c30203094bc53933b60a7"
+    },
+    {
+      "path": "media/videos/research/小论文视频.mp4",
+      "bytes": 231514817,
+      "sha256": "e1a3f7322b09453c0394379f1611cbcb62a966520242e27a55c5e67a9ceb2b43"
+    }
+  ]
+}

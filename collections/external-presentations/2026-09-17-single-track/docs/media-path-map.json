@@ -1,0 +1,375 @@
+{
+  "description": "Media paths relative to the deck root; content hashes verified before and after moving. Historical prompt, original-before-build snapshots and QA records retain their original paths.",
+  "files": [
+    {
+      "old": "media/L2.mp4",
+      "new": "media/videos/navigation/L2.mp4",
+      "sha256": "ec66402c52f8fa6f24dac8d3f905fc5cdeac702fee30906073b2388848a72655"
+    },
+    {
+      "old": "media/LEQI-original.mp4",
+      "new": "media/videos/originals/LEQI-original.mp4",
+      "sha256": "f225c686196773714c00fdd86412af4fa5eb7c2aa4bb6629e4082bb8cca66ea2"
+    },
+    {
+      "old": "media/LEQI.mov",
+      "new": "media/videos/originals/LEQI.mov",
+      "sha256": "daea4c169261c04f629a7dbcc0ddccb5d1a7cf10a071cb239f97c6fed32f4c8d"
+    },
+    {
+      "old": "media/awards/national-1.jpg",
+      "new": "media/awards/previews/national-1.jpg",
+      "sha256": "e22a8e0e81f5b7f8a5d4ac015d14986c07e038129cb86a02956da9494a953c41"
+    },
+    {
+      "old": "media/awards/national-2.jpg",
+      "new": "media/awards/previews/national-2.jpg",
+      "sha256": "d070028a5c42db3e83ffad7c64368315367bab4649e37caa5973fbbc2f6f1df3"
+    },
+    {
+      "old": "media/awards/provincial-1.jpg",
+      "new": "media/awards/previews/provincial-1.jpg",
+      "sha256": "a533cd128486076d3ad808c6e20bba4a02c14f9a8f210aeece8af99018ac8e4c"
+    },
+    {
+      "old": "media/awards/provincial-2.jpg",
+      "new": "media/awards/previews/provincial-2.jpg",
+      "sha256": "271900d9080e599a10e4f3ec24b25ee34365412280005c38dcba9f2d6b0b4b90"
+    },
+    {
+      "old": "media/awards/一等奖-颁奖.jpg",
+      "new": "media/awards/photos/一等奖-颁奖.jpg",
+      "sha256": "6ae8ed664b8b73e8099a80a7b2d6f3d64fa6e6ecb92ab8da05e67aa88cffdd84"
+    },
+    {
+      "old": "media/awards/创新奖-颁奖.jpg",
+      "new": "media/awards/photos/创新奖-颁奖.jpg",
+      "sha256": "e1e98d2a484c724606728fc450121152d63a12058951210f2bf5de04b4b7236d"
+    },
+    {
+      "old": "media/awards/海峡赛国赛一等奖证书.pdf",
+      "new": "media/awards/documents/海峡赛国赛一等奖证书.pdf",
+      "sha256": "6ee6d92d928b2ee299aad9e943863ed453e3327c690ef784b81b75c024d7ecef"
+    },
+    {
+      "old": "media/awards/海峡赛省赛一等奖证书.pdf",
+      "new": "media/awards/documents/海峡赛省赛一等奖证书.pdf",
+      "sha256": "0fca8aa30e7eff1d41524ffac937ab550c1cccbb2431d5eba14525f0dbfcd0e2"
+    },
+    {
+      "old": "media/comparison/ours.png",
+      "new": "media/figures/comparison/ours.png",
+      "sha256": "d0b14271c16a2daf005ad1d2c77e214039ad7228051fc009e176af7a4cefd639"
+    },
+    {
+      "old": "media/comparison/tianjic.png",
+      "new": "media/figures/comparison/tianjic.png",
+      "sha256": "3c1b35a4431c978a2888200f19083d0b409769bfdd3bba1fdab5ca758acab1a1"
+    },
+    {
+      "old": "media/comparison/xuan.png",
+      "new": "media/figures/comparison/xuan.png",
+      "sha256": "4133b0bbaf56e166b5a63723bf9ba56034c86b3278cc80ae90798f3770e0d456"
+    },
+    {
+      "old": "media/cyclex/simulation-environment.png",
+      "new": "media/figures/cyclex/simulation-environment.png",
+      "sha256": "d1f83947325a4cf483582bf24ac52757f5134cacf34f608c510878d8f7a2d54c"
+    },
+    {
+      "old": "media/cyclex/zero-shot-transfer-matrix.png",
+      "new": "media/figures/cyclex/zero-shot-transfer-matrix.png",
+      "sha256": "28c86562dcf175a8194866ab475338a7a93ef158f77d8ff2634f3be9b42412c3"
+    },
+    {
+      "old": "media/cyclex/zero-shot-transfer.png",
+      "new": "media/figures/cyclex/zero-shot-transfer.png",
+      "sha256": "a11ee42ff59c37a208d838eec2d345ce9df1d16d5679edec5dfa087d7a060831"
+    },
+    {
+      "old": "media/cyclex/zero_shot_transfer_matrix.pdf",
+      "new": "media/figures/cyclex/zero_shot_transfer_matrix.pdf",
+      "sha256": "b8863783c233dbfaff62a82256f06fbdb0b5bb253ec388fd529ebb84892a2c2f"
+    },
+    {
+      "old": "media/e-bike-demo.mp4",
+      "new": "media/videos/platforms/e-bike-demo.mp4",
+      "sha256": "0750814a3b3f09c97ce0ae7b39be987e018a988ad04cf6473830c704daf6c5e9"
+    },
+    {
+      "old": "media/e-bike-man.mp4",
+      "new": "media/videos/platforms/e-bike-man.mp4",
+      "sha256": "85cddd1fad90d019032ac0ffafe340d56b650e621fcac3b4b3774de0b73c3d2d"
+    },
+    {
+      "old": "media/e-motor-man.mp4",
+      "new": "media/videos/platforms/e-motor-man.mp4",
+      "sha256": "ff5610551ef7a8384acda24b43dd7ae6bf082fbdc08c2610db3607e464eaf444"
+    },
+    {
+      "old": "media/e-motor-offroad.mp4",
+      "new": "media/videos/platforms/e-motor-offroad.mp4",
+      "sha256": "4c1da13d0d282a7b815183c1e327b773172f6cff36e9553b19e7df9a2c360927"
+    },
+    {
+      "old": "media/e-motor-onroad.mp4",
+      "new": "media/videos/platforms/e-motor-onroad.mp4",
+      "sha256": "afe1e21fd2a6ad711cec14b52789d841ffb8ac77ba26321baf42bf9484d53289"
+    },
+    {
+      "old": "media/ebike.mp4",
+      "new": "media/videos/platforms/ebike.mp4",
+      "sha256": "4fce58ba310d31c7a2a6815c2609d68985640b37497c30203094bc53933b60a7"
+    },
+    {
+      "old": "media/lane-control.svg",
+      "new": "media/diagrams/lane-control.svg",
+      "sha256": "079f4dd46151810ed0160e96d35afea2dae10439b759604800d4b5830e183683"
+    },
+    {
+      "old": "media/patents/patent1.jpg",
+      "new": "media/patents/previews/patent1.jpg",
+      "sha256": "2377f9092efdd48c983c2bdb8448c8921c96e72225d32be4b51448e0ab9e6fd3"
+    },
+    {
+      "old": "media/patents/patent2.jpg",
+      "new": "media/patents/previews/patent2.jpg",
+      "sha256": "74642674ce36b5814be687bbb239c474cfa793996cbc8da6df6de315c6398894"
+    },
+    {
+      "old": "media/patents/patent3.jpg",
+      "new": "media/patents/previews/patent3.jpg",
+      "sha256": "b3f9dd548aaa842e5228e7e8fd8e7681d73e4ecd52c3045fa3926196736512d9"
+    },
+    {
+      "old": "media/patents/patent4.jpg",
+      "new": "media/patents/previews/patent4.jpg",
+      "sha256": "ab67e8ae2547f2d153185fcbcc571ddc42c8333c3588b9e4551eb908ca9c7862"
+    },
+    {
+      "old": "media/patents/一种可零样本迁移的自平衡自行车软件控制方法及系统.pdf",
+      "new": "media/patents/documents/一种可零样本迁移的自平衡自行车软件控制方法及系统.pdf",
+      "sha256": "bcd1415dcf4aac6f0c10e96bb7e474b9dd3ff19b6754830d5777f3c98a79dc17"
+    },
+    {
+      "old": "media/patents/一种基于域随机化的自行车控制策略仿真训练方法和系统.pdf",
+      "new": "media/patents/documents/一种基于域随机化的自行车控制策略仿真训练方法和系统.pdf",
+      "sha256": "4cb15808b37e778e99e969c99dd76215775d323743ea28502d350829d6cb01aa"
+    },
+    {
+      "old": "media/patents/一种用于自平衡与转向控制的低成本自行车硬件装置.pdf",
+      "new": "media/patents/documents/一种用于自平衡与转向控制的低成本自行车硬件装置.pdf",
+      "sha256": "eae39d72d1c728134f8078aa67aeabb8575b0c7755c8b686b089b7e5dae91980"
+    },
+    {
+      "old": "media/patents/基于多目标奖励函数的自行车控制策略强化学习训练方法.pdf",
+      "new": "media/patents/documents/基于多目标奖励函数的自行车控制策略强化学习训练方法.pdf",
+      "sha256": "19363f4349639135f658dc2f74b5776858634b80b787fcc6f6b4a6f4935c82b9"
+    },
+    {
+      "old": "media/posters/L2.jpg",
+      "new": "media/posters/navigation/L2.jpg",
+      "sha256": "2b28db5f997529aacedea5fc487b725161a0a223b1891ce51137c9c208b27e1b"
+    },
+    {
+      "old": "media/posters/LEQI.jpg",
+      "new": "media/posters/platforms/LEQI.jpg",
+      "sha256": "aa62d6f8d9472e1b654d225f4c6250fc702b9e7c1a2c4da3937349939d35d87c"
+    },
+    {
+      "old": "media/posters/e-bike-man.jpg",
+      "new": "media/posters/platforms/e-bike-man.jpg",
+      "sha256": "9dffd7d315b257629c54489da562a7350b22dec669afbfb2759230cfc27647c0"
+    },
+    {
+      "old": "media/posters/e-motor-man.jpg",
+      "new": "media/posters/platforms/e-motor-man.jpg",
+      "sha256": "47b3993bfd6a6db5fa69c75363e0c6dfcc574cc8cce963e309938a48cd4d0c74"
+    },
+    {
+      "old": "media/posters/e-motor-offroad.jpg",
+      "new": "media/posters/platforms/e-motor-offroad.jpg",
+      "sha256": "e3ee3fc70c69d9c34eda1f6f2c172e2ac8bd01c32dcc859f09a6c9b5b4539339"
+    },
+    {
+      "old": "media/posters/e-motor-onroad.jpg",
+      "new": "media/posters/platforms/e-motor-onroad.jpg",
+      "sha256": "ae4549a9d4b741ae999ce9ab327cb75a52fc027ee7888630ad843b958a7dde88"
+    },
+    {
+      "old": "media/posters/ebike.jpg",
+      "new": "media/posters/platforms/ebike.jpg",
+      "sha256": "261bad8b777767bec64052e4e1c517891260565a53bf784703725575297e0ac8"
+    },
+    {
+      "old": "media/posters/road.jpg",
+      "new": "media/posters/terrain/road.jpg",
+      "sha256": "bcddb55ab507fdd926dc949e30f93d825f22e79b1da24c80749796f97154cbe4"
+    },
+    {
+      "old": "media/posters/sim-台阶.jpg",
+      "new": "media/posters/simulation/sim-台阶.jpg",
+      "sha256": "dfd75c99d59cb1f20abd93088f6ef7c50661f3e1b87b2e25480e22118539204c"
+    },
+    {
+      "old": "media/posters/sim-平坦.jpg",
+      "new": "media/posters/simulation/sim-平坦.jpg",
+      "sha256": "82a014998b66617234d1d7314e411337267d88b947e51164ef9bc31f694a555c"
+    },
+    {
+      "old": "media/posters/台阶.jpg",
+      "new": "media/posters/terrain/台阶.jpg",
+      "sha256": "9f7fd83649b6f6747b8bcf7187ec2a970629e95dacb22a006b875ec95b0de685"
+    },
+    {
+      "old": "media/posters/坡道.jpg",
+      "new": "media/posters/terrain/坡道.jpg",
+      "sha256": "70a7f9ebd9eb52c0f8cc5d8f5790902c4cf93342a616b55f7d5e4f1be1b059a9"
+    },
+    {
+      "old": "media/posters/小论文视频.jpg",
+      "new": "media/posters/research/小论文视频.jpg",
+      "sha256": "f1bb9fa3cb2c77402cb15816e217dc45e35e055d0b7fff53616998e636edaf01"
+    },
+    {
+      "old": "media/posters/砾石.jpg",
+      "new": "media/posters/terrain/砾石.jpg",
+      "sha256": "28a8879960f7352b4b53084dee56e800d7a991d16d14872574006d34a4dca09b"
+    },
+    {
+      "old": "media/posters/科交会.jpg",
+      "new": "media/posters/showcase/科交会.jpg",
+      "sha256": "f9140e277ea7477a2c938faba6b495c3bb1b4639fc3a989a87e43c537c94abd2"
+    },
+    {
+      "old": "media/posters/草地.jpg",
+      "new": "media/posters/terrain/草地.jpg",
+      "sha256": "363e9d046ba3dd19bbe65deae353d43ef956dd70c1b4ed5587bc2dc4b627f2a0"
+    },
+    {
+      "old": "media/posters/负载.jpg",
+      "new": "media/posters/terrain/负载.jpg",
+      "sha256": "5dba714cf4794271d9dc94cf4766b6506493cda5549e50d03e7a172a4db04946"
+    },
+    {
+      "old": "media/profiles/朱祥维.png",
+      "new": "media/profiles/originals/朱祥维.png",
+      "sha256": "b67013115315a7f496a0a60aa7d587d5fa322e8210238104b36f4ab490bd7290"
+    },
+    {
+      "old": "media/profiles/李颂元.jpeg",
+      "new": "media/profiles/originals/李颂元.jpeg",
+      "sha256": "10f8e33409f56243b6ed4fa6779d800183d409d51b00e1a04afe18d0750a0552"
+    },
+    {
+      "old": "media/profiles/王腾.jpeg",
+      "new": "media/profiles/originals/王腾.jpeg",
+      "sha256": "cc86ff8f8947022f3bad7d9a6a488a90be06191a81af03554c6d0aeb56c1b67e"
+    },
+    {
+      "old": "media/profiles/翟春磊.png",
+      "new": "media/profiles/originals/翟春磊.png",
+      "sha256": "6a736fd0185508d0fa3893ae93b16d2e0604f847ab125da48261c664872f9c90"
+    },
+    {
+      "old": "media/road.mp4",
+      "new": "media/videos/terrain/road.mp4",
+      "sha256": "7edd9db34678e9a6042dd04df6e37d1793f6046e142c56cb6308b1e536697365"
+    },
+    {
+      "old": "media/sim-to-real.svg",
+      "new": "media/diagrams/sim-to-real.svg",
+      "sha256": "d7138ae6de05e677cc5c672dd7100843cb092aa2ad3f723aa59bfd06993c10bc"
+    },
+    {
+      "old": "media/sim-台阶.mp4",
+      "new": "media/videos/simulation/sim-台阶.mp4",
+      "sha256": "ab09c1fea79a0fdf2fff900f45b35b5cfa8a3e3032925b1957a8edb1b7b14766"
+    },
+    {
+      "old": "media/sim-平坦.mp4",
+      "new": "media/videos/simulation/sim-平坦.mp4",
+      "sha256": "017bde271705f76d5e1288eb11c9ae18922293d33177baf87ea077b4cf6aa648"
+    },
+    {
+      "old": "media/teaser.png",
+      "new": "media/images/cover/teaser.png",
+      "sha256": "cf6d9326e51b03e2602f8e3dfd08f6b838adee53c7098ddc26022951190591c9"
+    },
+    {
+      "old": "media/台阶.mp4",
+      "new": "media/videos/terrain/台阶.mp4",
+      "sha256": "70929fb5f2bf778f2e5be36051500a835fbbfa85707df0a2f173af3f0839743d"
+    },
+    {
+      "old": "media/图片1.png",
+      "new": "media/images/reference/图片1.png",
+      "sha256": "d4740ea772b7a35a16977d8d2c5454e979bc212d1d021fd812e35e707fd33c89"
+    },
+    {
+      "old": "media/图片2.png",
+      "new": "media/images/reference/图片2.png",
+      "sha256": "e69748647f128800ed2461dbde61c56c917688d0a6d322908a35e5ea0860d2d8"
+    },
+    {
+      "old": "media/图片3.png",
+      "new": "media/images/reference/图片3.png",
+      "sha256": "b5b85fe4be536fe74f8c0b3e4a5c8a1d087fa5068e4c50902e2fbfba777b3b34"
+    },
+    {
+      "old": "media/图片4.png",
+      "new": "media/images/reference/图片4.png",
+      "sha256": "19b733daabc622c7c3dc89a2266064ed370f05ac1a8e6efc4471474a1b7644bb"
+    },
+    {
+      "old": "media/图片5.png",
+      "new": "media/images/reference/图片5.png",
+      "sha256": "8b74a527ff8d8a6bcdeea1fb8cd5c50c9a44b2d6eda13cbb3b0e003550fc4ee7"
+    },
+    {
+      "old": "media/图片6.png",
+      "new": "media/images/reference/图片6.png",
+      "sha256": "a989adda8617e830eadd8f1c80a1b8159841bac873765f367acfb39d187d3bc4"
+    },
+    {
+      "old": "media/坡道.mp4",
+      "new": "media/videos/terrain/坡道.mp4",
+      "sha256": "b7e32998ea2d695c0dd100a25291e293d3939e0d31c938d29f40b95362fd6d8b"
+    },
+    {
+      "old": "media/小论文视频.mp4",
+      "new": "media/videos/research/小论文视频.mp4",
+      "sha256": "e1a3f7322b09453c0394379f1611cbcb62a966520242e27a55c5e67a9ceb2b43"
+    },
+    {
+      "old": "media/砾石.mp4",
+      "new": "media/videos/terrain/砾石.mp4",
+      "sha256": "baac485157991348fa62e082c5939846bfd15869970c50501f5aabb681b02ad8"
+    },
+    {
+      "old": "media/科交会.mp4",
+      "new": "media/videos/showcase/科交会.mp4",
+      "sha256": "14f9c83bacc1eeca7aad848f85c895504ca29ea212f20b8d8bb89c2cee27ef78"
+    },
+    {
+      "old": "media/科交会1.png",
+      "new": "media/images/showcase/科交会1.png",
+      "sha256": "2058821c3474e7d81874685ed6cafccba38d93417eab22b70cfd0a0253f4e4ca"
+    },
+    {
+      "old": "media/科交会2.jpg",
+      "new": "media/images/showcase/科交会2.jpg",
+      "sha256": "7c2ca1e91e73d1a6332e8264623722cc41374652acab091c82c08cda3033f953"
+    },
+    {
+      "old": "media/草地.mp4",
+      "new": "media/videos/terrain/草地.mp4",
+      "sha256": "f9461c262307c3875ac3d37b27f4375b95e85c07deb6bbb8279f7a34b6dfc528"
+    },
+    {
+      "old": "media/负载.mp4",
+      "new": "media/videos/terrain/负载.mp4",
+      "sha256": "b84d286afde9b7c6da0af6a1b540d9e61b5cadc4bf75fce7101477b139973333"
+    }
+  ]
+}

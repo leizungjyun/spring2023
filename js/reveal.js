@@ -10,7 +10,6 @@ import Controls from './controllers/controls.js'
 import Progress from './controllers/progress.js'
 import Pointer from './controllers/pointer.js'
 import Plugins from './controllers/plugins.js'
-import createAnnotations from '../plugin/annotations/plugin.js'
 import Print from './controllers/print.js'
 import Touch from './controllers/touch.js'
 import Focus from './controllers/focus.js'
@@ -145,7 +144,7 @@ export default function( revealElement, options ) {
 		window.addEventListener( 'load', layout, false );
 
 		// Register plugins and load dependencies, then move on to #start()
-		plugins.load( [ createAnnotations(), ...config.plugins ], config.dependencies ).then( start );
+		plugins.load( config.plugins, config.dependencies ).then( start );
 
 		return new Promise( resolve => Reveal.on( 'ready', resolve ) );
 

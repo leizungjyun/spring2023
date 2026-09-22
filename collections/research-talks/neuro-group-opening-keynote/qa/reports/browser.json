@@ -1,0 +1,107 @@
+{
+  "count": 8,
+  "slides": [
+    {
+      "title": "Neuro Group\nOpening Keynote",
+      "indices": {
+        "h": 0,
+        "v": 0
+      },
+      "brokenImages": [],
+      "overflow": []
+    },
+    {
+      "title": "AI is a strategic arena. Compute is uneven.",
+      "indices": {
+        "h": 1,
+        "v": 0
+      },
+      "brokenImages": [],
+      "overflow": []
+    },
+    {
+      "title": "Model demand outruns a simple Moore’s-law story",
+      "indices": {
+        "h": 1,
+        "v": 1
+      },
+      "brokenImages": [],
+      "overflow": []
+    },
+    {
+      "title": "Throughput is only half the story",
+      "indices": {
+        "h": 1,
+        "v": 2
+      },
+      "brokenImages": [],
+      "overflow": []
+    },
+    {
+      "title": "Intelligence must fit a power budget",
+      "indices": {
+        "h": 1,
+        "v": 3
+      },
+      "brokenImages": [],
+      "overflow": []
+    },
+    {
+      "title": "Moving data costs energy and time",
+      "indices": {
+        "h": 1,
+        "v": 4
+      },
+      "brokenImages": [],
+      "overflow": []
+    },
+    {
+      "title": "Learn from the brain’s organization",
+      "indices": {
+        "h": 1,
+        "v": 5
+      },
+      "brokenImages": [],
+      "overflow": []
+    },
+    {
+      "title": "Analog imperfections can be a design constraint",
+      "indices": {
+        "h": 1,
+        "v": 6
+      },
+      "brokenImages": [],
+      "overflow": []
+    }
+  ],
+  "hoverChecks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "tooltip": "Click point to open sourceBERT-Large~3.30 PFLOP-daysEpoch estimate; see estimation notesPaper: https://arxiv.org/abs/1810.04805",
+      "selected": "BERT-Large"
+    },
+    {
+      "viewport": {
+        "width": 1000,
+        "height": 700
+      },
+      "tooltip": "Click point to open sourceBERT-Large~3.30 PFLOP-daysEpoch estimate; see estimation notesPaper: https://arxiv.org/abs/1810.04805",
+      "selected": "BERT-Large"
+    }
+  ],
+  "selection": {
+    "model": "NetTalk (transcription)",
+    "link": "https://doi.org/10.1162/cogs.1987.11.3.261"
+  },
+  "overviewOpened": true,
+  "overviewClosed": true,
+  "plugins": {
+    "annotations": true,
+    "notes": true
+  },
+  "errors": [],
+  "externalRequests": []
+}

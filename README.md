@@ -15,11 +15,19 @@ Static hosting uses the same directory tree: publish the repository's static fil
 
 ## Drawing and highlighting
 
-Every deck using the shared reveal.js runtime supports **D** to toggle drawing, **H** to toggle highlighting, and **Esc** to clear the current slide's marks and exit drawing mode. Drag with the mouse while a tool is active. Press the same tool key again to return to normal links and video controls without clearing marks. There is no on-slide toolbar. Use the left arrow to navigate left; H is reserved for highlighting.
+Repository decks opt into the standalone annotation plugin and support **D** to toggle drawing, **H** to toggle highlighting, and **Esc** to clear the current slide's marks and exit drawing mode. Drag with the mouse while a tool is active. Press the same tool key again to return to normal links and video controls without clearing marks. There is no on-slide toolbar. Use the left arrow to navigate left; H is reserved for highlighting.
 
 Marks stay with their slide for the current session, follow resizing and fullscreen, and disappear on reload. They are omitted from print/PDF export. With no marks or active tool, Esc retains its usual overview behavior; open dialogs and text inputs retain their own keyboard handling. For embedded presentations, click a deck to focus it first.
 
-The built-in plugin lives in `plugin/annotations/plugin.js` and is registered by `js/reveal.js`. After editing it, run `npx gulp js` to regenerate both shared bundles in `dist/`; no per-deck script or stylesheet is required.
+The standalone plugin lives in `plugin/annotations/plugin.js`; build its UMD and ES-module bundles with `npx gulp plugins`. The core `js/reveal.js` and `dist/reveal*.js` have no annotation dependency. Load `plugin/annotations/annotations.js` alongside other plugin scripts and add `RevealAnnotations` to the deck's existing `plugins` array:
+
+```js
+Reveal.initialize({
+  plugins: [RevealMarkdown, RevealNotes, RevealAnnotations]
+});
+```
+
+For embedded decks, include `RevealAnnotations` in the options passed to `new Reveal(element, options)`, then call `deck.initialize()` as usual. ES-module decks import the default export from `plugin/annotations/annotations.esm.js`. No shared helper is needed. Without the plugin, stock reveal.js behavior (including H for navigation) is unchanged. A working starter is available in `templates/reveal-starter/index.html`.
 
 ## Organization
 

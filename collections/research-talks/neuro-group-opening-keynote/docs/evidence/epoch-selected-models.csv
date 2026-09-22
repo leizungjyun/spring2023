@@ -1,0 +1,232 @@
+Model,Domain,Task,Organization,Authors,Publication date,Reference,Link,Citations,Notability criteria,Notability criteria notes,Parameters,Parameters notes,Training compute (FLOP),Training compute notes,Training dataset size (total),Dataset size notes,Training time (hours),Training time notes,Training hardware,Approach,Confidence,Abstract,Epochs,WikiText and Penn Treebank data,Model accessibility,Country (of organization),Base model,Finetune compute (FLOP),Finetune compute notes,Hardware quantity,Hardware utilization (MFU),Last modified,Training cloud compute vendor,Training data center,Archived links,Batch size,Batch size notes,Organization categorization,Foundation model,Training compute lower bound,Training compute upper bound,Training chip-hours,Training code accessibility,Accessibility notes,Possibly over 1e23 FLOP,Training compute cost (2023 USD),Utilization notes,Numerical format,Frontier model,Training power draw (W),Training compute estimation method,Hugging Face developer id,Post-training compute (FLOP),Post-training compute notes,Hardware utilization (HFU),Open model weights?
+NetTalk (transcription),Speech,Speech synthesis,Princeton University,"TJ Sejnowski, CR Rosenberg",1987-06-06,Parallel Networks that Learn to Pronounce English Text,http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=03A3D3EDF0BAF35405ABCF083411B55E?doi=10.1.1.154.7012&rep=rep1&type=pdf,2558.0,"Highly cited,Historical significance",,18629.0,"""The connections in the network are specified by a total of 18629
+weight parameters (including a variable threshold for each unit)""",28328002560.0,18629 params * 2 FLOP/param * (3 for forward + backward pass) * 55 epochs * 1024 words/epoch * 4.5 letters/word,5120,"We used the first two pages of transcriptions, which contained 1024 words from a child in firstgrade",,,,,Confident,,55.0,,,United States of America,,,,,,2026-02-11 19:26:27+00:00,,,,,,Academia,,,,,,,,,,,True,,Operation counting,,,,,
+ALVINN,Driving,Self-driving car,Carnegie Mellon University (CMU),DA Pomerleau,1989-12-01,ALVINN: an autonomous land vehicle in a neural network,https://proceedings.neurips.cc/paper/1988/hash/812b4ba287f5ee0bc9d43bbf5bbe87fb-Abstract.html,2329.0,,,36627.0,"1217*29 + 29*46 =36627
+“Each of these 1217 input units is fully connected to the hidden layer of 29 units, which is in turn fully connected to the output layer. The output layer consists of 46 units, divided into two groups.”",10548576000.0,"2 * 36627 * 3 * 40 * 1200 = 10548576000 = 1.05e10
+36627 parameters
+""After 40 epochs of training on the 1200 simulated road snapshots""",55200,"""Training involves first creating a set of 1200 road snapshots depicting roads with a wide variety of retinal orientations and positions, under a variety of lighting conditions and with realistic noise levels""",,,,,Confident,,40.0,,,United States of America,,,,,,2026-01-01 14:02:53+00:00,,,,,,Academia,,,,,,,,,,,,,Operation counting,,,,,
+TD-Gammon,Games,Backgammon,IBM,G Tesauro,1992-05-01,Practical Issues in Temporal Difference Learning,https://papers.nips.cc/paper/1991/file/68ce199ec2c5517597ce0a4d89620f55-Paper.pdf,1344.0,"Highly cited,Historical significance",,25000.0,"""The best performance was obtained with a network containing 80 hidden units and over 25,000 weights.""",18232157622832.703,"Extracted from AI and Compute (https://openai.com/blog/ai-and-compute/) charts by using https://automeris.io/WebPlotDigitizer/.
+
+OpenAI estimate: 1.8e13
+
+Hardware estimate (likely overestimates due to simulation effort)
+""on an IBM RS/6000 workstation, the smallest network was trained in several hours, while the largest net required two weeks of simulation time.""
+IBM RS/6000 achieves 1.5 GFLOPS on Linpack (https://link.springer.com/rwe/10.1007/978-0-387-09766-4_232) 
+14*24*60*60*0.5*1500000000=9.072e+14
+
+Operation counting estimate: 
+Forward FLOP: 50000
+Each legal move had to be evaluated separately, assuming an average of 10 move options (+2 for backward passes of the chosen move):
+50000*12*300000*21=3.78e+12
+
+Keeping the OpenAI estimate as the median estimate. ",6300000,"""This network was trained
+for over 300,000 training games""
+
+Each backgammon game has an avg of around 21 movements
+https://www.bkgm.com/rgb/rgb.cgi?view+712",,,,,Speculative,,,,,United States of America,,,,,,2025-11-28 11:53:59+00:00,,,,,,Industry,,,,,,,,,,,True,,"Third-party estimation,Operation counting,Hardware",,,,,
+LeNet-5,Vision,Character recognition (OCR),AT&T,"Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner",1998-11-01,Gradient-based Learning Applied to Document Recognition,http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf,57900.0,"Historical significance,Highly cited",,60000.0,"""[LeNet5] contains 390408 connections, but only 60000 trainable free parameters because of the weight sharing""",2810937600000.0,"""[LeNet5] contains 390408 connections"" = multiply-adds
+MNIST - 60,000 data points
+20 epochs
+390408*60000*6*20=2.810938e+12",60000,"The MNIST database contains 60,000 training images and 10,000 testing images (Wikipedia)",,,,,Confident,,,,,United States of America,,,,,,2026-01-01 14:03:16+00:00,,,,,,Industry,,,,,,,,,,,True,,Operation counting,,,,,
+AlexNet,Vision,Image classification,University of Toronto,"Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton",2012-09-30,ImageNet Classification with Deep Convolutional Neural Networks,https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html,125497.0,"Highly cited,Historical significance",,60000000.0,"""Our neural network architecture has 60 million parameters.""",4.7e+17,"1.2M images * 90 epochs * 0.75 GFLOP * (2 add-multiply) * (3 backward pass) 
+= 470 PF = 0.0054 pfs-days
+
+Source: https://openai.com/blog/ai-and-compute/
+
+Hardware method:
+2 GTX 580 3GB GPUs for ""between five and six days"". Assuming 5.5 days and 32-bit training:
+1.581 TFLOPS * 5.5 days * 2 = 1.5e18 FLOP
+Comparing to the operation counting method, this implies around 31% MFU.
+
+Authors of ""AI and Memory Wall"" (https://github.com/amirgholami/ai_and_memory_wall) estimated model's training compute as 460 PFLOP = 4.6*10^17 FLOP",2457600000,"""ImageNet is a dataset of over 15 million labeled high-resolution images belonging to roughly 22,000 categories. The images were collected from the web and labeled by human labelers using Amazon’s Mechanical Turk crowd-sourcing tool. Starting in 2010, as part of the Pascal Visual Object Challenge, an annual competition called the ImageNet Large-Scale Visual Recognition Challenge (ILSVRC) has been held. ILSVRC uses a subset of ImageNet with roughly 1000 images in each of 1000 categories. In all, there are roughly 1.2 million training images, 50,000 validation images, and 150,000 testing images.""",132.0,"""Our network takes between five and six days to train on two GTX 580 3GB GPUs.""",NVIDIA GeForce GTX 580,,Confident,"We trained a large, deep convolutional neural network to classify the 1.3 million high-resolution images in the LSVRC-2010 ImageNet training set into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 39.7\% and 18.9\% which is considerably better than the previous state-of-the-art results. The neural network, which has 60 million parameters and 500,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and two globally connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of convolutional nets. To reduce overfitting in the globally connected layers we employed a new regularization method that proved to be very effective.",,,,Canada,,,,,0.3133,2026-01-01 14:02:54+00:00,,,,,,Academia,,,,,,,,15.56975299843643,"Operation counting approach for compute estimate implies 470 PFLOP.
+Their hardware, 2 GTX 580 GPUs, would perform 1500 PFLOPs if operating in 32-bit for 5.5 days.
+This implies a model FLOP utilization rate of 31.3%.
+
+MFU = 470 PFLOP / 1500 PFLOP = 0.3133",FP32,True,,"Operation counting,Hardware,Third-party estimation",,,,,
+ResNet-152 (ImageNet),Vision,Image classification,Microsoft,"Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun",2015-12-10,Deep Residual Learning for Image Recognition,https://arxiv.org/abs/1512.03385,228517.0,Highly cited,,60200000.0,Taken from https://arxiv.org/abs/1605.07146,1.041408e+19,"11.3 *10^9 mult-adds per forward pass (Table 1)
+2 FLOPS/ mult-add
+3 for forward & backward pass
+1.2 * 10^6 examples in dataset
+128 epochs
+
+-> 1.041408 × 10^19 FLOP
+
+Authors of ""AI and Memory Wall"" (https://github.com/amirgholami/ai_and_memory_wall) estimated model's training compute as 11,000 PFLOP = 1.1*10^19 FLOP",1280000,"""We evaluate our method on the ImageNet 2012 classification dataset [36] that consists of 1000 classes. The models are trained on the 1.28 million training images""",,,,,Confident,"Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.",120.0,,,United States of America,,,,,,2026-05-25 12:13:37+00:00,,,,256.0,,Industry,,,,,,,,,,FP32,,,"Operation counting,Third-party estimation",,,,,
+AlphaGo Zero,Games,Go,DeepMind,"D Silver, J Schrittwieser, K Simonyan, I Antonoglou",2017-10-18,Mastering the game of Go without human knowledge,https://www.nature.com/articles/nature24270,10021.0,Highly cited,,46400244.0,"Input size: 19*19*17=6137, internal dimension 19*19
+1 conv block
+17*3*3*256=39168
+39 residual blocks
+2*3*3*256*256=1179648
+Policy head
+256*2+2*19*19*(19*19+2)=262598
+Value head
+256*1+1*19*19*256+256*1=92928
+Total: 39168+39*1179648+262598+92928=46400966",6.49439910290227e+20,"Updating this compute estimate to only account for direct training compute, not synthetic data generation compute.
+
+Number of connections (to calculate forward FLOP)
+Input size: 19*19*17, Assuming internal dimension stays at 19*19
+1 conv block
+19*19*17*3*3*256=14139648
+40 residual blocks
+19*19*2*3*3*256*256=425852928
+Policy head
+19*19*256*2+2*19*19*(19*19+2)=446918
+Value head
+19*19*256*1+1*19*19*256+256*1=185088
+Total: 14139648+40*425852928+446918+185088=17048888774
+Forward FLOP: 2*17048888774=34097777548
+Parameter updates “Parameters were updated from 3.1 million mini-batches of 2,048 positions each.”
+Total updates: 3100000*2048=6348800000
+
+Training compute: 3 * 34097777548 FLOP * 6348800000 = 6.5e20 FLOP",6348800000,"""Over the course of training, 29 million games of self-play were generated""
+
+Approx 200 moves per Go game on average
+
+https://homepages.cwi.nl/~aeb/go/misc/gostat.html
+
+Thus 200 * 29e6 = 5.8e9",480.0,,Google TPU v1,Self-supervised learning,Confident,"A long-standing goal of artificial intelligence is an algorithm that learns, tabula rasa, superhuman proficiency in challenging domains. Recently, AlphaGo became the first program to defeat a world champion in the game of Go. The tree search in AlphaGo evaluated positions and selected moves using deep neural networks. These neural networks were trained by supervised learning from human expert moves, and by reinforcement learning from self-play. Here we introduce an algorithm based solely on reinforcement learning, without human data, guidance or domain knowledge beyond game rules. AlphaGo becomes its own teacher: a neural network is trained to predict AlphaGo's own move selections and also the winner of AlphaGo's games. This neural network improves the strength of the tree search, resulting in higher quality move selection and stronger self-play in the next iteration. Starting tabula rasa, our new program AlphaGo Zero achieved superhuman performance, winning 100-0 against the previously published, champion-defeating AlphaGo. © 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.",,,Unreleased,United Kingdom,,,,,,2026-01-01 14:01:09+00:00,,,,,,Industry,,,,,Unreleased,,,1213.8707315707268,,,True,,"Third-party estimation,Hardware",,,,,No
+AlphaZero,Games,"Chess,Shogi,Go",DeepMind,"David Silver, Thomas Hubert, Julian Schrittwieser, Ioannis Antonoglou, Matthew Lai, Arthur Guez, Marc Lanctot, Laurent Sifre, Dharshan Kumaran, Thore Graepel, Timothy Lillicrap, Karen Simonyan, Demis Hassabis",2017-12-05,Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm,https://arxiv.org/abs/1712.01815,2071.0,"Highly cited,Historical significance",,,,1.0600000001e+20,"The Go version (there were versions trained individually for three different games) was trained for 34 hours using
+5k TPUv1 for data generation
+64 TPUv2 for parameter updating
+I used the PCD chip entries for the lowest precision numerical format we had for each, which was INT8 for TPUv1 and FP16 for TPUv2
+
+Direct training compute: 1.06e20 FLOPs",3520000000,"""We trained a separate instance of AlphaZero for each game. Training proceeded for 700,000 steps""",24.0,,"Google TPU v2,Google TPU v1",Self-supervised learning,Likely,"The game of chess is the most widely-studied domain in the history of artificial intelligence. The strongest programs are based on a combination of sophisticated search techniques, domain-specific adaptations, and handcrafted evaluation functions that have been refined by human experts over several decades. In contrast, the AlphaGo Zero program recently achieved superhuman performance in the game of Go, by tabula rasa reinforcement learning from games of self-play. In this paper, we generalise this approach into a single AlphaZero algorithm that can achieve, tabula rasa, superhuman performance in many challenging domains. Starting from random play, and given no domain knowledge except the game rules, AlphaZero achieved within 24 hours a superhuman level of play in the games of chess and shogi (Japanese chess) as well as Go, and convincingly defeated a world-champion program in each case.",,,Unreleased,United Kingdom,,,,5064.0,,2026-05-25 12:10:50+00:00,,,,,,Industry,,,,,Unreleased,,,229918.6146969874,,,,,Third-party estimation,,,,,No
+BERT-Large,Language,"Question answering,Text autocompletion",Google,"J Devlin, MW Chang, K Lee, K Toutanova",2018-10-11,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,https://arxiv.org/abs/1810.04805,114811.0,Highly cited,,340000000.0,340M,2.85e+20,"more info here https://docs.google.com/document/d/1B8x6XYcmB1u6Tmq3VcbAtj5bzhDaj2TcIPyK6Wpupx4/edit?usp=sharing
+285000000000000000000 = 2.85 × 10^20
+
+""AI and Memory Wall"" paper (https://github.com/amirgholami/ai_and_memory_wall) made an estimation of 250,000 PFLOPS = 2.5*10^20 FLOP",2649900000,"""For the pre-training corpus we
+use the BooksCorpus (800M words) (Zhu et al., 2015) and English Wikipedia (2,500M words)""",96.0,"from appendix A.2: ""Training of BERTLARGE was performed
+on 16 Cloud TPUs (64 TPU chips total). Each pre-
+training took 4 days to complete.""",Google TPU v2,Self-supervised learning,Confident,"We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",40.0,,Open weights (unrestricted),United States of America,,,,64.0,0.2801,2026-05-25 12:10:51+00:00,,,,128000.0,,Industry,,,,6144.0,Open source,"apache 2.0
+train+inference code and models here: https://github.com/google-research/bert ",,1751.4770087736404,"Estimated FLOPs used (see training compute notes): 2.85e20
+GPU-time: 96 h * 3600 s/h * 64 GPU * 4.6e13 FLOP/GPU-s = 1.017e21 FLOP
+
+MFU = 2.85e20 / 1.017e21 = 0.2801",,,37049.928524121315,"Operation counting,Hardware,Third-party estimation",,,,,Yes
+GPT-2 (1.5B),Language,Language modeling/generation,OpenAI,"Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever",2019-02-14,Language Models are Unsupervised Multitask Learners,https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf,26463.0,Highly cited,,1500000000.0,"""GPT-2 is a large transformer-based language model with 1.5 billion parameters""",1.920000000001e+21,"Estimating based on compute = 6 FLOP/token/param * epochs * parameters * tokens.
+
+40GB dataset is approximately 8B words, or 1/0.75 * 8B = 10.66B tokens.
+
+The number of epochs is not reported, but another paper [1] claims in table 1 that it is 20 or 100 epochs, and another paper [2] claims 12 epochs based on communication with the GPT-2 authors (page 4).
+
+12 epochs is the modal, most credible value. Mean of probability mass is probably around 20 epochs, so calculating from that value:
+
+6 * (40 * 200 million * 1/0.75 * 20) * 1.5 billion parameters = 1.92e21
+https://www.wolframalpha.com/input?i=6+FLOP+*+20+*+%2840+billion+%2F+5+*+%284%2F3%29%29+*+1.5+billion
+
+[1] https://arxiv.org/abs/1906.06669 One Epoch Is All You Need
+[2] https://www.usenix.org/system/files/sec21-carlini-extracting.pdf Extracting Data From Large Language Models
+
+It also appears the model was trained on TPU v3 chips:
+https://huggingface.co/openai-community/gpt2",10666666666.666666,"“All results presented in this paper use a preliminary version of WebText which does not include links created after Dec 2017 and which after de-duplication and some heuristic based cleaning contains slightly over 8 million documents for a total of 40 GB of text.”
+40GB is approximately 8e9 words.
+",,,Google TPU v3,Self-supervised learning,Speculative,"Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically approached with supervised learning on taskspecific datasets. We demonstrate that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText. When conditioned on a document plus questions, the answers generated by the language model reach 55 F1 on the CoQA dataset - matching or exceeding the performance of 3 out of 4 baseline systems without using the 127,000+ training examples. The capacity of the language model is essential to the success of zero-shot task transfer and increasing it improves performance in a log-linear fashion across tasks. Our largest model, GPT-2, is a 1.5B parameter Transformer that achieves state of the art results on 7 out of 8 tested language modeling datasets in a zero-shot setting but still underfits WebText. Samples from the model reflect these improvements and contain coherent paragraphs of text. These findings suggest a promising path towards building language processing systems which learn to perform tasks from their naturally occurring demonstrations.",20.0,GPT-2 (1542M),Open weights (unrestricted),United States of America,,,,,,2026-02-11 19:23:45+00:00,,,,,,Industry,,,,,Unreleased,"modified MIT
+https://github.com/openai/gpt-2?tab=License-1-ov-file#readme",,4348.443645,,,,,Operation counting,,,,,Yes
+Megatron-BERT,Language,Language modeling/generation,NVIDIA,"Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, Bryan Catanzaro",2019-09-17,Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism,https://arxiv.org/abs/1909.08053,2766.0,"Highly cited,SOTA improvement","""Our BERT model achieves SOTA results on the RACE dataset""",3900000000.0,Table 4,2.2e+22,"A third-party source: https://lair.lighton.ai/akronomicon/ claims 5.7e22
+
+The authors report experimenting on 1 V100 GPU and achieving throughput of 39 TFLOPS which is 30% of the peak throughput. Therefore the GPU has a peak throughput of 130 TFLOPS so it is specifically the NVIDIA V100S PCIe.
+https://images.nvidia.com/content/technologies/volta/pdf/volta-v100-datasheet-update-us-1165301-r5.pdf
+
+Param-based calculation:
+6ND = 6*3.9e9*(2e6+1e4)*1024*512 = 2.5e22 FLOP
+
+1024 is the batch size, 512 is the sequence length (not explicitly stated but they say non-specified hyperparameters follow cited papers).
+
+Time-based calculation:
+The 8.3B GPT-like arch took 2.1 days per epoch on 512 GPUs, batch size 512. An epoch was 68.5k iterations with sequence length 1024.
+
+Halving the model size should ~halve the iteration time.
+Doubling the batch size should ~double the iteration time.
+Halving the sequence length should ~quarter the iteration time (quadratic scaling).
+
+Hence 3.1e-5 days/iteration * 2 * 1/2 * 1/4 = 7.8e-6 days/iteration.
+
+2e6 iterations => seems like 15.6 days training.
+
+On 512 GPUs they achieve a peak throughput of 15.1 PFLOPS.
+C=15.1 PFLOPS * 58 days = 2.0e22 FLOP.
+
+If we disregard the Akronomicon estimate and aggregate our two, geometric mean is 2.2e22 FLOP",6960000000,"""The resulting aggregate corpus contains 174 GB of deduplicated text.""
+174e9 bytes * (1 word / 5 bytes) * (4 tokens / 3 words) = 4.64e10 tokens",374.0,"The 8.3B GPT-like arch took 2.1 days per epoch on 512 GPUs, batch size 512, sequence length 1024. An epoch was 68.5k iterations.
+
+BERT: batch size 1024, sequence length 512, 2e6 iterations total.
+
+Halving the model size should ~halve the iteration time.
+Doubling the batch size should ~double the iteration time.
+Halving the sequence length should ~quarter the iteration time (quadratic scaling).
+
+Hence 3.1e-5 days/iteration * 2 * 1/2 * 1/4 = 7.8e-6 days/iteration.
+
+2e6 iterations => seems like 15.6 days training.",NVIDIA Tesla V100S PCIe 32 GB,Self-supervised learning,Confident,"Recent work in language modeling demonstrates that training large transformer models advances the state of the art in Natural Language Processing applications. However, very large models can be quite difficult to train due to memory constraints. In this work, we present our techniques for training very large transformer models and implement a simple, efficient intra-layer model parallel approach that enables training transformer models with billions of parameters. Our approach does not require a new compiler or library changes, is orthogonal and complimentary to pipeline model parallelism, and can be fully implemented with the insertion of a few communication operations in native PyTorch. We illustrate this approach by converging transformer based models up to 8.3 billion parameters using 512 GPUs. We sustain 15.1 PetaFLOPs across the entire application with 76% scaling efficiency when compared to a strong single GPU baseline that sustains 39 TeraFLOPs, which is 30% of peak FLOPs. To demonstrate that large language models can further advance the state of the art (SOTA), we train an 8.3 billion parameter transformer language model similar to GPT-2 and a 3.9 billion parameter model similar to BERT. We show that careful attention to the placement of layer normalization in BERT-like models is critical to achieving increased performance as the model size grows. Using the GPT-2 model we achieve SOTA results on the WikiText103 (10.8 compared to SOTA perplexity of 15.8) and LAMBADA (66.5% compared to SOTA accuracy of 63.2%) datasets. Our BERT model achieves SOTA results on the RACE dataset (90.9% compared to SOTA accuracy of 89.4%).",,,Unreleased,United States of America,,,,512.0,,2026-05-25 12:11:22+00:00,,,,524288.0,"""we set the batch size to 1024 and use a learning rate of 1.0e4 warmed up over 10,000 iterations and decayed linearly
+over 2 million iterations. Other training parameters are kept
+the same as (Devlin et al., 2018).""
+
+in Devlin et al (BERT), sequences are 512 tokens",Industry,,,,191488.0,Open source,"training code 
+
+https://github.com/NVIDIA/Megatron-LM/blob/main/pretrain_bert.py 
+
+MIT-like license:
+https://github.com/NVIDIA/Megatron-LM/blob/main/LICENSE ",,171818.64196707975,"When training the 512 V100 GPT-2 style models, achieved 15.1 PetaFLOP/s vs theoretical maximum of 512 * 125e12 = 64 PetaFLOP/s
+BERT model used same number of GPUs, likely had similar utilization (around 15.1/64=23.59%), probably slightly lower because they are splitting a model across the same number of GPUs but it is smaller so the GPUs are doing fewer matmuls.",FP16,True,262640.30207328824,"Operation counting,Third-party estimation",,,,,No
+GPT-3 175B (davinci),Language,"Text autocompletion,Language modeling/generation",OpenAI,"Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei",2020-05-28,Language Models are Few-Shot Learners,https://arxiv.org/abs/2005.14165,58240.0,"Highly cited,Training cost",,174600000000.0,"""we train GPT-3, an autoregressive language model with 175 billion parameters""
+Rather, it's 174.6 billion.
+Table D.1: 174,600 million parameters",3.14e+23,"Table D.1
+https://arxiv.org/abs/2005.14165",238000000000,"From table 2.2, we determine that there are 410 + 19 + 12 + 55 + 3 = 499 billion tokens. 
+
+We multiply this by 0.75 to give 374B words. 
+
+3.74e11
+
+========================
+[Anson: I think the calculation below doesn't look at all the data, the CommonCrawl data only constitutes 60% of the data. Multiplying by 5/3 gives 4.75e11]
+
+""The CommonCrawl data was downloaded from 41 shards of monthly CommonCrawl covering 2016 to 2019, constituting 45TB of compressed plaintext before filtering and 570GB after filtering, roughly equivalent to 400 billion byte-pair-encoded tokens. ""
+
+Converted to words using 
+http://extraconversion.com/data-storage/gigabits/gigabits-to-words.html
+
+2.85e11",355.2,14.8 days according to https://arxiv.org/ftp/arxiv/papers/2104/2104.10350.pdf,NVIDIA Tesla V100 DGXS 32 GB,Self-supervised learning,Confident,"Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.",0.6,GPT-3 175B (davinci),API access,United States of America,,,,10000.0,0.1966,2026-05-25 12:12:05+00:00,Microsoft,,,3200000.0,"3.2M, per table 2.1",Industry,True,,,3552000.0,Unreleased,"https://openai.com/blog/openai-api
+",True,2116866.2428390156,"See table 4 of the carbon emissions paper: https://arxiv.org/pdf/2104.10350
+
+MFU calculation from total compute:
+(6 FLOP/token/param * 174.6B params * 300B tokens) / (10k V100 * 125 TFLOPS/V100 * 14.8 days) = 0.1966
+https://www.wolframalpha.com/input?i=%286*174.6+billion+*+300+billion%29+FLOP+%2F+%281250000+TFLOPS+*+14.8+days%29
+
+HFU calculation from GPU throughput:
+The paper reports 24.6 TFLOPS throughput per V100, and reports the V100 peak performance of 125 TFLOPS (which is correct if training was done in tensor 16-bit format).
+HFU = 24.6/125 = 0.1968
+
+These are suspiciously close, so it's likely they did not actually measure the GPU throughput, but estimated it from the total compute and the training duration. Therefore, let's leave HFU blank because the true value is uncertain.
+
+MFU = 0.1966",,True,5100759.605963441,Reported,,,,,No
+PaLM (540B),Language,"Language modeling,Code generation,Translation",Google Research,"Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, Parker Schuh, Kensen Shi, Sasha Tsvyashchenko, Joshua Maynez, Abhishek Rao, Parker Barnes, Yi Tay, Noam Shazeer, Vinodkumar Prabhakaran, Emily Reif, Nan Du, Ben Hutchinson, Reiner Pope, James Bradbury, Jacob Austin, Michael Isard, Guy Gur-Ari, Pengcheng Yin, Toju Duke, Anselm Levskaya, Sanjay Ghemawat, Sunipa Dev,, Henryk Michalewski, Xavier Garcia, Vedant Misra, Kevin Robinson, Liam Fedus, Denny Zhou, Daphne Ippolito, David Luan, Hyeontaek Lim, Barret Zoph, Alexander Spiridonov, Ryan Sepassi, David Dohan, Shivani Agrawal, Mark Omernick, Andrew M. Dai, Thanumalayan Sankaranarayana Pillai, Marie Pellat, Aitor Lewkowycz, Erica Moreira, Rewon Child, Oleksandr Polozov, Katherine Lee, Zongwei Zhou, Xuezhi Wang, Brennan Saeta ,Mark Diaz, Orhan Firat, Michele Catasta, Jason Wei, Kathy Meier-Hellstern, Douglas Eck, Jeff Dean, Slav Petrov, Noah Fiedel",2022-04-04,PaLM: Scaling Language Modeling with Pathways,https://arxiv.org/abs/2204.02311,7999.0,"Highly cited,SOTA improvement,Training cost","Table 4
+Demonstrates continued benefits of scaling, as well as discontinuous improvements in performance",540350000000.0,"""To further our understanding of the impact of scale on few-shot learning, we trained a 540-billion parameter, densely activated, Transformer language model, which we call Pathways Language Model (PaLM).""",2.5272e+24,"See Table 20.
+
+6144 TPUv4 for 1200 hours + 3072 TPUv4 for 336 hours.
+Equivalent to 6144 TPUv4 for 1368 hours.
+
+46.2% model FLOPs utilization
+
+""The 540B-parameter PaLM model sustained a remarkable 57.8% of the peak hardware floating point performance over 50 days while training on TPU v4 supercomputers."" https://cloud.google.com/blog/topics/systems/tpu-v4-enables-performance-energy-and-co2e-efficiency-gains",780000000000,"""The PaLM pretraining dataset consists of a high-quality corpus of 780 billion tokens that represent a wide range of natural language use cases.""
+
+1 token ~ 0.75 words",1536.0,"6144 TPUv4 for 1200 hours + 3072 TPUv4 for 336 hours.
+
+Equivalent to 6144 TPUv4 for 1368 hours.",Google TPU v4,Self-supervised learning,Confident,"Large language models have been shown to achieve remarkable performance across a variety of natural language tasks using few-shot learning, which drastically reduces the number of task-specific training examples needed to adapt the model to a particular application. To further our understanding of the impact of scale on few-shot learning, we trained a 540-billion parameter, densely activated, Transformer language model, which we call Pathways Language Model PaLM. We trained PaLM on 6144 TPU v4 chips using Pathways, a new ML system which enables highly efficient training across multiple TPU Pods. We demonstrate continued benefits of scaling by achieving state-of-the-art few-shot learning results on hundreds of language understanding and generation benchmarks. On a number of these tasks, PaLM 540B achieves breakthrough performance, outperforming the finetuned state-of-the-art on a suite of multi-step reasoning tasks, and outperforming average human performance on the recently released BIG-bench benchmark. A significant number of BIG-bench tasks showed discontinuous improvements from model scale, meaning that performance steeply increased as we scaled to our largest model. PaLM also has strong capabilities in multilingual tasks and source code generation, which we demonstrate on a wide array of benchmarks. We additionally provide a comprehensive analysis on bias and toxicity, and study the extent of training data memorization with respect to model scale. Finally, we discuss the ethical considerations related to large language models and discuss potential mitigation strategies.",1.0,,Unreleased,United States of America,,,,6144.0,0.462,2026-05-25 12:16:35+00:00,,,,4000000.0,"""For the largest model, we use batch size 512 (1M tokens) until step 50k, then double it to 1024 (2M tokens) until step 115k, and finally double again it to 2048 (4M tokens) until training is complete at step 255k""",Industry,True,,,8404992.0,Unreleased,,True,3060364.5969860666,"""In Section 4, we describe how we were able to scale pipeline-free training of PaLM 540B to 6144 chips across two TPU v4 Pods while achieving very high efficiency of 46.2% in model FLOPs utilization (observed throughput relative to theoretical max throughput) and 57.8% in hardware FLOPs utilization.""
+
+MFU = 0.4620
+HFU = 0.5780
+",,True,4198431.396906301,Hardware,,,,0.578,No
+GPT-4 (Mar 2023),"Multimodal,Language,Vision","Language modeling,Language modeling/generation,Question answering,Visual question answering",OpenAI,"OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mohammad Bavarian, Jeff Belgum, Irwan Bello, Jake Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny Bogdonoff, Oleg Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany Carey, Chelsea Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis Chantzis, Derek Chen, Sully Chen, Ruby Chen, Jason Chen, Mark Chen, Ben Chess, Chester Cho, Casey Chu, Hyung Won Chung, Dave Cummings, Jeremiah Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch, Damien Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien Ecoffet, Atty Eleti, Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix, Simón Posada Fishman, Juston Forte, Isabella Fulford, Leo Gao, Elie Georges, Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh, Rapha Gontijo-Lopes, Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua Gross, Shixiang Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen He, Mike Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey, Peter Hoeschele, Brandon Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost Huizinga, Shantanu Jain, Shawn Jain et al. (181 additional authors not shown)",2023-03-15,GPT-4 Technical Report,https://arxiv.org/abs/2303.08774,24490.0,"Highly cited,SOTA improvement,Training cost","See the paper, p.1: ""On a suite of traditional NLP benchmarks, GPT-4 outperforms both previous large language models and most state-of-the-art systems (which often have benchmark-specific training or hand-engineering).""
+
+""On the MMLU benchmark [35, 36], an English-language suite of multiple-choice questions covering 57 subjects, GPT-4 not only outperforms existing models by a considerable margin in English, but also demonstrates strong performance in other languages""",1800000000000.0,"Rumored to be 1.8T parameter MoE with 280B activated on the forward pass, per https://www.semianalysis.com/p/gpt-4-architecture-infrastructure. Other sources estimate 1.76T with 220B per forward pass https://web.archive.org/web/20230712123915/https://the-decoder.com/gpt-4-architecture-datasets-costs-and-more-leaked/",2.1e+25,"90% CI: 8.2E+24 to 4.4E+25
+
+NOTE: this is a rough estimate based on public information, much less information than most other systems in the database.
+
+Calculation and confidence intervals here: https://colab.research.google.com/drive/1O99z9b1I5O66bT78r9ScslE_nOj5irN9?usp=sharing",5416666666666.667,"Speculative. Reported secondhand by online sources such as Semianalysis, but not verified by OpenAI. If total number of tokens seen was 13T, text was repeated for 2 epochs, and text was the majority of tokens, then dataset size roughly is 13T*0.75/2 = 4.9T words.
+
+Note this examines only the text dataset, since GPT-4 was first and foremost a language model. However, the vision component had its own vision dataset, which we believe accounted for a much smaller part of the compute budget.",2280.0,(Speculative) SemiAnalysis conjectures that GPT-4 training took 90-100 days with utilization of 32-36%.,NVIDIA A100 SXM4 40 GB,Self-supervised learning,Likely,"We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformer-based model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4's performance based on models trained with no more than 1/1,000th the compute of GPT-4.",2.0,,API access,United States of America,,,,25000.0,0.34,2026-05-25 12:21:28+00:00,,,,60000000.0,not listed,Industry,True,,,57000000.0,Unreleased,,True,37334304.976625234,"CANNOT VERIFY, LIKELY HFU, PAYWALLED. 
+(Speculative) SemiAnalysis conjectures that GPT-4 had utilization of 32-36%: https://www.semianalysis.com/p/gpt-4-architecture-infrastructure",,True,19944368.12599428,Hardware,,,,,No
+Gemini 1.0 Ultra,"Multimodal,Language,Vision","Language modeling,Visual question answering,Chat,Translation",Google DeepMind,Gemini Team,2023-12-06,Gemini: A Family of Highly Capable Multimodal Models,https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf,633.0,"SOTA improvement,Training cost","""Evaluation on a broad range of benchmarks shows that our most-capable Gemini Ultra model advances the state of the art in 30 of 32 of these benchmarks — notably being the first model to achieve human-expert performance on the well-studied exam benchmark MMLU, and improving the state of the art in every one of the 20 multimodal benchmarks we examined.""
+
+Table 2",,,5.0000000001e+25,"This number is an estimate based on limited evidence. In particular, we combine information about the performance of Gemini Ultra on various benchmarks compared to other models, and guesstimates about the hardware setup used for training to arrive at our estimate. Our reasoning and calculations are detailed in this Colab notebook.
+https://colab.research.google.com/drive/1sfG91UfiYpEYnj_xB5YRy07T5dv-9O_c",,,2400.0,"Dylan Patel, author of SemiAnalysis, speculates that the training duration of Gemini may have been 100 days.",Google TPU v4,,Speculative,"This report introduces a new family of multimodal models, Gemini, that exhibit remarkable capabilities across image, audio, video, and text understanding. The Gemini family consists of Ultra, Pro, and Nano sizes, suitable for applications ranging from complex reasoning tasks to on-device memory-constrained use-cases. Evaluation on a broad range of benchmarks shows that our most-capable Gemini Ultra model advances the state of the art in 30 of 32 of these benchmarks — notably being the first model to achieve human-expert performance on the well-studied exam benchmark MMLU, and improving the state of the art in every one of the 20 multimodal benchmarks we examined. We believe that the new capabilities of Gemini models in cross-modal reasoning and language understanding will enable a wide variety of use cases and we discuss our approach toward deploying them responsibly to users.
+",,,API access,United States of America,,,,57000.0,,2025-12-16 18:01:50+00:00,,,,,,Industry,,,,132000000.0,Unreleased,API access: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models,True,30719419.93534952,,,True,38423900.11232233,"Benchmarks,Hardware",,,,,No

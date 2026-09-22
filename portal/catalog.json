@@ -524,6 +524,22 @@
       "path": "collections/external-presentations/2026-09-17-single-track/index.html",
       "legacyPaths": [],
       "classificationReason": "Chinese technical presentation for prospective industry partners on single-track vehicle balance, cross-platform transfer and lane keeping."
+    },
+    {
+      "id": "neuro-group-opening-keynote",
+      "title": "Neuro Group — Opening Keynote",
+      "collection": "research-talks",
+      "tags": [
+        "neuroscience",
+        "brain-inspired AI"
+      ],
+      "date": "2026-09-23",
+      "dateSource": "user brief",
+      "path": "collections/research-talks/neuro-group-opening-keynote/index.html",
+      "legacyPaths": [],
+      "status": "draft",
+      "classificationReason": "User requested a new Research talks presentation introducing neuroscience and brain-inspired AI.",
+      "reviewNote": "Eight-slide English opening keynote by LI Shaun, based on docs/brief.md; white theme, local interactive compute chart, and annotations enabled. Working title retained."
     }
   ]
 }

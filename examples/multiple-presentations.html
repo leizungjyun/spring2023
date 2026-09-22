@@ -67,6 +67,7 @@
 		</style>
 
 		<script src="../dist/reveal.js"></script>
+<script src="../plugin/annotations/annotations.js"></script>
 		<script src="../plugin/highlight/highlight.js"></script>
 		<script src="../plugin/markdown/markdown.js"></script>
 		<script src="../plugin/math/math.js"></script>
@@ -76,7 +77,7 @@
 				embedded: true,
 				progress: false,
 				keyboardCondition: 'focused',
-				plugins: [ RevealHighlight ]
+				plugins: [RevealAnnotations, RevealHighlight ]
 			} );
 			deck1.on( 'slidechanged', () => {
 				console.log( 'Deck 1 slide changed' );
@@ -87,7 +88,7 @@
 				embedded: true,
 				progress: false,
 				keyboardCondition: 'focused',
-				plugins: [ RevealMarkdown, RevealMath ]
+				plugins: [RevealAnnotations, RevealMarkdown, RevealMath ]
 			} );
 			deck2.initialize().then( () => {
 				deck2.slide(1);

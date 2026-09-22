@@ -19,7 +19,8 @@ function deckFiles(dir = '.') {
     await page.setViewport({width:1440,height:900});
     await page.setRequestInterception(true);
     page.on('request', r => {
-      if (r.url() === base + '/__ink-esm') return r.respond({status:200,contentType:'text/html',body:'<link rel="stylesheet" href="/dist/reveal.css"><div class="reveal"><div class="slides"><section>ES module test</section></div></div><script type="module">import Reveal from "/dist/reveal.esm.js"; window.Reveal=new Reveal(document.querySelector(".reveal"),{});window.Reveal.initialize();</script>'});
+      if (r.url() === base + '/__ink-core') return r.respond({status:200,contentType:'text/html',body:'<link rel="stylesheet" href="/dist/reveal.css"><div class="reveal"><div class="slides"><section>First</section><section>Second</section></div></div><script src="/dist/reveal.js"></script><script>Reveal.initialize();</script>'});
+      if (r.url() === base + '/__ink-esm') return r.respond({status:200,contentType:'text/html',body:'<link rel="stylesheet" href="/dist/reveal.css"><div class="reveal"><div class="slides"><section>ES module test</section></div></div><script type="module">import Reveal from "/dist/reveal.esm.js"; import RevealAnnotations from "/plugin/annotations/annotations.esm.js"; window.Reveal=new Reveal(document.querySelector(".reveal"),{plugins:[RevealAnnotations]});window.Reveal.initialize();</script>'});
       if (/^https?:/.test(r.url()) && !r.url().startsWith(base + '/')) r.abort(); else r.continue();
     });
     const errors = [];
@@ -31,6 +32,13 @@ function deckFiles(dir = '.') {
       await page.mouse.move(box.x,box.y);await page.mouse.down();await page.mouse.move(box.x+80,box.y+30,{steps:5});await page.mouse.up();
       return page.$eval(root+' .slide-ink[style*="display: block"] polyline',e=>({color:e.getAttribute('stroke'),points:e.getAttribute('points').split(' ').length}));
     }
+    await page.goto(base+'/__ink-core');
+    await page.waitForFunction('Reveal.isReady()');
+    assert.equal(await page.evaluate(()=>Reveal.hasPlugin('annotations')),false);
+    await page.evaluate(()=>Reveal.slide(1));
+    await page.keyboard.press('h');
+    assert.equal(await page.evaluate(()=>Reveal.getIndices().h),0,'Unmodified core retains H navigation');
+    assert.equal(await page.$('.slide-ink'),null);
     const files = deckFiles().filter(f=>!f.endsWith('multiple-presentations.html'));
     for (const file of [...files,'__ink-esm']) {
       await page.goto(base+'/'+file,{waitUntil:'domcontentloaded'});
@@ -49,6 +57,7 @@ function deckFiles(dir = '.') {
     await page.waitForFunction('Reveal.isReady()');
     assert.equal((await draw('.reveal','d')).color,'#ed3650');
     await page.keyboard.press('ArrowRight');assert.equal(await page.$eval('.slide-ink[style*="display: block"]',e=>e.childElementCount),0);
+    await page.waitForFunction(()=>[...Reveal.getCurrentSlide().querySelectorAll('video')].every(v=>v.readyState>=2 && v.currentTime>0));
     await page.keyboard.press('ArrowLeft');assert.equal(await page.$eval('.slide-ink[style*="display: block"]',e=>e.childElementCount),1);
     await page.setViewport({width:1100,height:750});assert.equal(await page.$eval('.slide-ink[style*="display: block"]',e=>e.childElementCount),1);
     await page.keyboard.press('Escape');await page.keyboard.press('Escape');assert(await page.evaluate(()=>Reveal.isOverview()));await page.keyboard.press('Escape');

@@ -1,0 +1,34 @@
+body {--blue:#00649e;--amber:#854700;--text:#20272d;--muted:#526372;--line:#9aa7b0;--panel:#eaf0f4;--positive:#17694f;}
+body[data-tone="dark"] {--blue:#42affa;--amber:#ffbf69;--text:#f5f7fa;--muted:#aab7c3;--line:#46515a;--panel:#20272d;--positive:#73d8bb;}
+.reveal {font-family:"PingFang SC","Microsoft YaHei","Source Sans Pro",sans-serif;font-size:26px;color:var(--text);}
+.reveal .slides section:not(.stack) {box-sizing:border-box;height:700px;padding:28px 40px;text-align:left;}
+.reveal h1,.reveal h2,.reveal h3 {font-family:inherit;text-transform:none;line-height:1.3;letter-spacing:0;}
+.reveal h1 {font-size:54px;color:var(--blue);}
+.reveal h2 {font-size:36px;margin:0 0 22px;color:var(--blue);}
+.reveal h3 {font-size:25px;margin:0 0 16px;color:var(--text);}
+.reveal p {line-height:1.5;margin:14px 0;}
+.reveal .slides section.cover {padding-top:150px;}
+.reveal .cover h1 {max-width:1000px;}
+.reveal .subtitle {font-size:24px;color:var(--muted);}
+.reveal img,.reveal video {margin:0;max-width:100%;object-fit:contain;}
+.reveal figure {margin:0;}
+.reveal figcaption,.reveal .secondary {font-size:18px;line-height:1.4;color:var(--muted);}
+.reveal a {color:var(--blue);}
+.reveal .two-columns {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:44px;}
+.reveal .two-columns>div {position:relative;border-top:2px solid var(--blue);padding-top:16px;min-width:0;}
+.reveal .two-columns>div+div:before {content:"";position:absolute;left:-23px;top:0;bottom:0;width:1px;background:var(--line);}
+.reveal .media-heading {display:flex;align-items:baseline;justify-content:space-between;gap:12px;}
+.reveal .media-heading small {font-size:17px;color:var(--muted);font-weight:400;}
+.reveal .media-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;}
+.reveal .media-grid video {display:block;width:100%;height:180px;background:#111;}
+.reveal .media-grid figcaption {text-align:center;margin-top:7px;}
+.reveal .flow-figure {display:block;width:100%;height:150px;margin-top:24px;}
+.reveal .takeaway {font-size:28px;text-align:center;background:var(--panel);border-left:3px solid var(--amber);padding:10px 16px;margin-top:24px;}
+.reveal table {width:auto;max-width:100%;margin:0 auto;border-collapse:collapse;font-size:23px;line-height:1.35;}
+.reveal table th,.reveal table td {padding:10px 16px;vertical-align:middle;border-bottom:1px solid var(--line);}
+.reveal table th {color:var(--blue);}
+.reveal table small {display:block;font-size:17px;color:var(--muted);margin-top:4px;}
+.reveal .positive {color:var(--positive);font-weight:600;}
+.reveal .portrait-row {display:flex;justify-content:center;gap:24px;}
+.reveal .portrait-row img {height:180px;width:150px;object-fit:contain;}
+.reveal .portrait-row figcaption {text-align:center;font-size:21px;margin-top:8px;color:var(--text);}

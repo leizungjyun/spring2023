@@ -1,0 +1,316 @@
+{
+  "videos": [
+    {
+      "path": "media/videos/navigation/L2.mp4",
+      "before_bytes": 109361802,
+      "after_bytes": 45860178,
+      "original_sha256": "ec66402c52f8fa6f24dac8d3f905fc5cdeac702fee30906073b2388848a72655",
+      "duration": "90.000000",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "8fe242f127087ffc240a3bd25ce63a31bb21d48ce98cb9c39cac10eff8cd0bce"
+    },
+    {
+      "path": "media/videos/platforms/e-bike-demo.mp4",
+      "before_bytes": 808435,
+      "after_bytes": 702294,
+      "original_sha256": "0750814a3b3f09c97ce0ae7b39be987e018a988ad04cf6473830c704daf6c5e9",
+      "duration": "10.766667",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 360
+        }
+      ],
+      "compressed": true,
+      "sha256": "5f49440e4312ffe1e5b6e24ba3bc671def6ef9783f5205990009326ae4b4e08c"
+    },
+    {
+      "path": "media/videos/platforms/e-bike-man.mp4",
+      "before_bytes": 15646318,
+      "after_bytes": 11844845,
+      "original_sha256": "85cddd1fad90d019032ac0ffafe340d56b650e621fcac3b4b3774de0b73c3d2d",
+      "duration": "62.922000",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "79c027402fb0205a4db1d3de2e56addabb6f610aaa3430d670932ff5b2143d95"
+    },
+    {
+      "path": "media/videos/platforms/e-motor-man.mp4",
+      "before_bytes": 19276534,
+      "after_bytes": 6325756,
+      "original_sha256": "ff5610551ef7a8384acda24b43dd7ae6bf082fbdc08c2610db3607e464eaf444",
+      "duration": "24.600000",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "f35d555a2e86e37e973f8e4692be9e490e4827a9c37d29d3fbcaf10daa662df4"
+    },
+    {
+      "path": "media/videos/platforms/e-motor-offroad.mp4",
+      "before_bytes": 3058487,
+      "after_bytes": 2797580,
+      "original_sha256": "4c1da13d0d282a7b815183c1e327b773172f6cff36e9553b19e7df9a2c360927",
+      "duration": "9.125011",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 848,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "57e65c2a9542b57ed104a9bdb58e2d0e4785658a8b7f0b332afa045f26563a3f"
+    },
+    {
+      "path": "media/videos/platforms/e-motor-onroad.mp4",
+      "before_bytes": 6629534,
+      "after_bytes": 6216422,
+      "original_sha256": "afe1e21fd2a6ad711cec14b52789d841ffb8ac77ba26321baf42bf9484d53289",
+      "duration": "20.207683",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 848,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "e20febd6eb4baca77533ee704e4ff41aac316943ed44f49957975bd092c5aff9"
+    },
+    {
+      "path": "media/videos/showcase/科交会.mp4",
+      "before_bytes": 179835932,
+      "after_bytes": 71942052,
+      "original_sha256": "14f9c83bacc1eeca7aad848f85c895504ca29ea212f20b8d8bb89c2cee27ef78",
+      "duration": "150.210000",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "672e713cb76b5ea31d7d56d088e6dc8615d477fd609ab3e40369420dd1bfbb1d"
+    },
+    {
+      "path": "media/videos/simulation/sim-台阶.mp4",
+      "before_bytes": 2640405,
+      "after_bytes": 1386069,
+      "original_sha256": "ab09c1fea79a0fdf2fff900f45b35b5cfa8a3e3032925b1957a8edb1b7b14766",
+      "duration": "6.013991",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 854,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "1620d7f71048281df1b9cc7c140f3c8dd1ea66e629c45af4ea26515a3190b135"
+    },
+    {
+      "path": "media/videos/simulation/sim-平坦.mp4",
+      "before_bytes": 2665366,
+      "after_bytes": 2050795,
+      "original_sha256": "017bde271705f76d5e1288eb11c9ae18922293d33177baf87ea077b4cf6aa648",
+      "duration": "6.013991",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 854,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "3cfb94ac1d0560055a859f526da7f31979f59ba9f21b796847e3f0b7e97a17c3"
+    },
+    {
+      "path": "media/videos/terrain/road.mp4",
+      "before_bytes": 2751853,
+      "after_bytes": 1686441,
+      "original_sha256": "7edd9db34678e9a6042dd04df6e37d1793f6046e142c56cb6308b1e536697365",
+      "duration": "7.963991",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 848,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "87d33b6416645a4bc9b4bfdd8e0a05e4759f170d0a7652a5ec7b5a00b66e32fc"
+    },
+    {
+      "path": "media/videos/terrain/台阶.mp4",
+      "before_bytes": 3468478,
+      "after_bytes": 2208404,
+      "original_sha256": "70929fb5f2bf778f2e5be36051500a835fbbfa85707df0a2f173af3f0839743d",
+      "duration": "10.041016",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 848,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "7dfb739248a8573a7005cfe4a1e3ab4c74af6df18a916b9e7a782f7cb8a1b720"
+    },
+    {
+      "path": "media/videos/terrain/坡道.mp4",
+      "before_bytes": 3321622,
+      "after_bytes": 2405306,
+      "original_sha256": "b7e32998ea2d695c0dd100a25291e293d3939e0d31c938d29f40b95362fd6d8b",
+      "duration": "10.041016",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 848,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": true,
+      "sha256": "713157ed7f1147582a18242d74a79554ea6f6f31b0bea46dfc6f8e28aaa40869"
+    },
+    {
+      "path": "media/videos/terrain/砾石.mp4",
+      "before_bytes": 3388652,
+      "after_bytes": 3388652,
+      "original_sha256": "baac485157991348fa62e082c5939846bfd15869970c50501f5aabb681b02ad8",
+      "duration": "10.043458",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 848,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": false,
+      "sha256": "baac485157991348fa62e082c5939846bfd15869970c50501f5aabb681b02ad8"
+    },
+    {
+      "path": "media/videos/terrain/草地.mp4",
+      "before_bytes": 4396157,
+      "after_bytes": 4396157,
+      "original_sha256": "f9461c262307c3875ac3d37b27f4375b95e85c07deb6bbb8279f7a34b6dfc528",
+      "duration": "13.043458",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 848,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": false,
+      "sha256": "f9461c262307c3875ac3d37b27f4375b95e85c07deb6bbb8279f7a34b6dfc528"
+    },
+    {
+      "path": "media/videos/terrain/负载.mp4",
+      "before_bytes": 4057931,
+      "after_bytes": 4057931,
+      "original_sha256": "b84d286afde9b7c6da0af6a1b540d9e61b5cadc4bf75fce7101477b139973333",
+      "duration": "12.043458",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 848,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "compressed": false,
+      "sha256": "b84d286afde9b7c6da0af6a1b540d9e61b5cadc4bf75fce7101477b139973333"
+    }
+  ],
+  "cleanup_report": "media-cleanup.json"
+}

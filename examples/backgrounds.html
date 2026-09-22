@@ -123,11 +123,12 @@
 		</div>
 
 		<script src="../dist/reveal.js"></script>
+<script src="../plugin/annotations/annotations.js"></script>
 		<script>
 
 			// Full list of configuration options:
 			// https://revealjs.revealjs.com/config/
-			Reveal.initialize({
+			Reveal.initialize({ plugins: [RevealAnnotations],
 				center: true,
 
 				transition: 'linear',

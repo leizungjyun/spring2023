@@ -1,6 +1,6 @@
 // Plotly lives in an iframe so reveal.js scaling cannot distort pointer coordinates.
 Reveal.initialize({width:1200,height:700,margin:.06,hash:true,slideNumber:'c/t',
-  transition:'fade',plugins:[RevealMarkdown,RevealNotes,RevealSearch,RevealZoom]
+  transition:'fade',plugins:[RevealAnnotations, RevealMarkdown,RevealNotes,RevealSearch,RevealZoom]
 });
 
 // reveal.js 4 uses CSS zoom when enlarging on low-DPI displays. CSS zoom

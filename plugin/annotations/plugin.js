@@ -1,4 +1,4 @@
-// Built into the repository's shared bundles. Each Reveal instance owns its ink.
+// Standalone reveal.js plugin. Each Reveal instance owns its ink.
 export default () => ({
   id: 'annotations',
   init(Reveal) {

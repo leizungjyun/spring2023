@@ -176,6 +176,7 @@
 		</div>
 
 		<script src="../dist/reveal.js"></script>
+<script src="../plugin/annotations/annotations.js"></script>
 		<script src="../plugin/math/math.js"></script>
 		<script>
 			Reveal.initialize({
@@ -198,7 +199,7 @@
 				// RevealMath.KaTeX
 				//
 				// More info at https://revealjs.com/math/
-				plugins: [ RevealMath.MathJax2 ]
+				plugins: [RevealAnnotations, RevealMath.MathJax2 ]
 			});
 		</script>
 
