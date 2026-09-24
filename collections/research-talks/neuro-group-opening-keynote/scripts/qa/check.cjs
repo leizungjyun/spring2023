@@ -30,13 +30,25 @@ fs.mkdirSync(path.join(output, 'reports'), {recursive:true});
       await page.waitFor(250);
       slides.push(await page.evaluate(()=>{
         const s=Reveal.getCurrentSlide(),r=s.getBoundingClientRect();
-        return {title:s.querySelector('h1,h2').innerText,indices:Reveal.getIndices(),
+        // The closing slide is a full-bleed image with no heading, so fall back to the
+        // section's own class rather than failing the whole run on it. It is also the one
+        // slide where content is meant to reach the slide edge, so the flow-fence check
+        // does not apply to it.
+        const heading=s.querySelector('h1,h2'),fullBleed=s.classList.contains('ending-slide');
+        // .takeaway is absolutely positioned, so flow content can run underneath it
+        // without leaving the slide. Treat its top edge as the fence, and fall back to
+        // the section's own bottom padding when a slide has no such element.
+        const fence=Math.min(...[...s.querySelectorAll('.takeaway')].map(f=>f.getBoundingClientRect().top), r.bottom-30);
+        return {title:heading?heading.innerText:'['+s.className+']',indices:Reveal.getIndices(),
           brokenImages:[...s.querySelectorAll('img')].filter(x=>!x.complete||!x.naturalWidth).map(x=>x.getAttribute('src')),
-          overflow:[...s.querySelectorAll('h1,h2,h3,p,img,.quote-row,.chart-inspector')].filter(x=>!x.closest('aside')&&x.getBoundingClientRect().bottom>r.bottom+2).map(x=>x.className||x.tagName)};
+          overflow:[...s.querySelectorAll('h1,h2,h3,p,img,.chart-inspector')].filter(x=>!x.closest('aside')&&x.getBoundingClientRect().bottom>r.bottom+2).map(x=>x.className||x.tagName),
+          collisions:fullBleed?[]:[...s.querySelectorAll('h1,h2,h3,p,img,.chart-inspector')].filter(x=>!x.closest('aside')&&!x.closest('.source,.takeaway')&&x.getBoundingClientRect().bottom>fence-2).map(x=>x.className||x.tagName)};
       }));
       await page.screenshot({path:path.join(screenshots,`slide-${String(i+1).padStart(2,'0')}.png`)});
     }
-    await page.evaluate(()=>Reveal.slide(1,1));
+    // Target whichever slide holds the chart, so reordering the deck cannot silently
+    // point the hover checks at a slide with no chart on it.
+    await page.evaluate(()=>{const i=Reveal.getIndices(document.getElementById('training-chart').closest('section'));Reveal.slide(i.h,i.v);});
     await page.waitFor(250);
     const hoverChecks = [];
     for (const viewport of [{width:1440,height:900},{width:1000,height:700}]) {
@@ -60,6 +72,6 @@ fs.mkdirSync(path.join(output, 'reports'), {recursive:true});
     const report={count,slides,hoverChecks,selection,overviewOpened,overviewClosed,plugins,errors,externalRequests};
     fs.writeFileSync(path.join(output,'reports/browser.json'),JSON.stringify(report,null,2)+'\n');
     console.log(JSON.stringify(report,null,2));
-    if(count!==8||slides.some(s=>s.brokenImages.length||s.overflow.length)||errors.length||externalRequests.length||hoverChecks.some(x=>!x.tooltip||x.selected!=='BERT-Large')||!overviewOpened||!overviewClosed||!plugins.annotations)process.exitCode=1;
+    if(count!==20||slides.some(s=>s.brokenImages.length||s.overflow.length||s.collisions.length)||errors.length||externalRequests.length||hoverChecks.some(x=>!x.tooltip||x.selected!=='BERT-Large')||!overviewOpened||!overviewClosed||!plugins.annotations)process.exitCode=1;
   } finally { await browser.close(); }
 })().catch(e=>{console.error(e);process.exitCode=1;});

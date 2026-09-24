@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 245" role="img"><style>text{font-family:Arial,sans-serif;fill:#203441}.small{font-size:17px;fill:#607582}.label{font-size:22px;font-weight:600}.blue{fill:#00649e}</style><defs><marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0 0L9 4.5L0 9" fill="none" stroke="#00649e" stroke-width="1.5"/></marker><marker id="amber" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0 0L9 4.5L0 9" fill="none" stroke="#b76b29" stroke-width="1.5"/></marker></defs><g transform="translate(2,8) scale(.96)">
+<g font-size="17" fill="#607582"><text x="28" y="26">Three presynaptic axons</text><text x="352" y="26">One shared dendrite</text></g>
+<g fill="none" stroke-linecap="round">
+<g stroke="#607582" stroke-width="4" opacity=".55"><path d="M30 65C101 65 174 58 260 75"/><path d="M30 126H257"/><path d="M30 189C112 189 179 197 257 180"/></g>
+<g stroke="#00649e" stroke-width="2.5" marker-end="url(#a)"><path d="M106 64C142 62 179 62 213 67"/><path d="M105 126H214"/><path d="M106 191C147 193 181 193 215 188"/></g>
+</g>
+<g fill="#b76b29"><circle cx="279" cy="78" r="15" opacity=".10"/><circle cx="279" cy="127" r="21" opacity=".12"/><circle cx="279" cy="179" r="27" opacity=".14"/></g>
+<g fill="#fff" stroke="#b76b29" stroke-width="2"><circle cx="279" cy="78" r="8"/><circle cx="279" cy="127" r="12"/><circle cx="279" cy="179" r="16"/></g>
+<g fill="#b76b29"><circle cx="279" cy="78" r="3"/><circle cx="279" cy="127" r="5"/><circle cx="279" cy="179" r="8"/></g>
+<path d="M361 51C365 78 359 97 365 115C372 128 406 127 445 117L451 139C408 134 381 135 373 148C365 163 365 183 363 203L352 203C350 181 351 163 357 144C359 137 359 127 354 118C349 98 355 75 351 53Z" fill="#eff5f8" stroke="#607582" stroke-width="1.6"/>
+<g fill="none" stroke="#607582" stroke-width="5" stroke-linecap="round"><path d="M318 80C337 78 344 85 356 88"/><path d="M322 127C337 127 345 127 360 130"/><path d="M324 176C342 179 348 171 358 167"/></g>
+<path d="M445 118C448 95 462 78 485 78C509 78 526 96 529 118C531 128 540 130 558 130L558 136C539 136 531 137 527 148C520 168 501 180 480 176C455 173 442 154 445 134Z" fill="#eff5f8" stroke="#607582" stroke-width="2"/>
+<ellipse cx="486" cy="127" rx="17" ry="19" fill="#d5e2e9"/>
+<g fill="none" stroke="#00649e" stroke-width="2.7" stroke-linecap="round" marker-end="url(#a)"><path d="M264 78H331"/><path d="M262 127H335"/><path d="M260 179Q293 180 336 176"/><path d="M358 98Q357 110 366 119"/><path d="M358 156Q360 145 369 139"/><path d="M387 130H435"/></g>
+<g font-size="17" fill="#203441"><text x="446" y="211">Neuron soma</text><text x="300" y="232" fill="#00649e">Synaptic integration</text></g>
+</g>
+<g transform="translate(596,34)">
+<rect x="0" y="2" width="15" height="15" rx="3" fill="#b76b29"/><text x="26" y="15" font-size="19" font-weight="600" fill="#b76b29">Memory</text>
+<text x="26" y="40" font-size="16" fill="#607582">synapse presence and strength</text>
+<rect x="0" y="70" width="15" height="15" rx="3" fill="#00649e"/><text x="26" y="83" font-size="19" font-weight="600" fill="#00649e">Compute</text>
+<text x="26" y="108" font-size="16" fill="#607582">synaptic integration</text>
+<rect x="0" y="136" width="380" height="64" rx="9" fill="#eff5f8"/>
+<text x="18" y="162" font-size="17" font-weight="600">Stored state directly</text>
+<text x="18" y="186" font-size="17" font-weight="600">participates in signaling</text>
+</g></svg>

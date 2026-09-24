@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1140 300" role="img"><style>text{font-family:Arial,sans-serif;fill:#203441}.small{font-size:17px;fill:#607582}.label{font-size:22px;font-weight:600}.blue{fill:#00649e}</style><defs><marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0 0L9 4.5L0 9" fill="none" stroke="#00649e" stroke-width="1.5"/></marker><marker id="amber" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0 0L9 4.5L0 9" fill="none" stroke="#b76b29" stroke-width="1.5"/></marker></defs><text x="280" y="30" text-anchor="middle" font-size="26" font-weight="600">Separate memory and processing</text>
+<text x="860" y="30" text-anchor="middle" font-size="26" font-weight="600" fill="#00649e">In-memory computing</text>
+<rect x="5" y="196" width="115" height="54" rx="10" fill="#eff5f8" stroke="#607582" stroke-width="2"/><text x="62" y="230" text-anchor="middle" font-size="20">Input</text>
+<rect x="440" y="196" width="115" height="54" rx="10" fill="#eff5f8" stroke="#607582" stroke-width="2"/><text x="497" y="230" text-anchor="middle" font-size="20">Output</text>
+<path d="M122 223H141" fill="none" stroke="#00649e" stroke-width="3" marker-end="url(#a)"/><path d="M423 223H437" fill="none" stroke="#00649e" stroke-width="3" marker-end="url(#a)"/>
+<rect x="146" y="52" width="272" height="72" rx="10" fill="#eff5f8" stroke="#00649e" stroke-width="2"/><text x="282" y="96" text-anchor="middle" font-size="21">Memory</text>
+<rect x="146" y="196" width="272" height="72" rx="10" fill="#eff5f8" stroke="#00649e" stroke-width="2"/><text x="282" y="240" text-anchor="middle" font-size="21">Processor</text>
+<path d="M218 192V130" fill="none" stroke="#b76b29" stroke-width="3" marker-end="url(#amber)"/><path d="M346 130V192" fill="none" stroke="#b76b29" stroke-width="3" marker-end="url(#amber)"/>
+<text x="282" y="166" text-anchor="middle" font-size="18" font-weight="600" fill="#b76b29">Move data</text>
+<g transform="translate(580,0)">
+<rect x="5" y="196" width="115" height="54" rx="10" fill="#eff5f8" stroke="#607582" stroke-width="2"/><text x="62" y="230" text-anchor="middle" font-size="20">Input</text>
+<rect x="440" y="196" width="115" height="54" rx="10" fill="#eff5f8" stroke="#607582" stroke-width="2"/><text x="497" y="230" text-anchor="middle" font-size="20">Output</text>
+<path d="M122 223H141" fill="none" stroke="#00649e" stroke-width="3" marker-end="url(#a)"/><path d="M423 223H437" fill="none" stroke="#00649e" stroke-width="3" marker-end="url(#a)"/>
+<rect x="146" y="52" width="272" height="216" rx="12" fill="#fff4e8" stroke="#b76b29" stroke-width="3"/>
+<text x="282" y="88" text-anchor="middle" font-size="21" font-weight="600">Compute-in-memory array</text>
+<g fill="#eff5f8" stroke="#00649e" stroke-width="2"><rect x="190" y="110" width="58" height="44" rx="6"/><rect x="253" y="110" width="58" height="44" rx="6"/><rect x="316" y="110" width="58" height="44" rx="6"/><rect x="190" y="164" width="58" height="44" rx="6"/><rect x="253" y="164" width="58" height="44" rx="6"/><rect x="316" y="164" width="58" height="44" rx="6"/></g>
+<g fill="#00649e" font-size="19" font-weight="600" text-anchor="middle"><text x="219" y="139">w</text><text x="282" y="139">w</text><text x="345" y="139">w</text><text x="219" y="193">w</text><text x="282" y="193">w</text><text x="345" y="193">w</text></g>
+<text x="282" y="244" text-anchor="middle" font-size="18" font-weight="600" fill="#b76b29">Weights stored in place</text>
+</g>
+<path d="M570 40V284" stroke="#d5e2e9" stroke-width="2" stroke-dasharray="5 7"/></svg>

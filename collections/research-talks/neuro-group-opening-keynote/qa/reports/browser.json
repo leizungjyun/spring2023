@@ -1,5 +1,5 @@
 {
-  "count": 8,
+  "count": 10,
   "slides": [
     {
       "title": "Neuro Group\nOpening Keynote",
@@ -8,70 +8,98 @@
         "v": 0
       },
       "brokenImages": [],
-      "overflow": []
+      "overflow": [],
+      "collisions": []
     },
     {
-      "title": "AI is a strategic arena. Compute is uneven.",
+      "title": "AI is the main arena of U.S.–China competition",
       "indices": {
         "h": 1,
         "v": 0
       },
       "brokenImages": [],
-      "overflow": []
+      "overflow": [],
+      "collisions": []
     },
     {
-      "title": "Model demand outruns a simple Moore’s-law story",
+      "title": "AI supercomputers are scaling faster than Moore’s law",
       "indices": {
         "h": 1,
         "v": 1
       },
       "brokenImages": [],
-      "overflow": []
+      "overflow": [],
+      "collisions": []
     },
     {
-      "title": "Throughput is only half the story",
+      "title": "Model-training demand is rising faster still",
       "indices": {
         "h": 1,
         "v": 2
       },
       "brokenImages": [],
-      "overflow": []
+      "overflow": [],
+      "collisions": []
     },
     {
-      "title": "Intelligence must fit a power budget",
+      "title": "Throughput is only half the story",
       "indices": {
         "h": 1,
         "v": 3
       },
       "brokenImages": [],
-      "overflow": []
+      "overflow": [],
+      "collisions": []
     },
     {
-      "title": "Moving data costs energy and time",
+      "title": "Intelligence must fit a resource budget",
       "indices": {
         "h": 1,
         "v": 4
       },
       "brokenImages": [],
-      "overflow": []
+      "overflow": [],
+      "collisions": []
     },
     {
-      "title": "Learn from the brain’s organization",
+      "title": "Moving data costs energy and time",
       "indices": {
         "h": 1,
         "v": 5
       },
       "brokenImages": [],
-      "overflow": []
+      "overflow": [],
+      "collisions": []
     },
     {
-      "title": "Analog imperfections can be a design constraint",
+      "title": "Learn from the brain’s organization",
       "indices": {
         "h": 1,
         "v": 6
       },
       "brokenImages": [],
-      "overflow": []
+      "overflow": [],
+      "collisions": []
+    },
+    {
+      "title": "Analog imperfections can be a design constraint",
+      "indices": {
+        "h": 1,
+        "v": 7
+      },
+      "brokenImages": [],
+      "overflow": [],
+      "collisions": []
+    },
+    {
+      "title": "Neuromorphic computing: from national strategy to local industry",
+      "indices": {
+        "h": 1,
+        "v": 8
+      },
+      "brokenImages": [],
+      "overflow": [],
+      "collisions": []
     }
   ],
   "hoverChecks": [
@@ -80,7 +108,7 @@
         "width": 1440,
         "height": 900
       },
-      "tooltip": "Click point to open sourceBERT-Large~3.30 PFLOP-daysEpoch estimate; see estimation notesPaper: https://arxiv.org/abs/1810.04805",
+      "tooltip": "Click point to open sourceBERT-Large~3.30 PFLOP-days",
       "selected": "BERT-Large"
     },
     {
@@ -88,7 +116,7 @@
         "width": 1000,
         "height": 700
       },
-      "tooltip": "Click point to open sourceBERT-Large~3.30 PFLOP-daysEpoch estimate; see estimation notesPaper: https://arxiv.org/abs/1810.04805",
+      "tooltip": "Click point to open sourceBERT-Large~3.30 PFLOP-days",
       "selected": "BERT-Large"
     }
   ],

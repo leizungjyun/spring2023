@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img" aria-labelledby="title"><title id="title">A consumer camera and a highway enforcement camera</title>
+<g font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#203441"><text x="18" y="25">Consumer camera</text><text x="18" y="168">Highway capture</text></g>
+<g fill="none" stroke="#00649e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M18 142H342" stroke="#b9cbd6"/>
+<rect x="93" y="48" width="145" height="77" rx="10" fill="#e2ecf2"/><path d="M112 48L124 34H160L173 48" fill="#e2ecf2"/><circle cx="168" cy="86" r="32" fill="#203441"/><circle cx="168" cy="86" r="21" stroke="#b76b29"/><path d="M109 62H122"/>
+<path d="M252 64V52H266M286 64V52H272M252 109V121H266M286 109V121H272" stroke="#b76b29"/>
+<path d="M38 288L114 184M162 288L177 184" stroke="#b9cbd6"/><path d="M94 286L133 209" stroke="#607582" stroke-dasharray="8 9"/>
+<path d="M283 281V220L261 209"/><path d="M243 185L306 202L294 224L232 207Z" fill="#e2ecf2"/><path d="M233 185L309 201"/><ellipse cx="238" cy="198" rx="6" ry="11" transform="rotate(25 238 198)" fill="#b76b29" stroke="#b76b29"/>
+<path d="M229 204L152 229M234 214L175 266" stroke="#b76b29" stroke-dasharray="4 7" opacity=".6"/>
+<path d="M121 248L130 231H156L166 248V271H120Z" fill="#e2ecf2"/><path d="M126 248H161M126 265H130M155 265H160"/><rect x="135" y="264" width="15" height="4" fill="#b76b29" stroke="none"/>
+</g></svg>

@@ -1,0 +1,110 @@
+{
+  "count": 20,
+  "rows": [
+    {
+      "title": "Neuro GroupOpening Keynote",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "AI is the main arena of U.S.–China competition",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "AI supercomputers are scaling faster than Moore’s law",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Model-training demand is rising faster still",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Throughput is only half the story",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Intelligence must fit a resource budget",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Moving data costs energy and time",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Learn from the brain’s organization",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Analog imperfections can be a design constraint",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "ACIM replaces adder trees with physical summation",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Neuromorphic computing: from national strategy to local industry",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Current state of the art: computing inside the array",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "A memristor array computes with two circuit laws",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "A predicted element, found thirty-seven years later",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Do we really need the memristor?",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Training and inference separate in practice",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "From memory to compute: change the starting point",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Nonlinearity from the device itself",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "title": "Where we would start",
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "broken": [],
+      "overflow": []
+    }
+  ],
+  "errors": [],
+  "overview": true,
+  "plugins": {
+    "annotations": true,
+    "notes": true
+  }
+}

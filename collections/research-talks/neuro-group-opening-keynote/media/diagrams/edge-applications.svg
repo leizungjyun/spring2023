@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 560 290" role="img"><style>text{font-family:Arial,sans-serif;fill:#203441}.small{font-size:17px;fill:#607582}.label{font-size:22px;font-weight:600}.blue{fill:#00649e}</style><defs><marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0 0L9 4.5L0 9" fill="none" stroke="#00649e" stroke-width="1.5"/></marker><marker id="amber" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0 0L9 4.5L0 9" fill="none" stroke="#b76b29" stroke-width="1.5"/></marker></defs><g fill="#eff5f8"><rect x="6" y="6" width="172" height="266" rx="14"/><rect x="194" y="6" width="172" height="266" rx="14"/><rect x="382" y="6" width="172" height="266" rx="14"/></g>
+<g fill="none" stroke="#00649e" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="80" y="44" width="24" height="46" rx="12"/><path d="M70 76a22 22 0 0 0 44 0"/><path d="M92 98v10M82 108h20"/>
+<rect x="252" y="60" width="56" height="46" rx="11"/><circle cx="280" cy="83" r="13"/><circle cx="280" cy="83" r="5"/><path d="M266 60l6-11h16l6 11"/>
+<rect x="446" y="50" width="44" height="52" rx="14"/><path d="M458 50V34h20v16M458 102v16h20v-16"/><path d="M456 76h7l4-8 6 16 4-8h7"/>
+</g>
+<g text-anchor="middle"><text x="92" y="152" font-size="17" font-weight="600">Always-on audio</text><text x="280" y="152" font-size="17" font-weight="600">Perception loop</text><text x="468" y="152" font-size="17" font-weight="600">On-body sensing</text></g>
+<path d="M40 180H144M228 180H332M416 180H520" stroke="#d5e2e9" stroke-width="1.5"/>
+<g class="small" font-size="15" text-anchor="middle"><text x="92" y="208">Listening all day</text><text x="92" y="232">on microwatts</text>
+<text x="280" y="208">Answers within</text><text x="280" y="232">one frame time</text>
+<text x="468" y="208">Months of runtime</text><text x="468" y="232">on a coin cell</text></g></svg>
