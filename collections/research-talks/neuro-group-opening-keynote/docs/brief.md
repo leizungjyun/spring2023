@@ -151,5 +151,10 @@ Key point: three application settings, every one of them a concept figure.
 
 ===
 
-**Slide 20 · Closing image**
+**Slide 20 · The argument in one slide**
+Key point: rising AI demand and edge constraints lead through the data-movement bottleneck to compute-first, device-physical inference for short local loops. Four concise stages; no performance or product claim.
+
+===
+
+**Slide 21 · Closing image**
 No figure. The last slide of the reference gathering deck: the group's own ending image, full-bleed, with the controls, progress bar and slide number hidden while it is on screen.

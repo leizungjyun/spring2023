@@ -6,6 +6,16 @@ p.mkdir(parents=True, exist_ok=True)
 B='#00649e'; T='#203441'; M='#607582'; A='#b76b29'; L='#d5e2e9'; P='#eff5f8'
 def svg(name,w,h,body):
  (p/name).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {w} {h}" role="img"><style>text{{font-family:Arial,sans-serif;fill:{T}}}.small{{font-size:17px;fill:{M}}}.label{{font-size:22px;font-weight:600}}.blue{{fill:{B}}}</style><defs><marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0 0L9 4.5L0 9" fill="none" stroke="{B}" stroke-width="1.5"/></marker><marker id="amber" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0 0L9 4.5L0 9" fill="none" stroke="{A}" stroke-width="1.5"/></marker></defs>'+body+'</svg>')
+def diagonal_memristor(x,y,dx,dy):
+ # The branch and device share one diagonal between a word-line tap and bit line.
+ angle=math.degrees(math.atan2(dy,dx))
+ return (f'<path d="M{x-dx} {y}L{x} {y+dy}" fill="none" stroke="{A}" stroke-width="2"/>'
+         f'<circle cx="{x-dx}" cy="{y}" r="3.5" fill="{B}"/>'
+         f'<circle cx="{x}" cy="{y+dy}" r="3.5" fill="{B}"/>'
+         f'<g transform="translate({x-dx/2:g} {y+dy/2:g}) rotate({angle:.1f})">'
+         f'<rect x="-20" y="-11" width="40" height="22" fill="#fff4e8" stroke="{A}" stroke-width="2"/>'
+         f'<path d="M-20 0h8v-7h8v14h8V-7h8v7h8" fill="none" stroke="{A}" stroke-width="1.7"/>'
+         '</g>')
 svg('ai-pillars.svg',520,350,f'''<path d="M70 44V282" stroke="{L}" stroke-width="4"/>
 <circle cx="70" cy="55" r="19" fill="{B}"/><circle cx="70" cy="165" r="19" fill="{B}"/><circle cx="70" cy="275" r="19" fill="{A}"/>
 <text x="110" y="56" class="label">Algorithms</text><text x="110" y="84" class="small">Frontier model performance is converging</text>
@@ -241,8 +251,7 @@ for j,x in enumerate([180,310,440]):
 for i,y in enumerate([105,185,265]):
  cross_body+=f'<path d="M62 {y}H482" stroke="white" stroke-width="9"/><path d="M62 {y}H482" stroke="{A}" stroke-width="2.5"/>' + math_svg('v_'+str(i+1), 48, y, 23)
  for j,x in enumerate([180,310,440]):
-  # A rectangle containing a folded path is the memristor circuit symbol.
-  cross_body+=f'<path d="M{x-65} {y}v37h12 M{x-17} {y+37}H{x}" fill="none" stroke="{A}" stroke-width="2"/><circle cx="{x-65}" cy="{y}" r="3.5" fill="{A}"/><circle cx="{x}" cy="{y+37}" r="4" fill="{B}"/><rect x="{x-53}" y="{y+26}" width="36" height="22" fill="white" stroke="{A}" stroke-width="2"/><path d="M{x-53} {y+37}h7v-7h7v14h8v-14h7v7h7" fill="none" stroke="{A}" stroke-width="1.7"/>'
+  cross_body+=diagonal_memristor(x,y,65,37)
 cross_body += math_svg('G_{11}', 124, 91, 21) + math_svg('i_{12}', 321, 166, 20)
 svg('memristor-crossbar.svg',540,450,f'''<text x="270" y="25" text-anchor="middle" font-size="22" font-weight="600">Ohm’s law</text>{math_svg('i_{ij}=v_iG_{ij}', 270, 47, 21)}
 <text x="270" y="70" text-anchor="middle" font-size="17">Voltage × stored conductance → current</text>
@@ -292,7 +301,7 @@ for j,x in enumerate([210,350,490]):
 for i,y in enumerate([75,155,235]):
  fpma+=f'<path d="M72 {y}H515" stroke="white" stroke-width="9"/><path d="M72 {y}H515" stroke="{B}" stroke-width="2.5"/><text x="57" y="{y+6}" text-anchor="end" font-size="19">v{i+1}</text>'
  for j,x in enumerate([210,350,490]):
-  fpma+=f'<path d="M{x-82} {y}V{y+40}H{x-64} M{x-24} {y+40}H{x}" fill="none" stroke="{A}" stroke-width="2"/><circle cx="{x-82}" cy="{y}" r="3.5" fill="{B}"/><circle cx="{x}" cy="{y+40}" r="3.5" fill="{B}"/><rect x="{x-64}" y="{y+27}" width="40" height="26" fill="#fff4e8" stroke="{A}" stroke-width="2"/><path d="M{x-64} {y+40}h8v-8h8v16h8v-16h8v8h8" fill="none" stroke="{A}" stroke-width="1.8"/>'
+  fpma+=diagonal_memristor(x,y,82,40)
 fpma+=f'<rect x="127" y="348" width="30" height="20" fill="#fff4e8" stroke="{A}" stroke-width="1.6"/><path d="M127 358h6v-6h6v12h6v-12h6v6h6" stroke="{A}" stroke-width="1.4" fill="none"/><text x="170" y="363" font-size="16">Memristor = programmable weight</text>'
 svg('fpma-array.svg',560,375,fpma)
 # Training and inference are separated in practice: one side changes the weights inside

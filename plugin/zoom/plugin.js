@@ -6,14 +6,16 @@ const Plugin = {
 	id: 'zoom',
 
 	init: function( reveal ) {
+		function zoomModifier( event ) {
+			var defaultModifier = /Linux/.test( window.navigator.platform ) ? 'ctrl' : 'alt';
+			var modifier = ( reveal.getConfig().zoomKey ? reveal.getConfig().zoomKey : defaultModifier ) + 'Key';
+			return event[ modifier ] && !reveal.isOverview();
+		}
 
 		reveal.getRevealElement().addEventListener( 'mousedown', function( event ) {
-			var defaultModifier = /Linux/.test( window.navigator.platform ) ? 'ctrl' : 'alt';
-
-			var modifier = ( reveal.getConfig().zoomKey ? reveal.getConfig().zoomKey : defaultModifier ) + 'Key';
 			var zoomLevel = ( reveal.getConfig().zoomLevel ? reveal.getConfig().zoomLevel : 2 );
 
-			if( event[ modifier ] && !reveal.isOverview() ) {
+			if( zoomModifier( event ) ) {
 				event.preventDefault();
 
 				zoom.to({
@@ -24,6 +26,10 @@ const Plugin = {
 				});
 			}
 		} );
+		// The browser's Option-click download action belongs to click, not mousedown.
+		reveal.getRevealElement().addEventListener( 'click', function( event ) {
+			if( zoomModifier( event ) ) event.preventDefault();
+		}, true );
 
 	}
 

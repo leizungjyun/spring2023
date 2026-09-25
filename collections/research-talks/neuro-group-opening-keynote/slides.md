@@ -180,14 +180,14 @@ The honest summary of the brief's pair is therefore: the advantage — area alre
 ## A memristor array computes with two circuit laws
 
 <div class="two-columns crossbar-columns">
-<div><img class="crossbar-figure" src="media/diagrams/memristor-crossbar.svg" alt="Three by three crossbar with folded-path memristor symbols connecting each voltage row to a current column. Ohm’s law: i ij equals v i G ij. KCL: I j equals the sum of branch currents."></div>
+<div><img class="crossbar-figure" src="media/diagrams/memristor-crossbar.svg" alt="Three by three crossbar with diagonal memristor branches connecting each horizontal word line to a vertical bit line. Ohm’s law: i ij equals v i G ij. KCL: I j equals the sum of branch currents."></div>
 <div><img class="crossbar-figure" src="media/diagrams/vector-space-physics.svg" alt="Vector space is the four-tuple V, F, vector addition and scalar multiplication. Arrow diagrams map Ohm’s law to scalar multiplication and KCL to vector addition, forming I equals the sum of v i times conductance vector g i."></div>
 </div>
 <p class="takeaway">That’s how physics does the math.</p>
 
 Note:
 A vector space is the four-tuple (V, F, +, ·): a set of vectors, a scalar field, vector addition, and scalar multiplication, satisfying the vector-space axioms. Here the ideal mathematical model uses real vectors and real scalars. For row i, define the conductance vector g_i = (G_i1, G_i2, G_i3). Applying scalar voltage v_i gives the current vector i_i = v_i g_i by Ohm’s law. Kirchhoff’s current law adds these vectors componentwise on the columns: I = sum_i v_i g_i. In the row-input convention shown, I = Gᵀv. The circuit implements the two operations; it does not by itself establish the vector-space axioms. Physical ranges are bounded and conductances are nonnegative; arbitrary signed weights require a differential encoding.
-The crossbar uses a folded-path memristor symbol in each branch. Unmarked row/column crossings are not junctions; dots mark the device’s connections. This is a conceptual 3 × 3 schematic, not a measured array. During readout, conductances are assumed fixed and approximately ohmic, and columns are held near virtual ground. Wire resistance, device variation, drift, nonlinear response and finite readout precision cause departures from the ideal. Peripheral drive and sensing circuits are omitted.
+The crossbar places each memristor symbol diagonally between a horizontal word-line tap and a vertical bit line. Unmarked row/column crossings are not junctions; dots mark the device’s connections. This is a conceptual 3 × 3 schematic, not a measured array. During readout, conductances are assumed fixed and approximately ohmic, and columns are held near virtual ground. Wire resistance, device variation, drift, nonlinear response and finite readout precision cause departures from the ideal. Peripheral drive and sensing circuits are omitted.
 
 ==
 
@@ -212,7 +212,7 @@ The figure is the four two-terminal elements as a taxonomy, reused unmodified fr
 
 <div class="two-columns fabric-columns">
 <div><h3>FPGA — field-programmable gate array</h3><img class="fabric-figure" src="media/diagrams/fpga-fabric.svg" alt="A regular three-by-three grid of configurable logic blocks, each containing lookup tables and flip-flops. Routing channels, switch boxes, connection boxes and I/O blocks connect the fabric."><p class="micro">Bitstream → logic functions + routing configuration.</p></div>
-<div><h3>FPMA — field-programmable memristor array</h3><img class="fabric-figure" src="media/diagrams/fpma-array.svg" alt="A regular three-by-three array with folded-path memristor circuit symbols connecting voltage rows to current columns. Dots show electrical junctions."><p class="micro">Programming pulses → stored conductances + analog weights.</p></div>
+<div><h3>FPMA — field-programmable memristor array</h3><img class="fabric-figure" src="media/diagrams/fpma-array.svg" alt="A regular three-by-three array with diagonal memristor branches connecting horizontal word lines to vertical bit lines. Dots show electrical junctions."><p class="micro">Programming pulses → stored conductances + analog weights.</p></div>
 </div>
 <p class="takeaway">The memristor array is to analogue computing what the FPGA is to digital logic.</p>
 
@@ -220,7 +220,7 @@ Note:
 The brief asks the question in its own words, so the slide asks it too. The answer this slide gives is an analogy, not a proof of need: the FPGA is the established case of hardware that is not specialised to one function yet is not general-purpose either — it is configured once for a design and then runs it, and its value is that the same silicon serves many designs without a fab mask. A memristor array has the same shape of proposition. You write each conductance once for a trained network, and afterwards the array is the network: the weights live in the cells and the computation is whatever the wiring and the input voltages make of them. That is what the brief means by calling it the analogue version of an FPGA, and the two figures are drawn at the same scale and in the same block language so the parallel is visible rather than asserted.
 The differences matter as much as the resemblance. The FPGA is digital and exact, and it is reconfigured by rewriting a bitstream — an ordinary, well-understood, high-yield operation — whereas the array is analogue and approximate, and writing it means placing an analogue quantity in each cell, with the variation and drift that the analog slide already discussed. The FPGA's clock rate is not its selling point; neither is the array's. And the FPGA came with a mature design flow and a compiler, which is not something an analogue array has.
 FPMA is used here as the presentation’s analogy with FPGA, not as a claim of an industry-standard architecture. The FPGA schematic is a regular 3 × 3 patch of configurable logic blocks (CLBs) with lookup tables (LUTs) and flip-flops (FFs), routing channels, switch boxes, connection boxes and representative I/O. A real CLB contains multiple logic elements, optional registered outputs and additional resources such as carry logic; modern devices also include RAM, DSP resources and clock networks, omitted here. The small amber switches indicate routing programmability; the bitstream also configures the LUT functions and register options. Architecture reference: AMD, UltraScale Architecture Configurable Logic Block User Guide, CLB Overview, https://docs.amd.com/r/en-US/ug574-ultrascale-clb/CLB-Overview . This is a generic conceptual fabric, not an AMD floorplan.
-The FPMA schematic uses a folded-path memristor circuit symbol for every two-terminal device. The device branch connects a row to a column; dots mark junctions, while unmarked crossings are insulated. Conductance programming sets the analog weights; input voltages produce column currents under the readout assumptions discussed earlier. Peripheral programming, drive and sensing circuits are omitted. Neither diagram specifies an implemented design, array size or measured performance.
+The FPMA schematic places a memristor symbol on each diagonal branch from a horizontal word line to a vertical bit line; dots mark junctions, while unmarked crossings are insulated. Conductance programming sets the analog weights; input voltages produce column currents under the readout assumptions discussed earlier. Peripheral programming, drive and sensing circuits are omitted. Neither diagram specifies an implemented design, array size or measured performance.
 
 
 ==
@@ -288,8 +288,25 @@ The touch and soft-arm panel is two sketches in one frame, contact sensing and c
 
 ===
 
+<!-- .slide: class="summary-slide" -->
+## The argument in one slide
+
+<div class="summary-path">
+<div><span>01 · Pressure</span><h3>AI demand keeps rising</h3><p>More compute alone does not solve latency and energy at the edge.</p></div>
+<div><span>02 · Bottleneck</span><h3>Data movement costs</h3><p>Moving weights between memory and processors spends time and power.</p></div>
+<div><span>03 · Approach</span><h3>Start from the operation</h3><p>Use device physics for local summation and useful nonlinearity.</p></div>
+<div><span>04 · Focus</span><h3>Fixed-weight inference</h3><p>Test the fit in short, local sensing and response loops.</p></div>
+</div>
+
+<p class="takeaway">Our research question: which computations can the device perform where the signal arrives?</p>
+
+Note:
+This is the logic of the keynote, not a claim that an end-to-end system has already met a power or latency target. Demand and deployment constraints motivate a change in architecture. The von Neumann bottleneck points to local computation; training/inference separation makes fixed-weight inference a tractable first target. The compute-first view asks for the required linear and nonlinear operations before selecting a device or storage technology. The application sketches are candidate tests of that view, with autofocus the clearest fit; they are not validated products. The research question leaves room for converter, control, precision, stability and calibration costs to decide whether a physical mechanism is useful at system level.
+
+===
+
 <!-- .slide: class="ending-slide" data-state="image-ending" -->
 <img class="ending-image" src="media/photos/ending.jpg" alt="Raised hands and coloured question marks over a group of people.">
 
 Note:
-The closing slide reuses the reference deck's ending image, collections/group-meetings/2026-09-10-ai-group-gathering, and it is the same treatment: the photograph runs full-bleed with the controls, the progress bar and the slide number hidden while it is on screen, so the deck ends on the image rather than on a chrome-covered slide. The image is the group's own asset, carried over unchanged; it is decorative and makes no claim. Stop here rather than adding a summary slide — the deck has already stated its points, and the last substantive slide is where the argument ends.
+The closing slide reuses the reference deck's ending image, collections/group-meetings/2026-09-10-ai-group-gathering, and it is the same treatment: the photograph runs full-bleed with the controls, the progress bar and the slide number hidden while it is on screen. The image is the group's own asset, carried over unchanged; it is decorative and makes no claim. The preceding slide now gathers the argument before this visual close.

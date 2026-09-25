@@ -2,9 +2,13 @@
 
 A standalone reveal.js plugin using public APIs. No changes to reveal.js core are required.
 
-- **D** toggles the pen; **H** toggles the highlighter.
-- Drag to draw. **Esc** clears the current slide and exits drawing.
-- Marks are per-slide and session-only. No toolbar is displayed.
+- **D** toggles the pen; **H** toggles the highlighter; **L** toggles the laser pointer; **R** toggles a reading spotlight.
+- While the spotlight is active, **<** decreases its radius and **>** increases it.
+- **T** shows or hides the annotation tool panel. The panel contains the modes, undo, redo, and clear controls.
+- Drag to draw. **Backspace** undoes the last stroke; **Shift+Backspace** restores it. **Esc** clears the current slide and exits drawing.
+- The laser and spotlight follow the pointer while active and leave no mark.
+- Annotation tools and the panel remain usable on Reveal's black pause screen (`.`). New pen strokes are white there; the spotlight reveals the slide inside its circle.
+- Marks are per-slide and session-only. The tool panel is hidden by default.
 - Text inputs, dialogs, print/PDF export, and embedded deck focus are respected.
 
 ## Usage
