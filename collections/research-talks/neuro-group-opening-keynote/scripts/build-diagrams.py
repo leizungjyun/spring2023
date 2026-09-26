@@ -14,7 +14,7 @@ def diagonal_memristor(x,y,dx,dy):
          f'<circle cx="{x}" cy="{y+dy}" r="3.5" fill="{B}"/>'
          f'<g transform="translate({x-dx/2:g} {y+dy/2:g}) rotate({angle:.1f})">'
          f'<rect x="-20" y="-11" width="40" height="22" fill="#fff4e8" stroke="{A}" stroke-width="2"/>'
-         f'<path d="M-20 0h8v-7h8v14h8V-7h8v7h8" fill="none" stroke="{A}" stroke-width="1.7"/>'
+         f'<path d="M-20 0h8v-6h8v12h8V-6h8v6h8" fill="none" stroke="{A}" stroke-width="1.7"/>'
          '</g>')
 svg('ai-pillars.svg',520,350,f'''<path d="M70 44V282" stroke="{L}" stroke-width="4"/>
 <circle cx="70" cy="55" r="19" fill="{B}"/><circle cx="70" cy="165" r="19" fill="{B}"/><circle cx="70" cy="275" r="19" fill="{A}"/>
@@ -247,37 +247,40 @@ svg('acim-vs-dcim.svg',1120,470,f'''{math_svg('y=\\sum_i x_i w_i',560,25,25)}<te
 # Memristor branches connect row voltages to column current collectors.
 cross_body=''
 for j,x in enumerate([180,310,440]):
- cross_body+=f'<path d="M{x} 75V325" stroke="{B}" stroke-width="3"/><path d="M{x} 325V351" stroke="{B}" stroke-width="2" marker-end="url(#a)"/>' + math_svg('I_'+str(j+1), x, 374, 24)
-for i,y in enumerate([105,185,265]):
- cross_body+=f'<path d="M62 {y}H482" stroke="white" stroke-width="9"/><path d="M62 {y}H482" stroke="{A}" stroke-width="2.5"/>' + math_svg('v_'+str(i+1), 48, y, 23)
+ cross_body+=f'<path d="M{x} 70V323" stroke="{B}" stroke-width="2.5"/><path d="M{x} 323V346" stroke="{B}" stroke-width="2" marker-end="url(#a)"/>' + math_svg('I_'+str(j+1), x, 369, 25)
+for i,y in enumerate([100,180,260]):
+ cross_body+=f'<path d="M62 {y}H482" stroke="white" stroke-width="9"/><path d="M62 {y}H482" stroke="{A}" stroke-width="2.5"/>' + math_svg('v_'+str(i+1), 42, y, 25)
  for j,x in enumerate([180,310,440]):
   cross_body+=diagonal_memristor(x,y,65,37)
-cross_body += math_svg('G_{11}', 124, 91, 21) + math_svg('i_{12}', 321, 166, 20)
-svg('memristor-crossbar.svg',540,450,f'''<text x="270" y="25" text-anchor="middle" font-size="22" font-weight="600">Ohm’s law</text>{math_svg('i_{ij}=v_iG_{ij}', 270, 47, 21)}
-<text x="270" y="70" text-anchor="middle" font-size="17">Voltage × stored conductance → current</text>
+  # Put conductance labels below each branch, clear of wires and junctions.
+  cross_body+=math_svg('G_{'+str(i+1)+str(j+1)+'}', x-48, y+51, 19)
+# A branch-current arrow occupies the free space to the right of the last cell.
+cross_body+=f'<path d="M458 122V154" stroke="{B}" stroke-width="1.6" marker-end="url(#a)"/>' + math_svg('i_{13}', 490, 140, 20)
+svg('memristor-crossbar.svg',540,450,f'''<text x="76" y="33" font-size="23" font-weight="600">Ohm’s law</text>{math_svg('i_{ij}=v_iG_{ij}', 338, 26, 26)}
 {cross_body}
-<text x="270" y="399" text-anchor="middle" font-size="22" font-weight="600">Kirchhoff’s current law</text>{math_svg('I_j=\\sum_i i_{ij}=\\sum_i v_iG_{ij}', 270, 422, 19)}
-<text x="270" y="449" text-anchor="middle" font-size="17">Column currents add at the readout (≈ 0 V)</text>''')
-svg('vector-space-physics.svg',540,450,f'''<text x="270" y="30" text-anchor="middle" font-size="25" font-weight="600">Vector space</text>{math_svg(r'(V,F,+,\cdot)', 270, 52, 21)}
-<text x="270" y="79" text-anchor="middle" font-size="16">vectors · scalars · vector addition · scalar multiplication</text>
-<path d="M165 78V103H100V126 M375 78V126" fill="none" stroke="{L}" stroke-width="2"/>
-<rect x="12" y="126" width="246" height="182" rx="8" fill="{P}"/>
-<rect x="282" y="126" width="246" height="182" rx="8" fill="#fff4e8"/>
-<text x="135" y="157" text-anchor="middle" font-size="22" font-weight="600">Scalar multiplication</text>
-
-<path d="M55 238L115 210" stroke="{B}" stroke-width="3" marker-end="url(#a)"/>
-<path d="M55 252L205 182" stroke="{B}" stroke-width="3" marker-end="url(#a)"/>
-{math_svg('g_i', 83, 197, 22)}{math_svg('v_i g_i', 190, 230, 22)}
-<text x="135" y="287" text-anchor="middle" font-size="22" font-weight="600">Ohm’s law</text>
-<text x="405" y="157" text-anchor="middle" font-size="22" font-weight="600">Vector addition</text>
-<path d="M325 247L397 247 M397 247L475 182" stroke="{A}" stroke-width="2.5" fill="none" marker-end="url(#amber)"/>
-<path d="M325 247L475 182" stroke="{B}" stroke-width="3" marker-end="url(#a)"/>
-{math_svg('i_1', 353, 234, 21)}{math_svg('i_2', 450, 232, 21)}{math_svg('i_1+i_2', 385, 188, 21)}
-<text x="405" y="287" text-anchor="middle" font-size="22" font-weight="600">KCL</text>
-<path d="M135 316V337H405V316 M270 337V356" fill="none" stroke="{L}" stroke-width="2"/>
-{math_svg('I=v_1g_1+v_2g_2+v_3g_3', 270, 389, 28)}
-{math_svg('g_i=(G_{i1},G_{i2},G_{i3})', 190, 423, 20)}<text x="312" y="428" font-size="18">· one row’s conductances</text>
-<text x="270" y="447" text-anchor="middle" font-size="17">An ideal linear readout over the real numbers</text>''')
+<text x="76" y="424" font-size="23" font-weight="600">KCL</text>{math_svg(r'\textstyle I_j=\sum_i i_{ij}=\sum_i v_iG_{ij}', 316, 418, 24)}''')
+# Explicit anchors attach + to addition and the dot to scalar multiplication.
+# V and F name sets; bold symbols below denote vectors, not scalar entries.
+svg('vector-space-physics.svg',540,450,f'''<text x="48" y="33" font-size="23" font-weight="600">Vector space</text>
+{math_svg(r'(V,F,+,\cdot)', 360, 26, 32)}
+{math_svg(r'V=\mathbb{{R}}^3,\quad F=\mathbb{{R}}', 155, 72, 21)}
+<path d="M385 46V91H135V109" fill="none" stroke="{A}" stroke-width="1.7"/>
+<path d="M416 46V73H405V109" fill="none" stroke="{B}" stroke-width="1.7"/>
+<rect x="12" y="110" width="246" height="226" rx="8" fill="#fff4e8"/>
+<rect x="282" y="110" width="246" height="226" rx="8" fill="{P}"/>
+<text x="135" y="141" text-anchor="middle" font-size="21" font-weight="600">Vector addition</text>
+<text x="405" y="141" text-anchor="middle" font-size="21" font-weight="600">Scalar multiplication</text>
+<path d="M48 255H132" stroke="{A}" stroke-width="2" marker-end="url(#amber)"/>
+<path d="M132 255L215 183" stroke="{A}" stroke-width="2" marker-end="url(#amber)"/>
+<path d="M48 255L215 183" stroke="{B}" stroke-width="2.5" marker-end="url(#a)"/>
+{math_svg(r'\mathbf{i}_1', 90, 274, 22, A)}{math_svg(r'\mathbf{i}_2', 207, 236, 22, A)}{math_svg(r'\mathbf{i}_1+\mathbf{i}_2', 114, 193, 22, B)}
+<path d="M317 238L382 202" stroke="{A}" stroke-width="2" marker-end="url(#amber)"/>
+<path d="M325 267L494 174" stroke="{B}" stroke-width="2.5" marker-end="url(#a)"/>
+{math_svg(r'\mathbf{g}_i', 336, 193, 23, A)}{math_svg(r'v_i\mathbf{g}_i', 457, 245, 23, B)}
+<text x="36" y="316" font-size="20" font-weight="600">KCL</text>{math_svg(r'\textstyle \mathbf{I}=\sum_i\mathbf{i}_i', 171, 311, 21)}
+<text x="297" y="316" font-size="20" font-weight="600">Ohm’s law</text>{math_svg(r'\mathbf{i}_i=v_i\mathbf{g}_i', 459, 309, 21)}
+{math_svg(r'\mathbf{I}=\sum_i v_i\mathbf{g}_i=\mathbf{G}^{\mathsf{T}}\mathbf{v}', 270, 381, 29)}
+{math_svg(r'\mathbf{g}_i=(G_{i1},G_{i2},G_{i3})^{\mathsf{T}}', 270, 431, 23)}''')
 # Regular conceptual fabrics: logic/routing configuration versus conductance programming.
 fpga_fabric=f'<rect x="8" y="6" width="544" height="330" rx="10" fill="white" stroke="{L}" stroke-width="2"/>'
 # Routing channels meet at switch boxes; connection boxes join CLBs to channels.
@@ -295,14 +298,15 @@ for y in [72,152,232]:
   fpga_fabric+=f'<path d="M{x-26} {y+23}H{x} M{x+88} {y+23}H{x+114}" stroke="{B}" stroke-width="2"/><rect x="{x-29}" y="{y+20}" width="6" height="6" fill="{A}"/><rect x="{x+111}" y="{y+20}" width="6" height="6" fill="{A}"/><rect x="{x}" y="{y}" width="88" height="46" rx="5" fill="{P}" stroke="{B}" stroke-width="1.8"/><text x="{x+44}" y="{y+18}" text-anchor="middle" font-size="16" font-weight="600">CLB</text><text x="{x+44}" y="{y+37}" text-anchor="middle" font-size="14">LUT + FF</text>'
 fpga_fabric+=f'<text x="280" y="322" text-anchor="middle" font-size="16">Logic blocks + programmable interconnect</text><rect x="69" y="351" width="14" height="14" rx="2" fill="#fff4e8" stroke="{A}" stroke-width="1.7"/><text x="94" y="363" font-size="16">Switch box</text><text x="258" y="363" font-size="16">CLB: lookup tables + flip-flops</text>'
 svg('fpga-fabric.svg',560,375,fpga_fabric)
-fpma=f'<rect x="8" y="6" width="544" height="330" rx="10" fill="white" stroke="{L}" stroke-width="2"/><text x="280" y="31" text-anchor="middle" font-size="17">Program each conductance Gᵢⱼ</text>'
+fpma=f'<rect x="8" y="6" width="544" height="330" rx="10" fill="white" stroke="{L}" stroke-width="2"/><text x="157" y="32" font-size="18">Program conductances</text>' + math_svg('G_{ij}', 374, 26, 21)
 for j,x in enumerate([210,350,490]):
- fpma+=f'<path d="M{x} 53V295" stroke="{B}" stroke-width="2.5"/><path d="M{x} 295V310" stroke="{B}" stroke-width="2" marker-end="url(#a)"/><text x="{x}" y="329" text-anchor="middle" font-size="17">I{j+1}</text>'
+ fpma+=f'<path d="M{x} 53V291" stroke="{B}" stroke-width="2.5"/><path d="M{x} 291V307" stroke="{B}" stroke-width="1.6" marker-end="url(#a)"/>' + math_svg('I_'+str(j+1), x, 323, 22)
 for i,y in enumerate([75,155,235]):
- fpma+=f'<path d="M72 {y}H515" stroke="white" stroke-width="9"/><path d="M72 {y}H515" stroke="{B}" stroke-width="2.5"/><text x="57" y="{y+6}" text-anchor="end" font-size="19">v{i+1}</text>'
+ fpma+=f'<path d="M72 {y}H515" stroke="white" stroke-width="9"/><path d="M72 {y}H515" stroke="{B}" stroke-width="2.5"/>' + math_svg('v_'+str(i+1), 48, y, 23)
  for j,x in enumerate([210,350,490]):
   fpma+=diagonal_memristor(x,y,82,40)
-fpma+=f'<rect x="127" y="348" width="30" height="20" fill="#fff4e8" stroke="{A}" stroke-width="1.6"/><path d="M127 358h6v-6h6v12h6v-12h6v6h6" stroke="{A}" stroke-width="1.4" fill="none"/><text x="170" y="363" font-size="16">Memristor = programmable weight</text>'
+  fpma+=math_svg('G_{'+str(i+1)+str(j+1)+'}', x-65, y+50, 17)
+fpma+=f'<rect x="137" y="348" width="36" height="20" fill="#fff4e8" stroke="{A}" stroke-width="1.6"/><path d="M137 358h7v-5h7v10h8v-10h7v5h7" stroke="{A}" stroke-width="1.4" fill="none"/><text x="187" y="363" font-size="16">Programmable conductance</text>'
 svg('fpma-array.svg',560,375,fpma)
 # Training and inference are separated in practice: one side changes the weights inside
 # a loop, the other reads fixed weights along a straight path, and the weights cross the
