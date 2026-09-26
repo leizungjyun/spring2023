@@ -156,16 +156,18 @@
 /* --- From memory or from compute --- */
 .reveal .framing-figure {display:block;width:100%;height:440px;object-fit:contain;}
 /* --- Nonlinearity from the device --- */
-.reveal .analogue-columns {grid-template-columns:1.02fr 1fr;gap:36px;}
-.reveal .chain-figure {display:block;width:100%;height:190px;object-fit:contain;margin:0 0 10px;}
-.reveal .basis-figure {display:block;width:100%;height:180px;object-fit:contain;}
-.reveal .esaki-profile {display:flex;gap:0;align-items:center;margin:0 0 12px;}
-.reveal .esaki-profile>a {display:block;line-height:0;flex:0 0 auto;}
-.reveal .esaki-profile img {width:48px;height:60px;object-fit:cover;object-position:center top;margin-right:13px;}
-.reveal .esaki-profile h4 {font-size:19px;font-weight:600;margin:0;letter-spacing:-.3px;text-transform:none;}
-.reveal .esaki-label {display:block;font-size:14px;line-height:1.4;color:var(--muted);margin-top:3px;}
-.reveal .physics-pair {display:grid;grid-template-columns:1fr 1fr;gap:12px;}
-.reveal .physics-pair img {display:block;width:100%;height:116px;object-fit:contain;}
+.reveal .analogue-slide h2 {margin-bottom:16px;}
+.reveal .analogue-slide .chain-figure {display:block;width:100%;height:176px;object-fit:contain;margin:0 0 18px;}
+.reveal .analogue-columns {grid-template-columns:1fr 1fr;gap:36px;}
+.reveal .analogue-columns>div {padding-top:14px;}
+.reveal .analogue-columns h3 {margin-bottom:12px;}
+.reveal .analogue-slide .basis-figure {display:block;width:100%;height:220px;object-fit:contain;}
+.reveal .analogue-slide .esaki-profile {display:flex;gap:12px;align-items:center;margin:0 0 10px;}
+.reveal .analogue-slide .esaki-profile img {width:40px;height:48px;object-fit:cover;object-position:center top;}
+.reveal .analogue-slide .esaki-profile h4 {font-size:19px;font-weight:600;margin:0;letter-spacing:-.3px;text-transform:none;}
+.reveal .analogue-slide .esaki-label {display:block;font-size:14px;line-height:1.4;color:var(--muted);margin-top:3px;}
+.reveal .analogue-slide .physics-pair {display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.reveal .analogue-slide .physics-pair img {display:block;width:100%;height:162px;object-fit:contain;}
 /* --- Application directions --- */
 .reveal .application-gallery {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:46px;}
 .reveal .application-gallery>div {min-width:0;height:448px;box-sizing:border-box;border-top:3px solid var(--blue);border-bottom:1px solid var(--line);padding:24px 12px 18px;background:linear-gradient(180deg,var(--panel),#fff 35%);}
