@@ -151,7 +151,7 @@ Sources: Yoshioka et al., A Review of SRAM-based Compute-in-Memory Circuits (202
 <article><h3>深圳市</h3><p class="policy-date">2022</p><a class="policy-document" href="https://www.sz.gov.cn/zfgb/2022/gb1248/content/post_9918806.html" target="_blank" rel="noopener">《关于发展壮大战略性新兴产业集群和培育发展未来产业的意见》</a><p class="policy-issuer">市人民政府<br>深府〔2022〕1号</p><div class="policy-focus"><strong>未来产业重点布局</strong><p>将脑科学与类脑智能列为未来产业，部署类脑算法与前沿技术研究。</p></div></article>
 <article><h3>光明区</h3><p class="policy-date">2022–2025 · 历史政策</p><a class="policy-document" href="https://www.szgm.gov.cn/xxgk/xqgwhxxgkml/zcfg_116521/qzfgfxwj/content/post_10042566.html" target="_blank" rel="noopener">《关于支持脑科学与类脑智能创新链产业链融合发展的若干措施》</a><p class="policy-issuer">区人民政府<br>深光府规〔2022〕8号</p><div class="policy-focus"><strong>科研与成果转化支持</strong><p>覆盖技术攻关、概念验证、中试和成果转化；后续适用政策待核实。</p></div></article>
 </div>
-<div class="takeaway comic-quote"><img src="media/profiles/xiangwei-zhu.png" alt="Portrait of 朱祥维"><div class="comic-bubble"><span class="comic-line">神经形态计算是我目前最关心的方向</span></div></div>
+<div class="takeaway comic-quote"><img src="media/profiles/xiangwei-zhu-nobel.png" alt="Portrait of 朱祥维"><div class="comic-bubble"><span class="comic-line">神经形态计算是我目前最关心的方向</span></div></div>
 
 Note:
 本页根据官方公开文件概括政策关注方向，不把类脑智能、脑科学或神经形态芯片政策全部等同于对本团队模拟芯片方案的支持，不表示已获得政府资助、客户或商业验证。文件标题链接直达官方来源，页面使用概括表述而非整段摘录。核对日期：2026-09-13。本页标题已译为英文，卡片内的政策标题、发文机关和概要按要求保留中文。
