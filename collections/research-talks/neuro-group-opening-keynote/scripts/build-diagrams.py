@@ -244,43 +244,45 @@ svg('acim-vs-dcim.svg',1120,470,f'''{math_svg('y=\\sum_i x_i w_i',560,25,25)}<te
 <text x="275" y="441" text-anchor="middle" font-size="20">Strength: exact arithmetic at the chosen bit width</text>
 <rect x="582" y="411" width="526" height="48" rx="7" fill="#fff4e8"/>
 <text x="845" y="441" text-anchor="middle" font-size="21" font-weight="600">ACIM opportunity: lower core energy + area</text>''')
-# Memristor branches connect row voltages to column current collectors.
-cross_body=''
-for j,x in enumerate([180,310,440]):
- cross_body+=f'<path d="M{x} 70V323" stroke="{B}" stroke-width="2.5"/><path d="M{x} 323V346" stroke="{B}" stroke-width="2" marker-end="url(#a)"/>' + math_svg('I_'+str(j+1), x, 369, 25)
-for i,y in enumerate([100,180,260]):
- cross_body+=f'<path d="M62 {y}H482" stroke="white" stroke-width="9"/><path d="M62 {y}H482" stroke="{A}" stroke-width="2.5"/>' + math_svg('v_'+str(i+1), 42, y, 25)
- for j,x in enumerate([180,310,440]):
-  cross_body+=diagonal_memristor(x,y,65,37)
-  # Put conductance labels below each branch, clear of wires and junctions.
-  cross_body+=math_svg('G_{'+str(i+1)+str(j+1)+'}', x-48, y+51, 19)
-# A branch-current arrow occupies the free space to the right of the last cell.
-cross_body+=f'<path d="M458 122V154" stroke="{B}" stroke-width="1.6" marker-end="url(#a)"/>' + math_svg('i_{13}', 490, 140, 20)
-svg('memristor-crossbar.svg',540,450,f'''<text x="76" y="33" font-size="23" font-weight="600">Ohm’s law</text>{math_svg('i_{ij}=v_iG_{ij}', 338, 26, 26)}
+# Physical input rows encode mathematical columns; G[j,i] links v_i to I_j.
+# Vertical device branches and right-angle connections keep the array legible.
+cross_body=f'<rect x="169" y="68" width="22" height="282" rx="11" fill="{P}"/>'
+for j,x in enumerate([180,320,460],1):
+ cross_body+=f'<path d="M{x} 68V338" stroke="{B}" stroke-width="{2.6 if j==1 else 1.7}"/><path d="M{x} 338V350" stroke="{B}" stroke-width="1.7" marker-end="url(#a)"/>'
+ cross_body+=math_svg('I_'+str(j),x,369,25,B if j==1 else T)
+for i,y in enumerate([87,174,261],1):
+ cross_body+=f'<path d="M69 {y}H493" stroke="white" stroke-width="8"/><path d="M69 {y}H493" stroke="{A}" stroke-width="1.7"/>'
+ cross_body+=math_svg('v_'+str(i),40,y,25)
+ for j,x in enumerate([180,320,460],1):
+  tap=x-30
+  cross_body+=f'<path d="M{tap} {y}V{y+62}H{x}" fill="none" stroke="{A}" stroke-width="1.6" stroke-linejoin="round"/>'
+  cross_body+=f'<rect x="{tap-7}" y="{y+17}" width="14" height="28" rx="1.5" fill="white" stroke="{A}" stroke-width="1.6"/><path d="M{tap} {y+17}v5h-4v6h8v6h-8v6h4v5" fill="none" stroke="{A}" stroke-width="1.2"/>'
+  cross_body+=f'<circle cx="{tap}" cy="{y}" r="2.8" fill="{A}"/><circle cx="{x}" cy="{y+62}" r="2.8" fill="{B}"/>'
+  cross_body+=math_svg('G_{'+str(j)+str(i)+'}',tap-29,y+31,18)
+  if i==1 or j==1:
+   cross_body+=f'<path d="M{tap} {y+48}V{y+59}" stroke="{B}" stroke-width="1.4" marker-end="url(#a)"/>'
+   cross_body+=math_svg('i_{'+str(j)+str(i)+'}',x+32,y+60,19,B)
+svg('memristor-crossbar.svg',540,450,f'''<text x="38" y="33" font-size="23" font-weight="600">Ohm’s law</text>{math_svg('i_{ji}=v_iG_{ji}',326,26,26)}
 {cross_body}
-<text x="76" y="424" font-size="23" font-weight="600">KCL</text>{math_svg(r'\textstyle I_j=\sum_i i_{ij}=\sum_i v_iG_{ij}', 316, 418, 24)}''')
-# Explicit anchors attach + to addition and the dot to scalar multiplication.
-# V and F name sets; bold symbols below denote vectors, not scalar entries.
-svg('vector-space-physics.svg',540,450,f'''<text x="48" y="33" font-size="23" font-weight="600">Vector space</text>
-{math_svg(r'(V,F,+,\cdot)', 360, 26, 32)}
-{math_svg(r'V=\mathbb{{R}}^3,\quad F=\mathbb{{R}}', 155, 72, 21)}
-<path d="M385 46V91H135V109" fill="none" stroke="{A}" stroke-width="1.7"/>
-<path d="M416 46V73H405V109" fill="none" stroke="{B}" stroke-width="1.7"/>
-<rect x="12" y="110" width="246" height="226" rx="8" fill="#fff4e8"/>
-<rect x="282" y="110" width="246" height="226" rx="8" fill="{P}"/>
-<text x="135" y="141" text-anchor="middle" font-size="21" font-weight="600">Vector addition</text>
-<text x="405" y="141" text-anchor="middle" font-size="21" font-weight="600">Scalar multiplication</text>
-<path d="M48 255H132" stroke="{A}" stroke-width="2" marker-end="url(#amber)"/>
-<path d="M132 255L215 183" stroke="{A}" stroke-width="2" marker-end="url(#amber)"/>
-<path d="M48 255L215 183" stroke="{B}" stroke-width="2.5" marker-end="url(#a)"/>
-{math_svg(r'\mathbf{i}_1', 90, 274, 22, A)}{math_svg(r'\mathbf{i}_2', 207, 236, 22, A)}{math_svg(r'\mathbf{i}_1+\mathbf{i}_2', 114, 193, 22, B)}
-<path d="M317 238L382 202" stroke="{A}" stroke-width="2" marker-end="url(#amber)"/>
-<path d="M325 267L494 174" stroke="{B}" stroke-width="2.5" marker-end="url(#a)"/>
-{math_svg(r'\mathbf{g}_i', 336, 193, 23, A)}{math_svg(r'v_i\mathbf{g}_i', 457, 245, 23, B)}
-<text x="36" y="316" font-size="20" font-weight="600">KCL</text>{math_svg(r'\textstyle \mathbf{I}=\sum_i\mathbf{i}_i', 171, 311, 21)}
-<text x="297" y="316" font-size="20" font-weight="600">Ohm’s law</text>{math_svg(r'\mathbf{i}_i=v_i\mathbf{g}_i', 459, 309, 21)}
-{math_svg(r'\mathbf{I}=\sum_i v_i\mathbf{g}_i=\mathbf{G}^{\mathsf{T}}\mathbf{v}', 270, 381, 29)}
-{math_svg(r'\mathbf{g}_i=(G_{i1},G_{i2},G_{i3})^{\mathsf{T}}', 270, 431, 23)}''')
+<text x="38" y="404" font-size="23" font-weight="600">KCL</text>{math_svg(r'\textstyle I_j=\sum_i i_{ji}=\sum_i v_iG_{ji}',310,398,23)}
+{math_svg(r'I_1=i_{11}+i_{12}+i_{13}',270,435,24,B)}''')
+# Column expansion: amber scalar multiplication (Ohm), blue vector addition (KCL).
+column_terms=''
+for i,x in enumerate([85,270,455],1):
+ column_terms+=f'<rect x="{x-75}" y="135" width="150" height="126" rx="8" fill="#fff4e8"/>'
+ column_terms+=math_svg(r'v_'+str(i)+r'\begin{bmatrix}G_{1'+str(i)+r'}\\G_{2'+str(i)+r'}\\G_{3'+str(i)+r'}\end{bmatrix}',x,198,24,A)
+for x in [177.5,362.5]:
+ column_terms+=math_svg('+',x,198,34,B)
+svg('vector-space-physics.svg',540,450,f'''<text x="30" y="33" font-size="23" font-weight="600">Column view</text>
+{math_svg(r'\mathbf{G}=[\,\mathbf{g}_1\;\mathbf{g}_2\;\mathbf{g}_3\,]',270,73,31)}
+<text x="270" y="118" text-anchor="middle" style="font-size:20px;font-weight:600;fill:{A}">Ohm’s law · scalar multiplication</text>
+{column_terms}
+<path d="M12 275V285H263L270 293L277 285H528V275" fill="none" stroke="{B}" stroke-width="2"/>
+<text x="270" y="320" text-anchor="middle" style="font-size:21px;font-weight:600;fill:{B}">KCL · vector addition</text>
+{math_svg(r'\textstyle \mathbf{I}=\mathbf{G}\mathbf{v}=\sum_i v_i\mathbf{g}_i',270,361,29,B)}
+<path d="M30 395H510" stroke="{L}" stroke-width="1"/>
+<text x="270" y="415" text-anchor="middle" class="small">Superposition</text>
+{math_svg(r'\mathbf{G}(\alpha\mathbf{v}+\beta\mathbf{u})=\alpha\mathbf{G}\mathbf{v}+\beta\mathbf{G}\mathbf{u}',270,437,23)}''')
 # Regular conceptual fabrics: logic/routing configuration versus conductance programming.
 fpga_fabric=f'<rect x="8" y="6" width="544" height="330" rx="10" fill="white" stroke="{L}" stroke-width="2"/>'
 # Routing channels meet at switch boxes; connection boxes join CLBs to channels.
@@ -308,25 +310,33 @@ for i,y in enumerate([75,155,235]):
   fpma+=math_svg('G_{'+str(i+1)+str(j+1)+'}', x-65, y+50, 17)
 fpma+=f'<rect x="137" y="348" width="36" height="20" fill="#fff4e8" stroke="{A}" stroke-width="1.6"/><path d="M137 358h7v-5h7v10h8v-10h7v5h7" stroke="{A}" stroke-width="1.4" fill="none"/><text x="187" y="363" font-size="16">Programmable conductance</text>'
 svg('fpma-array.svg',560,375,fpma)
-# Training and inference are separated in practice: one side changes the weights inside
-# a loop, the other reads fixed weights along a straight path, and the weights cross the
-# gap once. The feedback path is what the device side does not have.
-svg('training-inference.svg',1140,272,f'''<path d="M570 12V262" stroke="{L}" stroke-width="2" stroke-dasharray="6 8"/>
-<text x="30" y="34" font-size="22" font-weight="600" fill="{T}">Training · data centre</text>
-<text x="600" y="34" font-size="22" font-weight="600" fill="{B}">Inference · device</text>
-<path d="M500 62H596" stroke="{A}" stroke-width="3" marker-end="url(#amber)"/>
-<text x="548" y="50" text-anchor="middle" font-size="16" font-weight="600" fill="{A}">weights</text>
-<rect x="30" y="76" width="150" height="58" rx="9" fill="{P}" stroke="{B}" stroke-width="2"/><text x="105" y="111" text-anchor="middle" font-size="17">Data batches</text>
-<rect x="216" y="76" width="170" height="58" rx="9" fill="{P}" stroke="{B}" stroke-width="2"/><text x="301" y="102" text-anchor="middle" font-size="17">Forward and</text><text x="301" y="122" text-anchor="middle" font-size="17">backward</text>
-<rect x="418" y="76" width="126" height="58" rx="9" fill="{P}" stroke="{B}" stroke-width="2"/><text x="481" y="102" text-anchor="middle" font-size="17">Update</text><text x="481" y="122" text-anchor="middle" font-size="17">weights</text>
-<path d="M184 105H212M390 105H414" stroke="{B}" stroke-width="3" marker-end="url(#a)"/>
-<path d="M481 134V208Q481 216 473 216H113Q105 216 105 208V140" fill="none" stroke="{A}" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#amber)"/>
-<text x="287" y="248" text-anchor="middle" font-size="16" font-weight="600" fill="{A}">every step changes the weights — many passes, data-centre power</text>
-<rect x="616" y="76" width="150" height="58" rx="9" fill="{P}" stroke="{B}" stroke-width="2"/><text x="691" y="111" text-anchor="middle" font-size="17">Sensor input</text>
-<rect x="806" y="76" width="150" height="58" rx="9" fill="{P}" stroke="{B}" stroke-width="2"/><text x="881" y="111" text-anchor="middle" font-size="17">Fixed weights</text>
-<rect x="996" y="76" width="110" height="58" rx="9" fill="{P}" stroke="{B}" stroke-width="2"/><text x="1051" y="111" text-anchor="middle" font-size="17">Answer</text>
-<path d="M770 105H802M960 105H992" stroke="{B}" stroke-width="3" marker-end="url(#a)"/>
-<text x="853" y="248" text-anchor="middle" font-size="16" font-weight="600" fill="{B}">the weights are read, never written — one pass, device power</text>''')
+# The trained weight block connects directly to its frozen deployment copy.
+svg('training-inference.svg',1140,390,f'''<path d="M570 24V369" stroke="{L}" stroke-width="1.5" stroke-dasharray="5 8"/>
+<text x="285" y="43" text-anchor="middle" font-size="25" font-weight="600">Training</text>
+<text x="895" y="43" text-anchor="middle" font-size="25" font-weight="600">Inference</text>
+<rect x="180" y="80" width="210" height="130" rx="13" fill="#fff4e8" stroke="{A}" stroke-width="2.5"/>
+{math_svg(r'\mathbf{W}_t',285,132,44,A)}
+<text x="285" y="184" text-anchor="middle" style="font-size:21px;fill:{A}">Updated</text>
+<rect x="790" y="80" width="210" height="130" rx="13" fill="{P}" stroke="{B}" stroke-width="2.5"/>
+{math_svg(r'\mathbf{W}^{\ast}',883,132,44,B)}
+<g transform="translate(953 103)" fill="none" stroke="{B}" stroke-width="2.4"><path d="M4 12V7a8 8 0 0 1 16 0v5"/><rect x="0" y="12" width="24" height="21" rx="4" fill="white"/><circle cx="12" cy="21" r="2" fill="{B}"/><path d="M12 23v5"/></g>
+<text x="895" y="184" text-anchor="middle" style="font-size:21px;font-weight:600;fill:{B}">Frozen</text>
+<path d="M411 145H768" stroke="{A}" stroke-width="3.3" marker-end="url(#amber)"/>
+<text x="590" y="121" text-anchor="middle" style="font-size:23px;font-weight:600;fill:{A}">Freeze &amp; deploy</text>
+<path d="M285 214V265" stroke="{B}" stroke-width="2.5" marker-end="url(#a)"/><path d="M895 214V265" stroke="{B}" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="20" y="282" width="90" height="50" rx="8" fill="white" stroke="{B}" stroke-width="1.8"/><text x="65" y="313" text-anchor="middle" font-size="19">Data</text>
+<rect x="150" y="270" width="270" height="74" rx="10" fill="white" stroke="{B}" stroke-width="2"/><text x="285" y="314" text-anchor="middle" font-size="23">Forward + backward</text>
+<path d="M114 307H146" stroke="{B}" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M424 307H478Q486 307 486 299V237Q486 229 478 229H358Q350 229 350 221V214" fill="none" stroke="{A}" stroke-width="2.5" marker-end="url(#amber)"/>
+<text x="435" y="260" text-anchor="middle" style="font-size:19px;fill:{A}">Update</text>
+<rect x="650" y="282" width="95" height="50" rx="8" fill="white" stroke="{B}" stroke-width="1.8"/>
+{math_svg('x',697.5,307,27)}
+<rect x="790" y="270" width="210" height="74" rx="10" fill="white" stroke="{B}" stroke-width="2"/>
+{math_svg(r'f(x;\mathbf{W}^{\ast})',895,307,29,B)}
+<rect x="1035" y="282" width="85" height="50" rx="8" fill="white" stroke="{B}" stroke-width="1.8"/>
+{math_svg('y',1077.5,307,27)}
+<path d="M749 307H786" stroke="{B}" stroke-width="2.5" marker-end="url(#a)"/><path d="M1004 307H1031" stroke="{B}" stroke-width="2.5" marker-end="url(#a)"/>
+''')
 # Compare the memory-device framing with our computation-first design approach.
 svg('memory-first-vs-compute-first.svg',1120,490,f'''<text x="318" y="26" text-anchor="middle" font-size="18" fill="{M}">STARTING POINT</text>
 <text x="664" y="26" text-anchor="middle" font-size="18" fill="{M}">DESIGN QUESTION</text>

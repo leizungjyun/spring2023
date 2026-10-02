@@ -1,0 +1,122 @@
+{
+  "errors": [],
+  "slides": [
+    {
+      "number": 13,
+      "checks": [
+        {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "title": "Resistive ACIM implements a linear transformation",
+          "broken": 0,
+          "figures": [
+            {
+              "src": "media/diagrams/memristor-crossbar.svg",
+              "inside": true
+            },
+            {
+              "src": "media/diagrams/vector-space-physics.svg",
+              "inside": true
+            }
+          ]
+        },
+        {
+          "viewport": {
+            "width": 1000,
+            "height": 700
+          },
+          "title": "Resistive ACIM implements a linear transformation",
+          "broken": 0,
+          "figures": [
+            {
+              "src": "media/diagrams/memristor-crossbar.svg",
+              "inside": true
+            },
+            {
+              "src": "media/diagrams/vector-space-physics.svg",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "checks": [
+        {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "title": "Do we really need the memristor?",
+          "broken": 0,
+          "figures": [
+            {
+              "src": "media/diagrams/fpga-fabric.svg",
+              "inside": true
+            },
+            {
+              "src": "media/diagrams/fpma-array.svg",
+              "inside": true
+            }
+          ]
+        },
+        {
+          "viewport": {
+            "width": 1000,
+            "height": 700
+          },
+          "title": "Do we really need the memristor?",
+          "broken": 0,
+          "figures": [
+            {
+              "src": "media/diagrams/fpga-fabric.svg",
+              "inside": true
+            },
+            {
+              "src": "media/diagrams/fpma-array.svg",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "checks": [
+        {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "title": "Train the weights. Freeze them for inference.",
+          "broken": 0,
+          "figures": [
+            {
+              "src": "media/diagrams/training-inference.svg",
+              "inside": true
+            }
+          ]
+        },
+        {
+          "viewport": {
+            "width": 1000,
+            "height": 700
+          },
+          "title": "Train the weights. Freeze them for inference.",
+          "broken": 0,
+          "figures": [
+            {
+              "src": "media/diagrams/training-inference.svg",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "previous": "Do we really need the memristor?",
+  "next": "From memory to compute: change the starting point"
+}

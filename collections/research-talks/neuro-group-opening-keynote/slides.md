@@ -177,17 +177,19 @@ The honest summary of the brief's pair is therefore: the advantage — area alre
 ==
 
 <!-- .slide: class="crossbar-slide" -->
-## A memristor array computes with two circuit laws
+## Resistive ACIM implements a linear transformation
 
 <div class="two-columns crossbar-columns">
-<div><img class="crossbar-figure" src="media/diagrams/memristor-crossbar.svg" alt="Three by three crossbar with diagonal memristor branches connecting each horizontal word line to a vertical bit line. Ohm’s law: i ij equals v i G ij. KCL: I j equals the sum of branch currents."></div>
-<div><img class="crossbar-figure" src="media/diagrams/vector-space-physics.svg" alt="Vector space is the four-tuple V, F, vector addition and scalar multiplication. Connectors link plus to vector addition and the multiplication dot to scalar multiplication. Bold vectors illustrate KCL and Ohm’s law, forming I equals the sum of v i times conductance vector g i."></div>
+<div><img class="crossbar-figure" src="media/diagrams/memristor-crossbar.svg" alt="Three by three crossbar with vertical memristor branches and right-angle connections linking horizontal input lines to vertical current collectors. The first collector is highlighted. Conductance G ji connects input voltage v i to output current I j. Ohm’s law: i ji equals v i G ji. Blue branch-current arrows mark i11, i21 and i31 from input v1, and i12 and i13 into output I1. KCL: I j equals the sum over i of i ji; I1 equals i11 plus i12 plus i13."></div>
+<div><img class="crossbar-figure" src="media/diagrams/vector-space-physics.svg" alt="Column view of matrix-vector multiplication. G has columns g1, g2 and g3. Ohm’s law scales each column by its input voltage; KCL adds the three current vectors componentwise. I equals G v equals the sum of v i g i. The superposition equation shows linearity."></div>
 </div>
-<p class="takeaway">That’s how physics does the math.</p>
+<p class="takeaway">Ohm’s law scales each column; KCL sums the vectors.</p>
 
 Note:
-A vector space is the four-tuple (V, F, +, ·): a set of vectors, a scalar field, vector addition, and scalar multiplication, satisfying the vector-space axioms. Here the ideal mathematical model uses real vectors and real scalars. For row i, define the column conductance vector g_i = (G_i1, G_i2, G_i3)ᵀ. Bold symbols denote vectors and the conductance matrix; scalar entries remain italic. Applying scalar voltage v_i gives the current vector i_i = v_i g_i by Ohm’s law. Kirchhoff’s current law adds these vectors componentwise on the columns: I = sum_i v_i g_i. In the row-input convention shown, I = Gᵀv. The circuit implements the two operations; it does not by itself establish the vector-space axioms. Physical ranges are bounded and conductances are nonnegative; arbitrary signed weights require a differential encoding.
-The crossbar places each memristor symbol diagonally between a horizontal word-line tap and a vertical bit line. Unmarked row/column crossings are not junctions; dots mark the device’s connections. This is a conceptual 3 × 3 schematic, not a measured array. During readout, conductances are assumed fixed and approximately ohmic, and columns are held near virtual ground. Wire resistance, device variation, drift, nonlinear response and finite readout precision cause departures from the ideal. Peripheral drive and sensing circuits are omitted.
+Resistive analog in-memory computing implements a linear map from the input-voltage vector to the output-current vector. Use output-first matrix indexing: G_{ji} is the conductance from input i to output j, so G is m by n and I = Gv. The mathematical column g_i = (G_{1i}, …, G_{mi})ᵀ contains all conductances driven by input v_i. Ohm’s law gives the current contribution v_i g_i; KCL sums these contributions componentwise, I = sum_i v_i g_i. The diagram expands a three-input, three-output example. Bold symbols are matrices or vectors; v_i and G_{ji} are scalars.
+The left schematic keeps inputs on physical horizontal rows and current collectors on physical vertical columns. Thus physical input row i represents mathematical matrix column i; physical output column j represents matrix row j. Its labels use G_{ji} consistently with the right diagram. The branch arrows mark i_{11}, i_{21}, i_{31} produced by input v_1, and i_{12}, i_{13} feeding the first collector; I_1 = i_{11} + i_{12} + i_{13} makes one KCL sum explicit. The physical drawing orientation does not determine the matrix indexing convention.
+For fixed G, superposition gives G(αv + βu) = αGv + βGu: this is the linearity of the map, including when the input and output dimensions differ. The depicted single-ended conductances are nonnegative; signed effective weights need differential encoding. The relation assumes signals and their combinations stay within the linear readout range.
+The crossbar connects a vertical memristor branch from each horizontal input-line tap to a vertical current collector through a right-angle wire. The first collector is highlighted to focus the KCL example. Unmarked row/column crossings are not junctions; dots mark the device’s connections. This is a conceptual 3 × 3 schematic, not a measured array. During readout, conductances are assumed fixed and approximately ohmic, and columns are held near virtual ground. Wire resistance, device variation, drift, nonlinear response and finite readout precision cause departures from the ideal. Peripheral drive and sensing circuits are omitted.
 
 ==
 
@@ -226,16 +228,15 @@ The FPMA schematic places a memristor symbol on each diagonal branch from a hori
 ==
 
 <!-- .slide: class="split-slide" -->
-## Training and inference separate in practice
+## Train the weights. Freeze them for inference.
 
-<img class="split-figure" src="media/diagrams/training-inference.svg" alt="Left, training: data batches, a forward and backward pass, and a weight update, with a dashed amber feedback path from the update back to the start. Right, inference: a straight chain from sensor input through fixed weights to an answer. A single amber arrow labelled weights crosses the dashed divider between them.">
-<div class="split-points"><p><strong>Training</strong> runs the data through thousands of times and writes the weights at every step, where the power and the data are.</p><p><strong>Inference</strong> runs one pass with weights that do not change, where the signal is.</p></div>
-<p class="takeaway">The weights cross the gap once; the device that runs them only ever reads.</p>
+<img class="split-figure" src="media/diagrams/training-inference.svg" alt="Training updates W_t through a forward-and-backward loop. A direct arrow labelled Freeze and deploy connects the training weight block to the inference weight block W star, marked Frozen with a lock. Inference reads those fixed weights to map input x to output y, with no update path.">
+<p class="takeaway">Update during training. Keep fixed during inference.</p>
 
 Note:
-The brief's key point is that AI applications show a training/inference separation, and the figure is the deck's drawing of it. The left side is a loop: forward pass, backward pass, update, repeat over the dataset, with the weights changing at every iteration. The right side is a chain: an input arrives, fixed weights are applied once, an answer comes out. The one-way amber arrow across the divider is the trained model — the weights — moving from the first setting to the second.
-The timing figures on the figure are indicative, not measured: training runs for days to weeks over many passes, and a single inference runs in milliseconds, and both depend on the model, the hardware and the batch. Do not read the figure as a benchmark. The energy argument is the same shape and is also qualitative: the training loop repeatedly moves the whole weight set and the activations, at data-centre scale, while inference touches each weight once per pass.
-"Separate in practice" is deliberately weaker than the brief's 必然, inevitably. This separation is the dominant way AI is deployed — a model is trained, then shipped and run — but it is not a law of the field: on-device training, fine-tuning, continual learning and federated learning all put weight updates on the endpoint, and some of them matter. What the slide claims is the common case and the reason a fixed-weight array is a reasonable target: for the applications we are aiming at, the device is the inference side, and the separation is what makes that a small problem rather than a whole training system.
+Training updates W_t through repeated forward and backward passes. The amber feedback arrow returns from that computation to the training weight block. Once training finishes, a selected parameter set W* is frozen and deployed. The amber transfer arrow connects the two weight blocks directly: the inference side uses a deployment copy of the trained parameters, not a newly learned set.
+The lock and Frozen label mean W* stays fixed while this model performs inference: y = f(x; W*). The inference flow reads the weights and has no optimizer update path. These arrows describe logical dependency, not physical wiring or measured timing. Mapping weights into an analog array may require encoding, programming and calibration, which are omitted from the conceptual drawing.
+This slide describes fixed-weight inference. A later model update, fine-tuning or continual learning can change the parameters in a separate update process. Training and inference can each run on servers or on endpoint devices; the diagram does not impose a location or claim a hardware performance result.
 
 ==
 

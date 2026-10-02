@@ -89,11 +89,12 @@ Key point: both array-based routes reuse area the chip already has, and both com
 
 ===
 
-**Slide 13 · A memristor array computes with two circuit laws**
-Key point: the weight is a conductance, so the multiplication happens at the crossing and the addition on the wire.
+**Slide 13 · Resistive ACIM implements a linear transformation**
+Key point: a linear transformation is a linear combination of matrix columns. Ohm’s law provides scalar multiplication; KCL provides componentwise vector addition.
 
-- **Figure (left) — draw:** a small crossbar with the conductance symbol at every crossing, rows labelled V₁–V₃ under an "Inputs" marker, each column ending in a summation node with an output I₁–I₃, and one crossing ringed in amber. Two heading lines inside the figure: Ohm's law at every crossing, Kirchhoff's current law at every column. Three by three for legibility; not a real array size.
-- **Text (right) — build:** one paragraph per law, plus one line saying the weights never move. No measured values.
+- **Figure (left):** three-by-three physical crossbar with input voltages v_i and output currents I_j. Label the connecting conductances G_{ji}, using output-first matrix indexing. Physical input rows represent mathematical matrix columns; the circuit uses vertical device branches, right-angle wiring and marked junctions. Highlight the first collector and show I₁ = i₁₁ + i₁₂ + i₁₃ as the KCL example.
+- **Figure (right):** G = [g₁ g₂ g₃], three voltage-scaled conductance columns joined by plus signs, and I = Gv = Σᵢ vᵢgᵢ. Use concise Ohm/KCL labels and the superposition equation. Remove the vector-space four-tuple.
+- **Notes:** explain index orientation, linearity, fixed approximately ohmic readout, virtual ground and signed-weight encoding. No measured performance claim.
 
 ===
 
@@ -115,12 +116,12 @@ Key point: the brief's analogy — a memristor array is to analogue computing wh
 
 ===
 
-**Slide 16 · Training and inference separate in practice**
-Key point: training writes the weights inside a loop; inference reads fixed weights once.
+**Slide 16 · Train the weights. Freeze them for inference.**
+Key point: training updates W_t; inference uses a frozen deployment copy W*.
 
-- **Figure — draw:** a wide two-sided diagram. Left, "Training · data centre": data batches → forward and backward → update weights, with a dashed amber feedback path closing the loop, and a line below reading "every step changes the weights — many passes, data-centre power". Right, "Inference · device": sensor input → fixed weights → answer, with "the weights are read, never written — one pass, device power". A dashed divider between the halves, crossed once by an amber arrow labelled "weights".
-- **Text (below) — build:** one line per side, keyed to the figure.
-- **Takeaway — build:** the weights cross the gap once; the device that runs them only ever reads. The slide says "in practice" rather than the brief's 必然, and the notes say why.
+- **Figure:** two prominent weight blocks linked directly by a Freeze & deploy arrow. Training has a forward/backward loop returning to its weight block. Inference has a lock, Frozen label and x → f(x; W*) → y flow without an update loop.
+- **Visible text:** short diagram labels and one takeaway only. Speaking detail stays in notes.
+- **Scope:** fixed-weight inference for one deployed model; later model updates remain possible.
 
 ===
 
