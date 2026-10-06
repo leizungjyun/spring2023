@@ -7,26 +7,18 @@ Note:
 
 ===
 
-<!-- .slide: class="task-slide" data-part="II · 背景" -->
+<!-- .slide: class="background-merged" data-part="II · 背景" -->
 
 ## 给定风格，生成所需文字
 
-<a class="figure-preview" href="media/figures/fontify/whattodo.png" role="button" aria-haspopup="dialog"><img src="media/figures/fontify/whattodo.png" alt="参考风格与目标文字生成任务" style="height:350px"></a><div class="logo-examples"><figure><img src="media/figures/background/sece-logo.png" alt="中山大学电子与通信工程学院标识"></figure><figure><img src="media/figures/background/sysu-7-logo.svg" alt="七院标识"></figure></div>
+<div class="background-grid"><div class="background-task"><a class="figure-preview" href="media/figures/fontify/whattodo.png" role="button" aria-haspopup="dialog"><img src="media/figures/fontify/whattodo.png" alt="参考风格与目标文字生成任务"></a><div class="logo-examples"><figure><img src="media/figures/background/sece-logo.png" alt="中山大学电子与通信工程学院标识"></figure><figure><img src="media/figures/background/sysu-7-logo.svg" alt="七院标识"></figure></div></div><figure class="background-negative"><a class="figure-preview" href="media/figures/background/GPT-negative.png" role="button" aria-haspopup="dialog"><img src="media/figures/background/GPT-negative.png" alt="GPT-4o早期春联生成负面示例"></a><figcaption>GPT-4o 生成示例</figcaption></figure></div><p class="takeaway">似是而非，先把字写对</p>
 
 Note:
 来源：Fontify: One-Shot Font Generation via In-Context Learning；KBS/cas-dc-template.tex、sec/3_method.tex、sec/4_eval.tex。图表与数值以用户指定的KBS稿件为准。
 先请听众看任务图：参考“夜”的风格，生成“螳螂捕蝉”。用户提供的两幅院系标识用于说明手写标题与电脑字形混用的实际需求；缺字原因来自用户叙述，不从标识独立推断。长期解决方案是从风格示例生成缺失字形，而不依赖逐字搜集。
 
-==
-
-<!-- .slide: data-part="II · 背景" -->
-
-## 生成画面，还需要生成正确的字
-
-<div class="split gpt-example"><a class="figure-preview" href="media/figures/background/GPT-negative.png" role="button" aria-haspopup="dialog"><img src="media/figures/background/GPT-negative.png" alt="用户提供的早期GPT春联生成截图" style="height:480px"></a><div class="callout"><h3>看起来像春联</h3><p>文字内容没有可靠遵循指令。</p><p>字形出现错写与不可辨认的组合。</p><p class="warm">画面风格 ≠ 文字与笔法正确</p></div></div>
-
-Note:
 用户提供的历史示例：media/figures/background/GPT-negative.png。截图指令包含“龙腾盛世辞旧岁”“蛇舞新春贺丰年”“福满人间”，输出与之不符。它说明当时这一例子的文字约束问题；不将其表述为当前GPT能力评估。可对照提示词与实际图中墨迹，请听众观察文字内容和字形的差异。
+截图模型为GPT-4o，由用户确认。新布局将任务、混合字形标识与历史负面示例放在同一页；简短结论强调文字约束和字形正确性。
 
 ===
 

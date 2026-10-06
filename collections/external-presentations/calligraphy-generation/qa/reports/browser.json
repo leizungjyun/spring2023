@@ -1,6 +1,6 @@
 {
   "initial": {
-    "count": 19,
+    "count": 18,
     "plugins": [
       "annotations",
       "markdown",
@@ -17,12 +17,6 @@
     },
     {
       "title": "给定风格，生成所需文字",
-      "notes": true,
-      "images": true,
-      "overflow": []
-    },
-    {
-      "title": "生成画面，还需要生成正确的字",
       "notes": true,
       "images": true,
       "overflow": []
