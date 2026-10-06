@@ -23,6 +23,7 @@ export default class Print {
 
 		// Compute slide numbers now, before we start duplicating slides
 		const doingSlideNumbers = config.slideNumber && /all|print/i.test( config.showSlideNumber );
+		const slideNumbers = slides.map( slide => doingSlideNumbers && !slide.classList.contains( 'stack' ) ? this.Reveal.slideNumber.getSlideNumber( slide ) : '' );
 
 		const slideSize = this.Reveal.getComputedSlideSize( window.innerWidth, window.innerHeight );
 
@@ -148,11 +149,10 @@ export default class Print {
 
 				// Inject slide numbers if `slideNumbers` are enabled
 				if( doingSlideNumbers ) {
-					const slideNumber = index + 1;
 					const numberElement = document.createElement( 'div' );
 					numberElement.classList.add( 'slide-number' );
 					numberElement.classList.add( 'slide-number-pdf' );
-					numberElement.innerHTML = slideNumber;
+					numberElement.innerHTML = slideNumbers[ index ];
 					page.appendChild( numberElement );
 				}
 

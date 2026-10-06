@@ -6,7 +6,7 @@
 .reveal h1 { font-size: 58px; line-height: 1.3; letter-spacing: -1px; color: var(--blue); }
 .reveal h2 { font-size: 37px; line-height: 1.3; color: var(--blue); margin: 0 0 26px; font-weight: 650; }
 .reveal .slides section.cover { padding: 64px 40px 42px; }
-.reveal .cover h1 { font-size: 54px; line-height: 1.28; letter-spacing: 0; margin: 73px 0 33px; }
+.reveal .cover h1 { font-size: 54px; line-height: 1.28; letter-spacing: 0; margin: 0 0 16px; }
 
 /* Team layout adapted from the single-track deck, with one upright patent. */
 :root { --amber: #854700; --muted: #526372; --line: #72808a; }
@@ -90,9 +90,9 @@
 .reveal .composition-evidence {grid-template-columns:1.2fr 1fr;}
 .reveal .composition-evidence figcaption {text-align:center;}
 .reveal .dataset {grid-template-columns:250px 1fr;gap:60px;}
-.reveal .stats {display:grid;grid-template-columns:1fr 1fr;gap:30px;}
+.reveal .stats {display:grid;grid-template-columns:1fr 1fr;gap:22px 30px;}
 .reveal .stats div {border-top:2px solid #b8cbd7;padding-top:18px;}
-.reveal .stats strong {display:block;font-size:61px;line-height:1.3;color:var(--blue);font-weight:600;}
+.reveal .stats strong {display:block;white-space:nowrap;font-size:50px;line-height:1.3;color:var(--blue);font-weight:600;}
 .reveal .stats span {font-size:22px;color:var(--muted);}
 .reveal .taxonomy {font-size:26px;color:var(--amber);margin-top:30px;}
 .reveal .training-strip {display:flex;align-items:center;justify-content:space-between;gap:15px;background:#eef5f9;padding:20px 23px;font-size:24px;margin:12px 0 30px;}
@@ -108,3 +108,40 @@
 .reveal .scaling h3 {color:var(--blue);margin:20px 0 8px;}
 .reveal .scaling p {font-size:23px;color:var(--muted);}
 .reveal .slide-number {font-family:inherit;background:transparent;color:#526372;font-size:15px;right:18px;bottom:12px;}
+
+.reveal .seen-content-table .glyph-table th {width:110px;font-size:18px;}
+.reveal .seen-content-table .glyph-table td {padding:3px 2px;}
+
+.reveal .complete-style-table th {width:110px;font-size:18px;}
+.reveal .complete-style-table td {padding:3px 2px;}
+
+.reveal .metrics .metric-table td,.reveal .metrics .metric-table thead th {text-align:left;}
+.reveal .metrics .metric-table b {font-weight:750;}
+.reveal .metrics .metric-table u {text-underline-offset:3px;}
+
+.reveal .cover-institutions {font-size:27px;color:var(--muted);margin:0 0 30px;}
+.reveal .cover-teaser img {height:330px;}
+.reveal .cover-date {font-size:23px;color:var(--muted);text-align:center;margin-top:25px;}
+
+/* Cover follows the external neuro deck's hero and affiliation layout. */
+.reveal .cover .cover-hero {display:grid;grid-template-columns:720px 1fr;gap:48px;align-items:center;margin:65px 0 52px;}
+.reveal .cover .cover-hero h1 {font-size:48px;line-height:1.45;margin:0;letter-spacing:-1px;}
+.reveal .cover .cover-hero figure {display:flex;justify-content:center;}
+.reveal .cover .cover-hero img {width:300px;height:auto;display:block;}
+.reveal .cover-bottom {display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:25px;font-size:23px;}
+.reveal .cover .cover-date {font-size:21px;text-align:left;margin:14px 0 0;color:var(--muted);}
+
+.reveal .cover .cover-hero {min-height:470px;margin:30px 0 0;}
+.reveal .cover .cover-presenters {font-size:25px;margin:35px 0 14px;}
+.reveal .cover .cover-institutions {font-size:24px;color:var(--muted);margin:0;}
+.reveal .cover .cover-date {font-size:21px;margin:14px 0 0;}
+
+.reveal .cover .cover-cropped-teaser {display:block;width:300px;height:164.75px;overflow:hidden;}
+.reveal .cover .cover-cropped-teaser img {display:block;width:300px;max-width:none;height:164.75px;object-fit:cover;object-position:left center;}
+
+.reveal .cover .cover-hero {grid-template-columns:420px 1fr;gap:48px;min-height:410px;margin:20px 0 35px;}
+.reveal .cover .cover-hero h1 {font-size:64px;line-height:1.35;}
+.reveal .cover .cover-hero img {width:600px;max-width:100%;height:auto;object-fit:contain;}
+.reveal .cover-meta {text-align:center;border-top:1px solid var(--line);padding-top:25px;font-size:23px;color:var(--text);white-space:nowrap;}
+/* Keep print pagination separate from the interactive slide counter. */
+html.print-pdf .patent-viewer {display:none!important;}

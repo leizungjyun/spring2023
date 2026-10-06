@@ -1,6 +1,6 @@
 {
   "initial": {
-    "count": 18,
+    "count": 17,
     "plugins": [
       "annotations",
       "markdown",
@@ -10,7 +10,7 @@
   },
   "slides": [
     {
-      "title": "书法生成",
+      "title": "书法生成模型与数据",
       "notes": true,
       "images": true,
       "overflow": []
@@ -22,25 +22,25 @@
       "overflow": []
     },
     {
-      "title": "把字体生成变成图像补全",
+      "title": "少样本字体生成，化为上下文学习",
       "notes": true,
       "images": true,
       "overflow": []
     },
     {
-      "title": "从大量字体中学习可迁移的生成能力",
+      "title": "训练过程：把字体生成变成图像补全",
       "notes": true,
       "images": true,
       "overflow": []
     },
     {
-      "title": "一个参考字，迁移一种风格",
+      "title": "熟悉的风格，生成未见的字",
       "notes": true,
       "images": true,
       "overflow": []
     },
     {
-      "title": "生成效果：逐字比较",
+      "title": "未见的风格，迁移到熟悉的字",
       "notes": true,
       "images": true,
       "overflow": []
@@ -52,25 +52,19 @@
       "overflow": []
     },
     {
-      "title": "手写书法打破了规则字形的对应关系",
+      "title": "难例分析: 手写书法打破了规则字形的对应关系",
       "notes": true,
       "images": true,
       "overflow": []
     },
     {
-      "title": "从书法家的先验出发",
+      "title": "从书法家的先验出发: 笔法、结体",
       "notes": true,
       "images": true,
       "overflow": []
     },
     {
-      "title": "笔法：起笔、行笔、收笔",
-      "notes": true,
-      "images": true,
-      "overflow": []
-    },
-    {
-      "title": "结体：笔画之间的空间关系",
+      "title": "笔法与结体：把书法先验变成标注",
       "notes": true,
       "images": true,
       "overflow": []
@@ -82,13 +76,13 @@
       "overflow": []
     },
     {
-      "title": "标注如何帮助生成",
+      "title": "书法标注的收益：已见风格，未见文字",
       "notes": true,
       "images": true,
       "overflow": []
     },
     {
-      "title": "生成收益与泛化边界",
+      "title": "泛化到新风格：未见风格，已见文字",
       "notes": true,
       "images": true,
       "overflow": []
@@ -119,7 +113,7 @@
     }
   ],
   "errors": [],
-  "glyphCells": 72,
+  "glyphCells": 168,
   "people": [
     "朱祥维",
     "李颂元",
