@@ -1,0 +1,138 @@
+{
+  "initial": {
+    "count": 19,
+    "plugins": [
+      "annotations",
+      "markdown",
+      "notes"
+    ],
+    "vertical": true
+  },
+  "slides": [
+    {
+      "title": "书法生成",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "给定风格，生成所需文字",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "生成画面，还需要生成正确的字",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "把字体生成变成图像补全",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "从大量字体中学习可迁移的生成能力",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "一个参考字，迁移一种风格",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "生成效果：逐字比较",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "两种泛化场景下的结果",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "手写书法打破了规则字形的对应关系",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "从书法家的先验出发",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "笔法：起笔、行笔、收笔",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "结体：笔画之间的空间关系",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "已完成的标注规模",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "标注如何帮助生成",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "生成收益与泛化边界",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "继续扩大标注",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "把写字重述为笔的导航",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "从笔法、结体走向章法",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    },
+    {
+      "title": "团队",
+      "notes": true,
+      "images": true,
+      "overflow": []
+    }
+  ],
+  "errors": [],
+  "glyphCells": 72,
+  "people": [
+    "朱祥维",
+    "李颂元",
+    "王腾"
+  ],
+  "figureViewer": true,
+  "patentViewer": true,
+  "navigation": true,
+  "overview": true
+}

@@ -1,0 +1,237 @@
+{
+  "fontifySource": "/Users/leizungjyun/Documents/CPNT/iccv2025/font-generation/KBS",
+  "calliphaseSource": "/Users/leizungjyun/Downloads/AuthorKit27-v2/main(15).tex",
+  "assets": [
+    {
+      "derived": "bifa-panel.png",
+      "source": "Intro3_cropped.png",
+      "normalizedCrops": [
+        [
+          0.167,
+          0.11,
+          0.44,
+          0.417
+        ],
+        [
+          0.211,
+          0.435,
+          0.438,
+          0.668
+        ]
+      ],
+      "layout": "Original annotation panels arranged vertically with white spacing; no glyph content altered."
+    },
+    {
+      "derived": "jieti-panel.png",
+      "source": "Intro3_cropped.png",
+      "normalizedCrop": [
+        0.21,
+        0.7,
+        0.438,
+        0.995
+      ]
+    },
+    {
+      "derived": "scripts-panel.png",
+      "source": "Intro3_cropped.png",
+      "normalizedCrop": [
+        0,
+        0.1,
+        0.105,
+        1
+      ]
+    },
+    {
+      "derived": "heng-phases.png",
+      "source": "strokes_grid.png",
+      "normalizedCrop": [
+        0,
+        0,
+        0.257,
+        0.49
+      ]
+    },
+    {
+      "derived": "fontify-seen.png",
+      "source": "Table3_cropped.png",
+      "normalizedCrop": [
+        0,
+        0.62,
+        1,
+        1
+      ]
+    },
+    {
+      "derived": "fontify-unseen.png",
+      "source": "Table4_cropped.png",
+      "normalizedCrop": [
+        0,
+        0.625,
+        0.415,
+        1
+      ]
+    },
+    {
+      "table": "comparison_pic.tex",
+      "row": "Content",
+      "paths": [
+        "pic/source/fen.png",
+        "pic/source/jiao.png",
+        "pic/source/lu.png",
+        "pic/source/ba.png",
+        "pic/source/can.png",
+        "pic/source/bian.png",
+        "pic/source/hao.png",
+        "pic/source/bo.png",
+        "pic/source/jian.png"
+      ]
+    },
+    {
+      "table": "comparison_pic.tex",
+      "row": "LF-Font",
+      "paths": [
+        "pic/scus/Fang/fen-l.png",
+        "pic/scus/Fang/jiao-l.png",
+        "pic/scus/Fang/lu-l.png",
+        "pic/scus/Font/ba-l.png",
+        "pic/scus/Font/can-l.png",
+        "pic/scus/Font/bian-l.png",
+        "pic/scus/Hong/hao-l.png",
+        "pic/scus/Hong/bo-l.png",
+        "pic/scus/Hong/jian-l.png"
+      ]
+    },
+    {
+      "table": "comparison_pic.tex",
+      "row": "FUNIT",
+      "paths": [
+        "pic/scus/Fang/fen-f.png",
+        "pic/scus/Fang/jiao-f.png",
+        "pic/scus/Fang/lu-f.png",
+        "pic/scus/Font/ba-f.png",
+        "pic/scus/Font/can-f.png",
+        "pic/scus/Font/bian-f.png",
+        "pic/scus/Hong/hao-f.png",
+        "pic/scus/Hong/bo-f.png",
+        "pic/scus/Hong/jian-f.png"
+      ]
+    },
+    {
+      "table": "comparison_pic.tex",
+      "row": "MX-Font",
+      "paths": [
+        "pic/scus/Fang/fen-m.png",
+        "pic/scus/Fang/jiao-m.png",
+        "pic/scus/Fang/lu-m.png",
+        "pic/scus/Font/ba-m.png",
+        "pic/scus/Font/can-m.png",
+        "pic/scus/Font/bian-m.png",
+        "pic/scus/Hong/hao-m.png",
+        "pic/scus/Hong/bo-m.png",
+        "pic/scus/Hong/jian-m.png"
+      ]
+    },
+    {
+      "table": "comparison_pic.tex",
+      "row": "FontDiffuser",
+      "paths": [
+        "pic/scus/Fang/fen-dif.png",
+        "pic/scus/Fang/jiao-dif.png",
+        "pic/scus/Fang/lu-dif.png",
+        "pic/scus/Font/ba-dif.png",
+        "pic/scus/Font/can-dif.png",
+        "pic/scus/Font/bian-dif.png",
+        "pic/scus/Hong/hao-dif.png",
+        "pic/scus/Hong/bo-dif.png",
+        "pic/scus/Hong/jian-dif.png"
+      ]
+    },
+    {
+      "table": "comparison_pic.tex",
+      "row": "MSD-Font",
+      "paths": [
+        "pic/scus/Fang/fen-msd.png",
+        "pic/scus/Fang/jiao-msd.png",
+        "pic/scus/Fang/lu-msd.png",
+        "pic/scus/Font/ba-msd.png",
+        "pic/scus/Font/can-msd.png",
+        "pic/scus/Font/bian-msd.png",
+        "pic/scus/Hong/hao-msd.png",
+        "pic/scus/Hong/bo-msd.png",
+        "pic/scus/Hong/jian-msd.png"
+      ]
+    },
+    {
+      "table": "comparison_pic.tex",
+      "row": "Ours",
+      "paths": [
+        "pic/scus/Fang/fen-p.png",
+        "pic/scus/Fang/jiao-p.png",
+        "pic/scus/Fang/lu-p.png",
+        "pic/scus/Font/ba-p.png",
+        "pic/scus/Font/can-p.png",
+        "pic/scus/Font/bian-p.png",
+        "pic/scus/Hong/hao-p.png",
+        "pic/scus/Hong/bo-p.png",
+        "pic/scus/Hong/jian-p.png"
+      ]
+    },
+    {
+      "table": "comparison_pic.tex",
+      "row": "GT",
+      "paths": [
+        "pic/scus/Fang/fen-gt.png",
+        "pic/scus/Fang/jiao-gt.png",
+        "pic/scus/Fang/lu-gt.png",
+        "pic/scus/Font/ba-gt.png",
+        "pic/scus/Font/can-gt.png",
+        "pic/scus/Font/bian-gt.png",
+        "pic/scus/Hong/hao-gt.png",
+        "pic/scus/Hong/bo-gt.png",
+        "pic/scus/Hong/jian-gt.png"
+      ]
+    },
+    {
+      "table": "comparison_cursive.tex",
+      "row": 0,
+      "paths": [
+        "pic/cursive/mo.png",
+        "pic/cursive/mo-l.png",
+        "pic/cursive/mo-f.png",
+        "pic/cursive/mo-m.png",
+        "pic/cursive/mo-dif.png",
+        "pic/cursive/mo-msd.png",
+        "pic/cursive/mo-o.png",
+        "pic/cursive/mo-gt.png"
+      ]
+    },
+    {
+      "table": "comparison_cursive.tex",
+      "row": 1,
+      "paths": [
+        "pic/cursive/yue.png",
+        "pic/cursive/yue-l.png",
+        "pic/cursive/yue-f.png",
+        "pic/cursive/yue-m.png",
+        "pic/cursive/yue-dif.png",
+        "pic/cursive/yue-msd.png",
+        "pic/cursive/yue-o.png",
+        "pic/cursive/yue-gt.png"
+      ]
+    },
+    {
+      "table": "comparison_cursive.tex",
+      "row": 2,
+      "paths": [
+        "pic/cursive/zhou.png",
+        "pic/cursive/zhou-l.png",
+        "pic/cursive/zhou-f.png",
+        "pic/cursive/zhou-m.png",
+        "pic/cursive/zhou-dif.png",
+        "pic/cursive/zhou-msd.png",
+        "pic/cursive/zhou-o.png",
+        "pic/cursive/zhou-gt.png"
+      ]
+    }
+  ]
+}

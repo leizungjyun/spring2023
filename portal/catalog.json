@@ -540,6 +540,23 @@
       "status": "draft",
       "classificationReason": "User requested a new Research talks presentation introducing neuroscience and brain-inspired AI.",
       "reviewNote": "Eight-slide English opening keynote by LI Shaun, based on docs/brief.md; white theme, local interactive compute chart, and annotations enabled. Working title retained."
+    },
+    {
+      "id": "calligraphy-generation",
+      "title": "书法生成",
+      "collection": "external-presentations",
+      "tags": [
+        "calligraphy",
+        "AI",
+        "font generation"
+      ],
+      "date": null,
+      "dateSource": null,
+      "path": "collections/external-presentations/calligraphy-generation/index.html",
+      "legacyPaths": [],
+      "status": "draft",
+      "classificationReason": "External talk requested by the owner.",
+      "reviewNote": "19-slide Chinese talk: background, Fontify, CalliPhase, future brush navigation and composition, and team. Local original figures, HTML glyph tables, editable diagrams and speaker notes."
     }
   ]
 }
